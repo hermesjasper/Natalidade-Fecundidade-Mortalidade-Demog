@@ -10,7 +10,7 @@ O seguinte projeto tem como objetivo:
 
 - Avaliar a qualidade da informação dos Sistemas de Informação sobre Nascidos Vivos e Mortalidade do Ministério da Saúde para análise da fecundidade e mortalidade das Unidades do Acre.
 
-Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [DataSus](https://datasus.saude.gov.br/).
+Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [DataSus](https://datasus.saude.gov.br/transferencia-de-arquivos/).
 
 ## Integrantes :dancers:
 
