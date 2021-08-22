@@ -1,5 +1,9 @@
 pacman::p_load(read.dbc, dplyr, stringr)
 
+# Para rodar o script, vc deve ter no seu computador, no mesmo caminho desse arquivo, duas pastas:
+# - uma chamada "SIM" com os arquivos.dbc do SIM 
+# - e outra chamada sinasc, com os arquivos.dbc do sinasc
+
 anos <-c("2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009",
          "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019")
 
