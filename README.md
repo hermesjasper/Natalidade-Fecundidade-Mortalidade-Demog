@@ -41,6 +41,8 @@ Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [Dat
 * Familiarizar com os bancos de dados de nascidos vivos e óbitos do Ministério da Saúde.
 * Para a Unidade da Federação escolhida, obtenha os dados de nascimentos vivos e óbitos de 2000 a 2020.
 
+<br>
+
 #### Questão 1: Diagrama de Lexis
 
 a) Construir o Diagrama de Lexis para os dados de nascidos vivos de 2000 a 2020 da UF escolhida (SINASC) e de óbitos menores de 5 anos (idades simples) para o mesmo período segundo ano de nascimento.
@@ -51,7 +53,7 @@ c) Considerando o mesmo pressuposto, calcule a probabilidade de sobreviver ao pr
 
 d) Comente sobre os valores encontrados. Não esquecer a qualidade da informação trabalhada.
 
- 
+ <br>
 
 #### Questão 2: Natalidade/Fecundidade 
 
@@ -68,11 +70,12 @@ b) Compare os valores obtidos com os publicados pela RIPSA (2011) e GBD. Como a 
 
 c) Para os dados do SINASC para 2020, analise a associação entre (apresente ao menos uma medida de associação):
 
-idade e escolaridade da mãe 
-tipo de parto e escolaridade da mãe
+* idade e escolaridade da mãe 
+* tipo de parto e escolaridade da mãe
+
 d) Comente esses resultados (inclusive os gráficos das nfx), fazendo referência a artigos já publicados sobre o assunto.
 
- 
+<br>
 
 #### Questão 3: Mortalidade
 
@@ -87,7 +90,7 @@ c) Compare os valores encontrados para todos os indicadores com aqueles publicad
 
 d) Compare a estrutura de mortalidade por causas (Capítulos da CID10 - reagrupados em 6/7 grandes causas) segundo sexo de 2015 e 2020. Comente os resultados. Destacar a mortalidade por Covid-19.
 
-d) Construa Tábuas de Vida para cada sexo para a UF escolhida para 2019, a partir das taxas específicas de mortalidade obtidas no item a:
+e) Construa Tábuas de Vida para cada sexo para a UF escolhida para 2019, a partir das taxas específicas de mortalidade obtidas no item a:
 
 * Utilize a TMI obtida no item b ou do estudo Global Burden of Disease - GBD. Lembre que deve-se obter a TMI para cada sexo em separado.
 * Estime os fatores de separação, para cada sexo, para as idades 0-1 e 1-4 com base nos dados do SIM.
