@@ -1,6 +1,4 @@
-# Natalidade-Fecundidade-Mortalidade-Demog
-Trabalho 1 da disciplina Demografia ministrada pela professora Ana Maria Nogales.
-<img align="right" width="140" height="70" src="http://s3-sa-east-1.amazonaws.com/descomplica-blog/wp-content/uploads/2016/04/trabalhar-na-UnB.png">
+<img align="right" width="140" height="140" src="http://s3-sa-east-1.amazonaws.com/descomplica-blog/wp-content/uploads/2016/04/trabalhar-na-UnB.png">
 
 # [Natalidade/Fecundidade e Mortalidade da população do Acre entre os anos de 2000 e 2020]
 
