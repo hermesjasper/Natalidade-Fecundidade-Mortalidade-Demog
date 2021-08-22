@@ -4,12 +4,19 @@
 
 ## Descrição do projeto :memo:
 
-<!---(Introdução do projeto no overleaf, 1 e 2 parágrafos)--> Exemplo:  O seguinte projeto tem como objetivo avaliar o consumo médio anual dos recur-sos utilizados nas três camadas de pavimentação em obras do Distrito Federal. Alémdisso, deseja-se estimar um cenário futuro das obras.Para isso, serão utilizados procedimentos de análises descritivas, por meio de gráficos de linhas, e modelos de séries temporais. 
-O banco de dados foi fornecido pela cliente, contendo os resultados de três camadas de pavimentação nas obras do Distrito Federal ao longo de 10 anos (2009 a 2018).
+<!---(Introdução do projeto no overleaf, 1 e 2 parágrafos)--> Exemplo:  O seguinte projeto tem como objetivo:
+Aplicar os conceitos e técnicas para a análise das componentes natalidade/fecundidade e mortalidade a dados reais da população do Acre entre os anos 2000 e 2020.
+Avaliar a qualidade da informação dos Sistemas de Informação sobre Nascidos Vivos e Mortalidade do Ministério da Saúde para análise da fecundidade e mortalidade das Unidades do Acre.
+Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [DataSus](https://datasus.saude.gov.br/).
+
+O banco de dados é dispo  pela cliente, contendo os resultados de três camadas de pavimentação nas obras do Distrito Federal ao longo de 10 anos (2009 a 2018).
 
 ## Integrantes :dancers:
 
 > Hermes Jasper Winarski | **190029498**  <!---Nome, Telefone, Email -->
+> Bruno Gondim Toledo | **150167636**
+> Ana Luiza Carneiro de Almeida | **180012801**
+> César Galvão | **190011572**
 
 ## Links
 
