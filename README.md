@@ -7,7 +7,7 @@
 <!---(Introdução do projeto no overleaf, 1 e 2 parágrafos)--> Exemplo:  O seguinte projeto tem como objetivo avaliar o consumo médio anual dos recur-sos utilizados nas três camadas de pavimentação em obras do Distrito Federal. Alémdisso, deseja-se estimar um cenário futuro das obras.Para isso, serão utilizados procedimentos de análises descritivas, por meio de gráficos de linhas, e modelos de séries temporais. 
 O banco de dados foi fornecido pela cliente, contendo os resultados de três camadas de pavimentação nas obras do Distrito Federal ao longo de 10 anos (2009 a 2018).
 
-## Cliente :moneybag:
+## Integrantes :dancers:
 
 > Fulinaninho fulaninho | **(61)99 0490-2424** | fulaninho2020@gmail.com <!---Nome, Telefone, Email -->
 
