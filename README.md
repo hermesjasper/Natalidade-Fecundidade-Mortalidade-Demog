@@ -1,6 +1,6 @@
 <img align="right" width="140" height="140" src="http://s3-sa-east-1.amazonaws.com/descomplica-blog/wp-content/uploads/2016/04/trabalhar-na-UnB.png">
 
-# [Natalidade/Fecundidade e Mortalidade da população do Acre entre os anos de 2000 e 2020]
+# Natalidade/Fecundidade e Mortalidade da população do Acre entre os anos de 2000 e 2020
 
 ## Descrição do projeto :memo:
 
@@ -9,18 +9,8 @@ O banco de dados foi fornecido pela cliente, contendo os resultados de três cam
 
 ## Integrantes :dancers:
 
-> Fulinaninho fulaninho | **(61)99 0490-2424** | fulaninho2020@gmail.com <!---Nome, Telefone, Email -->
-
-## Membros Alocados :rainbow_flag:
-
-Membros | Habilidades | Variáveis | Descrição
------------- | ------------- | ------------ | ------------- 
-Fulanininho1 | Gerente (Acadêmicos) | - | -
-menganinho | Gerente (Qualidade) | - | -
-fulaninho | Exploratória | sexo | frequência de sexo
-sultaninho | Métodos 1 e Exploratória | diabetes, hipertensão e idade | relação entre as variáveis bla bla bla
+> Hermes Jasper Winarski | **190029498**  <!---Nome, Telefone, Email -->
 
 ## Links
 
-- [Projeto no Overleaf](https://www.overleaf.com/project/5ea847030f9d790001acad2f) <!---Colocar aqui o link do projeto ou qualquer outro link :) -->
-- [Contrato](https://drive.google.com/file/d/10HfPggOueMlWE3dHcNFyVAoUoNOfEQEQ/view?usp=sharing) <!---Colocar aqui o link da pasta do drive do contrato :) -->
+- [Instruções do Trabalho](https://aprender3.unb.br/mod/assign/view.php?id=457193) <!---Colocar aqui o link do projeto ou qualquer outro link :) -->
