@@ -5,6 +5,7 @@
 ## Descrição do projeto :memo:
 
 O seguinte projeto tem como objetivo:
+
 Aplicar os conceitos e técnicas para a análise das componentes natalidade/fecundidade e mortalidade a dados reais da população do Acre entre os anos 2000 e 2020.
 Avaliar a qualidade da informação dos Sistemas de Informação sobre Nascidos Vivos e Mortalidade do Ministério da Saúde para análise da fecundidade e mortalidade das Unidades do Acre.
 Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [DataSus](https://datasus.saude.gov.br/).
