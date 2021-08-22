@@ -15,8 +15,11 @@ Os dados utilizados são do SIM e SINASC e são disponibilizados no site do [Dat
 ## Integrantes :dancers:
 
 > Hermes Jasper Winarski | **190029498**  <!---Nome, Telefone, Email -->
+
 > Bruno Gondim Toledo | **150167636**
+
 > Ana Luiza Carneiro de Almeida | **180012801**
+
 > César Galvão | **190011572**
 
 ## Links
