@@ -14,10 +14,7 @@ dados_sim <- read.dbc(str_c(caminho, "\\data\\SIM\\", "DOAC", anos[1], ".dbc"))
 dados_sinasc <- read.dbc(str_c(caminho, "\\data\\sinasc\\", "DNAC", anos[1], ".dbc"))
 
 for (i in anos[2:length(anos)]) {
-  print(i)
-  temp <- read.dbc(str_c(caminho, "\\data\\SIM\\", "DOAC", i, ".dbc"))
-  dados_sim <- full_join(dados_sim, temp)
-  temp <- read.dbc(str_c(caminho, "\\data\\sinasc\\", "DNAC", i, ".dbc"))
-  dados_sinasc <- full_join(dados_sinasc, temp)
+  dados_sim <- full_join(dados_sim, read.dbc(str_c(caminho, "\\data\\SIM\\", "DOAC", i, ".dbc")))
+  dados_sinasc <- full_join(dados_sinasc, read.dbc(str_c(caminho, "\\data\\sinasc\\", "DNAC", i, ".dbc")))
 }
 
