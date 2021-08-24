@@ -18,3 +18,4 @@ for (i in anos[2:length(anos)]) {
   dados_sinasc <- full_join(dados_sinasc, read.dbc(str_c(caminho, "\\data\\sinasc\\", "DNAC", i, ".dbc")))
 }
 
+#comentario
