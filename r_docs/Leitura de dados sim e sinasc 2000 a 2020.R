@@ -45,13 +45,31 @@ pacman::p_load(read.dbc, dplyr, stringr,foreign)
 #remove(sinasc_2020_brasil)
 #remove(sim_2020_brasil)
 
-sim <- paste("./data/SIM/",list.files("./data/SIM/", pattern = "*.dbc"), sep = "") %>% 
-  lapply(read.dbc) %>% 
-  bind_rows
+sim <- paste("./data/SIM/",list.files("./data/SIM/", pattern = "*.dbc"), sep = "")
 
-sinasc <- paste("./data/sinasc/",list.files("./data/sinasc/", pattern = "*.dbc"), sep = "") %>% 
-  lapply(read.dbc) %>% 
-  bind_rows
+sinasc <- paste("./data/sinasc/",list.files("./data/sinasc/", pattern = "*.dbc"), sep = "")
 
-sim_2020 <- readRDS("./data/sim/SIM_2020_ACRE.rds")
-sinasc_2020 <- readRDS("./data/sinasc/sinasc_2020_ACRE.rds")
+sim_consolidado <- read.dbc(sim[1]) 
+colnames(sim_consolidado) <- colnames(sim_consolidado) %>% toupper()
+
+sinasc_consolidado <- read.dbc(sinasc[1])
+colnames(sinasc_consolidado) <- colnames(sinasc_consolidado) %>% toupper()
+
+for (i in c(2:length(sim))){
+  temp <- read.dbc(sim[i])
+  colnames(temp) <- colnames(temp) %>% toupper()
+  sim_consolidado <- full_join(sim_consolidado, temp)
+  
+  temp <- read.dbc(sinasc[i])
+  colnames(temp) <- colnames(temp) %>% toupper()
+  sinasc_consolidado <- full_join(sinasc_consolidado, temp)
+  
+}
+rm(temp)
+
+sim_consolidado <- full_join(sim_consolidado, readRDS("./data/sim/SIM_2020_ACRE.rds"))
+
+sinasc_consolidado <- full_join(sinasc_consolidado, readRDS("./data/sinasc/sinasc_2020_ACRE.rds"))
+
+saveRDS(sim_consolidado, file = "./data/SIM/sim_consolidado.rds")
+saveRDS(sinasc_consolidado, file = "./data/sinasc/sinasc_consolidado.rds")
