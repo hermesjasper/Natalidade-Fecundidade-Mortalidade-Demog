@@ -1,0 +1,502 @@
+     30  6                                                        
+      1  1501 Belém                                         150080
+      1  1501 Belém                                         150140
+      1  1501 Belém                                         150150
+      1  1501 Belém                                         150442
+      1  1501 Belém                                         150635
+      2  2101 São Luís                                      210750
+      2  2101 São Luís                                      210945
+      2  2101 São Luís                                      211120
+      2  2101 São Luís                                      211130
+      3  2301 Fortaleza                                     230100
+      3  2301 Fortaleza                                     230370
+      3  2301 Fortaleza                                     230395
+      3  2301 Fortaleza                                     230428
+      3  2301 Fortaleza                                     230440
+      3  2301 Fortaleza                                     230495
+      3  2301 Fortaleza                                     230523
+      3  2301 Fortaleza                                     230625
+      3  2301 Fortaleza                                     230765
+      3  2301 Fortaleza                                     230770
+      3  2301 Fortaleza                                     230960
+      3  2301 Fortaleza                                     230970
+      3  2301 Fortaleza                                     231240
+      4  2401 Natal                                         240260
+      4  2401 Natal                                         240325
+      4  2401 Natal                                         240360
+      4  2401 Natal                                         240710
+      4  2401 Natal                                         240810
+      4  2401 Natal                                         241200
+      5  2601 Recife                                        260005
+      5  2601 Recife                                        260105
+      5  2601 Recife                                        260290
+      5  2601 Recife                                        260345
+      5  2601 Recife                                        260680
+      5  2601 Recife                                        260720
+      5  2601 Recife                                        260760
+      5  2601 Recife                                        260775
+      5  2601 Recife                                        260790
+      5  2601 Recife                                        260940
+      5  2601 Recife                                        260960
+      5  2601 Recife                                        261070
+      5  2601 Recife                                        261160
+      5  2601 Recife                                        261370
+      6  2701 Maceió                                        270050
+      6  2701 Maceió                                        270060
+      6  2701 Maceió                                        270220
+      6  2701 Maceió                                        270430
+      6  2701 Maceió                                        270470
+      6  2701 Maceió                                        270520
+      6  2701 Maceió                                        270644
+      6  2701 Maceió                                        270690
+      6  2701 Maceió                                        270770
+      6  2701 Maceió                                        270790
+      6  2701 Maceió                                        270890
+      7  2901 Salvador                                      290570
+      7  2901 Salvador                                      290650
+      7  2901 Salvador                                      291005
+      7  2901 Salvador                                      291610
+      7  2901 Salvador                                      291920
+      7  2901 Salvador                                      291992
+      7  2901 Salvador                                      292740
+      7  2901 Salvador                                      292920
+      7  2901 Salvador                                      293070
+      7  2901 Salvador                                      293320
+      8  3101 Belo Horizonte                                310500
+      8  3101 Belo Horizonte                                310620
+      8  3101 Belo Horizonte                                310670
+      8  3101 Belo Horizonte                                310900
+      8  3101 Belo Horizonte                                311000
+      8  3101 Belo Horizonte                                311250
+      8  3101 Belo Horizonte                                311787
+      8  3101 Belo Horizonte                                311860
+      8  3101 Belo Horizonte                                312410
+      8  3101 Belo Horizonte                                312600
+      8  3101 Belo Horizonte                                312980
+      8  3101 Belo Horizonte                                313010
+      8  3101 Belo Horizonte                                313220
+      8  3101 Belo Horizonte                                313460
+      8  3101 Belo Horizonte                                313660
+      8  3101 Belo Horizonte                                313665
+      8  3101 Belo Horizonte                                313760
+      8  3101 Belo Horizonte                                314015
+      8  3101 Belo Horizonte                                314070
+      8  3101 Belo Horizonte                                314110
+      8  3101 Belo Horizonte                                314480
+      8  3101 Belo Horizonte                                314930
+      8  3101 Belo Horizonte                                315390
+      8  3101 Belo Horizonte                                315460
+      8  3101 Belo Horizonte                                315480
+      8  3101 Belo Horizonte                                315530
+      8  3101 Belo Horizonte                                315670
+      8  3101 Belo Horizonte                                315780
+      8  3101 Belo Horizonte                                316292
+      8  3101 Belo Horizonte                                316295
+      8  3101 Belo Horizonte                                316553
+      8  3101 Belo Horizonte                                316830
+      8  3101 Belo Horizonte                                317120
+      9  3102 B.Horizonte - colar metro                     310540
+      9  3102 B.Horizonte - colar metro                     310640
+      9  3102 B.Horizonte - colar metro                     310810
+      9  3102 B.Horizonte - colar metro                     312640
+      9  3102 B.Horizonte - colar metro                     312720
+      9  3102 B.Horizonte - colar metro                     313100
+      9  3102 B.Horizonte - colar metro                     313190
+      9  3102 B.Horizonte - colar metro                     313370
+      9  3102 B.Horizonte - colar metro                     313380
+      9  3102 B.Horizonte - colar metro                     314230
+      9  3102 B.Horizonte - colar metro                     314710
+      9  3102 B.Horizonte - colar metro                     315360
+      9  3102 B.Horizonte - colar metro                     315720
+      9  3102 B.Horizonte - colar metro                     316310
+      9  3102 B.Horizonte - colar metro                     316720
+     10  3103 Vale do Aço                                   311940
+     10  3103 Vale do Aço                                   313130
+     10  3103 Vale do Aço                                   315895
+     10  3103 Vale do Aço                                   316870
+     11  3104 V.do Aço - colar metrop                       310050
+     11  3104 V.do Aço - colar metrop                       310300
+     11  3104 V.do Aço - colar metrop                       310630
+     11  3104 V.do Aço - colar metrop                       310880
+     11  3104 V.do Aço - colar metrop                       310925
+     11  3104 V.do Aço - colar metrop                       312000
+     11  3104 V.do Aço - colar metrop                       312180
+     11  3104 V.do Aço - colar metrop                       312250
+     11  3104 V.do Aço - colar metrop                       312385
+     11  3104 V.do Aço - colar metrop                       312930
+     11  3104 V.do Aço - colar metrop                       313115
+     11  3104 V.do Aço - colar metrop                       313500
+     11  3104 V.do Aço - colar metrop                       313610
+     11  3104 V.do Aço - colar metrop                       314030
+     11  3104 V.do Aço - colar metrop                       314170
+     11  3104 V.do Aço - colar metrop                       314435
+     11  3104 V.do Aço - colar metrop                       314995
+     11  3104 V.do Aço - colar metrop                       315053
+     11  3104 V.do Aço - colar metrop                       316260
+     11  3104 V.do Aço - colar metrop                       316340
+     11  3104 V.do Aço - colar metrop                       316770
+     11  3104 V.do Aço - colar metrop                       317057
+     12  3201 Vitória                                       320130
+     12  3201 Vitória                                       320240
+     12  3201 Vitória                                       320500
+     12  3201 Vitória                                       320510
+     12  3201 Vitória                                       320520
+     12  3201 Vitória                                       320530
+     13  3301 Rio de Janeiro                                330045
+     13  3301 Rio de Janeiro                                330170
+     13  3301 Rio de Janeiro                                330185
+     13  3301 Rio de Janeiro                                330190
+     13  3301 Rio de Janeiro                                330200
+     13  3301 Rio de Janeiro                                330227
+     13  3301 Rio de Janeiro                                330250
+     13  3301 Rio de Janeiro                                330260
+     13  3301 Rio de Janeiro                                330270
+     13  3301 Rio de Janeiro                                330285
+     13  3301 Rio de Janeiro                                330320
+     13  3301 Rio de Janeiro                                330330
+     13  3301 Rio de Janeiro                                330350
+     13  3301 Rio de Janeiro                                330360
+     13  3301 Rio de Janeiro                                330414
+     13  3301 Rio de Janeiro                                330455
+     13  3301 Rio de Janeiro                                334501
+     13  3301 Rio de Janeiro                                334502
+     13  3301 Rio de Janeiro                                334503
+     13  3301 Rio de Janeiro                                334504
+     13  3301 Rio de Janeiro                                334505
+     13  3301 Rio de Janeiro                                334506
+     13  3301 Rio de Janeiro                                334507
+     13  3301 Rio de Janeiro                                334508
+     13  3301 Rio de Janeiro                                334509
+     13  3301 Rio de Janeiro                                334510
+     13  3301 Rio de Janeiro                                334511
+     13  3301 Rio de Janeiro                                334512
+     13  3301 Rio de Janeiro                                334513
+     13  3301 Rio de Janeiro                                334514
+     13  3301 Rio de Janeiro                                334515
+     13  3301 Rio de Janeiro                                334516
+     13  3301 Rio de Janeiro                                334517
+     13  3301 Rio de Janeiro                                334518
+     13  3301 Rio de Janeiro                                334519
+     13  3301 Rio de Janeiro                                334520
+     13  3301 Rio de Janeiro                                334521
+     13  3301 Rio de Janeiro                                334522
+     13  3301 Rio de Janeiro                                334523
+     13  3301 Rio de Janeiro                                334524
+     13  3301 Rio de Janeiro                                334525
+     13  3301 Rio de Janeiro                                334526
+     13  3301 Rio de Janeiro                                334527
+     13  3301 Rio de Janeiro                                334528
+     13  3301 Rio de Janeiro                                334529
+     13  3301 Rio de Janeiro                                334530
+     13  3301 Rio de Janeiro                                330490
+     13  3301 Rio de Janeiro                                330510
+     13  3301 Rio de Janeiro                                330555
+     13  3301 Rio de Janeiro                                330575
+     14  3501 São Paulo                                     350390
+     14  3501 São Paulo                                     350570
+     14  3501 São Paulo                                     350660
+     14  3501 São Paulo                                     350900
+     14  3501 São Paulo                                     350920
+     14  3501 São Paulo                                     351060
+     14  3501 São Paulo                                     351300
+     14  3501 São Paulo                                     351380
+     14  3501 São Paulo                                     351500
+     14  3501 São Paulo                                     351510
+     14  3501 São Paulo                                     351570
+     14  3501 São Paulo                                     351630
+     14  3501 São Paulo                                     351640
+     14  3501 São Paulo                                     351830
+     14  3501 São Paulo                                     351880
+     14  3501 São Paulo                                     352220
+     14  3501 São Paulo                                     352250
+     14  3501 São Paulo                                     352310
+     14  3501 São Paulo                                     352500
+     14  3501 São Paulo                                     352620
+     14  3501 São Paulo                                     352850
+     14  3501 São Paulo                                     352940
+     14  3501 São Paulo                                     353060
+     14  3501 São Paulo                                     353440
+     14  3501 São Paulo                                     353910
+     14  3501 São Paulo                                     353980
+     14  3501 São Paulo                                     354330
+     14  3501 São Paulo                                     354410
+     14  3501 São Paulo                                     354500
+     14  3501 São Paulo                                     354680
+     14  3501 São Paulo                                     354730
+     14  3501 São Paulo                                     354780
+     14  3501 São Paulo                                     354870
+     14  3501 São Paulo                                     354880
+     14  3501 São Paulo                                     354995
+     14  3501 São Paulo                                     355030
+     14  3501 São Paulo                                     358001
+     14  3501 São Paulo                                     358002
+     14  3501 São Paulo                                     358003
+     14  3501 São Paulo                                     358004
+     14  3501 São Paulo                                     358005
+     14  3501 São Paulo                                     358006
+     14  3501 São Paulo                                     358007
+     14  3501 São Paulo                                     358008
+     14  3501 São Paulo                                     358009
+     14  3501 São Paulo                                     358010
+     14  3501 São Paulo                                     358011
+     14  3501 São Paulo                                     358012
+     14  3501 São Paulo                                     358013
+     14  3501 São Paulo                                     358014
+     14  3501 São Paulo                                     358015
+     14  3501 São Paulo                                     358016
+     14  3501 São Paulo                                     358017
+     14  3501 São Paulo                                     358018
+     14  3501 São Paulo                                     358019
+     14  3501 São Paulo                                     358020
+     14  3501 São Paulo                                     358021
+     14  3501 São Paulo                                     358022
+     14  3501 São Paulo                                     358023
+     14  3501 São Paulo                                     358024
+     14  3501 São Paulo                                     358025
+     14  3501 São Paulo                                     358026
+     14  3501 São Paulo                                     358027
+     14  3501 São Paulo                                     358028
+     14  3501 São Paulo                                     358029
+     14  3501 São Paulo                                     358030
+     14  3501 São Paulo                                     358031
+     14  3501 São Paulo                                     358032
+     14  3501 São Paulo                                     358033
+     14  3501 São Paulo                                     358034
+     14  3501 São Paulo                                     358035
+     14  3501 São Paulo                                     358036
+     14  3501 São Paulo                                     358037
+     14  3501 São Paulo                                     358038
+     14  3501 São Paulo                                     358039
+     14  3501 São Paulo                                     358040
+     14  3501 São Paulo                                     358041
+     14  3501 São Paulo                                     358042
+     14  3501 São Paulo                                     358043
+     14  3501 São Paulo                                     358044
+     14  3501 São Paulo                                     358045
+     14  3501 São Paulo                                     358046
+     14  3501 São Paulo                                     358047
+     14  3501 São Paulo                                     358048
+     14  3501 São Paulo                                     358049
+     14  3501 São Paulo                                     358050
+     14  3501 São Paulo                                     358051
+     14  3501 São Paulo                                     358052
+     14  3501 São Paulo                                     358053
+     14  3501 São Paulo                                     358054
+     14  3501 São Paulo                                     358055
+     14  3501 São Paulo                                     358056
+     14  3501 São Paulo                                     358057
+     14  3501 São Paulo                                     358058
+     14  3501 São Paulo                                     355250
+     14  3501 São Paulo                                     355280
+     14  3501 São Paulo                                     355645
+     15  3502 Baixada Santista                              350635
+     15  3502 Baixada Santista                              351350
+     15  3502 Baixada Santista                              351870
+     15  3502 Baixada Santista                              352210
+     15  3502 Baixada Santista                              353110
+     15  3502 Baixada Santista                              353760
+     15  3502 Baixada Santista                              354100
+     15  3502 Baixada Santista                              354850
+     15  3502 Baixada Santista                              355100
+     16  3503 Campinas                                      350160
+     16  3503 Campinas                                      350380
+     16  3503 Campinas                                      350950
+     16  3503 Campinas                                      351280
+     16  3503 Campinas                                      351515
+     16  3503 Campinas                                      351905
+     16  3503 Campinas                                      351907
+     16  3503 Campinas                                      352050
+     16  3503 Campinas                                      352340
+     16  3503 Campinas                                      352470
+     16  3503 Campinas                                      353180
+     16  3503 Campinas                                      353340
+     16  3503 Campinas                                      353650
+     16  3503 Campinas                                      353710
+     16  3503 Campinas                                      354580
+     16  3503 Campinas                                      354800
+     16  3503 Campinas                                      355240
+     16  3503 Campinas                                      355620
+     16  3503 Campinas                                      355670
+     17  4101 Curitiba                                      410020
+     17  4101 Curitiba                                      410030
+     17  4101 Curitiba                                      410040
+     17  4101 Curitiba                                      410180
+     17  4101 Curitiba                                      410230
+     17  4101 Curitiba                                      410310
+     17  4101 Curitiba                                      410400
+     17  4101 Curitiba                                      410420
+     17  4101 Curitiba                                      410425
+     17  4101 Curitiba                                      410520
+     17  4101 Curitiba                                      410580
+     17  4101 Curitiba                                      410620
+     17  4101 Curitiba                                      410690
+     17  4101 Curitiba                                      410765
+     17  4101 Curitiba                                      411125
+     17  4101 Curitiba                                      411430
+     17  4101 Curitiba                                      411915
+     17  4101 Curitiba                                      411950
+     17  4101 Curitiba                                      412080
+     17  4101 Curitiba                                      412120
+     17  4101 Curitiba                                      412220
+     17  4101 Curitiba                                      412550
+     17  4101 Curitiba                                      412760
+     17  4101 Curitiba                                      412788
+     17  4101 Curitiba                                      412863
+     18  4102 Londrina                                      410370
+     18  4102 Londrina                                      410980
+     18  4102 Londrina                                      411270
+     18  4102 Londrina                                      411370
+     18  4102 Londrina                                      412240
+     18  4102 Londrina                                      412667
+     19  4103 Maringá                                       410115
+     19  4103 Maringá                                       411000
+     19  4103 Maringá                                       411410
+     19  4103 Maringá                                       411420
+     19  4103 Maringá                                       411480
+     19  4103 Maringá                                       411520
+     19  4103 Maringá                                       411750
+     19  4103 Maringá                                       412625
+     20  4201 Florianópolis                                 420060
+     20  4201 Florianópolis                                 420120
+     20  4201 Florianópolis                                 420230
+     20  4201 Florianópolis                                 420540
+     20  4201 Florianópolis                                 420600
+     20  4201 Florianópolis                                 421190
+     20  4201 Florianópolis                                 421570
+     20  4201 Florianópolis                                 421660
+     20  4201 Florianópolis                                 421725
+     21  4202 Florianópolis - expansão                      420070
+     21  4202 Florianópolis - expansão                      420090
+     21  4202 Florianópolis - expansão                      420110
+     21  4202 Florianópolis - expansão                      420370
+     21  4202 Florianópolis - expansão                      420570
+     21  4202 Florianópolis - expansão                      420980
+     21  4202 Florianópolis - expansão                      421020
+     21  4202 Florianópolis - expansão                      421150
+     21  4202 Florianópolis - expansão                      421230
+     21  4202 Florianópolis - expansão                      421430
+     21  4202 Florianópolis - expansão                      421590
+     21  4202 Florianópolis - expansão                      421630
+     21  4202 Florianópolis - expansão                      421800
+     22  4203 Vale do Itajaí                                420240
+     22  4203 Vale do Itajaí                                420590
+     22  4203 Vale do Itajaí                                420750
+     22  4203 Vale do Itajaí                                421320
+     22  4203 Vale do Itajaí                                421820
+     23  4204 Vale do Itajaí - expansão                     420125
+     23  4204 Vale do Itajaí - expansão                     420170
+     23  4204 Vale do Itajaí - expansão                     420220
+     23  4204 Vale do Itajaí - expansão                     420270
+     23  4204 Vale do Itajaí - expansão                     420290
+     23  4204 Vale do Itajaí - expansão                     420515
+     23  4204 Vale do Itajaí - expansão                     420630
+     23  4204 Vale do Itajaí - expansão                     420710
+     23  4204 Vale do Itajaí - expansão                     421000
+     23  4204 Vale do Itajaí - expansão                     421470
+     23  4204 Vale do Itajaí - expansão                     421510
+     24  4205 Norte/Nordeste SC                             420130
+     24  4205 Norte/Nordeste SC                             420910
+     25  4206 Norte/Nordeste SC - expan                     420205
+     25  4206 Norte/Nordeste SC - expan                     420210
+     25  4206 Norte/Nordeste SC - expan                     420330
+     25  4206 Norte/Nordeste SC - expan                     420450
+     25  4206 Norte/Nordeste SC - expan                     420580
+     25  4206 Norte/Nordeste SC - expan                     420650
+     25  4206 Norte/Nordeste SC - expan                     420810
+     25  4206 Norte/Nordeste SC - expan                     420845
+     25  4206 Norte/Nordeste SC - expan                     420890
+     25  4206 Norte/Nordeste SC - expan                     421010
+     25  4206 Norte/Nordeste SC - expan                     421060
+     25  4206 Norte/Nordeste SC - expan                     421110
+     25  4206 Norte/Nordeste SC - expan                     421220
+     25  4206 Norte/Nordeste SC - expan                     421500
+     25  4206 Norte/Nordeste SC - expan                     421580
+     25  4206 Norte/Nordeste SC - expan                     421620
+     25  4206 Norte/Nordeste SC - expan                     421635
+     25  4206 Norte/Nordeste SC - expan                     421740
+     26  4301 P.Alegre                                      430060
+     26  4301 P.Alegre                                      430087
+     26  4301 P.Alegre                                      430110
+     26  4301 P.Alegre                                      430310
+     26  4301 P.Alegre                                      430390
+     26  4301 P.Alegre                                      430460
+     26  4301 P.Alegre                                      430468
+     26  4301 P.Alegre                                      430535
+     26  4301 P.Alegre                                      430640
+     26  4301 P.Alegre                                      430676
+     26  4301 P.Alegre                                      430760
+     26  4301 P.Alegre                                      430770
+     26  4301 P.Alegre                                      430905
+     26  4301 P.Alegre                                      430920
+     26  4301 P.Alegre                                      430930
+     26  4301 P.Alegre                                      431080
+     26  4301 P.Alegre                                      431240
+     26  4301 P.Alegre                                      431306
+     26  4301 P.Alegre                                      431337
+     26  4301 P.Alegre                                      431340
+     26  4301 P.Alegre                                      431405
+     26  4301 P.Alegre                                      431480
+     26  4301 P.Alegre                                      431490
+     26  4301 P.Alegre                                      431760
+     26  4301 P.Alegre                                      431840
+     26  4301 P.Alegre                                      431870
+     26  4301 P.Alegre                                      431990
+     26  4301 P.Alegre                                      432000
+     26  4301 P.Alegre                                      432120
+     26  4301 P.Alegre                                      432200
+     26  4301 P.Alegre                                      432300
+     27  5201 Goiânia                                       520005
+     27  5201 Goiânia                                       520140
+     27  5201 Goiânia                                       520180
+     27  5201 Goiânia                                       520840
+     27  5201 Goiânia                                       520870
+     27  5201 Goiânia                                       520880
+     27  5201 Goiânia                                       520970
+     27  5201 Goiânia                                       521450
+     27  5201 Goiânia                                       521973
+     27  5201 Goiânia                                       522045
+     27  5201 Goiânia                                       522140
+     28  5301 Entorno de Brasília - MG                      310930
+     28  5301 Entorno de Brasília - MG                      317040
+     29  5302 Entorno de Brasília - GO                      520010
+     29  5302 Entorno de Brasília - GO                      520017
+     29  5302 Entorno de Brasília - GO                      520025
+     29  5302 Entorno de Brasília - GO                      520030
+     29  5302 Entorno de Brasília - GO                      520400
+     29  5302 Entorno de Brasília - GO                      520549
+     29  5302 Entorno de Brasília - GO                      520551
+     29  5302 Entorno de Brasília - GO                      520580
+     29  5302 Entorno de Brasília - GO                      520620
+     29  5302 Entorno de Brasília - GO                      520800
+     29  5302 Entorno de Brasília - GO                      521250
+     29  5302 Entorno de Brasília - GO                      521250
+     29  5302 Entorno de Brasília - GO                      521305
+     29  5302 Entorno de Brasília - GO                      521523
+     29  5302 Entorno de Brasília - GO                      521560
+     29  5302 Entorno de Brasília - GO                      521730
+     29  5302 Entorno de Brasília - GO                      521760
+     29  5302 Entorno de Brasília - GO                      521760
+     29  5302 Entorno de Brasília - GO                      521975
+     29  5302 Entorno de Brasília - GO                      522185
+     29  5302 Entorno de Brasília - GO                      522220
+     30  5303 Entorno de Brasília - DF                      530000
+     30  5303 Entorno de Brasília - DF                      530010
+     30  5303 Entorno de Brasília - DF                      530100
+     30  5303 Entorno de Brasília - DF                      530200
+     30  5303 Entorno de Brasília - DF                      530300
+     30  5303 Entorno de Brasília - DF                      530400
+     30  5303 Entorno de Brasília - DF                      530500
+     30  5303 Entorno de Brasília - DF                      530600
+     30  5303 Entorno de Brasília - DF                      530700
+     30  5303 Entorno de Brasília - DF                      530800
+     30  5303 Entorno de Brasília - DF                      530900
+     30  5303 Entorno de Brasília - DF                      531000
+     30  5303 Entorno de Brasília - DF                      531100
+     30  5303 Entorno de Brasília - DF                      531200
+     30  5303 Entorno de Brasília - DF                      531300
+     30  5303 Entorno de Brasília - DF                      531400
+     30  5303 Entorno de Brasília - DF                      531500
+     30  5303 Entorno de Brasília - DF                      531600
+     30  5303 Entorno de Brasília - DF                      531700
+     30  5303 Entorno de Brasília - DF                      531800
+     30  5303 Entorno de Brasília - DF                      539999

@@ -1,0 +1,123 @@
+; munfront.cnv
+121  6
+      1  110001 Alta Floresta D'Oeste                       110001
+      2  110003 Cabixi                                      110003
+      3  110008 Costa Marques                               110008
+      4  110010 Guajará-Mirim                               110010
+      5  110020 Porto Velho                                 110020
+      6  110033 Nova Mamoré                                 110033
+      7  110037 Alto Alegre dos Parecis                     110037
+      8  110146 Pimenteiras do Oeste                        110146
+      9  110149 São Francisco do Guaporé                    110149
+     10  120001 Acrelândia                                  120001
+     11  120005 Assis Brasil                                120005
+     12  120010 Brasiléia                                   120010
+     13  120017 Capixaba                                    120017
+     14  120020 Cruzeiro do Sul                             120020
+     15  120025 Epitaciolândia                              120025
+     16  120030 Feijó                                       120030
+     17  120032 Jordão                                      120032
+     18  120033 Mâncio Lima                                 120033
+     19  120034 Manoel Urbano                               120034
+     20  120035 Marechal Thaumaturgo                        120035
+     21  120038 Plácido de Castro                           120038
+     22  120039 Porto Walter                                120039
+     23  120042 Rodrigues Alves                             120042
+     24  120043 Santa Rosa do Purus                         120043
+     25  120050 Sena Madureira                              120050
+     26  120070 Xapuri                                      120070
+     27  130020 Atalaia do Norte                            130020
+     28  130040 Barcelos                                    130040
+     29  130060 Benjamin Constant                           130060
+     30  130210 Japurá                                      130210
+     31  130360 Santa Isabel do Rio Negro                   130360
+     32  130370 Santo Antônio do Içá                        130370
+     33  130380 São Gabriel da Cachoeira                    130380
+     34  130406 Tabatinga                                   130406
+     35  140002 Amajari                                     140002
+     36  140005 Alto Alegre                                 140005
+     37  140015 Bonfim                                      140015
+     38  140020 Caracaraí                                   140020
+     39  140023 Caroebe                                     140023
+     40  140028 Iracema                                     140028
+     41  140040 Normandia                                   140040
+     42  140045 Pacaraima                                   140045
+     43  140070 Uiramutã                                    140070
+     44  150050 Almeirim                                    150050
+     45  150510 Óbidos                                      150510
+     46  150530 Oriximiná                                   150530
+     47  160027 Laranjal do Jari                            160027
+     48  160050 Oiapoque                                    160050
+     49  410260 Barracão                                    410260
+     50  410450 Capanema                                    410450
+     51  410753 Entre Rios do Oeste                         410753
+     52  410830 Foz do Iguaçu                               410830
+     53  410880 Guaíra                                      410880
+     54  411095 Itaipulândia                                411095
+     55  411460 Marechal Cândido Rondon                     411460
+     56  411585 Mercedes                                    411585
+     57  411605 Missal                                      411605
+     58  411845 Pato Bragado                                411845
+     59  411900 Pérola d'Oeste                              411900
+     60  411980 Planalto                                    411980
+     61  412035 Pranchita                                   412035
+     62  412350 Santa Helena                                412350
+     63  412405 Santa Terezinha de Itaipu                   412405
+     64  412440 Santo Antônio do Sudoeste                   412440
+     65  412570 São Miguel do Iguaçu                        412570
+     66  412635 Serranópolis do Iguaçu                      412635
+     67  420208 Bandeirante                                 420208
+     68  420215 Belmonte                                    420215
+     69  420500 Dionísio Cerqueira                          420500
+     70  420640 Guaraciaba                                  420640
+     71  420840 Itapiranga                                  420840
+     72  421223 Paraíso                                     421223
+     73  421415 Princesa                                    421415
+     74  421555 Santa Helena                                421555
+     75  421670 São José do Cedro                           421670
+     76  421875 Tunápolis                                   421875
+     77  430003 Aceguá                                      430003
+     78  430030 Alecrim                                     430030
+     79  430160 Bagé                                        430160
+     80  430187 Barra do Quaraí                             430187
+     81  430543 Chuí                                        430543
+     82  430600 Crissiumal                                  430600
+     83  430632 Derrubadas                                  430632
+     84  430660 Dom Pedrito                                 430660
+     85  430673 Doutor Maurício Cardoso                     430673
+     86  430710 Herval                                      430710
+     87  430745 Esperança do Sul                            430745
+     88  430865 Garruchos                                   430865
+     89  431060 Itaqui                                      431060
+     90  431100 Jaguarão                                    431100
+     91  431342 Novo Machado                                431342
+     92  431417 Pedras Altas                                431417
+     93  431455 Pirapó                                      431455
+     94  431500 Porto Lucena                                431500
+     95  431505 Porto Mauá                                  431505
+     96  431507 Porto Vera Cruz                             431507
+     97  431510 Porto Xavier                                431510
+     98  431530 Quaraí                                      431530
+     99  431630 Roque Gonzales                              431630
+    100  431710 Santana do Livramento                       431710
+    101  431730 Santa Vitória do Palmar                     431730
+    102  431800 São Borja                                   431800
+    103  431920 São Nicolau                                 431920
+    104  432147 Tiradentes do Sul                           432147
+    105  432240 Uruguaiana                                  432240
+    106  500090 Antônio João                                500090
+    107  500124 Aral Moreira                                500124
+    108  500210 Bela Vista                                  500210
+    109  500280 Caracol                                     500280
+    110  500315 Coronel Sapucaia                            500315
+    111  500320 Corumbá                                     500320
+    112  500480 Japorã                                      500480
+    113  500568 Mundo Novo                                  500568
+    114  500635 Paranhos                                    500635
+    115  500660 Ponta Porã                                  500660
+    116  500690 Porto Murtinho                              500690
+    117  500770 Sete Quedas                                 500770
+    118  510250 Cáceres                                     510250
+    119  510330 Comodoro                                    510330
+    120  510550 Vila Bela da Santíssima Trindade            510550
+    121  510682 Porto Esperidião                            510682

@@ -1,0 +1,22 @@
+21 3
+    001  I.   Algumas doenças infecciosas e parasitárias    A00-B99
+    002  II.  Neoplasias (tumores)                          C00-D48
+    003  III. Doenças sangue órgãos hemat e transt imunitár D50-D89
+    004  IV.  Doenças endócrinas nutricionais e metabólicas E00-E90
+    005  V.   Transtornos mentais e comportamentais         F00-F99
+    006  VI.  Doenças do sistema nervoso                    G00-G99
+    007  VII. Doenças do olho e anexos                      H00-H59
+    008  VIII.Doenças do ouvido e da apófise mastóide       H60-H95
+    009  IX.  Doenças do aparelho circulatório              I00-I99
+    010  X.   Doenças do aparelho respiratório              J00-J99
+    011  XI.  Doenças do aparelho digestivo                 K00-K93
+    012  XII. Doenças da pele e do tecido subcutâneo        L00-L99
+    013  XIII.Doenças sist osteomuscular e tec conjuntivo   M00-M99
+    014  XIV. Doenças do aparelho geniturinário             N00-N99
+    015  XV.  Gravidez parto e puerpério                    O00-O99
+    016  XVI. Algumas afec originadas no período perinatal  P00-P96
+    017  XVII.Malf cong deformid e anomalias cromossômicas  Q00-Q99
+    018  XVIII.Sint sinais e achad anorm ex clín e laborat  R00-R99
+    019  XIX. Lesões enven e alg out conseq causas externas S00-S99,T00-T98
+    020  XX.  Causas externas de morbidade e mortalidade    V01-V99,W00-W99,X00-X99,Y00-Y98
+    021  XXI. Contatos com serviços de saúde                Z00-Z99

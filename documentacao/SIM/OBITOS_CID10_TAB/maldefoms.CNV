@@ -1,0 +1,5 @@
+4 4
+      1  Sintomas,sinais e ach anormais (R00-R99)           R000-R999
+      2  Causas externas intenç indeterm (Y10-Y34, Y872)    Y100-Y349,Y872
+      3  Doença Cardiocirculatória mal def                  I472,I490,I460-I469,I500-I509,I514,I515,I516,I519,I709
+      4  Neoplasia de sítio primário indeterm               C760-C769,C800-C809,C970-C979

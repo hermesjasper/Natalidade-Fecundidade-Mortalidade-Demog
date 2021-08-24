@@ -1,0 +1,275 @@
+         Y10   Env analg antipir antireum n-opiac int n det
+         Y10.0 Residencia
+         Y10.1 Habitacao coletiva
+         Y10.2 Escolas outr instit areas admin publica
+         Y10.3 Area p/a pratica de esportes e atletismo
+         Y10.4 Rua e estrada
+         Y10.5 Areas de comercio e de servicos
+         Y10.6 Areas industriais e em construcao
+         Y10.7 Fazenda
+         Y10.8 Outr locais espec
+         Y10.9 Local NE
+         Y11   Env antic sed hipn antip psic NCOP int n det
+         Y11.0 Residencia
+         Y11.1 Habitacao coletiva
+         Y11.2 Escolas outr instit areas admin publica
+         Y11.3 Area p/a pratica de esportes e atletismo
+         Y11.4 Rua e estrada
+         Y11.5 Areas de comercio e de servicos
+         Y11.6 Areas industriais e em construcao
+         Y11.7 Fazenda
+         Y11.8 Outr locais espec
+         Y11.9 Local NE
+         Y12   Envenen narcot psicodislept NCOP int n det
+         Y12.0 Residencia
+         Y12.1 Habitacao coletiva
+         Y12.2 Escolas outr instit areas admin publica
+         Y12.3 Area p/a pratica de esportes e atletismo
+         Y12.4 Rua e estrada
+         Y12.5 Areas de comercio e de servicos
+         Y12.6 Areas industriais e em construcao
+         Y12.7 Fazenda
+         Y12.8 Outr locais espec
+         Y12.9 Local NE
+         Y13   Env out subst farm sist nerv auton int n det
+         Y13.0 Residencia
+         Y13.1 Habitacao coletiva
+         Y13.2 Escolas outr instit areas admin publica
+         Y13.3 Area p/a pratica de esportes e atletismo
+         Y13.4 Rua e estrada
+         Y13.5 Areas de comercio e de servicos
+         Y13.6 Areas industriais e em construcao
+         Y13.7 Fazenda
+         Y13.8 Outr locais espec
+         Y13.9 Local NE
+         Y14   Env out drog med subst biolog e NE int n det
+         Y14.0 Residencia
+         Y14.1 Habitacao coletiva
+         Y14.2 Escolas outr instit areas admin publica
+         Y14.3 Area p/a pratica de esportes e atletismo
+         Y14.4 Rua e estrada
+         Y14.5 Areas de comercio e de servicos
+         Y14.6 Areas industriais e em construcao
+         Y14.7 Fazenda
+         Y14.8 Outr locais espec
+         Y14.9 Local NE
+         Y15   Envenen alcool intencao nao determinada
+         Y15.0 Residencia
+         Y15.1 Habitacao coletiva
+         Y15.2 Escolas outr instit areas admin publica
+         Y15.3 Area p/a pratica de esportes e atletismo
+         Y15.4 Rua e estrada
+         Y15.5 Areas de comercio e de servicos
+         Y15.6 Areas industriais e em construcao
+         Y15.7 Fazenda
+         Y15.8 Outr locais espec
+         Y15.9 Local NE
+         Y16   Env solv org hidrocarb halog vap int n det
+         Y16.0 Residencia
+         Y16.1 Habitacao coletiva
+         Y16.2 Escolas outr instit areas admin publica
+         Y16.3 Area p/a pratica de esportes e atletismo
+         Y16.4 Rua e estrada
+         Y16.5 Areas de comercio e de servicos
+         Y16.6 Areas industriais e em construcao
+         Y16.7 Fazenda
+         Y16.8 Outr locais espec
+         Y16.9 Local NE
+         Y17   Envenen outr gases vapores intenc n det
+         Y17.0 Residencia
+         Y17.1 Habitacao coletiva
+         Y17.2 Escolas outr instit areas admin publica
+         Y17.3 Area p/a pratica de esportes e atletismo
+         Y17.4 Rua e estrada
+         Y17.5 Areas de comercio e de servicos
+         Y17.6 Areas industriais e em construcao
+         Y17.7 Fazenda
+         Y17.8 Outr locais espec
+         Y17.9 Local NE
+         Y18   Envenen pesticidas intencao nao determinada
+         Y18.0 Residencia
+         Y18.1 Habitacao coletiva
+         Y18.2 Escolas outr instit areas admin publica
+         Y18.3 Area p/a pratica de esportes e atletismo
+         Y18.4 Rua e estrada
+         Y18.5 Areas de comercio e de servicos
+         Y18.6 Areas industriais e em construcao
+         Y18.7 Fazenda
+         Y18.8 Outr locais espec
+         Y18.9 Local NE
+         Y19   Env out prod quim subst noc e NE int n det
+         Y19.0 Residencia
+         Y19.1 Habitacao coletiva
+         Y19.2 Escolas outr instit areas admin publica
+         Y19.3 Area p/a pratica de esportes e atletismo
+         Y19.4 Rua e estrada
+         Y19.5 Areas de comercio e de servicos
+         Y19.6 Areas industriais e em construcao
+         Y19.7 Fazenda
+         Y19.8 Outr locais espec
+         Y19.9 Local NE
+         Y20   Enforc estrang sufoc intenc nao determinada
+         Y20.0 Residencia
+         Y20.1 Habitacao coletiva
+         Y20.2 Escolas outr instit areas admin publica
+         Y20.3 Area p/a pratica de esportes e atletismo
+         Y20.4 Rua e estrada
+         Y20.5 Areas de comercio e de servicos
+         Y20.6 Areas industriais e em construcao
+         Y20.7 Fazenda
+         Y20.8 Outr locais espec
+         Y20.9 Local NE
+         Y21   Afogamento submersao intenc nao determinada
+         Y21.0 Residencia
+         Y21.1 Habitacao coletiva
+         Y21.2 Escolas outr instit areas admin publica
+         Y21.3 Area p/a pratica de esportes e atletismo
+         Y21.4 Rua e estrada
+         Y21.5 Areas de comercio e de servicos
+         Y21.6 Areas industriais e em construcao
+         Y21.7 Fazenda
+         Y21.8 Outr locais espec
+         Y21.9 Local NE
+         Y22   Disparo de pistola intencao nao determinada
+         Y22.0 Residencia
+         Y22.1 Habitacao coletiva
+         Y22.2 Escolas outr instit areas admin publica
+         Y22.3 Area p/a pratica de esportes e atletismo
+         Y22.4 Rua e estrada
+         Y22.5 Areas de comercio e de servicos
+         Y22.6 Areas industriais e em construcao
+         Y22.7 Fazenda
+         Y22.8 Outr locais espec
+         Y22.9 Local NE
+         Y23   Disparo arma fogo maior calibre intenc n det
+         Y23.0 Residencia
+         Y23.1 Habitacao coletiva
+         Y23.2 Escolas outr instit areas admin publica
+         Y23.3 Area p/a pratica de esportes e atletismo
+         Y23.4 Rua e estrada
+         Y23.5 Areas de comercio e de servicos
+         Y23.6 Areas industriais e em construcao
+         Y23.7 Fazenda
+         Y23.8 Outr locais espec
+         Y23.9 Local NE
+         Y24   Disparo outr arma fogo e NE intenc nao det
+         Y24.0 Residencia
+         Y24.1 Habitacao coletiva
+         Y24.2 Escolas outr instit areas admin publica
+         Y24.3 Area p/a pratica de esportes e atletismo
+         Y24.4 Rua e estrada
+         Y24.5 Areas de comercio e de servicos
+         Y24.6 Areas industriais e em construcao
+         Y24.7 Fazenda
+         Y24.8 Outr locais espec
+         Y24.9 Local NE
+         Y25   Contato c/material explosivo intenc n det
+         Y25.0 Residencia
+         Y25.1 Habitacao coletiva
+         Y25.2 Escolas outr instit areas admin publica
+         Y25.3 Area p/a pratica de esportes e atletismo
+         Y25.4 Rua e estrada
+         Y25.5 Areas de comercio e de servicos
+         Y25.6 Areas industriais e em construcao
+         Y25.7 Fazenda
+         Y25.8 Outr locais espec
+         Y25.9 Local NE
+         Y26   Exposicao fumaca fogo chamas intenc n det
+         Y26.0 Residencia
+         Y26.1 Habitacao coletiva
+         Y26.2 Escolas outr instit areas admin publica
+         Y26.3 Area p/a pratica de esportes e atletismo
+         Y26.4 Rua e estrada
+         Y26.5 Areas de comercio e de servicos
+         Y26.6 Areas industriais e em construcao
+         Y26.7 Fazenda
+         Y26.8 Outr locais espec
+         Y26.9 Local NE
+         Y27   Exposic vapor agua gas obj quente int n det
+         Y27.0 Residencia
+         Y27.1 Habitacao coletiva
+         Y27.2 Escolas outr instit areas admin publica
+         Y27.3 Area p/a pratica de esportes e atletismo
+         Y27.4 Rua e estrada
+         Y27.5 Areas de comercio e de servicos
+         Y27.6 Areas industriais e em construcao
+         Y27.7 Fazenda
+         Y27.8 Outr locais espec
+         Y27.9 Local NE
+         Y28   Contato obj cortante penetrante intenc n det
+         Y28.0 Residencia
+         Y28.1 Habitacao coletiva
+         Y28.2 Escolas outr instit areas admin publica
+         Y28.3 Area p/a pratica de esportes e atletismo
+         Y28.4 Rua e estrada
+         Y28.5 Areas de comercio e de servicos
+         Y28.6 Areas industriais e em construcao
+         Y28.7 Fazenda
+         Y28.8 Outr locais espec
+         Y28.9 Local NE
+         Y29   Contato obj contundente intenc n det
+         Y29.0 Residencia
+         Y29.1 Habitacao coletiva
+         Y29.2 Escolas outr instit areas admin publica
+         Y29.3 Area p/a pratica de esportes e atletismo
+         Y29.4 Rua e estrada
+         Y29.5 Areas de comercio e de servicos
+         Y29.6 Areas industriais e em construcao
+         Y29.7 Fazenda
+         Y29.8 Outr locais espec
+         Y29.9 Local NE
+         Y30   Queda salto empurr lugar elev intenc n det
+         Y30.0 Residencia
+         Y30.1 Habitacao coletiva
+         Y30.2 Escolas outr instit areas admin publica
+         Y30.3 Area p/a pratica de esportes e atletismo
+         Y30.4 Rua e estrada
+         Y30.5 Areas de comercio e de servicos
+         Y30.6 Areas industriais e em construcao
+         Y30.7 Fazenda
+         Y30.8 Outr locais espec
+         Y30.9 Local NE
+         Y31   Queda perman corrida obj mov intenc n det
+         Y31.0 Residencia
+         Y31.1 Habitacao coletiva
+         Y31.2 Escolas outr instit areas admin publica
+         Y31.3 Area p/a pratica de esportes e atletismo
+         Y31.4 Rua e estrada
+         Y31.5 Areas de comercio e de servicos
+         Y31.6 Areas industriais e em construcao
+         Y31.7 Fazenda
+         Y31.8 Outr locais espec
+         Y31.9 Local NE
+         Y32   Impacto veic a motor intenc nao determinada
+         Y32.0 Residencia
+         Y32.1 Habitacao coletiva
+         Y32.2 Escolas outr instit areas admin publica
+         Y32.3 Area p/a pratica de esportes e atletismo
+         Y32.4 Rua e estrada
+         Y32.5 Areas de comercio e de servicos
+         Y32.6 Areas industriais e em construcao
+         Y32.7 Fazenda
+         Y32.8 Outr locais espec
+         Y32.9 Local NE
+         Y33   Outr fatos ou eventos espec intenc n det
+         Y33.0 Residencia
+         Y33.1 Habitacao coletiva
+         Y33.2 Escolas outr instit areas admin publica
+         Y33.3 Area p/a pratica de esportes e atletismo
+         Y33.4 Rua e estrada
+         Y33.5 Areas de comercio e de servicos
+         Y33.6 Areas industriais e em construcao
+         Y33.7 Fazenda
+         Y33.8 Outr locais espec
+         Y33.9 Local NE
+         Y34   Fatos ou eventos NE e intenc nao determinada
+         Y34.0 Residencia
+         Y34.1 Habitacao coletiva
+         Y34.2 Escolas outr instit areas admin publica
+         Y34.3 Area p/a pratica de esportes e atletismo
+         Y34.4 Rua e estrada
+         Y34.5 Areas de comercio e de servicos
+         Y34.6 Areas industriais e em construcao
+         Y34.7 Fazenda
+         Y34.8 Outr locais espec
+         Y34.9 Local NE

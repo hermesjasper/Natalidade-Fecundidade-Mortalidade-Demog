@@ -1,0 +1,589 @@
+872   4                                                              
+      1  V01   Pedest traum colis veic a pedal              V010-V019
+  1   2  V01.1 Acidente de transito                         V011
+      3  V02   Pedest traum colis vei mot 2 ou 3 rodas      V020-V029
+  5   4  V02.1 Acidente de transito                         V021
+      5  V03   Pedest traum colis c/autom, pick-up ou...    V030-V039
+  9   6  V03.1 Acidente de transito                         V031
+      7  V04   Pedest traum colis veic transp pes ou onib   V040-V049
+ 13   8  V04.1 Acidente de transito                         V041
+      9  V05   Pedest traum colis c/trem [comboio] ou ...   V050-V059
+ 17  10  V05.1 Acidente de transito                         V051
+     11  V06 Pedest traum colis out veic n/motoriz          V060-V069
+ 21  12  V06.1 Acidente de transito                         V061
+     13  V09   Pedest traum out ac transp e ac transp n/esp V090-V099
+ 25  14  V09.0 Acid n/trans env out veic motor e os n/esp   V090
+ 25  15  V09.2 Acid trans env out veic e n/espec a motor    V092
+ 25  16  V09.3 Acidente de transito nao especificado        V093
+ 25  17  V09.9 Acidente de transporte nao especificado 	    V099
+     18  V10   Cicl traum colis c/pedestre ou um animal	    V100-V109
+ 31  19  V10.3 Pessoa traum subir ou descer veiculo         V103
+ 31  20  V10.4 Condut traumat em um acid de transito        V104
+ 31  21  V10.5 Passag traumat em um acid de transito        V105
+ 31  22  V10.9 Cicl n/esp traum em um acid de transito      V109
+     23  V11   Cicl traum colis c/out veiculo a pedal       V110-V119
+ 39  24  V11.3 Pessoa traum subir ou descer veiculo         V113
+ 39  25  V11.4 Condut traumat em um acid de transito        V114
+ 39  26  V11.5 Passag traumat em um acid de transito        V115
+ 39  27  V11.9 Cicl n/esp traum em um acid de transito      V119
+     28  V12   Cicl traum colis c/veic motor 2 ou 3 rodas   V120-V129
+ 47  29  V12.3 Pessoa traum subir ou descer veiculo         V123
+ 47  30  V12.4 Condut traumat em um acid de transito        V124
+ 47  31  V12.5 Passag traumat em um acid de transito        V125
+ 47  32  V12.9 Cicl n/esp traum em um acid de transito      V129
+     33  V13   Cicl traum col c/autom, pick-up ou caminhon  V130-V139
+ 55  34  V13.3 Pessoa traum subir ou descer veiculo         V133
+ 55  35  V13.4 Condut traumat em um acid de transito        V134
+ 55  36  V13.5 Passag traumat em um acid de transito        V135
+ 55  37  V13.9 Cicl n/esp traum em um acid de transito      V139
+     38  V14   Cicl traum colis veic transp pes ou onibus   V140-V149
+ 63  39  V14.3 Pessoa traum subir ou descer veiculo         V143
+ 63  40  V14.4 Condut traumat em um acid de transito        V144
+ 63  41  V14.5 Passag traumat em um acid de transito        V145
+ 63  42  V14.9 Cicl n/esp traum em um acid de transito      V149
+     43  V15   Cicl traum colis c/trem ou veic feroviar	    V150-V159
+ 71  44  V15.3 Pessoa traum subir ou descer veiculo         V153
+ 71  45  V15.4 Condut traumat em um acid de transito        V154
+ 71  46  V15.5 Passag traumat em um acid de transito        V155
+ 71  47  V15.9 Cicl n/esp traum em um acid de transito      V159
+     48  V16   Cicl traum colis c/out veic n/motoriz        V160-V169
+ 79  49  V16.3 Pessoa traum subir ou descer veiculo         V163
+ 79  50  V16.4 Condut traumat em um acid de transito        V164
+ 79  51  V16.5 Passag traumat em um acid de transito        V165
+ 79  52  V16.9 Cicl n/esp traum em um acid de transito      V169
+     53  V17   Cicl traum colis c.obj fixo ou parado        V170-V179
+ 87  54  V17.4 Condut traumat em um acid de transito        V174
+ 87  55  V17.5 Passag traumat em um acid de transito        V175
+ 87  56  V17.9 Cicl n/esp traum em um acid de transito      V179
+     57  V18   Cicl traumat acid transp sem colisao         V180-V189
+ 95  58  V18.3 Pessoa traum subir ou descer veiculo         V183
+ 95  59  V18.4 Condut traumat em um acid de transito        V184
+ 95  60  V18.5 Passag traumat em um acid de transito        V185
+ 95  61  V18.9 Cicl n/esp traum em um acid de transito      V189
+     62  V19   Cicl traum out ac transp e ac transp n/esp   V190-V199
+103  63  V19.4 Cond traum colis out veic, mot, acid trans   V194
+103  64  V19.5 Pass traum colis out veic, mot, acid trans   V195
+103  65  V19.6 Cicl n/esp,colis out veic, mot, acid trans   V196
+103  66  V19.8 Cicl [qualq] traum out acid transp especif   V198
+103  67  V19.9 Cicl [qualq] traum acid transito n/especif   V199
+     68  V20   Motocicl traum colis c/pedest ou animal      V200-V209
+113  69  V20.3 Pessoa traum subir ou descer veiculo         V203
+113  70  V20.4 Condut traumat em um acid de transito        V204
+113  71  V20.5 Passag traumat em um acid de transito        V205
+113  72  V20.9 Motocicl n/esp traum em um acid de trans	    V209
+     73  V21   Motocicl traum colis c/veiculo a pedal       V210-V219
+121  74  V21.3 Pessoa traum subir ou descer veiculo    	    V213
+121  75  V21.4 Condut traumat em um acid de transito        V214
+121  76  V21.5 Passag traumat em um acid de transito        V215
+121  77  V21.9 Motocicl n/esp traum em um acid de trans	    V219
+     78  V22   Motocicl traum colis veic mot 2 ou 3 rodas   V220-V229
+129  79  V22.3 Pessoa traum subir ou descer veiculo    	    V223
+129  80  V22.4 Condut traumat em um acid de transito        V224
+129  81  V22.5 Passag traumat em um acid de transito        V225
+129  82  V22.9 Motocicl n/esp traum em um acid de trans	    V229
+     83  V23   Motocicl traum colis c/autom,pick-up ou...   V230-V239
+137  84  V23.3 Pessoa traum subir ou descer veiculo         V233
+137  85  V23.4 Condut traumat em um acid de transito        V234
+137  86  V23.5 Passag traumat em um acid de transito        V235
+137  87  V23.9 Motocicl n/esp traum em um acid de trans     V239
+     88  V24   Motocicl traum colis c/veic transp pes ou    V240-V249
+145  89  V24.3 Pessoa traum subir ou descer veiculo         V243
+145  90  V24.4 Condut traumat em um acid de transito        V244
+145  91  V24.5 Passag traumat em um acid de transito        V245
+145  92  V24.9 Motocicl n/esp traum em um acid de trans     V249
+     93  V25   Motorist traum colis c/trem ou veic fer      V250-V259
+153  94  V25.3 Pessoa traum subir ou descer veiculo         V253
+153  95  V25.4 Condut traumat em um acid de transito        V254
+153  96  V25.5 Passag traumat em um acid de transito        V255
+153  97  V25.9 Motocicl n/esp traum em um acid de trans     V259
+     98  V26   Motocicl traum colis c/out veic n/motoriz    V260-V269
+161  99  V26.3 Pessoa traum subir ou descer veiculo         V263
+161 100  V26.4 Condut traumat em um acid de transito        V264
+161 101  V26.5 Passag traumat em um acid de transito        V265
+161 102  V26.9 Motocicl n/esp traum em um acid de trans     V269
+    103  V27   Motocicl traum colis c/obj fixo ou parado    V270-V279
+169 104  V27.3 Pessoa traum subir ou descer veiculo         V273
+169 105  V27.4 Condut traumat em um acid de transito        V274
+169 106  V27.5 Passag traumat em um acid de transito        V275
+169 107  V27.9 Motocicl n/esp traum em um acid de trans     V279
+    108  V28   Motocicl traum acid transito sem colisao     V280-V289
+177 109  V28.3 Pessoa traum subir ou descer veiculo         V283
+177 110  V28.4 Condut traumat em um acid de transito        V284
+177 111  V28.5 Passag traumat em um acid de transito        V285
+177 112  V28.9 Motocicl n/esp traum em um acid de trans	    V289
+    113  V29   Motoc traum out ac transp e ac transp n/esp  V290-V299
+185 114  V29.4 Cond traum colis out veic, mot, acid trans   V294
+185 115  V29.5 Pass traum colis out veic, mot, acid trans   V295
+185 116  V29.6 Motoc n/esp traum colis out veic,mot,ac tr   V296
+185 117  V29.8 Motoc [qualq] traum out acid transp espec    V298
+185 118  V29.9 Motoc [qualq] traum acid trans n/especif     V299
+    119  V30.9 Ocup tric motor traum colis pedes ou anim    V300-V309
+195 120  V30.4 Pessoa traumat subir ou descer veiculo       V304
+195 121  V30.5 Cond traumat acidente de transito            V305
+195 122  V30.6 Pass traumat acidente de transito            V306
+195 123  V30.7 Pess viaj exter veic traum acid transito     V307
+195 124  V30.9 Ocup n/esp tricicl mot traum acid trans      V309
+    125  V31   Ocup tric motor traum colis veic a pedal     V310-V319
+205 126  V31.4 Pessoa traumat subir ou descer veiculo       V314
+205 127  V31.5 Cond traumat acidente de transito            V315
+205 128  V31.6 Pass traumat acidente de transito            V316
+205 129  V31.7 Pess viaj exter veic traum acid transito     V317
+205 130  V31.9 Ocup n/esp tricicl mot traum acid trans      V319
+    131  V32   Ocup tric motor traum colis out veic 2,3. .  V320-V329
+215 132  V32.4 Pessoa traumat subir ou descer veiculo       V324
+215 133  V32.5 Cond traumat acidente de transito            V325
+215 134  V32.6 Pass traumat acidente de transito            V326
+215 135  V32.7 Pess viaj exter veic traum acid transito     V327
+215 136  V32.9 Ocup n/esp tricicl mot traum acid trans      V329
+    137  V33   Ocup tric motor traum colis c/autom,...      V330-V339
+225 138  V33.4 Pessoa traumat subir ou descer veiculo       V334
+225 139  V33.5 Cond traumat acidente de transito            V335
+225 140  V33.6 Pass traumat acidente de transito            V336
+225 141  V33.7 Pess viaj exter veic traum acid transito     V337
+225 142  V33.9 Ocup n/esp tricicl mot traum acid trans      V339
+    143  V34   Ocup tric motor traum colis veic transp pes  V340-V349
+235 144  V34.4 Pessoa traumat subir ou descer veiculo       V344
+235 145  V34.5 Cond traumat acidente de transito            V345
+235 146  V34.6 Pass traumat acidente de transito            V346
+235 147  V34.7 Pess viaj exter veic traum acid transito     V347
+235 148  V34.9 Ocup n/esp tricicl mot traum acid trans      V349
+    149  V35   Ocup tric motor traum colis c/trem ou...	    V350-V359
+245 150  V35.4 Pessoa traumat subir ou descer veiculo       V354
+245 151  V35.5 Cond traumat acidente de transito            V355
+245 152  V35.6 Pass traumat acidente de transito            V356
+245 153  V35.7 Pess viaj exter veic traum acid transito	    V357
+245 154  V35.9 Ocup n/esp tricicl mot traum acid trans      V359
+    155  V36   Ocup tric motor traum coli c.veic n/motor    V360-V369
+255 156  V36.4 Pessoa traumat subir ou descer veiculo       V364
+255 157  V36.5 Cond traumat acidente de transito            V365
+255 158  V36.6 Pass traumat acidente de transito            V366
+255 159  V36.7 Pess viaj exter veic traum acid transito     V367
+255 160  V36.9 Ocup n/esp tricicl mot traum acid trans      V369
+    161  V37   Ocup tric motor traum colis obj fixo ou...   V370-V379
+265 162  V37.4 Pessoa traumat subir ou descer veiculo       V374
+265 163  V37.5 Cond traumat acidente de transito            V375
+265 164  V37.6 Pass traumat acidente de transito            V376
+265 165  V37.7 Pess viaj exter veic traum acid transito     V377
+265 166  V37.9 Ocup n/esp tricicl mot traum acid trans      V379
+    167  V38   Ocup tric motor traum ac transp s/colisao    V380-V389
+275 168  V38.4 Pessoa traumat subir ou descer veiculo       V384
+275 169  V38.5 Cond traumat acidente de transito            V385
+275 170  V38.6 Pass traumat acidente de transito            V386
+275 171  V38.7 Pess viaj exter veic traum acid transito	    V387
+275 172  V38.9 Ocup n/esp tricicl mot traum acid trans      V389
+    173  V39   Ocup tric motor traum out ac transp e n/esp  V390-V399
+285 174  V39.6 Ocup n/esp traum colis out veic,mot,ac tr    V396
+285 175  V39.8 Ocup [qualq] traum out acid transp espec	    V398
+285 176  V39.9 Ocup [qualq] traum acid trans n/especif 	    V399
+    177  V40   Ocup autom, traum colis c/pedestre ou anim   V400-V409
+295 178  V40.4 Pessoa traumat ao subir ou descer do veic    V404
+295 179  V40.5 Cond [motor] traum em um acid de transito    V405
+295 180  V40.6 Pass traumat em um acidente de transito      V406
+295 181  V40.7 Pess viaj exter veic traumat acid trans      V407
+295 182  V40.9 Ocup n/espec de um autom traum acid trans    V409
+    183  V41   Ocup autom, traum colis c/veic a pedal       V410-V419
+305 184  V41.4 Pessoa traumat ao subir ou descer do veic    V414
+305 189  V41.5 Cond [motor] traum em um acid de transito    V415
+305 190  V41.6 Pass traumat em um acidente de transito      V416
+305 191  V41.7 Pess viaj exter veic traumat acid trans      V417
+305 192  V41.9 Ocup n/espec de um autom traum acid trans    V419
+    193  V42   Ocup autom traum colis veic mot 2 ou 3 rod   V420-V429
+315 194  V42.4 Pessoa traumat ao subir ou descer do veic    V424
+315 195  V42.5 Cond [motor] traum em um acid de transito    V425
+315 196  V42.6 Pass traumat em um acidente de transito 	    V426
+315 197  V42.7 Pess viaj exter veic traumat acid trans      V427
+315 198  V42.9 Ocup n/espec de um autom traum acid trans    V429
+    199  V43   Ocup autom traum colis c/autom,pick-up ou    V430-V439
+325 200  V43.4 Pessoa traumat ao subir ou descer do veic    V434
+325 201  V43.5 Cond [motor] traum em um acid de transito    V435
+325 202  V43.6 Pass traumat em um acidente de transito      V436
+325 203  V43.7 Pess viaj exter veic traumat acid trans      V437
+325 204  V43.9 Ocup n/espec de um autom traum acid trans    V439
+    205  V44   Ocup autom traum colis veic transp pes ou    V440-V449
+335 206  V44.4 Pessoa traumat ao subir ou descer do veic    V444
+335 207  V44.5 Cond [motor] traum em um acid de transito    V445
+335 208  V44.6 Pass traumat em um acidente de transito      V446
+335 209  V44.7 Pess viaj exter veic traumat acid trans      V447
+335 210  V44.9 Ocup n/espec de um autom traum acid trans    V449
+    211  V45   Ocup autom traum colis c/trem ou veic ferr   V450-V459
+345 212  V45.4 Pessoa traumat ao subir ou descer do veic    V454
+345 213  V45.5 Cond [motor] traum em um acid de transito    V455
+345 214  V45.6 Pass traumat em um acidente de transito      V456
+345 215  V45.7 Pess viaj exter veic traumat acid trans      V457
+345 216  V45.9 Ocup n/espec de um autom traum acid trans    V459
+    217  V46   Ocup autom traum colis c/veic n/motoriz      V460-V469
+355 218  V46.4 Pessoa traumat ao subir ou descer do veic    V464
+355 219  V46.5 Cond [motor] traum em um acid de transito    V465
+355 220  V46.6 Pass traumat em um acidente de transito      V466
+355 221  V46.7 Pess viaj exter veic traumat acid trans      V467
+355 222  V46.9 Ocup n/espec de um autom traum acid trans    V469
+    223  V47   Ocup autom traum colis c/obj fixo ou parad   V470-V479
+365 224  V47.4 Pessoa traumat ao subir ou descer do veic    V474
+365 225  V47.5 Cond [motor] traum em um acid de transito    V475
+365 226  V47.6 Pass traumat em um acidente de transito      V476
+365 227  V47.7 Pess viaj exter veic traumat acid trans      V477
+365 228  V47.9 Ocup n/espec de um autom traum acid trans    V479
+    229  V48   Ocup autom traum acid transp sem colisao     V480-V489
+375 230  V48.4 Pessoa traumat ao subir ou descer do veic    V484
+375 231  V48.5 Cond [motor] traum em um acid de transito    V485
+375 232  V48.6 Pass traumat em um acidente de transito      V486
+375 233  V48.7 Pess viaj exter veic traumat acid trans      V487
+375 234  V48.9 Ocup n/espec de um autom traum acid trans    V489
+    235  V49   Ocup autom traum out ac transp e n/especif   V490-V499
+385 236  V49.4 Cond traum colis out veic, mot, acid trans   V494
+385 237  V49.5 Pass traum colis out veic, mot, acid trans   V495
+385 238  V49.6 Ocup n/esp traum colis out veic,mot,ac tr    V496
+385 239  V49.8 Ocup [qualq] traum out acid transp espec     V498
+385 240  V49.9 Ocup [qualq] traum acid trans n/especif      V499
+    241  V50   Ocup caminhon traum colis pedest ou animal   V500-V509
+395 242  V50.4 Pessoa traumat ao subir ou descer do veic    V504
+395 243  V50.5 Cond [motor] traum em um acid de transito    V505
+395 244  V50.6 Pass traumat em um acidente de transito 	    V506
+395 245  V50.7 Pess viaj exter veic traumat acid trans 	    V507
+395 246  V50.9 Ocup n/espec de caminhon traum acid trans    V509
+    247  V51   Ocup caminhon traum colis c/veic a pedal	    V510-V519
+405 248  V51.4 Pessoa traumat ao subir ou descer do veic    V514
+405 249  V51.5 Cond [motor] traum em um acid de transito    V515
+405 250  V51.6 Pass traumat em um acidente de transito 	    V516
+405 251  V51.7 Pess viaj exter veic traumat acid trans 	    V517
+405 252  V51.9 Ocup n/espec de caminhon traum acid trans    V519
+    253  V52   Ocup caminhon traum colis c/veic mot 2 ou    V520-V529
+415 254  V52.4 Pessoa traumat ao subir ou descer do veic    V524
+415 255  V52.5 Cond [motor] traum em um acid de transito    V525
+415 256  V52.6 Pass traumat em um acidente de transito 	    V526
+415 257  V52.7 Pess viaj exter veic traumat acid trans 	    V527
+415 258  V52.9 Ocup n/espec de caminhon traum acid trans    V529
+    259  V53   Ocup caminhon traum colis c/autom ou camin   V530-V539
+425 260  V53.4 Pessoa traumat ao subir ou descer do veic    V534
+425 261  V53.5 Cond [motor] traum em um acid de transito    V535
+425 262  V53.6 Pass traumat em um acidente de transito 	    V536
+425 263  V53.7 Pess viaj exter veic traumat acid trans 	    V537
+425 264  V53.9 Ocup n/espec de caminhon traum acid trans    V539
+    265  V54   Ocup caminhon traum colis c/veic transp pes  V540-V549
+435 266  V54.4 Pessoa traumat ao subir ou descer do veic    V544
+435 267  V54.5 Cond [motor] traum em um acid de transito    V545
+435 268  V54.6 Pass traumat em um acidente de transito      V546
+435 269  V54.7 Pess viaj exter veic traumat acid trans      V547
+435 270  V54.9 Ocup n/espec de caminhon traum acid tran     V549
+    271  V55   Ocup caminhon traum colis c/trem ou veic     V550-V559
+445 272  V55.4 Pessoa traumat ao subir ou descer do veic    V554
+445 273  V55.5 Cond [motor] traum em um acid de transito    V555
+445 274  V55.6 Pass traumat em um acidente de transito      V556
+445 275  V55.7 Pess viaj exter veic traumat acid trans      V557
+445 276  V55.9 Ocup n/espec de caminhon traum acid trans    V559
+    277  V56   Ocup caminhon traum colis c/veic n/motoriz   V560-V569
+455 278  V56.4 Pessoa traumat ao subir ou descer do veic    V564
+455 279  V56.5 Cond [motor] traum em um acid de transito    V565
+455 280  V56.6 Pass traumat em um acidente de transito      V566
+455 281  V56.7 Pess viaj exter veic traumat acid trans      V567
+455 282  V56.9 Ocup n/espec de caminhon traum acid trans    V569
+    283  V57   Ocup caminhon traum colis c/obj fixo ou pa   V570-V579
+465 284  V57.4 Pessoa traumat ao subir ou descer do veic    V574
+465 285  V57.5 Cond [motor] traum em um acid de transito    V575
+465 286  V57.6 Pass traumat em um acidente de transito      V576
+465 287  V57.7 Pess viaj exter veic traumat acid trans      V577
+465 288  V57.9 Ocup n/espec de caminhon traum acid trans    V579
+    289  V58   Ocup caminhon traum ac transp s/colisao      V580-V589
+475 290  V58.4 Pessoa traumat ao subir ou descer do veic    V584
+475 291  V58.5 Cond [motor] traum em um acid de transito    V585
+475 292  V58.6 Pass traumat em um acidente de transito      V586
+475 293  V58.7 Pess viaj exter veic traumat acid trans      V587
+475 294  V58.9 Ocup n/espec de caminhon traum acid trans    V589
+    295  V59   Ocup caminhon traum out ac transp e n/esp    V590-V599
+485 296  V59.4 Cond traum colis out veic, mot, acid trans   V594
+485 297  V59.5 Pass traum colis out veic, mot, acid trans   V595
+485 298  V59.6 Ocup n/esp traum colis out veic,mot,ac tr    V596
+485 299  V59.8 Ocup [qualq] traum out acid transp espec     V598
+485 300  V59.9 Ocup [qualq] traum acid trans n/especif      V599
+    301  V60   Ocup veic transp pes colis c/pedes ou anim   V600-V609
+495 302  V60.4 Pessoa traumat ao subir ou descer do veic    V604
+495 303  V60.5 Cond [motor] traum em um acid de transito    V605
+495 304  V60.6 Pass traumat em um acidente de transito      V606
+495 305  V60.7 Pess viaj exter veic traumat acid trans      V607
+495 306  V60.9 Ocup n/esp veic transp pes traum acid trans  V609
+    307  V61   Ocup veic transp pes colis c/veic a pedal    V610-V619
+505 308  V61.4 Pessoa traumat ao subir ou descer do veic    V614
+515 309  V61.5 Cond [motor] traum em um acid de transito    V615
+505 310  V61.6 Pass traumat em um acidente de transito      V616
+505 311  V61.7 Pess viaj exter veic traumat acid trans      V617
+505 312  V61.9 Ocup n/esp veic transp pes traum acid trans  V619
+    313  V62   Ocup veic transp pes colis veic mot 2 ou 3   V620-V629
+515 314  V62.4 Pessoa traumat ao subir ou descer do veic    V624
+515 315  V62.5 Cond [motor] traum em um acid de transito    V625
+515 316  V62.6 Pass traumat em um acidente de transito 	    V626
+515 317  V62.7 Pess viaj exter veic traumat acid trans 	    V627
+515 318  V62.9 Ocup n/esp veic transp pes traum acid trans  V629
+    319  V63   Ocup veic transp pes colis c/autom ou ...    V630-V639
+525 320  V63.4 Pessoa traumat ao subir ou descer do veic    V634
+525 321  V63.5 Cond [motor] traum em um acid de transito    V635
+525 322  V63.6 Pass traumat em um acidente de transito 	    V636
+525 323  V63.7 Pess viaj exter veic traumat acid trans 	    V637
+525 324  V63.9 Ocup n/esp veic transp pes traum acid trans  V639
+    325  V64   Ocup veic transp pes colis oout veic pes	    V640-V649
+535 326  V64.4 Pessoa traumat ao subir ou descer do veic    V644
+535 327  V64.5 Cond [motor] traum em um acid de transito    V645
+535 328  V64.6 Pass traumat em um acidente de transito      V646
+355 329  V64.7 Pess viaj exter veic traumat acid trans      V647
+355 330  V64.9 Ocup n/esp veic transp pes traum acid trans  V649
+    331  V65   Ocup veic transp pes colis c/trem ou veic    V650-V659
+545 332  V65.4 Pessoa traumat ao subir ou descer do veic    V654
+545 333  V65.5 Cond [motor] traum em um acid de transito    V655
+545 334  V65.6 Pass traumat em um acidente de transito      V656
+545 335  V65.7 Pess viaj exter veic traumat acid trans      V657
+545 336  V65.9 Ocup n/esp veic transp pes traum acid trans  V659
+    337  V66   Ocup veic transp pes colis c/veic n/motoriz  V660-V669
+555 338  V66.4 Pessoa traumat ao subir ou descer do veic    V664
+555 339  V66.5 Cond [motor] traum em um acid de transito    V665
+555 340  V66.6 Pass traumat em um acidente de transito      V666
+555 341  V66.7 Pess viaj exter veic traumat acid trans      V667
+555 342  V66.9 Ocup n/esp veic transp pes traum acid trans  V669
+    343  V67   Ocup veic transp pes colis c/obj fixo ou...  V670-V679
+565 344  V67.4 Pessoa traumat ao subir ou descer do veic    V674
+565 345  V67.5 Cond [motor] traum em um acid de transito    V675
+565 346  V67.6 Pass traumat em um acidente de transito      V676
+565 347  V67.7 Pess viaj exter veic traumat acid trans      V677
+565 348  V67.9 Ocup n/esp veic transp pes traum acid trans  V679
+    349  V68   Ocup veic transp pes traum ac transp s/col   V680-V689
+575 350  V68.4 Pessoa traumat ao subir ou descer do veic    V684
+575 351  V68.5 Cond [motor] traum em um acid de transito    V685
+575 352  V68.6 Pass traumat em um acidente de transito      V686
+575 353  V68.7 Pess viaj exter veic traumat acid trans      V687
+575 354  V68.9 Ocup n/esp veic transp pes traum acid trans  V689
+    355  V69   Ocup veic transp pes traum out ac n/espec    V690-V699
+585 356  V69.4 Cond traum colis out veic, mot, acid trans   V694
+585 357  V69.5 Pass traum colis out veic, mot, acid trans   V695
+585 358  V69.6 Ocup n/esp traum colis out veic,mot,ac tr    V696
+585 359  V69.8 Ocup [qualq] traum out acid transp espec     V698
+585 360  V69.9 Ocup [qualq] traum acid trans n/especif      V699
+    361  V70   Ocup onibus traum colis c/pedest ou animal   V700-V709
+595 362  V70.4 Pessoa traumat ao subir ou descer do veic    V704
+595 363  V70.5 Cond [motor] traum em um acid de transito    V705
+595 364  V70.6 Pass traumat em um acidente de transito      V706
+595 365  V70.7 Pess viaj exter veic traumat acid trans      V707
+595 366  V70.9 Ocup n/esp de um onibus traum acid trans     V709
+    367  V71   Ocup onibus traum colis c/veic a pedal       V710-V719
+605 368  V71.4 Pessoa traumat ao subir ou descer do veic    V714
+605 369  V71.5 Cond [motor] traum em um acid de transito    V715
+605 370  V71.6 Pass traumat em um acidente de transito      V716
+605 371  V71.7 Pess viaj exter veic traumat acid trans      V717
+605 372  V71.9 Ocup n/esp de um onibus traum acid trans     V719
+    373  V72   Ocup onibus traum colis veic motor 2 ou 3    V720-V729
+615 374  V72.4 Pessoa traumat ao subir ou descer do veic    V724
+615 375  V72.5 Cond [motor] traum em um acid de transito    V725
+615 376  V72.6 Pass traumat em um acidente de transito 	    V726
+615 377  V72.7 Pess viaj exter veic traumat acid trans 	    V727
+615 378  V72.9 Ocup n/esp de um onibus traum acid trans     V729
+    379  V73   Ocup onibus traum colis c/automov ou caminh  V730-V739
+625 380  V73.4 Pessoa traumat ao subir ou descer do veic    V734
+625 381  V73.5 Cond [motor] traum em um acid de transito    V735
+625 382  V73.6 Pass traumat em um acidente de transito 	    V736
+625 383  V73.7 Pess viaj exter veic traumat acid trans 	    V737
+625 384  V73.9 Ocup n/esp de um onibus traum acid trans     V739
+    385  V74   Ocup onibus traum colis veic transp pes ou   V740-V749
+635 386  V74.4 Pessoa traumat ao subir ou descer do veic    V744
+635 387  V74.5 Cond [motor] traum em um acid de transito    V745
+635 388  V74.6 Pass traumat em um acidente de transito      V746
+635 389  V74.7 Pess viaj exter veic traumat acid trans      V747
+635 390  V74.9 Ocup n/esp de um onibus traum acid trans     V749
+    391  V75   Ocup onibus traum colis c/trem ou veic fer   V750-V759
+645 392  V75.4 Pessoa traumat ao subir ou descer do veic    V754
+645 393  V75.5 Cond [motor] traum em um acid de transito    V755
+645 394  V75.6 Pass traumat em um acidente de transito      V756
+645 395  V75.7 Pess viaj exter veic traumat acid trans      V757
+645 396  V75.9 Ocup n/esp de um onibus traum acid trans     V759
+    397  V76   Ocup onibus traum colis c/veic n/motoriz     V760-V769
+655 398  V76.4 Pessoa traumat ao subir ou descer do veic    V764
+655 399  V76.5 Cond [motor] traum em um acid de transito    V765
+655 400  V76.6 Pass traumat em um acidente de transito      V766
+655 401  V76.7 Pess viaj exter veic traumat acid trans      V767
+655 402  V76.9 Ocup n/esp de um onibus traum acid trans     V769
+    403  V77   Ocup onibus traum colis c/obj fixo ou par    V770-V779
+665 404  V77.4 Pessoa traumat ao subir ou descer do veic    V774
+665 405  V77.5 Cond [motor] traum em um acid de transito    V775
+665 406  V77.6 Pass traumat em um acidente de transito      V776
+665 407  V77.7 Pess viaj exter veic traumat acid trans      V777
+665 408  V77.9 Ocup n/esp de um onibus traum acid trans     V779
+    409  V78   Ocup onibus traum acid transp s/colisao      V780-V789
+675 410  V78.4 Pessoa traumat ao subir ou descer do veic    V784
+675 411  V78.5 Cond [motor] traum em um acid de transito    V785
+675 412  V78.6 Pass traumat em um acidente de transito      V786
+675 413  V78.7 Pess viaj exter veic traumat acid trans      V787
+675 414  V78.9 Ocup n/esp de um onibus traum acid trans     V789
+    415  V79   Ocup onibus traum out ac transp e n/espec    V790-V799
+685 416  V79.4 Cond traum colis out veic, mot, acid trans   V794
+685 417  V79.5 Pass traum colis out veic, mot, acid trans   V795
+685 418  V79.6 Ocup n/esp traum colis out veic,mot,ac tr    V796
+685 419  V79.8 Ocup [qualq] traum out acid transp espec     V798
+685 420  V79.9 Ocup [qualq] traum acid trans n/especif      V799
+    421  V80   Pes mont anim ou veic tra anim trau ac trans V800-V809
+695 422  V80.0 Qued ou eje‡ pes mont em anim acid s/colis   V800
+695 423  V80.1 Em colisao com pedestre ou animal            V801
+695 424  V80.2 Em colisao com veiculo a pedal               V802
+695 425  V80.3 Em colisao c/veic a motor de 2 ou 3 rodas    V803
+695 426  V80.4 Em colis c/autom,caminhon,veic transp pes    V804
+695 427  V80.5 Em colis com veic a motor especificado       V805
+695 428  V80.6 Em colisao c/trem ou veic ferroviario        V806
+695 429  V80.7 Em colisao c/ out veiculo n/motorizado       V807
+695 430  V80.8 Em colisao c/objeto fixo ou parado           V808
+695 431  V80.9 Em out acid transp e acid transp n/especif   V809
+    432  V81   Ocup trem ou veic ferrov traum ac transp     V810-V819
+706 433  V81.1 Em colis c/veic mot em um acid transito      V811
+706 434  V81.2 Em colis c/ou ating por mat rodante          V812
+706 435  V81.3 Em colisao com outro objeto                  V813
+706 436  V81.4 Pess traum subir ou desc de trem ou veic     V814
+706 437  V81.5 Devid a queda no inter dos mesmos            V815
+706 438  V81.6 Devid queda do trem ou do veic ferrov        V816
+706 439  V81.7 Em razao de descarril s/colis antecedente    V817
+706 440  V81.8 Em outro acid ferroviario especificado       V818
+706 441  V81.9 Em acid ferroviario n/especificado           V819
+717 442	 V82   Ocup bonde [carro elet] traum acid transp    V820-V829
+717 443  V82.1 Em colis c/veic mot em um acid transito      V821
+717 444  V82.2 Em colis c/ou ating por mat rodante          V822
+717 445  V82.3 Em colisao com outro objeto                  V823
+717 446  V82.4 Pess traum subir ou desc de bonde[car elet]  V824
+717 447  V82.5 Devid a queda no inter do mesmo              V825
+717 448  V82.6 Devid queda do mesmo                         V826
+717 449  V82.7 Em razao de descarril s/colis antecedente    V827
+717 450  V82.8 Em outro acid de transp especificados        V828
+717 451  V82.9 Em acid de transito n/especificado           V829
+717 452  V78.6 Pass traumat em um acidente de transito      V786
+675 453  V78.7 Pess viaj exter veic traumat acid trans      V787
+675 454  V78.9 Ocup n/esp de um onibus traum acid trans     V789
+    455  V79   Ocup onibus traum out ac transp e n/espec    V790-V799
+685 456  V79.4 Cond traum colis out veic, mot, acid trans   V794
+685 457  V79.5 Pass traum colis out veic, mot, acid trans   V795
+685 458  V79.6 Ocup n/esp traum colis out veic,mot,ac tr    V796
+685 459  V79.8 Ocup [qualq] traum out acid transp espec     V798
+685 460  V79.9 Ocup [qualq] traum acid trans n/especif      V799
+    461  V80   Pes mont anim ou veic tra anim trau ac trans V800-V809
+695 462  V80.0 Qued ou eje‡ pes mont em anim acid s/colis   V800
+695 463  V80.1 Em colisao com pedestre ou animal            V801
+695 464  V80.2 Em colisao com veiculo a pedal               V802
+695 465  V80.3 Em colisao c/veic a motor de 2 ou 3 rodas    V803
+695 466  V80.4 Em colis c/autom,caminhon,veic transp pes    V804
+695 467  V80.5 Em colis com veic a motor especificado       V805
+695 468  V80.6 Em colisao c/trem ou veic ferroviario        V806
+695 469  V80.7 Em colisao c/ out veiculo n/motorizado       V807
+695 470  V80.8 Em colisao c/objeto fixo ou parado           V808
+695 471  V80.9 Em out acid transp e acid transp n/especif   V809
+    472  V81   Ocup trem ou veic ferrov traum ac transp     V810-V819
+706 473  V81.1 Em colis c/veic mot em um acid transito      V811
+706 474  V81.2 Em colis c/ou ating por mat rodante          V812
+706 475  V83   Ocup veic esp motor em ar ind traum ac trns  V830-V839
+728 476  V83.0 Cond [motor] traum em um acid de transito    V830
+728 477  V83.1 Pass traum em um acidente de transito        V831
+728 478  V83.2 Pess viaj exter veic, traum acid transito    V832
+728 479  V83.3 Ocup n/espec traum em um acid de transito    V833
+728 480  V83.4 Pess traum subir ou desc veic us areas ind   V834
+    481  V84   Ocup veic esp mot uso agric traum ac transp  V840-V849
+738 482  V84.0 Cond [motor] traum em um acid de transito    V840
+738 483  V84.1 Pass traum em um acidente de transito        V841
+738 484  V84.2 Pess viaj exter veic, traum acid transito    V842
+738 485  V84.3 Ocup n/espec traum em um acid de transito    V843
+738 486  V84.4 Pess traum subir ou desc veic uso agricola   V844
+    487  V85   Ocup veic mot de constr traum acid transp    V850-V859
+748 488  V85.0 Cond [motor] traum em um acid de transito    V850
+748 489  V85.1 Pass traum em um acidente de transito        V851
+748 490  V85.2 Pess viaj exter veic, traum acid transito    V852
+748 491  V85.3 Ocup n/espec traum em um acid de transito    V853
+748 492  V85.4 Pess traum subir ou desc veic uso agricola   V854
+    493  V86   Ocup veic esp uso n/via pub traum ac transp  V860-V869
+758 494  V86.0 Cond [motor] traum em um acid de transito    V860
+758 495  V86.1 Pass traum em um acidente de transito        V861
+758 496  V86.2 Pess viaj exter veic, traum acid transito    V862
+758 497  V86.3 Ocup n/espec traum em um acid de transito    V863
+758 498  V86.4 Pess traum subir ou desc veic uso n/via pub  V864
+    499  V87   Aci trans tipo espec, desc modo transp vit   V870-V879
+768 500  V87.0 Em colis autom e veic 2/3 rodas (ac trans)   V870
+768 501  V87.1 Em colis out veic mot e vei 2/3 r(ac trans)  V871
+768 502  V87.2 Em colis autom e caminhon (ac transito)      V872
+768 503  V87.3 Em colis autom e onibus (ac transito)        V873
+768 504  V87.4 Em colis autom e veic transp pesado(ac tra)  V874
+768 505  V87.5 Em colis veic transp pes e onibus(ac trans)  V875
+768 506  V87.6 Em colis trem e autom (ac transito)          V876
+768 507  V87.7 Em colis out veic a motor especif(ac trans)  V877
+768 508  V87.8 Out Ac transp esp c/veic mot,s/colis(ac tr)  V878
+768 509  V87.9 Out ac transp c/s/colis veic n/mot(ac tran)  V879
+    510  V88   Ac n/trans espec, desc modo transp vitima    V880-V889
+    511  V89   Ac veic mot ou n/motor,tipo de veic n/espec  V890-V899
+790 512  V89.2 Pes traum ac trans c/veic motor n/especif    V892
+790 513  V89.3 Pes traum ac trans c/veic n/motor,n/espec    V893
+790 514  V89.9 Pes traum acid c/veiculo n/especificado      V899
+    515  V90   Acid c/embarc caus afogam e submers          V900-V909
+796 516  V90.0 Navio mercante                               V900
+796 517  V90.1 Navio de passageiros                         V901
+796 518  V90.2 Barco de pesca                               V902
+796 519  V90.3 Outras embarcacoes a motor                   V903
+796 520  V90.4 Barco a vela                                 V904
+796 521  V90.5 Caiaque ou canoa                             V905
+796 522  V90.6 Bote inflavel (sem motor)                    V906
+796 523  V90.7 Esqui aquatico                               V907
+796 524  V90.8 Outras embarcacoes sem motor                 V908
+796 525  V90.9 Embarcacao nao especificada                  V909
+    526  V91   Acid c/embarc caus out tipo de traumat       V910-V919
+807 527  V91.0 Navio mercante                               V910
+807 528  V91.1 Navio de passageiros                         V911
+807 529  V91.2 Barco de pesca                               V912
+807 530  V91.3 Outras embarcacoes a motor                   V913
+807 531  V91.4 Barco a vela                                 V914
+807 532  V91.5 Caiaque ou canoa                             V915
+807 533  V91.6 Bote inflavel (sem motor)                    V916
+807 534  V91.7 Esqui aquatico                               V917
+807 535  V91.8 Outras embarcacoes sem motor                 V918
+807 536  V91.9 Embarcacao nao especificada                  V919
+    537  V92   Afog e subm rel c/transp agua, s/ac c/emb    V920-V929
+818 538  V92.0 Navio mercante                               V920
+818 539  V92.1 Navio de passageiros                         V921
+818 540  V92.2 Barco de pesca                               V922
+818 541  V92.3 Outras embarcacoes a motor                   V923
+818 542  V92.4 Barco a vela                                 V924
+818 543  V92.5 Caiaque ou canoa                             V925
+818 544  V92.6 Bote inflavel (sem motor)                    V926
+818 545  V92.7 Esqui aquatico                               V927
+818 546  V92.8 Outras embarcacoes sem motor                 V928
+818 547  V92.9 Embarcacao nao especificada                  V929
+    548  V93   Ac bordo emb s/ac embarc n/caus afog ou sub  V930-V939
+829 549  V93.0 Navio mercante                               V930
+829 550  V93.1 Navio de passageiros                         V931
+829 551  V93.2 Barco de pesca                               V932
+829 552  V93.3 Outras embarca‡äes a motor                   V933
+829 553  V93.4 Barco a vela                                 V934
+829 554  V93.5 Caiaque ou canoa                             V935
+829 555  V93.6 Bote infl vel (sem motor)                    V936
+829 556  V93.7 Esqui aquatico                               V937
+829 557  V93.8 Outras embarca‡äes sem motor                 V938
+829 558  V93.9 Embarca‡Æo nÆo especificada                  V939
+    559  V94   Out acid transp por agua e os n/especif      V940-V949
+840 560  V94.0 Navio mercante                               V940
+840 561  V94.1 Navio de passageiros                         V941
+840 562  V94.2 Barco de pesca                               V942
+840 563  V94.3 Outras embarca‡äes a motor                   V943
+840 564  V94.4 Barco a vela                                 V944
+840 565  V94.5 Caiaque ou canoa                             V945
+840 566  V94.6 Bote infl vel (sem motor)                    V946
+840 567  V94.7 Esqui aquatico                               V947
+840 568  V94.8 Outras embarca‡äes sem motor                 V948
+840 569  V94.9 Embarca‡Æo nao especificada                  V949
+    570  V95   Acid aeron a motor caus traumat ao ocup      V950-V959
+851 571  V95.0 Acid helic¢ptero caus traum a ocupante       V950
+851 572  V95.1 Acid planador motor e ultraleve              V951
+851 573  V95.2 Acid out aeron asa fixa de uso part          V952
+851 574  V95.3 Acid aeron asa fixa de uso comerc            V953
+851 575  V95.4 Acid nave espac caus traum a ocupante        V954
+851 576  V95.8 Out acid de aeron caus traum a ocupante      V958
+851 577  V95.9 Acid aeron n/espec caus traum a ocupante     V959
+    578  V96   Acid aeron sem motor caus traum a ocupante   V960-V969
+859 579  V96.0 Acid bal„o caus traumatismo a ocupante       V960
+859 580  V96.1 Acid asa delta caus traum a ocupante         V961
+859 581  V96.2 Acid planador (n/motoriz) caus traum ocup    V962
+859 582  V96.8 Out acid aeron n/motoriz caus traum ocup     V968
+859 583  V96.9 Acid n/espec aeron n/motor caus traum ocup   V969
+    584  V97   Out acid especificados de transp aereo       V970-V979
+865 585  V97.0 Ocup aeron traum out ac transp aer especif   V970
+865 586  V97.1 Pes traum ao embarcar em ou desemb de aeron  V971
+865 587  V97.2 Paraqued traum acid transp aereo             V972
+865 588  V97.3 Pes em terra traum em acid transp aereo      V973
+865 589  V97.8 Out acidentes de transporte a‚reo NCOP       V978
+    590  V98   Out acidentes de transporte especificados    V980-V989
+    591  V99   Acidente de transporte n„o especificado      V990-V999
+

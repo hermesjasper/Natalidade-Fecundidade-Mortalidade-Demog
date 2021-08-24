@@ -1,0 +1,153 @@
+152 5 L
+      1  EM BRANCO                                               ,
+      2  GESTOR SIM ESTADUAL - RR                           14752
+      3  GESTOR MUN SAUDE AREALVA                           15194
+      4  GESTOR MUN SAUDE ADOLFO                            15278
+      5  GESTOR MUN SAUDE AGUAS DE LINDOIA                  15886
+      6  GESTOR MUN SAUDE ADAMANTINA                        16014
+      7  GESTOR MUN SAUDE ARCO IRIS                         16020
+      8  GESTOR MUN SAUDE AGUAS DE SAO PEDRO                16088
+      9  GESTOR MUN SAUDE AGUAI                             16326
+     10  GESTOR MUN SAUDE AGUAS DA PRATA                    16328
+     11  GESTOR MUN SAUDE AREIAS                            16650
+     12  FRANCISCA IRENILCE DA SILVA COSTA                  36270
+     13  CLEIA MUNICIPIO                                    49100
+     14  CLEIA REGIONAL                                     49102
+     15  ANA CAROLINA ARRUDA MOURAO                         49824
+     16  ALEXANDRE PERON DA LUZ                             49830
+     17  JOVELINO OLIVEIRA GONCALVES                        50120
+     18  NORMA NUNES BRASIL                                 50874
+     19  ACAILANDIA                                         50920
+     20  MARIA CICERA PRAXEDES DA PENHA                     50938
+     21  DIEGO RUBENS COLNAN                                51102
+     22  FRANCISCO GLEDSON DE FREITAS                       51636
+     23  DACIO DE LYRA RABELLO NETO                         51664
+     24  LUIZ ARNALDO DA SILVA                              51670
+     25  FRANCINARA FARIAS                                  56302
+     26  IMI 8 MARIA DE FÁTIMA PEREIRA DE CARVALHO          64342
+     27  IM 8 MARIA ASENETE TAVARES DE LIMA                 69080
+     28  "SMSSAOMIGUEL"                                     70550
+     29  MARIA DAS GRACAS MACEDO RIOS CAVALCANTI            70596
+     30  ELIANE FRANCISCA DA SILVA                          71302
+     31  RAIMUNDO ALVES DE LIMA FILHO                       71360
+     32  PR ADMINISTRADOR FEDERAL                           73318
+     33  FRANCINARA                                         76176
+     34  CELIA MARIA CASTEX ALY                             77708
+     35  ANTONIO ROSENO DE MESQUITA JUNIOR                  81618
+     36  ELIANE DO ROCIO ADAO                               83314
+     37  NEUZA                                              83670
+     38  SAO FELIPE                                         84064
+     39  FRANCINARA CRUZ                                    84080
+     40  WAGNER IZIDORO DE BRITO                            85428
+     41  MANUELLE MENEZES DE OLIVEIRA                       85522
+     42  CELIA_ERJ                                          85544
+     43  NE_SES_MA                                          85824
+     44  NE_SES_PI                                          85826
+     45  NE_SES_CE                                          85828
+     46  NE_SES_RN                                          85830
+     47  NE_SES_PB                                          85832
+     48  NE_SES_PE                                          85834
+     49  NE_SES_AL                                          85836
+     50  NE_SES_SE                                          85838
+     51  NE_SES_BA                                          85840
+     52  WALKIRIA TAVEIROS                                  85842
+     53  NE.IMM.PE                                          85844
+     54  NE.SMS.PI                                          85846
+     55  NE.SMS.RN                                          85848
+     56  IRANI PARENTE DORZÉE                               85850
+     57  WAGNER MELO SOARES                                 85852
+     58  NE.SMS.PB                                          85854
+     59  MARCIA MARIA MACEDO DE LUCENA                      85856
+     60  ARACHELE LOUREIRO                                  85858
+     61  NE.SMS.PE                                          85860
+     62  NE.IMM.RN                                          85864
+     63  NE.IMM.BA                                          85866
+     64  NE.IMM.PB                                          85868
+     65  DOMINGAS TEIXEIRA NOVAIS                           85870
+     66  NE.IMM.SE                                          85872
+     67  NE.SMS.SE                                          85874
+     68  JOSE RUBENS COSTA LIMA                             85876
+     69  IMM 8 MARIA DO CARMO LOPES DE MELO                 85878
+     70  NE.JAB.PE                                          85880
+     71  NE.SMSIMPERATRIZ.MA                                85884
+     72  NEARAPIRACA                                        85886
+     73  NE_SMS_ILHEUS                                      85890
+     74  NE_SMS_FEIRA DE SANTANA                            85892
+     75  NEPENEDO                                           85894
+     76  NE_SMS_ITABUNA                                     85896
+     77  TESTE                                              85900
+     78  CELIA MACEIO                                       86316
+     79  OLYMPIO LOPES                                      86596
+     80  SESUL_SES_MG                                       86654
+     81  SESUL_SES_ES                                       86656
+     82  SESUL_SES_RJ                                       86660
+     83  SESUL_SES_SP                                       86664
+     84  SESUL_SES_PR                                       86668
+     85  SESUL_SES_SC                                       86670
+     86  SESUL_SES_RS                                       86672
+     87  IMM_PMBH                                           86676
+     88  IMM_PMV                                            86678
+     89  IMM_PMRJ                                           86682
+     90  IMM.PMSP                                           86684
+     91  IMM.PMC                                            86686
+     92  IMM_PMPA                                           86688
+     93  IMM_PMF                                            86690
+     94  THIAGO MACIEL DE AZEVEDO                           86906
+     95  JANAINA FONSECA ALMEIDA                            87092
+     96  NOCO_SES_PA                                        87156
+     97  IMM_PMBE                                           87160
+     98  IMM_PMPV                                           87424
+     99  IMM_PMPV_B                                         87428
+    100  NOCO_SES_AC                                        87514
+    101  NOCO_SES_AM                                        87516
+    102  NOCO_SES_RR                                        87518
+    103  NOCO_SES_AP                                        87524
+    104  NOCO_SES_MS                                        87528
+    105  NOCO_SES_MT                                        87530
+    106  NOCO_SES_GO                                        87532
+    107  NOCO_SES_TO                                        87534
+    108  NOCO_SES_DF                                        87536
+    109  IMMI 3 REGIANE GONÇALVES DE MELO                   87594
+    110  IMM.PMRB                                           87630
+    111  IMM_PMMA                                           87642
+    112  IMM_PMBV                                           87644
+    113  IMM_PMMAC                                          87652
+    114  IMM_PMCG                                           87658
+    115  IMM.PMCUI                                          87788
+    116  IMM_PMGO                                           87800
+    117  IMM.PMPAL                                          87806
+    118  IMM 4 IVANICE CUNHA DE MEDEIROS                    88586
+    119  ROLIM DE MOURA                                     88600
+    120  DACIOERJ                                           88878
+    121  CACOAL                                             88986
+    122  VILHENA                                            88988
+    123  JI-PARANA                                          88990
+    124  ARIQUEMES                                          88992
+    125  PORTO VELHO                                        88994
+    126  IMM 4 ROBSON TELAMONIO BEZERRA PEREIRA             89116
+    127  IMM E MARIA ANTONIÊTA DELGADO MARINHO              89402
+    128  IMI 1 ANTONIO ANECILDO MENDES XIMBINHO             89406
+    129  IMI 1 LUCIA DE FATIMA                              89456
+    130  IMMI 6 LUCRÉCIA MARIA JÁCOME DE AQUINO             89574
+    131  NE_SES_BA1                                         89926
+    132  USUARIO DATASUS PARA SP                            89958
+    133  DATASUS SE                                         89986
+    134  IMMI 2 MARIA MARIZETE DE LIRA MONTE                90016
+    135  IMMI 2 MARIA GORETH ARAUJO SILVA                   90020
+    136  IMMI 2 DALVA BATISTA XAVIER LUCAS                  90022
+    137  IMMI 2 CLAUDIA MARCIA DANTAS DUARTE                90024
+    138  IMMI 2 EDILENE TAVARES DE FRANCA                   90030
+    139  IMMI 2 ALZINETA DE OLIVEIRA NEVES ROCHA            90148
+    140  IMMI 1 MARIA DE LOURDES DA SILVA COELHO            90354
+    141  FRANCINARA                                         90450
+    142  IMM NAT MARIA TEREZA COSTA GOMES DE HOLANDA        90706
+    143  IMM NAT DENISE FERNANDES                           90716
+    144  IMMI 7 RAIMUMDO BORGES DO NASCIMENTO               90722
+    145  IMM 8 EROTIDES MARIA GARCIA JUSTINO                90768
+    146  IMI 7 RAIMUNDA BORGES DO NASCIMENTO                90780
+    147  IMMI 1 EMANUELLY KALYNE B SPENCEL                  90782
+    148  AURORA WANDERLY GUSMÃO                             90888
+    149  MARIA DAS GRAÇAS DA COSTA                          90890
+    150  DANIELA PIZZI                                      91014
+    151  IMM 2 CELIDA MARIA DE ARAGÃO                       91120
+    152  IMMI CNOV RITA DE CÁSSIA FIGUEIREDO                91234

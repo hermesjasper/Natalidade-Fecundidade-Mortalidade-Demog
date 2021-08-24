@@ -1,0 +1,959 @@
+    957  4 L                                                     
+      1  W00   Queda mesmo nivel envolv gelo e neve         W00 ,
+  1   2  W00.0 Residencia                                   W000 
+  1   3  W00.1 Habitacao coletiva                           W001 
+  1   4  W00.2 Escolas outr instit areas admin publica      W002 
+  1   5  W00.3 Area p/a pratica de esportes e atletismo     W003 
+  1   6  W00.4 Rua e estrada                                W004 
+  1   7  W00.5 Areas de comercio e de servicos              W005 
+  1   8  W00.6 Areas industriais e em construcao            W006 
+  1   9  W00.7 Fazenda                                      W007 
+  1  10  W00.8 Outr locais espec                            W008 
+  1  11  W00.9 Local NE                                     W009 
+     12  W01   Queda mesmo nivel escorr tropec passo falso  W01 ,
+ 12  13  W01.0 Residencia                                   W010 
+ 12  14  W01.1 Habitacao coletiva                           W011 
+ 12  15  W01.2 Escolas outr instit areas admin publica      W012 
+ 12  16  W01.3 Area p/a pratica de esportes e atletismo     W013 
+ 12  17  W01.4 Rua e estrada                                W014 
+ 12  18  W01.5 Areas de comercio e de servicos              W015 
+ 12  19  W01.6 Areas industriais e em construcao            W016 
+ 12  20  W01.7 Fazenda                                      W017 
+ 12  21  W01.8 Outr locais espec                            W018 
+ 12  22  W01.9 Local NE                                     W019 
+     23  W02   Queda env patins rodas gelo esqui pranch rod W02 ,
+ 23  24  W02.0 Residencia                                   W020 
+ 23  25  W02.1 Habitacao coletiva                           W021 
+ 23  26  W02.2 Escolas outr instit areas admin publica      W022 
+ 23  27  W02.3 Area p/a pratica de esportes e atletismo     W023 
+ 23  28  W02.4 Rua e estrada                                W024 
+ 23  29  W02.5 Areas de comercio e de servicos              W025 
+ 23  30  W02.6 Areas industriais e em construcao            W026 
+ 23  31  W02.7 Fazenda                                      W027 
+ 23  32  W02.8 Outr locais espec                            W028 
+ 23  33  W02.9 Local NE                                     W029 
+     34  W03   Outr qued mesmo niv colis empurrao outr pess W03 ,
+ 34  35  W03.0 Residencia                                   W030 
+ 34  36  W03.1 Habitacao coletiva                           W031 
+ 34  37  W03.2 Escolas outr instit areas admin publica      W032 
+ 34  38  W03.3 Area p/a pratica de esportes e atletismo     W033 
+ 34  39  W03.4 Rua e estrada                                W034 
+ 34  40  W03.5 Areas de comercio e de servicos              W035 
+ 34  41  W03.6 Areas industriais e em construcao            W036 
+ 34  42  W03.7 Fazenda                                      W037 
+ 34  43  W03.8 Outr locais espec                            W038 
+ 34  44  W03.9 Local NE                                     W039 
+     45  W04   Queda enquanto carreg apoiado p/outr pessoas W04 ,
+ 45  46  W04.0 Residencia                                   W040 
+ 45  47  W04.1 Habitacao coletiva                           W041 
+ 45  48  W04.2 Escolas outr instit areas admin publica      W042 
+ 45  49  W04.3 Area p/a pratica de esportes e atletismo     W043 
+ 45  50  W04.4 Rua e estrada                                W044 
+ 45  51  W04.5 Areas de comercio e de servicos              W045 
+ 45  52  W04.6 Areas industriais e em construcao            W046 
+ 45  53  W04.7 Fazenda                                      W047 
+ 45  54  W04.8 Outr locais espec                            W048 
+ 45  55  W04.9 Local NE                                     W049 
+     56  W05   Queda envolv uma cadeira de rodas            W05 ,
+ 56  57  W05.0 Residencia                                   W050 
+ 56  58  W05.1 Habitacao coletiva                           W051 
+ 56  59  W05.2 Escolas outr instit areas admin publica      W052 
+ 56  60  W05.3 Area p/a pratica de esportes e atletismo     W053 
+ 56  61  W05.4 Rua e estrada                                W054 
+ 56  62  W05.5 Areas de comercio e de servicos              W055 
+ 56  63  W05.6 Areas industriais e em construcao            W056 
+ 56  64  W05.7 Fazenda                                      W057 
+ 56  65  W05.8 Outr locais espec                            W058 
+ 56  66  W05.9 Local NE                                     W059 
+     67  W06   Queda de um leito                            W06 ,
+ 67  68  W06.0 Residencia                                   W060 
+ 67  69  W06.1 Habitacao coletiva                           W061 
+ 67  70  W06.2 Escolas outr instit areas admin publica      W062 
+ 67  71  W06.3 Area p/a pratica de esportes e atletismo     W063 
+ 67  72  W06.4 Rua e estrada                                W064 
+ 67  73  W06.5 Areas de comercio e de servicos              W065 
+ 67  74  W06.6 Areas industriais e em construcao            W066 
+ 67  75  W06.7 Fazenda                                      W067 
+ 67  76  W06.8 Outr locais espec                            W068 
+ 67  77  W06.9 Local NE                                     W069 
+     78  W07   Queda de uma cadeira                         W07 ,
+ 78  79  W07.0 Residencia                                   W070 
+ 78  80  W07.1 Habitacao coletiva                           W071 
+ 78  81  W07.2 Escolas outr instit areas admin publica      W072 
+ 78  82  W07.3 Area p/a pratica de esportes e atletismo     W073 
+ 78  83  W07.4 Rua e estrada                                W074 
+ 78  84  W07.5 Areas de comercio e de servicos              W075 
+ 78  85  W07.6 Areas industriais e em construcao            W076 
+ 78  86  W07.7 Fazenda                                      W077 
+ 78  87  W07.8 Outr locais espec                            W078 
+ 78  88  W07.9 Local NE                                     W079 
+     89  W08   Queda de outr tipo de mobilia                W08 ,
+ 89  90  W08.0 Residencia                                   W080 
+ 89  91  W08.1 Habitacao coletiva                           W081 
+ 89  92  W08.2 Escolas outr instit areas admin publica      W082 
+ 89  93  W08.3 Area p/a pratica de esportes e atletismo     W083 
+ 89  94  W08.4 Rua e estrada                                W084 
+ 89  95  W08.5 Areas de comercio e de servicos              W085 
+ 89  96  W08.6 Areas industriais e em construcao            W086 
+ 89  97  W08.7 Fazenda                                      W087 
+ 89  98  W08.8 Outr locais espec                            W088 
+ 89  99  W08.9 Local NE                                     W089 
+    100  W09   Queda envolv equipamento de playground       W09 ,
+100 101  W09.0 Residencia                                   W090 
+100 102  W09.1 Habitacao coletiva                           W091 
+100 103  W09.2 Escolas outr instit areas admin publica      W092 
+100 104  W09.3 Area p/a pratica de esportes e atletismo     W093 
+100 105  W09.4 Rua e estrada                                W094 
+100 106  W09.5 Areas de comercio e de servicos              W095 
+100 107  W09.6 Areas industriais e em construcao            W096 
+100 108  W09.7 Fazenda                                      W097 
+100 109  W09.8 Outr locais espec                            W098 
+100 110  W09.9 Local NE                                     W099 
+    111  W10   Queda em ou de escadas ou degraus            W10 ,
+111 112  W10.0 Residencia                                   W100 
+111 113  W10.1 Habitacao coletiva                           W101 
+111 114  W10.2 Escolas outr instit areas admin publica      W102 
+111 115  W10.3 Area p/a pratica de esportes e atletismo     W103 
+111 116  W10.4 Rua e estrada                                W104 
+111 117  W10.5 Areas de comercio e de servicos              W105 
+111 118  W10.6 Areas industriais e em construcao            W106 
+111 119  W10.7 Fazenda                                      W107 
+111 120  W10.8 Outr locais espec                            W108 
+111 121  W10.9 Local NE                                     W109 
+    122  W11   Queda em ou de escadas de mao                W11 ,
+122 123  W11.0 Residencia                                   W110 
+122 124  W11.1 Habitacao coletiva                           W111 
+122 125  W11.2 Escolas outr instit areas admin publica      W112 
+122 126  W11.3 Area p/a pratica de esportes e atletismo     W113 
+122 127  W11.4 Rua e estrada                                W114 
+122 128  W11.5 Areas de comercio e de servicos              W115 
+122 129  W11.6 Areas industriais e em construcao            W116 
+122 130  W11.7 Fazenda                                      W117 
+122 131  W11.8 Outr locais espec                            W118 
+122 132  W11.9 Local NE                                     W119 
+    133  W12   Queda em ou de um andaime                    W12 ,
+133 134  W12.0 Residencia                                   W120 
+133 135  W12.1 Habitacao coletiva                           W121 
+133 136  W12.2 Escolas outr instit areas admin publica      W122 
+133 137  W12.3 Area p/a pratica de esportes e atletismo     W123 
+133 138  W12.4 Rua e estrada                                W124 
+133 139  W12.5 Areas de comercio e de servicos              W125 
+133 140  W12.6 Areas industriais e em construcao            W126 
+133 141  W12.7 Fazenda                                      W127 
+133 142  W12.8 Outr locais espec                            W128 
+133 143  W12.9 Local NE                                     W129 
+    144  W13   Queda de ou p/fora edificios outr estruturas W13 ,
+144 145  W13.0 Residencia                                   W130 
+144 146  W13.1 Habitacao coletiva                           W131 
+144 147  W13.2 Escolas outr instit areas admin publica      W132 
+144 148  W13.3 Area p/a pratica de esportes e atletismo     W133 
+144 149  W13.4 Rua e estrada                                W134 
+144 150  W13.5 Areas de comercio e de servicos              W135 
+144 151  W13.6 Areas industriais e em construcao            W136 
+144 152  W13.7 Fazenda                                      W137 
+144 153  W13.8 Outr locais espec                            W138 
+144 154  W13.9 Local NE                                     W139 
+    155  W14   Queda de arvore                              W14 ,
+155 156  W14.0 Residencia                                   W140 
+155 157  W14.1 Habitacao coletiva                           W141 
+155 158  W14.2 Escolas outr instit areas admin publica      W142 
+155 159  W14.3 Area p/a pratica de esportes e atletismo     W143 
+155 160  W14.4 Rua e estrada                                W144 
+155 161  W14.5 Areas de comercio e de servicos              W145 
+155 162  W14.6 Areas industriais e em construcao            W146 
+155 163  W14.7 Fazenda                                      W147 
+155 164  W14.8 Outr locais espec                            W148 
+155 165  W14.9 Local NE                                     W149 
+    166  W15   Queda de penhasco                            W15 ,
+166 167  W15.0 Residencia                                   W150 
+166 168  W15.1 Habitacao coletiva                           W151 
+166 169  W15.2 Escolas outr instit areas admin publica      W152 
+166 170  W15.3 Area p/a pratica de esportes e atletismo     W153 
+166 171  W15.4 Rua e estrada                                W154 
+166 172  W15.5 Areas de comercio e de servicos              W155 
+166 173  W15.6 Areas industriais e em construcao            W156 
+166 174  W15.7 Fazenda                                      W157 
+166 175  W15.8 Outr locais espec                            W158 
+166 176  W15.9 Local NE                                     W159 
+    177  W16   Merg pulo agua caus out traum n afog submers W16 ,
+177 178  W16.0 Residencia                                   W160 
+177 179  W16.1 Habitacao coletiva                           W161 
+177 180  W16.2 Escolas outr instit areas admin publica      W162 
+177 181  W16.3 Area p/a pratica de esportes e atletismo     W163 
+177 182  W16.4 Rua e estrada                                W164 
+177 183  W16.5 Areas de comercio e de servicos              W165 
+177 184  W16.6 Areas industriais e em construcao            W166 
+177 185  W16.7 Fazenda                                      W167 
+177 186  W16.8 Outr locais espec                            W168 
+177 187  W16.9 Local NE                                     W169 
+    188  W17   Outr quedas de um nivel a outr               W17 ,
+188 189  W17.0 Residencia                                   W170 
+188 190  W17.1 Habitacao coletiva                           W171 
+188 191  W17.2 Escolas outr instit areas admin publica      W172 
+188 192  W17.3 Area p/a pratica de esportes e atletismo     W173 
+188 193  W17.4 Rua e estrada                                W174 
+188 194  W17.5 Areas de comercio e de servicos              W175 
+188 195  W17.6 Areas industriais e em construcao            W176 
+188 196  W17.7 Fazenda                                      W177 
+188 197  W17.8 Outr locais espec                            W178 
+188 198  W17.9 Local NE                                     W179 
+    199  W18   Outr quedas no mesmo nivel                   W18 ,
+199 200  W18.0 Residencia                                   W180 
+199 201  W18.1 Habitacao coletiva                           W181 
+199 202  W18.2 Escolas outr instit areas admin publica      W182 
+199 203  W18.3 Area p/a pratica de esportes e atletismo     W183 
+199 204  W18.4 Rua e estrada                                W184 
+199 205  W18.5 Areas de comercio e de servicos              W185 
+199 206  W18.6 Areas industriais e em construcao            W186 
+199 207  W18.7 Fazenda                                      W187 
+199 208  W18.8 Outr locais espec                            W188 
+199 209  W18.9 Local NE                                     W189 
+    210  W19   Queda s/especificacao                        W19 ,
+210 211  W19.0 Residencia                                   W190 
+210 212  W19.1 Habitacao coletiva                           W191 
+210 213  W19.2 Escolas outr instit areas admin publica      W192 
+210 214  W19.3 Area p/a pratica de esportes e atletismo     W193 
+210 215  W19.4 Rua e estrada                                W194 
+210 216  W19.5 Areas de comercio e de servicos              W195 
+210 217  W19.6 Areas industriais e em construcao            W196 
+210 218  W19.7 Fazenda                                      W197 
+210 219  W19.8 Outr locais espec                            W198 
+210 220  W19.9 Local NE                                     W199 
+    221  W20   Impacto caus objeto lanc projetado em queda  W20 ,
+221 222  W20.0 Residencia                                   W200 
+221 223  W20.1 Habitacao coletiva                           W201 
+221 224  W20.2 Escolas outr instit areas admin publica      W202 
+221 225  W20.3 Area p/a pratica de esportes e atletismo     W203 
+221 226  W20.4 Rua e estrada                                W204 
+221 227  W20.5 Areas de comercio e de servicos              W205 
+221 228  W20.6 Areas industriais e em construcao            W206 
+221 229  W20.7 Fazenda                                      W207 
+221 230  W20.8 Outr locais espec                            W208 
+221 231  W20.9 Local NE                                     W209 
+    232  W21   Impacto acid ativo passivo caus equip esport W21 ,
+232 233  W21.0 Residencia                                   W210 
+232 234  W21.1 Habitacao coletiva                           W211 
+232 235  W21.2 Escolas outr instit areas admin publica      W212 
+232 236  W21.3 Area p/a pratica de esportes e atletismo     W213 
+232 237  W21.4 Rua e estrada                                W214 
+232 238  W21.5 Areas de comercio e de servicos              W215 
+232 239  W21.6 Areas industriais e em construcao            W216 
+232 240  W21.7 Fazenda                                      W217 
+232 241  W21.8 Outr locais espec                            W218 
+232 242  W21.9 Local NE                                     W219 
+    243  W22   Impacto acid ativo passivo caus outr objetos W22 ,
+243 244  W22.0 Residencia                                   W220 
+243 245  W22.1 Habitacao coletiva                           W221 
+243 246  W22.2 Escolas outr instit areas admin publica      W222 
+243 247  W22.3 Area p/a pratica de esportes e atletismo     W223 
+243 248  W22.4 Rua e estrada                                W224 
+243 249  W22.5 Areas de comercio e de servicos              W225 
+243 250  W22.6 Areas industriais e em construcao            W226 
+243 251  W22.7 Fazenda                                      W227 
+243 252  W22.8 Outr locais espec                            W228 
+243 253  W22.9 Local NE                                     W229 
+    254  W23   Apert colhid comprim esmag dentro objetos    W23 ,
+254 255  W23.0 Residencia                                   W230 
+254 256  W23.1 Habitacao coletiva                           W231 
+254 257  W23.2 Escolas outr instit areas admin publica      W232 
+254 258  W23.3 Area p/a pratica de esportes e atletismo     W233 
+254 259  W23.4 Rua e estrada                                W234 
+254 260  W23.5 Areas de comercio e de servicos              W235 
+254 261  W23.6 Areas industriais e em construcao            W236 
+254 262  W23.7 Fazenda                                      W237 
+254 263  W23.8 Outr locais espec                            W238 
+254 264  W23.9 Local NE                                     W239 
+    265  W24   Contato elevadores instr de transm NCOP      W24 ,
+265 266  W24.0 Residencia                                   W240 
+265 267  W24.1 Habitacao coletiva                           W241 
+265 268  W24.2 Escolas outr instit areas admin publica      W242 
+265 269  W24.3 Area p/a pratica de esportes e atletismo     W243 
+265 270  W24.4 Rua e estrada                                W244 
+265 271  W24.5 Areas de comercio e de servicos              W245 
+265 272  W24.6 Areas industriais e em construcao            W246 
+265 273  W24.7 Fazenda                                      W247 
+265 274  W24.8 Outr locais espec                            W248 
+265 275  W24.9 Local NE                                     W249 
+    276  W25   Contato c/vidro cortante                     W25 ,
+276 277  W25.0 Residencia                                   W250 
+276 278  W25.1 Habitacao coletiva                           W251 
+276 279  W25.2 Escolas outr instit areas admin publica      W252 
+276 280  W25.3 Area p/a pratica de esportes e atletismo     W253 
+276 281  W25.4 Rua e estrada                                W254 
+276 282  W25.5 Areas de comercio e de servicos              W255 
+276 283  W25.6 Areas industriais e em construcao            W256 
+276 284  W25.7 Fazenda                                      W257 
+276 285  W25.8 Outr locais espec                            W258 
+276 286  W25.9 Local NE                                     W259 
+    287  W26   Contato c/faca espada e punhal               W26 ,
+287 288  W26.0 Residencia                                   W260 
+287 289  W26.1 Habitacao coletiva                           W261 
+287 290  W26.2 Escolas outr instit areas admin publica      W262 
+287 291  W26.3 Area p/a pratica de esportes e atletismo     W263 
+287 292  W26.4 Rua e estrada                                W264 
+287 293  W26.5 Areas de comercio e de servicos              W265 
+287 294  W26.6 Areas industriais e em construcao            W266 
+287 295  W26.7 Fazenda                                      W267 
+287 296  W26.8 Outr locais espec                            W268 
+287 297  W26.9 Local NE                                     W269 
+    298  W27   Contato c/ferramentas manuais s/motor        W27 ,
+298 299  W27.0 Residencia                                   W270 
+298 300  W27.1 Habitacao coletiva                           W271 
+298 301  W27.2 Escolas outr instit areas admin publica      W272 
+298 302  W27.3 Area p/a pratica de esportes e atletismo     W273 
+298 303  W27.4 Rua e estrada                                W274 
+298 304  W27.5 Areas de comercio e de servicos              W275 
+298 305  W27.6 Areas industriais e em construcao            W276 
+298 306  W27.7 Fazenda                                      W277 
+298 307  W27.8 Outr locais espec                            W278 
+298 308  W27.9 Local NE                                     W279 
+    309  W28   Contato segadeira mot p/cortar aparar grama  W28 ,
+309 310  W28.0 Residencia                                   W280 
+309 311  W28.1 Habitacao coletiva                           W281 
+309 312  W28.2 Escolas outr instit areas admin publica      W282 
+309 313  W28.3 Area p/a pratica de esportes e atletismo     W283 
+309 314  W28.4 Rua e estrada                                W284 
+309 315  W28.5 Areas de comercio e de servicos              W285 
+309 316  W28.6 Areas industriais e em construcao            W286 
+309 317  W28.7 Fazenda                                      W287 
+309 318  W28.8 Outr locais espec                            W288 
+309 319  W28.9 Local NE                                     W289 
+    320  W29   Contat out utens manuais ap domest equip mot W29 ,
+320 321  W29.0 Residencia                                   W290 
+320 322  W29.1 Habitacao coletiva                           W291 
+320 323  W29.2 Escolas outr instit areas admin publica      W292 
+320 324  W29.3 Area p/a pratica de esportes e atletismo     W293 
+320 325  W29.4 Rua e estrada                                W294 
+320 326  W29.5 Areas de comercio e de servicos              W295 
+320 327  W29.6 Areas industriais e em construcao            W296 
+320 328  W29.7 Fazenda                                      W297 
+320 329  W29.8 Outr locais espec                            W298 
+320 330  W29.9 Local NE                                     W299 
+    331  W30   Contato c/maquinaria agricola                W30 ,
+331 332  W30.0 Residencia                                   W300 
+331 333  W30.1 Habitacao coletiva                           W301 
+331 334  W30.2 Escolas outr instit areas admin publica      W302 
+331 335  W30.3 Area p/a pratica de esportes e atletismo     W303 
+331 336  W30.4 Rua e estrada                                W304 
+331 337  W30.5 Areas de comercio e de servicos              W305 
+331 338  W30.6 Areas industriais e em construcao            W306 
+331 339  W30.7 Fazenda                                      W307 
+331 340  W30.8 Outr locais espec                            W308 
+331 341  W30.9 Local NE                                     W309 
+    342  W31   Contato c/outr maquinas e c/as NE            W31 ,
+342 343  W31.0 Residencia                                   W310 
+342 344  W31.1 Habitacao coletiva                           W311 
+342 345  W31.2 Escolas outr instit areas admin publica      W312 
+342 346  W31.3 Area p/a pratica de esportes e atletismo     W313 
+342 347  W31.4 Rua e estrada                                W314 
+342 348  W31.5 Areas de comercio e de servicos              W315 
+342 349  W31.6 Areas industriais e em construcao            W316 
+342 350  W31.7 Fazenda                                      W317 
+342 351  W31.8 Outr locais espec                            W318 
+342 352  W31.9 Local NE                                     W319 
+    353  W32   Projetil de revolver                         W32 ,
+353 354  W32.0 Residencia                                   W320 
+353 355  W32.1 Habitacao coletiva                           W321 
+353 356  W32.2 Escolas outr instit areas admin publica      W322 
+353 357  W32.3 Area p/a pratica de esportes e atletismo     W323 
+353 358  W32.4 Rua e estrada                                W324 
+353 359  W32.5 Areas de comercio e de servicos              W325 
+353 360  W32.6 Areas industriais e em construcao            W326 
+353 361  W32.7 Fazenda                                      W327 
+353 362  W32.8 Outr locais espec                            W328 
+353 363  W32.9 Local NE                                     W329 
+    364  W33   Rifle espingarda armas fogo de maior tamanho W33 ,
+364 365  W33.0 Residencia                                   W330 
+364 366  W33.1 Habitacao coletiva                           W331 
+364 367  W33.2 Escolas outr instit areas admin publica      W332 
+364 368  W33.3 Area p/a pratica de esportes e atletismo     W333 
+364 369  W33.4 Rua e estrada                                W334 
+364 370  W33.5 Areas de comercio e de servicos              W335 
+364 371  W33.6 Areas industriais e em construcao            W336 
+364 372  W33.7 Fazenda                                      W337 
+364 373  W33.8 Outr locais espec                            W338 
+364 374  W33.9 Local NE                                     W339 
+    375  W34   Projeteis de outr armas de fogo e das NE     W34 ,
+375 376  W34.0 Residencia                                   W340 
+375 377  W34.1 Habitacao coletiva                           W341 
+375 378  W34.2 Escolas outr instit areas admin publica      W342 
+375 379  W34.3 Area p/a pratica de esportes e atletismo     W343 
+375 380  W34.4 Rua e estrada                                W344 
+375 381  W34.5 Areas de comercio e de servicos              W345 
+375 382  W34.6 Areas industriais e em construcao            W346 
+375 383  W34.7 Fazenda                                      W347 
+375 384  W34.8 Outr locais espec                            W348 
+375 385  W34.9 Local NE                                     W349 
+    386  W35   Explosao ou ruptura de caldeira              W35 ,
+386 387  W35.0 Residencia                                   W350 
+386 388  W35.1 Habitacao coletiva                           W351 
+386 389  W35.2 Escolas outr instit areas admin publica      W352 
+386 390  W35.3 Area p/a pratica de esportes e atletismo     W353 
+386 391  W35.4 Rua e estrada                                W354 
+386 392  W35.5 Areas de comercio e de servicos              W355 
+386 393  W35.6 Areas industriais e em construcao            W356 
+386 394  W35.7 Fazenda                                      W357 
+386 395  W35.8 Outr locais espec                            W358 
+386 396  W35.9 Local NE                                     W359 
+    397  W36   Explosao ou ruptura de cilindro de gas       W36 ,
+397 398  W36.0 Residencia                                   W360 
+397 399  W36.1 Habitacao coletiva                           W361 
+397 400  W36.2 Escolas outr instit areas admin publica      W362 
+397 401  W36.3 Area p/a pratica de esportes e atletismo     W363 
+397 402  W36.4 Rua e estrada                                W364 
+397 403  W36.5 Areas de comercio e de servicos              W365 
+397 404  W36.6 Areas industriais e em construcao            W366 
+397 405  W36.7 Fazenda                                      W367 
+397 406  W36.8 Outr locais espec                            W368 
+397 407  W36.9 Local NE                                     W369 
+    408  W37   Explosao ruptura pneumat tubulac mang press  W37 ,
+408 409  W37.0 Residencia                                   W370 
+408 410  W37.1 Habitacao coletiva                           W371 
+408 411  W37.2 Escolas outr instit areas admin publica      W372 
+408 412  W37.3 Area p/a pratica de esportes e atletismo     W373 
+408 413  W37.4 Rua e estrada                                W374 
+408 414  W37.5 Areas de comercio e de servicos              W375 
+408 415  W37.6 Areas industriais e em construcao            W376 
+408 416  W37.7 Fazenda                                      W377 
+408 417  W37.8 Outr locais espec                            W378 
+408 418  W37.9 Local NE                                     W379 
+    419  W38   Explosao ruptura outr ap pressurizados espec W38 ,
+419 420  W38.0 Residencia                                   W380 
+419 421  W38.1 Habitacao coletiva                           W381 
+419 422  W38.2 Escolas outr instit areas admin publica      W382 
+419 423  W38.3 Area p/a pratica de esportes e atletismo     W383 
+419 424  W38.4 Rua e estrada                                W384 
+419 425  W38.5 Areas de comercio e de servicos              W385 
+419 426  W38.6 Areas industriais e em construcao            W386 
+419 427  W38.7 Fazenda                                      W387 
+419 428  W38.8 Outr locais espec                            W388 
+419 429  W38.9 Local NE                                     W389 
+    430  W39   Queima de fogos de artificio                 W39 ,
+430 431  W39.0 Residencia                                   W390 
+430 432  W39.1 Habitacao coletiva                           W391 
+430 433  W39.2 Escolas outr instit areas admin publica      W392 
+430 434  W39.3 Area p/a pratica de esportes e atletismo     W393 
+430 435  W39.4 Rua e estrada                                W394 
+430 436  W39.5 Areas de comercio e de servicos              W395 
+430 437  W39.6 Areas industriais e em construcao            W396 
+430 438  W39.7 Fazenda                                      W397 
+430 439  W39.8 Outr locais espec                            W398 
+430 440  W39.9 Local NE                                     W399 
+    441  W40   Explosao de outr materiais                   W40 ,
+441 442  W40.0 Residencia                                   W400 
+441 443  W40.1 Habitacao coletiva                           W401 
+441 444  W40.2 Escolas outr instit areas admin publica      W402 
+441 445  W40.3 Area p/a pratica de esportes e atletismo     W403 
+441 446  W40.4 Rua e estrada                                W404 
+441 447  W40.5 Areas de comercio e de servicos              W405 
+441 448  W40.6 Areas industriais e em construcao            W406 
+441 449  W40.7 Fazenda                                      W407 
+441 450  W40.8 Outr locais espec                            W408 
+441 451  W40.9 Local NE                                     W409 
+    452  W41   Exposicao a um jato de alta pressao          W41 ,
+452 453  W41.0 Residencia                                   W410 
+452 454  W41.1 Habitacao coletiva                           W411 
+452 455  W41.2 Escolas outr instit areas admin publica      W412 
+452 456  W41.3 Area p/a pratica de esportes e atletismo     W413 
+452 457  W41.4 Rua e estrada                                W414 
+452 458  W41.5 Areas de comercio e de servicos              W415 
+452 459  W41.6 Areas industriais e em construcao            W416 
+452 460  W41.7 Fazenda                                      W417 
+452 461  W41.8 Outr locais espec                            W418 
+452 462  W41.9 Local NE                                     W419 
+    463  W42   Exposicao ao ruido                           W42 ,
+463 464  W42.0 Residencia                                   W420 
+463 465  W42.1 Habitacao coletiva                           W421 
+463 466  W42.2 Escolas outr instit areas admin publica      W422 
+463 467  W42.3 Area p/a pratica de esportes e atletismo     W423 
+463 468  W42.4 Rua e estrada                                W424 
+463 469  W42.5 Areas de comercio e de servicos              W425 
+463 470  W42.6 Areas industriais e em construcao            W426 
+463 471  W42.7 Fazenda                                      W427 
+463 472  W42.8 Outr locais espec                            W428 
+463 473  W42.9 Local NE                                     W429 
+    474  W43   Exposicao a vibracao                         W43 ,
+474 475  W43.0 Residencia                                   W430 
+474 476  W43.1 Habitacao coletiva                           W431 
+474 477  W43.2 Escolas outr instit areas admin publica      W432 
+474 478  W43.3 Area p/a pratica de esportes e atletismo     W433 
+474 479  W43.4 Rua e estrada                                W434 
+474 480  W43.5 Areas de comercio e de servicos              W435 
+474 481  W43.6 Areas industriais e em construcao            W436 
+474 482  W43.7 Fazenda                                      W437 
+474 483  W43.8 Outr locais espec                            W438 
+474 484  W43.9 Local NE                                     W439 
+    485  W44   Penetr corpo estranho olho orificio natural  W44 ,
+485 486  W44.0 Residencia                                   W440 
+485 487  W44.1 Habitacao coletiva                           W441 
+485 488  W44.2 Escolas outr instit areas admin publica      W442 
+485 489  W44.3 Area p/a pratica de esportes e atletismo     W443 
+485 490  W44.4 Rua e estrada                                W444 
+485 491  W44.5 Areas de comercio e de servicos              W445 
+485 492  W44.6 Areas industriais e em construcao            W446 
+485 493  W44.7 Fazenda                                      W447 
+485 494  W44.8 Outr locais espec                            W448 
+485 495  W44.9 Local NE                                     W449 
+    496  W45   Penetracao corpo objeto estranho pele        W45 ,
+496 497  W45.0 Residencia                                   W450 
+496 498  W45.1 Habitacao coletiva                           W451 
+496 499  W45.2 Escolas outr instit areas admin publica      W452 
+496 500  W45.3 Area p/a pratica de esportes e atletismo     W453 
+496 501  W45.4 Rua e estrada                                W454 
+496 502  W45.5 Areas de comercio e de servicos              W455 
+496 503  W45.6 Areas industriais e em construcao            W456 
+496 504  W45.7 Fazenda                                      W457 
+496 505  W45.8 Outr locais espec                            W458 
+496 506  W45.9 Local NE                                     W459 
+    507  W49   Exposicao outr forcas mecan inanimadas e NE  W49 ,
+507 508  W49.0 Residencia                                   W490 
+507 509  W49.1 Habitacao coletiva                           W491 
+507 510  W49.2 Escolas outr instit areas admin publica      W492 
+507 511  W49.3 Area p/a pratica de esportes e atletismo     W493 
+507 512  W49.4 Rua e estrada                                W494 
+507 513  W49.5 Areas de comercio e de servicos              W495 
+507 514  W49.6 Areas industriais e em construcao            W496 
+507 515  W49.7 Fazenda                                      W497 
+507 516  W49.8 Outr locais espec                            W498 
+507 517  W49.9 Local NE                                     W499 
+    518  W50   Golpe panc pontape mord escor infl outr pess W50 ,
+518 519  W50.0 Residencia                                   W500 
+518 520  W50.1 Habitacao coletiva                           W501 
+518 521  W50.2 Escolas outr instit areas admin publica      W502 
+518 522  W50.3 Area p/a pratica de esportes e atletismo     W503 
+518 523  W50.4 Rua e estrada                                W504 
+518 524  W50.5 Areas de comercio e de servicos              W505 
+518 525  W50.6 Areas industriais e em construcao            W506 
+518 526  W50.7 Fazenda                                      W507 
+518 527  W50.8 Outr locais espec                            W508 
+518 528  W50.9 Local NE                                     W509 
+    529  W51   Colis entre duas pessoas                     W51 ,
+529 530  W51.0 Residencia                                   W510 
+529 531  W51.1 Habitacao coletiva                           W511 
+529 532  W51.2 Escolas outr instit areas admin publica      W512 
+529 533  W51.3 Area p/a pratica de esportes e atletismo     W513 
+529 534  W51.4 Rua e estrada                                W514 
+529 535  W51.5 Areas de comercio e de servicos              W515 
+529 536  W51.6 Areas industriais e em construcao            W516 
+529 537  W51.7 Fazenda                                      W517 
+529 538  W51.8 Outr locais espec                            W518 
+529 539  W51.9 Local NE                                     W519 
+    540  W52   Esmag empurr pisot multidao deband massa     W52 ,
+540 541  W52.0 Residencia                                   W520 
+540 542  W52.1 Habitacao coletiva                           W521 
+540 543  W52.2 Escolas outr instit areas admin publica      W522 
+540 544  W52.3 Area p/a pratica de esportes e atletismo     W523 
+540 545  W52.4 Rua e estrada                                W524 
+540 546  W52.5 Areas de comercio e de servicos              W525 
+540 547  W52.6 Areas industriais e em construcao            W526 
+540 548  W52.7 Fazenda                                      W527 
+540 549  W52.8 Outr locais espec                            W528 
+540 550  W52.9 Local NE                                     W529 
+    551  W53   Mordedura de rato                            W53 ,
+551 552  W53.0 Residencia                                   W530 
+551 553  W53.1 Habitacao coletiva                           W531 
+551 554  W53.2 Escolas outr instit areas admin publica      W532 
+551 555  W53.3 Area p/a pratica de esportes e atletismo     W533 
+551 556  W53.4 Rua e estrada                                W534 
+551 557  W53.5 Areas de comercio e de servicos              W535 
+551 558  W53.6 Areas industriais e em construcao            W536 
+551 559  W53.7 Fazenda                                      W537 
+551 560  W53.8 Outr locais espec                            W538 
+551 561  W53.9 Local NE                                     W539 
+    562  W54   Mordedura ou golpe provocado p/cao           W54 ,
+562 563  W54.0 Residencia                                   W540 
+562 564  W54.1 Habitacao coletiva                           W541 
+562 565  W54.2 Escolas outr instit areas admin publica      W542 
+562 566  W54.3 Area p/a pratica de esportes e atletismo     W543 
+562 567  W54.4 Rua e estrada                                W544 
+562 568  W54.5 Areas de comercio e de servicos              W545 
+562 569  W54.6 Areas industriais e em construcao            W546 
+562 570  W54.7 Fazenda                                      W547 
+562 571  W54.8 Outr locais espec                            W548 
+562 572  W54.9 Local NE                                     W549 
+    573  W55   Mordedura golpe provoc outr animais mamif    W55 ,
+573 574  W55.0 Residencia                                   W550 
+573 575  W55.1 Habitacao coletiva                           W551 
+573 576  W55.2 Escolas outr instit areas admin publica      W552 
+573 577  W55.3 Area p/a pratica de esportes e atletismo     W553 
+573 578  W55.4 Rua e estrada                                W554 
+573 579  W55.5 Areas de comercio e de servicos              W555 
+573 580  W55.6 Areas industriais e em construcao            W556 
+573 581  W55.7 Fazenda                                      W557 
+573 582  W55.8 Outr locais espec                            W558 
+573 583  W55.9 Local NE                                     W559 
+    584  W56   Contato c/animais marinhos                   W56 ,
+584 585  W56.0 Residencia                                   W560 
+584 586  W56.1 Habitacao coletiva                           W561 
+584 587  W56.2 Escolas outr instit areas admin publica      W562 
+584 588  W56.3 Area p/a pratica de esportes e atletismo     W563 
+584 589  W56.4 Rua e estrada                                W564 
+584 590  W56.5 Areas de comercio e de servicos              W565 
+584 591  W56.6 Areas industriais e em construcao            W566 
+584 592  W56.7 Fazenda                                      W567 
+584 593  W56.8 Outr locais espec                            W568 
+584 594  W56.9 Local NE                                     W569 
+    595  W57   Morded picadas inseto outr artrop n-venen    W57 ,
+595 596  W57.0 Residencia                                   W570 
+595 597  W57.1 Habitacao coletiva                           W571 
+595 598  W57.2 Escolas outr instit areas admin publica      W572 
+595 599  W57.3 Area p/a pratica de esportes e atletismo     W573 
+595 600  W57.4 Rua e estrada                                W574 
+595 601  W57.5 Areas de comercio e de servicos              W575 
+595 602  W57.6 Areas industriais e em construcao            W576 
+595 603  W57.7 Fazenda                                      W577 
+595 604  W57.8 Outr locais espec                            W578 
+595 605  W57.9 Local NE                                     W579 
+    606  W58   Mordedura golpe provoc crocodilo ou aligator W58 ,
+606 607  W58.0 Residencia                                   W580 
+606 608  W58.1 Habitacao coletiva                           W581 
+606 609  W58.2 Escolas outr instit areas admin publica      W582 
+606 610  W58.3 Area p/a pratica de esportes e atletismo     W583 
+606 611  W58.4 Rua e estrada                                W584 
+606 612  W58.5 Areas de comercio e de servicos              W585 
+606 613  W58.6 Areas industriais e em construcao            W586 
+606 614  W58.7 Fazenda                                      W587 
+606 615  W58.8 Outr locais espec                            W588 
+606 616  W58.9 Local NE                                     W589 
+    617  W59   Mordedura ou esmag provocado p/outr repteis  W59 ,
+617 618  W59.0 Residencia                                   W590 
+617 619  W59.1 Habitacao coletiva                           W591 
+617 620  W59.2 Escolas outr instit areas admin publica      W592 
+617 621  W59.3 Area p/a pratica de esportes e atletismo     W593 
+617 622  W59.4 Rua e estrada                                W594 
+617 623  W59.5 Areas de comercio e de servicos              W595 
+617 624  W59.6 Areas industriais e em construcao            W596 
+617 625  W59.7 Fazenda                                      W597 
+617 626  W59.8 Outr locais espec                            W598 
+617 627  W59.9 Local NE                                     W599 
+    628  W60   Contato espinhos plantas ou folhas agucadas  W60 ,
+628 629  W60.0 Residencia                                   W600 
+628 630  W60.1 Habitacao coletiva                           W601 
+628 631  W60.2 Escolas outr instit areas admin publica      W602 
+628 632  W60.3 Area p/a pratica de esportes e atletismo     W603 
+628 633  W60.4 Rua e estrada                                W604 
+628 634  W60.5 Areas de comercio e de servicos              W605 
+628 635  W60.6 Areas industriais e em construcao            W606 
+628 636  W60.7 Fazenda                                      W607 
+628 637  W60.8 Outr locais espec                            W608 
+628 638  W60.9 Local NE                                     W609 
+    639  W64   Exposicao outr forcas mecan animadas e as NE W64 ,
+639 640  W64.0 Residencia                                   W640 
+639 641  W64.1 Habitacao coletiva                           W641 
+639 642  W64.2 Escolas outr instit areas admin publica      W642 
+639 643  W64.3 Area p/a pratica de esportes e atletismo     W643 
+639 644  W64.4 Rua e estrada                                W644 
+639 645  W64.5 Areas de comercio e de servicos              W645 
+639 646  W64.6 Areas industriais e em construcao            W646 
+639 647  W64.7 Fazenda                                      W647 
+639 648  W64.8 Outr locais espec                            W648 
+639 649  W64.9 Local NE                                     W649 
+    650  W65   Afogamento submersao durante banho banheira  W65 ,
+650 651  W65.0 Residencia                                   W650 
+650 652  W65.1 Habitacao coletiva                           W651 
+650 653  W65.2 Escolas outr instit areas admin publica      W652 
+650 654  W65.3 Area p/a pratica de esportes e atletismo     W653 
+650 655  W65.4 Rua e estrada                                W654 
+650 656  W65.5 Areas de comercio e de servicos              W655 
+650 657  W65.6 Areas industriais e em construcao            W656 
+650 658  W65.7 Fazenda                                      W657 
+650 659  W65.8 Outr locais espec                            W658 
+650 660  W65.9 Local NE                                     W659 
+    661  W66   Afogamento submersao consec queda banheira   W66 ,
+661 662  W66.0 Residencia                                   W660 
+661 663  W66.1 Habitacao coletiva                           W661 
+661 664  W66.2 Escolas outr instit areas admin publica      W662 
+661 665  W66.3 Area p/a pratica de esportes e atletismo     W663 
+661 666  W66.4 Rua e estrada                                W664 
+661 667  W66.5 Areas de comercio e de servicos              W665 
+661 668  W66.6 Areas industriais e em construcao            W666 
+661 669  W66.7 Fazenda                                      W667 
+661 670  W66.8 Outr locais espec                            W668 
+661 671  W66.9 Local NE                                     W669 
+    672  W67   Afogamento e submersao em piscina            W67 ,
+672 673  W67.0 Residencia                                   W670 
+672 674  W67.1 Habitacao coletiva                           W671 
+672 675  W67.2 Escolas outr instit areas admin publica      W672 
+672 676  W67.3 Area p/a pratica de esportes e atletismo     W673 
+672 677  W67.4 Rua e estrada                                W674 
+672 678  W67.5 Areas de comercio e de servicos              W675 
+672 679  W67.6 Areas industriais e em construcao            W676 
+672 680  W67.7 Fazenda                                      W677 
+672 681  W67.8 Outr locais espec                            W678 
+672 682  W67.9 Local NE                                     W679 
+    683  W68   Afogamento submersao conseq queda piscina    W68 ,
+683 684  W68.0 Residencia                                   W680 
+683 685  W68.1 Habitacao coletiva                           W681 
+683 686  W68.2 Escolas outr instit areas admin publica      W682 
+683 687  W68.3 Area p/a pratica de esportes e atletismo     W683 
+683 688  W68.4 Rua e estrada                                W684 
+683 689  W68.5 Areas de comercio e de servicos              W685 
+683 690  W68.6 Areas industriais e em construcao            W686 
+683 691  W68.7 Fazenda                                      W687 
+683 692  W68.8 Outr locais espec                            W688 
+683 693  W68.9 Local NE                                     W689 
+    694  W69   Afogamento e submersao em aguas naturais     W69 ,
+694 695  W69.0 Residencia                                   W690 
+694 696  W69.1 Habitacao coletiva                           W691 
+694 697  W69.2 Escolas outr instit areas admin publica      W692 
+694 698  W69.3 Area p/a pratica de esportes e atletismo     W693 
+694 699  W69.4 Rua e estrada                                W694 
+694 700  W69.5 Areas de comercio e de servicos              W695 
+694 701  W69.6 Areas industriais e em construcao            W696 
+694 702  W69.7 Fazenda                                      W697 
+694 703  W69.8 Outr locais espec                            W698 
+694 704  W69.9 Local NE                                     W699 
+    705  W70   Afogamento submersao conseq queda aguas nat  W70 ,
+705 706  W70.0 Residencia                                   W700 
+705 707  W70.1 Habitacao coletiva                           W701 
+705 708  W70.2 Escolas outr instit areas admin publica      W702 
+705 709  W70.3 Area p/a pratica de esportes e atletismo     W703 
+705 710  W70.4 Rua e estrada                                W704 
+705 711  W70.5 Areas de comercio e de servicos              W705 
+705 712  W70.6 Areas industriais e em construcao            W706 
+705 713  W70.7 Fazenda                                      W707 
+705 714  W70.8 Outr locais espec                            W708 
+705 715  W70.9 Local NE                                     W709 
+    716  W73   Outr afogamentos e submersao espec           W73 ,
+716 717  W73.0 Residencia                                   W730 
+716 718  W73.1 Habitacao coletiva                           W731 
+716 719  W73.2 Escolas outr instit areas admin publica      W732 
+716 720  W73.3 Area p/a pratica de esportes e atletismo     W733 
+716 721  W73.4 Rua e estrada                                W734 
+716 722  W73.5 Areas de comercio e de servicos              W735 
+716 723  W73.6 Areas industriais e em construcao            W736 
+716 724  W73.7 Fazenda                                      W737 
+716 725  W73.8 Outr locais espec                            W738 
+716 726  W73.9 Local NE                                     W739 
+    727  W74   Afogamento e submersao NE                    W74 ,
+727 728  W74.0 Residencia                                   W740 
+727 729  W74.1 Habitacao coletiva                           W741 
+727 730  W74.2 Escolas outr instit areas admin publica      W742 
+727 731  W74.3 Area p/a pratica de esportes e atletismo     W743 
+727 732  W74.4 Rua e estrada                                W744 
+727 733  W74.5 Areas de comercio e de servicos              W745 
+727 734  W74.6 Areas industriais e em construcao            W746 
+727 735  W74.7 Fazenda                                      W747 
+727 736  W74.8 Outr locais espec                            W748 
+727 737  W74.9 Local NE                                     W749 
+    738  W75   Sufocacao e estrangulamento acid na cama     W75 ,
+738 739  W75.0 Residencia                                   W750 
+738 740  W75.1 Habitacao coletiva                           W751 
+738 741  W75.2 Escolas outr instit areas admin publica      W752 
+738 742  W75.3 Area p/a pratica de esportes e atletismo     W753 
+738 743  W75.4 Rua e estrada                                W754 
+738 744  W75.5 Areas de comercio e de servicos              W755 
+738 745  W75.6 Areas industriais e em construcao            W756 
+738 746  W75.7 Fazenda                                      W757 
+738 747  W75.8 Outr locais espec                            W758 
+738 748  W75.9 Local NE                                     W759 
+    749  W76   Outr enforcamento e estrangulamento acid     W76 ,
+749 750  W76.0 Residencia                                   W760 
+749 751  W76.1 Habitacao coletiva                           W761 
+749 752  W76.2 Escolas outr instit areas admin publica      W762 
+749 753  W76.3 Area p/a pratica de esportes e atletismo     W763 
+749 754  W76.4 Rua e estrada                                W764 
+749 755  W76.5 Areas de comercio e de servicos              W765 
+749 756  W76.6 Areas industriais e em construcao            W766 
+749 757  W76.7 Fazenda                                      W767 
+749 758  W76.8 Outr locais espec                            W768 
+749 759  W76.9 Local NE                                     W769 
+    760  W77   Risco resp dev desmor queda terra outr subst W77 ,
+760 761  W77.0 Residencia                                   W770 
+760 762  W77.1 Habitacao coletiva                           W771 
+760 763  W77.2 Escolas outr instit areas admin publica      W772 
+760 764  W77.3 Area p/a pratica de esportes e atletismo     W773 
+760 765  W77.4 Rua e estrada                                W774 
+760 766  W77.5 Areas de comercio e de servicos              W775 
+760 767  W77.6 Areas industriais e em construcao            W776 
+760 768  W77.7 Fazenda                                      W777 
+760 769  W77.8 Outr locais espec                            W778 
+760 770  W77.9 Local NE                                     W779 
+    771  W78   Inalacao do conteudo gastrico                W78 ,
+771 772  W78.0 Residencia                                   W780 
+771 773  W78.1 Habitacao coletiva                           W781 
+771 774  W78.2 Escolas outr instit areas admin publica      W782 
+771 775  W78.3 Area p/a pratica de esportes e atletismo     W783 
+771 776  W78.4 Rua e estrada                                W784 
+771 777  W78.5 Areas de comercio e de servicos              W785 
+771 778  W78.6 Areas industriais e em construcao            W786 
+771 779  W78.7 Fazenda                                      W787 
+771 780  W78.8 Outr locais espec                            W788 
+771 781  W78.9 Local NE                                     W789 
+    782  W79   Inalacao ingest aliment caus obstr trat resp W79 ,
+782 783  W79.0 Residencia                                   W790 
+782 784  W79.1 Habitacao coletiva                           W791 
+782 785  W79.2 Escolas outr instit areas admin publica      W792 
+782 786  W79.3 Area p/a pratica de esportes e atletismo     W793 
+782 787  W79.4 Rua e estrada                                W794 
+782 788  W79.5 Areas de comercio e de servicos              W795 
+782 789  W79.6 Areas industriais e em construcao            W796 
+782 790  W79.7 Fazenda                                      W797 
+782 791  W79.8 Outr locais espec                            W798 
+782 792  W79.9 Local NE                                     W799 
+    793  W80   Inalac ingest outr obj caus obstr trat resp  W80 ,
+793 794  W80.0 Residencia                                   W800 
+793 795  W80.1 Habitacao coletiva                           W801 
+793 796  W80.2 Escolas outr instit areas admin publica      W802 
+793 797  W80.3 Area p/a pratica de esportes e atletismo     W803 
+793 798  W80.4 Rua e estrada                                W804 
+793 799  W80.5 Areas de comercio e de servicos              W805 
+793 800  W80.6 Areas industriais e em construcao            W806 
+793 801  W80.7 Fazenda                                      W807 
+793 802  W80.8 Outr locais espec                            W808 
+793 803  W80.9 Local NE                                     W809 
+    804  W81   Confinado aprision ambiente pobre oxigenio   W81 ,
+804 805  W81.0 Residencia                                   W810 
+804 806  W81.1 Habitacao coletiva                           W811 
+804 807  W81.2 Escolas outr instit areas admin publica      W812 
+804 808  W81.3 Area p/a pratica de esportes e atletismo     W813 
+804 809  W81.4 Rua e estrada                                W814 
+804 810  W81.5 Areas de comercio e de servicos              W815 
+804 811  W81.6 Areas industriais e em construcao            W816 
+804 812  W81.7 Fazenda                                      W817 
+804 813  W81.8 Outr locais espec                            W818 
+804 814  W81.9 Local NE                                     W819 
+    815  W83   Outr riscos espec a respiracao               W83 ,
+815 816  W83.0 Residencia                                   W830 
+815 817  W83.1 Habitacao coletiva                           W831 
+815 818  W83.2 Escolas outr instit areas admin publica      W832 
+815 819  W83.3 Area p/a pratica de esportes e atletismo     W833 
+815 820  W83.4 Rua e estrada                                W834 
+815 821  W83.5 Areas de comercio e de servicos              W835 
+815 822  W83.6 Areas industriais e em construcao            W836 
+815 823  W83.7 Fazenda                                      W837 
+815 824  W83.8 Outr locais espec                            W838 
+815 825  W83.9 Local NE                                     W839 
+    826  W84   Riscos NE a respiracao                       W84 ,
+826 827  W84.0 Residencia                                   W840 
+826 828  W84.1 Habitacao coletiva                           W841 
+826 829  W84.2 Escolas outr instit areas admin publica      W842 
+826 830  W84.3 Area p/a pratica de esportes e atletismo     W843 
+826 831  W84.4 Rua e estrada                                W844 
+826 832  W84.5 Areas de comercio e de servicos              W845 
+826 833  W84.6 Areas industriais e em construcao            W846 
+826 834  W84.7 Fazenda                                      W847 
+826 835  W84.8 Outr locais espec                            W848 
+826 836  W84.9 Local NE                                     W849 
+    837  W85   Exposicao linhas transm de corrente eletrica W85 ,
+837 838  W85.0 Residencia                                   W850 
+837 839  W85.1 Habitacao coletiva                           W851 
+837 840  W85.2 Escolas outr instit areas admin publica      W852 
+837 841  W85.3 Area p/a pratica de esportes e atletismo     W853 
+837 842  W85.4 Rua e estrada                                W854 
+837 843  W85.5 Areas de comercio e de servicos              W855 
+837 844  W85.6 Areas industriais e em construcao            W856 
+837 845  W85.7 Fazenda                                      W857 
+837 846  W85.8 Outr locais espec                            W858 
+837 847  W85.9 Local NE                                     W859 
+    848  W86   Exposicao a outr corrente eletrica espec     W86 ,
+848 849  W86.0 Residencia                                   W860 
+848 850  W86.1 Habitacao coletiva                           W861 
+848 851  W86.2 Escolas outr instit areas admin publica      W862 
+848 852  W86.3 Area p/a pratica de esportes e atletismo     W863 
+848 853  W86.4 Rua e estrada                                W864 
+848 854  W86.5 Areas de comercio e de servicos              W865 
+848 855  W86.6 Areas industriais e em construcao            W866 
+848 856  W86.7 Fazenda                                      W867 
+848 857  W86.8 Outr locais espec                            W868 
+848 858  W86.9 Local NE                                     W869 
+    859  W87   Exposicao a corrente eletrica NE             W87 ,
+859 860  W87.0 Residencia                                   W870 
+859 861  W87.1 Habitacao coletiva                           W871 
+859 862  W87.2 Escolas outr instit areas admin publica      W872 
+859 863  W87.3 Area p/a pratica de esportes e atletismo     W873 
+859 864  W87.4 Rua e estrada                                W874 
+859 865  W87.5 Areas de comercio e de servicos              W875 
+859 866  W87.6 Areas industriais e em construcao            W876 
+859 867  W87.7 Fazenda                                      W877 
+859 868  W87.8 Outr locais espec                            W878 
+859 869  W87.9 Local NE                                     W879 
+    870  W88   Exposicao a radiacao ionizante               W88 ,
+870 871  W88.0 Residencia                                   W880 
+870 872  W88.1 Habitacao coletiva                           W881 
+870 873  W88.2 Escolas outr instit areas admin publica      W882 
+870 874  W88.3 Area p/a pratica de esportes e atletismo     W883 
+870 875  W88.4 Rua e estrada                                W884 
+870 876  W88.5 Areas de comercio e de servicos              W885 
+870 877  W88.6 Areas industriais e em construcao            W886 
+870 878  W88.7 Fazenda                                      W887 
+870 879  W88.8 Outr locais espec                            W888 
+870 880  W88.9 Local NE                                     W889 
+    881  W89   Expos fontes lumin artif visiv luz ultraviol W89 ,
+881 882  W89.0 Residencia                                   W890 
+881 883  W89.1 Habitacao coletiva                           W891 
+881 884  W89.2 Escolas outr instit areas admin publica      W892 
+881 885  W89.3 Area p/a pratica de esportes e atletismo     W893 
+881 886  W89.4 Rua e estrada                                W894 
+881 887  W89.5 Areas de comercio e de servicos              W895 
+881 888  W89.6 Areas industriais e em construcao            W896 
+881 889  W89.7 Fazenda                                      W897 
+881 890  W89.8 Outr locais espec                            W898 
+881 891  W89.9 Local NE                                     W899 
+    892  W90   Exposicao outr tipos radiacao nao-ionizante  W90 ,
+892 893  W90.0 Residencia                                   W900 
+892 894  W90.1 Habitacao coletiva                           W901 
+892 895  W90.2 Escolas outr instit areas admin publica      W902 
+892 896  W90.3 Area p/a pratica de esportes e atletismo     W903 
+892 897  W90.4 Rua e estrada                                W904 
+892 898  W90.5 Areas de comercio e de servicos              W905 
+892 899  W90.6 Areas industriais e em construcao            W906 
+892 900  W90.7 Fazenda                                      W907 
+892 901  W90.8 Outr locais espec                            W908 
+892 902  W90.9 Local NE                                     W909 
+    903  W91   Exposicao a tipo NE de radiacao              W91 ,
+903 904  W91.0 Residencia                                   W910 
+903 905  W91.1 Habitacao coletiva                           W911 
+903 906  W91.2 Escolas outr instit areas admin publica      W912 
+903 907  W91.3 Area p/a pratica de esportes e atletismo     W913 
+903 908  W91.4 Rua e estrada                                W914 
+903 909  W91.5 Areas de comercio e de servicos              W915 
+903 910  W91.6 Areas industriais e em construcao            W916 
+903 911  W91.7 Fazenda                                      W917 
+903 912  W91.8 Outr locais espec                            W918 
+903 913  W91.9 Local NE                                     W919 
+    914  W92   Exposicao calor excessivo orig artificial    W92 ,
+914 915  W92.0 Residencia                                   W920 
+914 916  W92.1 Habitacao coletiva                           W921 
+914 917  W92.2 Escolas outr instit areas admin publica      W922 
+914 918  W92.3 Area p/a pratica de esportes e atletismo     W923 
+914 919  W92.4 Rua e estrada                                W924 
+914 920  W92.5 Areas de comercio e de servicos              W925 
+914 921  W92.6 Areas industriais e em construcao            W926 
+914 922  W92.7 Fazenda                                      W927 
+914 923  W92.8 Outr locais espec                            W928 
+914 924  W92.9 Local NE                                     W929 
+    925  W93   Exposicao frio excessivo orig artificial     W93 ,
+925 926  W93.0 Residencia                                   W930 
+925 927  W93.1 Habitacao coletiva                           W931 
+925 928  W93.2 Escolas outr instit areas admin publica      W932 
+925 929  W93.3 Area p/a pratica de esportes e atletismo     W933 
+925 930  W93.4 Rua e estrada                                W934 
+925 931  W93.5 Areas de comercio e de servicos              W935 
+925 932  W93.6 Areas industriais e em construcao            W936 
+925 933  W93.7 Fazenda                                      W937 
+925 934  W93.8 Outr locais espec                            W938 
+925 935  W93.9 Local NE                                     W939 
+    936  W94   Expos alta baixa variacoes pressao atmosf    W94 ,
+936 937  W94.0 Residencia                                   W940 
+936 938  W94.1 Habitacao coletiva                           W941 
+936 939  W94.2 Escolas outr instit areas admin publica      W942 
+936 940  W94.3 Area p/a pratica de esportes e atletismo     W943 
+936 941  W94.4 Rua e estrada                                W944 
+936 942  W94.5 Areas de comercio e de servicos              W945 
+936 943  W94.6 Areas industriais e em construcao            W946 
+936 944  W94.7 Fazenda                                      W947 
+936 945  W94.8 Outr locais espec                            W948 
+936 946  W94.9 Local NE                                     W949 
+    947  W99   Exposicao outr fatores ambient artif e NE    W99 ,
+947 948  W99.0 Residencia                                   W990 
+947 949  W99.1 Habitacao coletiva                           W991 
+947 950  W99.2 Escolas outr instit areas admin publica      W992 
+947 951  W99.3 Area p/a pratica de esportes e atletismo     W993 
+947 952  W99.4 Rua e estrada                                W994 
+947 953  W99.5 Areas de comercio e de servicos              W995 
+947 954  W99.6 Areas industriais e em construcao            W996 
+947 955  W99.7 Fazenda                                      W997 
+947 956  W99.8 Outr locais espec                            W998 
+947 957  W99.9 Local NE                                     W999 
+

@@ -1,0 +1,31 @@
+30  4   L
+      1  A41    Septicemia                                  A400-A419
+      2  A54.2  Pelviperitonite                             A542
+      3  D65    Coagulação intravascular disseminada        D65 ,
+      4  G40    Epilepsia                                   G400-G409
+      5  I10    Hipertensao arterial sistemica              I10 ,
+      6  I21    Infarto agudo do miocardio                  I210-I219
+      7  I26.9  Embolia pulmonar                            I269
+      8  I42.9  Miocardiopatia                              I429
+      9  I46.9  Parada Cardiaca                             I469
+     10  I50.0  Insuficiencia cardiaca congestiva           I500
+     11  I50.9  Falencia miocardica                         I509
+     12  I64    Acidente vascular cerebral                  I64 ,
+     13  G93.2  Hipertensao intracraniana aguda             G932
+     14  I74    Tromboembolismo                             I740-I749
+     15  J10-J11 Influenza                                  J100-J119
+     16  J12-J18 Pneumonias                                 J120-J129,J13 ,J14 ,J150-J159,J160-J169,J180-J189
+     17  J81    Edema agudo de Pulmao                       J81 ,
+     18  K65    Peritonite                                  K650-K659
+     19  K72.0  Insuficiência hepática aguda                K720
+     20  N17.9  Insuficiencia renal aguda                   N170-N179
+     21  N71    Endometrite                                 N710-N719
+     22  N73.3-0Pelviperitonite                             N733-N739
+     23  R56.8  Crise convulsiva                            R568
+     24  R57.1  Choque hipovolemico                         R571
+     25  R57.8  Choque endotoxico                           R578
+     26  R58    Hemorragia                                  R58 ,
+     27  R98    Morte sem assistencia                       R98 ,
+     28  R99    Causa desconhecida                          R99 ,
+     29  Y57.9  Choque anafilatico                          Y579
+     30  Y48    Choque anestesico                           Y480-Y489

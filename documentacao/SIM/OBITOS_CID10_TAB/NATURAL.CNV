@@ -1,0 +1,67 @@
+066 3
+   0066  Ignorado                                           000-999
+   0001  Brasil                                             001
+   0002  Argentina                                          011
+   0003  Bolívia                                            012
+   0004  Paraguai                                           013
+   0005  Uruguai                                            014
+   0006  América do Sul (outros)                            010
+   0007  América Central                                    020
+   0008  Caribe                                             030
+   0009  Estados Unidos                                     041
+   0010  América do Norte (outros)                          040
+   0011  Ilhas britânicas                                   050
+   0012  Europa nórdica                                     060
+   0013  Alemanha Oc                                        071
+   0014  Alemanha Or                                        072
+   0015  Áustria                                            073
+   0016  Espanha                                            074
+   0017  França                                             075
+   0018  Itália                                             076
+   0019  Portugal                                           077
+   0020  Suíça                                              078
+   0021  Europa ocidental (outros)                          070
+   0022  Hungria                                            081
+   0023  Iugoslávia                                         082
+   0024  Polônia                                            083
+   0025  Europa oriental (outros)                           080
+   0026  África setentrional                                090
+   0027  África central                                     100
+   0028  África meridional                                  110
+   0029  Líbano                                             121
+   0030  Síria                                              122
+   0031  Ásia ocidental (outros)                            120
+   0032  Ásia central                                       130
+   0033  Ásia meridional                                    140
+   0034  China                                              151
+   0035  Japão                                              152
+   0036  Ásia oriental (outros)                             150
+   0037  Oceania                                            160
+   0038  Ex-URSS                                            170
+   0039  Rondônia                                           811
+   0040  Acre                                               812
+   0041  Amazonas                                           813
+   0042  Roraima                                            814
+   0043  Pará                                               815
+   0044  Amapá                                              816
+   0045  Tocantins                                          817
+   0046  Maranhão                                           821
+   0047  Piauí                                              822
+   0048  Ceará                                              823
+   0049  Rio Grande do Norte                                824
+   0050  Paraíba                                            825
+   0051  Pernambuco                                         826
+   0052  Alagoas                                            827
+   0053  Sergipe                                            828
+   0054  Bahia                                              829
+   0055  Minas Gerais                                       831
+   0056  Espírito Santo                                     832
+   0057  Rio de Janeiro                                     833
+   0058  São Paulo                                          835
+   0059  Paraná                                             841
+   0060  Santa Catarina                                     842
+   0061  Rio Grande do Sul                                  843
+   0062  Mato Grosso do Sul                                 850
+   0063  Mato Grosso                                        851
+   0064  Goiás                                              852
+   0065  Distrito Federal                                   853

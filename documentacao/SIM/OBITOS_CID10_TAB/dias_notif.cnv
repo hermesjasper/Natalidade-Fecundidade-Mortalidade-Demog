@@ -1,0 +1,6 @@
+5 3
+      1  Até 30 dias (notif oportuna)                       000-030
+      2  31 a 60 dias                                       031-060
+      3  61-90 dias                                         061-090
+      4  Acima de 90 dias                                   091-999
+      5  Não investigado                                       ,

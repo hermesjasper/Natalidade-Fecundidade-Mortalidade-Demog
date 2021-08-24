@@ -1,0 +1,2038 @@
+2037  3  L                                                     
+      1  A00   Colera                                       A00  
+      2  A01   Febres tifoide e paratifoide                 A01  
+      3  A02   Outr infecc p/Salmonella                     A02  
+      4  A03   Shiguelose                                   A03  
+      5  A04   Outr infecc intestinais bacter               A04  
+      6  A05   Outr intox alimentares bacter                A05  
+      7  A06   Amebiase                                     A06  
+      8  A07   Outr doenc intestinais p/protozoarios        A07  
+      9  A08   Infecc intestinais virais outr e as NE       A08  
+     10  A09   Diarreia e gastroenterite orig infecc presum A09  
+     11  A15   Tuberc respirat c/conf bacteriol e histolog  A15  
+     12  A16   Tuberc vias respirat s/conf bacter histol    A16  
+     13  A17   Tuberc do sist nervoso                       A17  
+     14  A18   Tuberc de outr orgaos                        A18  
+     15  A19   Tuberc miliar                                A19  
+     16  A20   Peste                                        A20  
+     17  A21   Tularemia                                    A21  
+     18  A22   Carbunculo                                   A22  
+     19  A23   Brucelose                                    A23  
+     20  A24   Mormo e melioidose                           A24  
+     21  A25   Febres transm p/mordedura de rato            A25  
+     22  A26   Erisipeloide                                 A26  
+     23  A27   Leptospirose                                 A27  
+     24  A28   Outr doenc bacter zoonoticas NCOP            A28  
+     25  A30   Hanseniase                                   A30  
+     26  A31   Infecc dev outr micobacterias                A31  
+     27  A32   Listeriose                                   A32  
+     28  A33   Tetano do recem-nascido                      A33  
+     29  A34   Tetano obstetrico                            A34  
+     30  A35   Outr tipos de tetano                         A35  
+     31  A36   Difteria                                     A36  
+     32  A37   Coqueluche                                   A37  
+     33  A38   Escarlatina                                  A38  
+     34  A39   Infecc meningogocica                         A39  
+     35  A40   Septicemia estreptococica                    A40  
+     36  A41   Outr septicemias                             A41  
+     37  A42   Actinomicose                                 A42  
+     38  A43   Nocardiose                                   A43  
+     39  A44   Bartonelose                                  A44  
+     40  A46   Erisipela                                    A46  
+     41  A48   Outr doenc bacter NCOP                       A48  
+     42  A49   Infecc bacter de local NE                    A49  
+     43  A50   Sifilis congen                               A50  
+     44  A51   Sifilis precoce                              A51  
+     45  A52   Sifilis tard                                 A52  
+     46  A53   Outr form e as NE da sifilis                 A53  
+     47  A54   Infecc gonococica                            A54  
+     48  A55   Linfogranuloma p/clamidia                    A55  
+     49  A56   Outr infecc p/clamidias transm p/via sexual  A56  
+     50  A57   Cancro mole                                  A57  
+     51  A58   Granuloma inguinal                           A58  
+     52  A59   Tricomoniase                                 A59  
+     53  A60   Infecc anogenitais p/virus do herpes         A60  
+     54  A63   Outr doenc de transm predom sexual NCOP      A63  
+     55  A64   Doenc sexualmente transm NE                  A64  
+     56  A65   Sifilis nao-venerea                          A65  
+     57  A66   Bouba                                        A66  
+     58  A67   Pinta                                        A67  
+     59  A68   Febres recorrentes                           A68  
+     60  A69   Outr infecc p/espiroquetas                   A69  
+     61  A70   Infecc causadas p/Clamidia psittaci          A70  
+     62  A71   Tracoma                                      A71  
+     63  A74   Outr doenc causadas p/Clamidias              A74  
+     64  A75   Tifo exantematico                            A75  
+     65  A77   Febre maculosa                               A77  
+     66  A78   Febre Q                                      A78  
+     67  A79   Outr rickettsioses                           A79  
+     68  A80   Poliomielite aguda                           A80  
+     69  A81   Infecc p/virus atipico sist nervoso central  A81  
+     70  A82   Raiva                                        A82  
+     71  A83   Encefalite p/virus transm p/mosquitos        A83  
+     72  A84   Encefalite p/virus transm p/carrapatos       A84  
+     73  A85   Outr encefalites virais NCOP                 A85  
+     74  A86   Encefalite viral NE                          A86  
+     75  A87   Meningite viral                              A87  
+     76  A88   Outr infecc virais sist nervoso central NCOP A88  
+     77  A89   Infecc virais NE do sist nervoso central     A89  
+     78  A90   Dengue                                       A90  
+     79  A91   Febre hemorragica dev virus do dengue        A91  
+     80  A92   Outr febres virais transm p/mosquitos        A92  
+     81  A93   Outr febres p/virus transm p/artropodes NCOP A93  
+     82  A94   Febre viral transm p/artropodes NE           A94  
+     83  A95   Febre amarela                                A95  
+     84  A96   Febre hemorragica p/arenavirus               A96  
+     85  A98   Outr febres hemorragicas p/virus NCOP        A98  
+     86  A99   Febres hemorragicas virais NE                A99  
+     87  B00   Infecc p/virus do herpes                     B00  
+     88  B01   Varicela                                     B01  
+     89  B02   Herpes zoster                                B02  
+     90  B03   Variola                                      B03  
+     91  B04   Variola dos macacos                          B04  
+     92  B05   Sarampo                                      B05  
+     93  B06   Rubeola                                      B06  
+     94  B07   Verrugas orig viral                          B07  
+     95  B08   Outr inf virais lesoes pele membr muc NCOP   B08  
+     96  B09   Inf viral NE caract p/lesoes pele membr muco B09  
+     97  B15   Hepatite aguda A                             B15  
+     98  B16   Hepatite aguda B                             B16  
+     99  B17   Outr hepatites virais agudas                 B17  
+    100  B18   Hepatite viral cronica                       B18  
+    101  B19   Hepatite viral NE                            B19  
+    102  B20   Doenc p/HIV result doenc infecc e parasit    B20  
+    103  B21   Doenc p/HIV result em neopl malig            B21  
+    104  B22   Doenc p/HIV result em outr doenc espec       B22  
+    105  B23   Doenc p/HIV result em outr doenc             B23  
+    106  B24   Doenc p/HIV NE                               B24  
+    107  B25   Doenc p/citomegalovirus                      B25  
+    108  B26   Caxumba                                      B26  
+    109  B27   Mononucleose infecc                          B27  
+    110  B30   Conjuntivite viral                           B30  
+    111  B33   Outr doenc p/virus NCOP                      B33  
+    112  B34   Doenc p/virus de localiz NE                  B34  
+    113  B35   Dermatofitose                                B35  
+    114  B36   Outr micoses superf                          B36  
+    115  B37   Candidiase                                   B37  
+    116  B38   Coccidioidomicose                            B38  
+    117  B39   Histoplasmose                                B39  
+    118  B40   Blastomicose                                 B40  
+    119  B41   Paracoccidioidomicose                        B41  
+    120  B42   Esporotricose                                B42  
+    121  B43   Cromomicose e abscesso feomicotico           B43  
+    122  B44   Aspergilose                                  B44  
+    123  B45   Criptococose                                 B45  
+    124  B46   Zigomicose                                   B46  
+    125  B47   Micetoma                                     B47  
+    126  B48   Outr micoses NCOP                            B48  
+    127  B49   Micose NE                                    B49  
+    128  B50   Malaria p/Plasmodium falciparum              B50  
+    129  B51   Malaria p/Plasmodium vivax                   B51  
+    130  B52   Malaria p/Plasmodium malariae                B52  
+    131  B53   Outr form malaria conf p/exames parasitolog  B53  
+    132  B54   Malaria NE                                   B54  
+    133  B55   Leishmaniose                                 B55  
+    134  B56   Tripanossomiase africana                     B56  
+    135  B57   Doenc de Chagas                              B57  
+    136  B58   Toxoplasmose                                 B58  
+    137  B59   Pneumocistose                                B59  
+    138  B60   Outr doenc dev protozoarios NCOP             B60  
+    139  B64   Doenc NE dev protozoarios                    B64  
+    140  B65   Esquistossomose                              B65  
+    141  B66   Outr infestacoes p/trematodeos               B66  
+    142  B67   Equinococose                                 B67  
+    143  B68   Infestacao p/Taenia                          B68  
+    144  B69   Cisticercose                                 B69  
+    145  B70   Difilobotriase e esparganose                 B70  
+    146  B71   Outr infestacoes p/cestoides                 B71  
+    147  B72   Dracontiase                                  B72  
+    148  B73   Oncocercose                                  B73  
+    149  B74   Filariose                                    B74  
+    150  B75   Triquinose                                   B75  
+    151  B76   Ancilostomiase                               B76  
+    152  B77   Ascaridiase                                  B77  
+    153  B78   Estrongiloidiase                             B78  
+    154  B79   Tricuriase                                   B79  
+    155  B80   Oxiuriase                                    B80  
+    156  B81   Outr helmintiases intestinais NCOP           B81  
+    157  B82   Parasitose intestinal NE                     B82  
+    158  B83   Outr helmintiases                            B83  
+    159  B85   Pediculose e ftiriase                        B85  
+    160  B86   Escabiose                                    B86  
+    161  B87   Miiase                                       B87  
+    162  B88   Outr infestacoes                             B88  
+    163  B89   Doenc parasit NE                             B89  
+    164  B90   Sequelas de tuberc                           B90  
+    165  B91   Sequelas de poliomielite                     B91  
+    166  B92   Sequelas de hanseniase                       B92  
+    167  B94   Sequelas de outr doenc infecc e parasit e NE B94  
+    168  B95   Estr/estafilococo causa doenc class outr cap B95  
+    169  B96   Outr agent bacter causa doenc class outr cap B96  
+    170  B97   Virus como doenc class outr cap              B97  
+    171  B99   Doenc infecc outr e as NE                    B99  
+    172  C00   Neopl malig do labio                         C00  
+    173  C01   Neopl malig da base da lingua                C01  
+    174  C02   Neopl malig outr partes e NE da lingua       C02  
+    175  C03   Neopl malig da gengiva                       C03  
+    176  C04   Neopl malig do assoalho da boca              C04  
+    177  C05   Neopl malig do palato                        C05  
+    178  C06   Neopl malig outr partes e partes NE da boca  C06  
+    179  C07   Neopl malig da gland parotida                C07  
+    180  C08   Neopl malig outr gland saliv maiores e NE    C08  
+    181  C09   Neopl malig da amigdala                      C09  
+    182  C10   Neopl malig da orofaringe                    C10  
+    183  C11   Neopl malig da nasofaringe                   C11  
+    184  C12   Neopl malig do seio piriforme                C12  
+    185  C13   Neopl malig da hipofaringe                   C13  
+    186  C14   Neop mal out loc mal def labio cav oral far  C14  
+    187  C15   Neopl malig do esofago                       C15  
+    188  C16   Neopl malig do estomago                      C16  
+    189  C17   Neopl malig do intestino delgado             C17  
+    190  C18   Neopl malig do colon                         C18  
+    191  C19   Neopl malig da juncao retossigmoide          C19  
+    192  C20   Neopl malig do reto                          C20  
+    193  C21   Neopl malig do anus e do canal anal          C21  
+    194  C22   Neopl malig figado vias biliares intra-hepat C22  
+    195  C23   Neopl malig da vesicula biliar               C23  
+    196  C24   Neopl malig outr partes e NE vias biliares   C24  
+    197  C25   Neopl malig do pancreas                      C25  
+    198  C26   Neopl malig outr mal def aparelho digestivo  C26  
+    199  C30   Neopl malig cavidade nasal e do ouvido medio C30  
+    200  C31   Neopl malig dos seios da face                C31  
+    201  C32   Neopl malig da laringe                       C32  
+    202  C33   Neopl malig da traqueia                      C33  
+    203  C34   Neopl malig dos bronquios e dos pulmoes      C34  
+    204  C37   Neopl malig do timo                          C37  
+    205  C38   Neopl malig do coracao mediastino e pleura   C38  
+    206  C39   Neop mal out loc mal def ap resp org intrat  C39  
+    207  C40   Neopl malig ossos/cartilag artic membros     C40  
+    208  C41   Neopl malig ossos/cartil artic outr loc e NE C41  
+    209  C43   Melanoma malig da pele                       C43  
+    210  C44   Outr neopl malig da pele                     C44  
+    211  C45   Mesotelioma                                  C45  
+    212  C46   Sarcoma de Kaposi                            C46  
+    213  C47   Neopl malig nervos perif e sist nerv autonom C47  
+    214  C48   Neopl malig tec moles retro- e peritonio     C48  
+    215  C49   Neopl malig tec conjuntivo e outr tec moles  C49  
+    216  C50   Neopl malig da mama                          C50  
+    217  C51   Neopl malig da vulva                         C51  
+    218  C52   Neopl malig da vagina                        C52  
+    219  C53   Neopl malig do colo do utero                 C53  
+    220  C54   Neopl malig do corpo do utero                C54  
+    221  C55   Neopl malig do utero porcao NE               C55  
+    222  C56   Neopl malig do ovario                        C56  
+    223  C57   Neopl malig outr org genitais femin e NE     C57  
+    224  C58   Neopl malig da placenta                      C58  
+    225  C60   Neopl malig do penis                         C60  
+    226  C61   Neopl malig da prostata                      C61  
+    227  C62   Neopl malig dos testiculos                   C62  
+    228  C63   Neopl malig outr org genit masc e NE         C63  
+    229  C64   Neopl malig do rim exceto pelve renal        C64  
+    230  C65   Neopl malig da pelve renal                   C65  
+    231  C66   Neopl malig dos ureteres                     C66  
+    232  C67   Neopl malig da bexiga                        C67  
+    233  C68   Neopl malig de outr orgaos urinarios e NE    C68  
+    234  C69   Neopl malig do olho e anexos                 C69  
+    235  C70   Neopl malig das meninges                     C70  
+    236  C71   Neopl malig do encefalo                      C71  
+    237  C72   Neop mal med esp nerv cran out sist nerv cen C72  
+    238  C73   Neopl malig da gland tireoide                C73  
+    239  C74   Neopl malig da gland supra-renal             C74  
+    240  C75   Neopl malig outr gland endocrinas estr relac C75  
+    241  C76   Neopl malig outr localiz e mal definidas     C76  
+    242  C77   Neopl malig secund e NE gangl linfaticos     C77  
+    243  C78   Neopl malig secund org respirat e digestivos C78  
+    244  C79   Neopl malig secund de outr localiz           C79  
+    245  C80   Neopl malig s/especificacao de localiz       C80  
+    246  C81   Doenc de Hodgkin                             C81  
+    247  C82   Linfoma nao-Hodgkin folicular                C82  
+    248  C83   Linfoma nao-Hodgkin difuso                   C83  
+    249  C84   Linfomas de celulas T cutaneas e perifericas C84  
+    250  C85   Linfoma nao-Hodgkin de outr tipos e tipo NE  C85  
+    251  C88   Doenc imunoproliferativas malignas           C88  
+    252  C90   Mieloma mult e neopl malig de plasmocitos    C90  
+    253  C91   Leucemia linfoide                            C91  
+    254  C92   Leucemia mieloide                            C92  
+    255  C93   Leucemia monocitica                          C93  
+    256  C94   Outr leucemias de celulas de tipo espec      C94  
+    257  C95   Leucemia de tipo celular NE                  C95  
+    258  C96   Outr neopl mal e NE tec linf hematop e corr  C96  
+    259  C97   Neopl malig de localiz mult independentes    C97  
+    260  D00   Carcinoma in situ cav oral esofago estomago  D00  
+    261  D01   Carcinoma in situ de outr orgaos digestivos  D01  
+    262  D02   Carcinoma in situ ouvido medio e ap respirat D02  
+    263  D03   Melanoma in situ                             D03  
+    264  D04   Carcinoma in situ da pele                    D04  
+    265  D05   Carcinoma in situ da mama                    D05  
+    266  D06   Carcinoma in situ do colo do utero           D06  
+    267  D07   Carcinoma in situ outr orgaos genitais e NE  D07  
+    268  D09   Carcinoma in situ de outr localiz e das NE   D09  
+    269  D10   Neopl benig da boca e da faringe             D10  
+    270  D11   Neopl benig de gland salivares maiores       D11  
+    271  D12   Neopl benig do colon reto canal anal e anus  D12  
+    272  D13   Neopl benig outr part e mal def ap digestivo D13  
+    273  D14   Neopl benig ouvido medio e aparelho respirat D14  
+    274  D15   Neopl benig outr orgaos intratoracicos e NE  D15  
+    275  D16   Neopl benig de osso e cartilagem articular   D16  
+    276  D17   Neopl lipomatosa benig                       D17  
+    277  D18   Hemangioma e linfangioma de qualquer localiz D18  
+    278  D19   Neopl benig de tec mesotelial                D19  
+    279  D20   Neopl benig tec mole retro- e peritonio      D20  
+    280  D21   Outr neopl benig tec conj e outr tec moles   D21  
+    281  D22   Nevos melanociticos                          D22  
+    282  D23   Outr neopl benig da pele                     D23  
+    283  D24   Neopl benig da mama                          D24  
+    284  D25   Leiomioma do utero                           D25  
+    285  D26   Outr neopl benig do utero                    D26  
+    286  D27   Neopl benig do ovario                        D27  
+    287  D28   Neopl benig outr org genitais femin e NE     D28  
+    288  D29   Neopl benig dos orgaos genitais masc         D29  
+    289  D30   Neopl benig dos orgaos urinarios             D30  
+    290  D31   Neopl benig do olho e anexos                 D31  
+    291  D32   Neopl benig das meninges                     D32  
+    292  D33   Neopl benig encef e out part sist nerv centr D33  
+    293  D34   Neopl benig da gland tireoide                D34  
+    294  D35   Neopl benig de outr gland endocrinas e NE    D35  
+    295  D36   Neopl benig de outr localiz e de localiz NE  D36  
+    296  D37   Neopl comp incerto/desc cav oral e org dig   D37  
+    297  D38   Neopl comp inc/desc ouv med org resp intrat  D38  
+    298  D39   Neopl comp incerto/desconh org genitais fem  D39  
+    299  D40   Neopl comp incerto/desconh org genitais masc D40  
+    300  D41   Neopl comp incerto/desconh orgaos urinarios  D41  
+    301  D42   Neopl comp incerto/desconhecido meninges     D42  
+    302  D43   Neopl comp inc/desc encefalo sist nerv centr D43  
+    303  D44   Neopl comp incerto/desconh gland endocrinas  D44  
+    304  D45   Policitemia vera                             D45  
+    305  D46   Sindr mielodisplasicas                       D46  
+    306  D47   Out neop comp inc/des tec linf hemat tec cor D47  
+    307  D48   Neopl comp inc/desconh outr localiz e NE     D48  
+    308  D50   Anemia p/defic de ferro                      D50  
+    309  D51   Anemia p/defic de vitamina B12               D51  
+    310  D52   Anemia p/defic de folato                     D52  
+    311  D53   Outr anemias nutricionais                    D53  
+    312  D55   Anemia dev transt enzimaticos                D55  
+    313  D56   Talassemia                                   D56  
+    314  D57   Transt falciformes                           D57  
+    315  D58   Outr anemias hemoliticas hereditarias        D58  
+    316  D59   Anemia hemolitica adquir                     D59  
+    317  D60   Aplasia pura da serie vermelha adquir        D60  
+    318  D61   Outr anemias aplasticas                      D61  
+    319  D62   Anemia aguda pos-hemorragica                 D62  
+    320  D63   Anemia em doenc cronicas COP                 D63  
+    321  D64   Outr anemias                                 D64  
+    322  D65   Coagulacao intravascular disseminada         D65  
+    323  D66   Defic hereditaria do fator VIII              D66  
+    324  D67   Defic hereditaria do fator IX                D67  
+    325  D68   Outr defeitos da coagulacao                  D68  
+    326  D69   Purpura e outr afeccoes hemorragicas         D69  
+    327  D70   Agranulocitose                               D70  
+    328  D71   Transt func neutrofilos polimorfonucleares   D71  
+    329  D72   Outr transt dos globulos brancos             D72  
+    330  D73   Doenc do baco                                D73  
+    331  D74   Metemoglobinemia                             D74  
+    332  D75   Outr doenc sangue e orgaos hematopoeticos    D75  
+    333  D76   Alg doenc q env tec linforr e sist reticuloh D76  
+    334  D77   Outr transt sangue e org hematop doenc COP   D77  
+    335  D80   Imunodefic c/predom defeitos anticorpos      D80  
+    336  D81   Defic imunitarias combinadas                 D81  
+    337  D82   Imunodeficiencia assoc c/outr defeitos major D82  
+    338  D83   Imunodeficiencia comum variavel              D83  
+    339  D84   Outr imunodeficiencias                       D84  
+    340  D86   Sarcoidose                                   D86  
+    341  D89   Outr transt q comprom mecanismo imunit NCOP  D89  
+    342  E00   Sindr de defic congen de iodo                E00  
+    343  E01   Transt tireoid e afecc assoc rel defic iodo  E01  
+    344  E02   Hipotireoidismo subclinico p/defic de iodo   E02  
+    345  E03   Outr hipotireoidismos                        E03  
+    346  E04   Outr bocios nao-toxicos                      E04  
+    347  E05   Tireotoxicose                                E05  
+    348  E06   Tireoidite                                   E06  
+    349  E07   Outr transt da tireoide                      E07  
+    350  E10   Diabetes mellitus insulino-dependente        E10  
+    351  E11   Diabetes mellitus nao-insulino-dependemte    E11  
+    352  E12   Diabetes mellitus relac c/a desnutr          E12  
+    353  E13   Outr tipos espec de diabetes mellitus        E13  
+    354  E14   Diabetes mellitus NE                         E14  
+    355  E15   Coma hipoglicemico nao-diabetico             E15  
+    356  E16   Outr transt da secrecao pancreatica interna  E16  
+    357  E20   Hipoparatireoidismo                          E20  
+    358  E21   Hiperparatireoid e out transt gland paratir  E21  
+    359  E22   Hiperfuncao da hipofise                      E22  
+    360  E23   Hipofuncao e outr transt da hipofise         E23  
+    361  E24   Sindr de Cushing                             E24  
+    362  E25   Transt adrenogenitais                        E25  
+    363  E26   Hiperaldosteronismo                          E26  
+    364  E27   Outr transt da gland supra-renal             E27  
+    365  E28   Disfuncao ovariana                           E28  
+    366  E29   Disfuncao testicular                         E29  
+    367  E30   Transt da puberdade NCOP                     E30  
+    368  E31   Disfuncao poliglandular                      E31  
+    369  E32   Doenc do timo                                E32  
+    370  E34   Outr transt endocrinos                       E34  
+    371  E35   Transt das gland endocrinas em doenc COP     E35  
+    372  E40   Kwashiorkor                                  E40  
+    373  E41   Marasmo nutricional                          E41  
+    374  E42   Kwashiorkor marasmatico                      E42  
+    375  E43   Desnutric proteico-calorica grave NE         E43  
+    376  E44   Desnutric proteico-calorica grau moder leve  E44  
+    377  E45   Atraso desenv dev desnutric proteico-caloric E45  
+    378  E46   Desnutric proteico-calorica NE               E46  
+    379  E50   Defic de vitamina A                          E50  
+    380  E51   Defic de tiamina                             E51  
+    381  E52   Defic de niacina                             E52  
+    382  E53   Defic de outr vitaminas do grupo B           E53  
+    383  E54   Defic de acido ascorbico                     E54  
+    384  E55   Defic de vitamina D                          E55  
+    385  E56   Outr defic vitaminicas                       E56  
+    386  E58   Defic de calcio da dieta                     E58  
+    387  E59   Defic de selenio da dieta                    E59  
+    388  E60   Defic de zinco da dieta                      E60  
+    389  E61   Defic de outr elementos nutrientes           E61  
+    390  E63   Outr defic nutricionais                      E63  
+    391  E64   Sequelas desnutric e outr defic nutricionais E64  
+    392  E65   Adiposidade localizada                       E65  
+    393  E66   Obesidade                                    E66  
+    394  E67   Outr form de hiperalimentacao                E67  
+    395  E68   Sequelas de hiperalimentacao                 E68  
+    396  E70   Disturbios metabolism aminoacidos aromaticos E70  
+    397  E71   Dist metab aminoacidos cad ramif e acid grax E71  
+    398  E72   Outr disturbios metabolismo de aminoacidos   E72  
+    399  E73   Intolerancia a lactose                       E73  
+    400  E74   Outr disturbios do metabolismo carboidratos  E74  
+    401  E75   Disturb metab esfingolip e outr depos lipid  E75  
+    402  E76   Disturbios metabolismo do glicosaminoglicano E76  
+    403  E77   Disturbios do metabolismo de glicoproteinas  E77  
+    404  E78   Disturbios metab lipoproteinas e out lipidem E78  
+    405  E79   Disturbios metabolismo purina e pirimidina   E79  
+    406  E80   Disturbios metab porfirina e bilirrubina     E80  
+    407  E83   Disturbios do metabolismo de minerais        E83  
+    408  E84   Fibrose cistica                              E84  
+    409  E85   Amiloidose                                   E85  
+    410  E86   Deplecao de volume                           E86  
+    411  E87   Outr transt equil hidroeletr e acido-basic   E87  
+    412  E88   Outr disturbios metabolicos                  E88  
+    413  E89   Transt endocrinos e metab pos-proced NCOP    E89  
+    414  E90   Transt nutricionais e metab em doenc COP     E90  
+    415  F00   Demencia na doenc de Alzheimer               F00  
+    416  F01   Demencia vascular                            F01  
+    417  F02   Demencia em outr doenc COP                   F02  
+    418  F03   Demencia NE                                  F03  
+    419  F04   Sindr amnes org n ind alcool out subst psic  F04  
+    420  F05   Delirium nao induz alcool outr subst psicoat F05  
+    421  F06   Outr transt ment lesao disf cereb doenc fis  F06  
+    422  F07   Transt pers comport dev doen lesao disf cer  F07  
+    423  F09   Transt mental organico ou sintomatico NE     F09  
+    424  F10   Transt mentais comport dev uso alcool        F10  
+    425  F11   Transt mentais e comport dev uso de opiaceos F11  
+    426  F12   Transt mentais comport dev uso canabinoides  F12  
+    427  F13   Transt mentais comport dev uso sedat hipnot  F13  
+    428  F14   Transt mentais e comport dev uso da cocaina  F14  
+    429  F15   Transt ment comp uso outr estim incl cafeina F15  
+    430  F16   Transt mentais comport dev uso alucinogenos  F16  
+    431  F17   Transt mentais e comport dev uso de fumo     F17  
+    432  F18   Transt mentais comport dev uso solv volateis F18  
+    433  F19   Transt ment comp mult drog out subst psicoat F19  
+    434  F20   Esquizofrenia                                F20  
+    435  F21   Transt esquizotipico                         F21  
+    436  F22   Transt delirantes persistentes               F22  
+    437  F23   Transt psicoticos agudos e transitorios      F23  
+    438  F24   Transt delirante induz                       F24  
+    439  F25   Transt esquizoafetivos                       F25  
+    440  F28   Outr transt psicoticos nao-organicos         F28  
+    441  F29   Psicose nao-organica NE                      F29  
+    442  F30   Episodio maniaco                             F30  
+    443  F31   Transt afetivo bipolar                       F31  
+    444  F32   Episodios depressivos                        F32  
+    445  F33   Transt depressivo recorrente                 F33  
+    446  F34   Transt de humor persistentes                 F34  
+    447  F38   Outr transt do humor                         F38  
+    448  F39   Transt do humor NE                           F39  
+    449  F40   Transt fobico-ansiosos                       F40  
+    450  F41   Outr transt ansiosos                         F41  
+    451  F42   Transt obsessivo-compulsivo                  F42  
+    452  F43   Reacoes ao stress grave e transt adaptacao   F43  
+    453  F44   Transt dissociativos                         F44  
+    454  F45   Transt somatoformes                          F45  
+    455  F48   Outr transt neuroticos                       F48  
+    456  F50   Transt da alimentacao                        F50  
+    457  F51   Transt nao-organicos sono dev fat emocionais F51  
+    458  F52   Disfuncao sexual n caus p/transt doenc organ F52  
+    459  F53   Transt mentais comport assoc puerperio NCOP  F53  
+    460  F54   Fat psicolog comport assoc doenc transt COP  F54  
+    461  F55   Abuso de subst que nao produzem dependencia  F55  
+    462  F59   Sindr comp ass trans func fisio fat fisic NE F59  
+    463  F60   Transt especificos da personalidade          F60  
+    464  F61   Transt mistos personal outr transt personal  F61  
+    465  F62   Modif durad pers n atrib lesao doenc cerebr  F62  
+    466  F63   Transt dos habitos e dos impulsos            F63  
+    467  F64   Transt da identidade sexual                  F64  
+    468  F65   Transt da preferencia sexual                 F65  
+    469  F66   Transt psic comp assoc desenv sex e orient   F66  
+    470  F68   Outr transt personalidade e comport adulto   F68  
+    471  F69   Transt personalidade e comport adulto NE     F69  
+    472  F70   Retardo mental leve                          F70  
+    473  F71   Retardo mental moderado                      F71  
+    474  F72   Retardo mental grave                         F72  
+    475  F73   Retardo mental profundo                      F73  
+    476  F78   Outr retardo mental                          F78  
+    477  F79   Retardo mental NE                            F79  
+    478  F80   Transt especificos desenvolv fala linguagem  F80  
+    479  F81   Transt especif desenvolv habilidade escolar  F81  
+    480  F82   Transt especifico do desenvolv motor         F82  
+    481  F83   Transt especificos misto do desenvolv        F83  
+    482  F84   Transt globais do desenvolv                  F84  
+    483  F88   Outr transt do desenvolv psicologico         F88  
+    484  F89   Transt do desenvolv psicologico NE           F89  
+    485  F90   Transt hipercineticos                        F90  
+    486  F91   Disturbios de conduta                        F91  
+    487  F92   Transt mistos de conduta e das emocoes       F92  
+    488  F93   Transt emocionais c/inicio especif infancia  F93  
+    489  F94   Transt func soc c/inicio infancia adolesc    F94  
+    490  F95   Tiques                                       F95  
+    491  F98   Outr transt comp emoc c/inicio inf adolesc   F98  
+    492  F99   Transt mental NE em outr parte               F99  
+    493  G00   Meningite bacter NCOP                        G00  
+    494  G01   Meningite em doenc bacter COP                G01  
+    495  G02   Meningite em outr doenc infecc e parasit COP G02  
+    496  G03   Meningite dev outr causas e a causas NE      G03  
+    497  G04   Encefalite mielite e encefalomielite         G04  
+    498  G05   Encefalite mielite encefalomielite doenc COP G05  
+    499  G06   Abscesso granuloma intracran intra-raquid    G06  
+    500  G07   Abscess granul intracran intraspin doenc COP G07  
+    501  G08   Flebite tromboflebite intracran intra-raquid G08  
+    502  G09   Sequelas doenc inflam sist nerv centr        G09  
+    503  G10   Doenc de Huntington                          G10  
+    504  G11   Ataxia hereditaria                           G11  
+    505  G12   Atrofia muscular espinal e sindr correlatas  G12  
+    506  G13   Atrof sist q afet sist nerv centr doen COP   G13  
+    507  G20   Doenc de Parkinson                           G20  
+    508  G21   Parkinsonismo secund                         G21  
+    509  G22   Parkinsonismo em doenc COP                   G22  
+    510  G23   Outr doenc degenerativas dos ganglios base   G23  
+    511  G24   Distonia                                     G24  
+    512  G25   Outr doenc extrapiramidais transt movimentos G25  
+    513  G26   Doenc extrapiramidais transt movim doenc COP G26  
+    514  G30   Doenc de Alzheimer                           G30  
+    515  G31   Outr doenc degenerativas sist nervoso NCOP   G31  
+    516  G32   Outr transt degenerativ sist nerv doenc COP  G32  
+    517  G35   Esclerose mult                               G35  
+    518  G36   Outr desmielinizacoes disseminadas agudas    G36  
+    519  G37   Outr doenc desmielinizantes sist nerv centr  G37  
+    520  G40   Epilepsia                                    G40  
+    521  G41   Estado de mal epileptico                     G41  
+    522  G43   Enxaqueca                                    G43  
+    523  G44   Outr sindr de algias cefalicas               G44  
+    524  G45   Acid vasc cerebr isquemicos trans sindr corr G45  
+    525  G46   Sindr vasc cerebr q ocorr doenc cerebrovasc  G46  
+    526  G47   Disturbios do sono                           G47  
+    527  G50   Transt do nervo trigemeo                     G50  
+    528  G51   Transt do nervo facial                       G51  
+    529  G52   Transt de outr nervos cranianos              G52  
+    530  G53   Transt dos nervos cranianos em doenc COP     G53  
+    531  G54   Transt das raizes e dos plexos nervosos      G54  
+    532  G55   Compressoes raizes plexos nervosos doenc COP G55  
+    533  G56   Mononeuropatias dos membros super            G56  
+    534  G57   Mononeuropatias dos membros infer            G57  
+    535  G58   Outr mononeuropatias                         G58  
+    536  G59   Mononeuropatias em doenc COP                 G59  
+    537  G60   Neuropatia hereditaria e idiopatica          G60  
+    538  G61   Polineuropatia inflam                        G61  
+    539  G62   Outr polineuropatias                         G62  
+    540  G63   Polineuropatia em doenc COP                  G63  
+    541  G64   Outr transt do sist nervoso periferico       G64  
+    542  G70   Miastenia gravis outr transt neuromusculares G70  
+    543  G71   Transt prim dos musculos                     G71  
+    544  G72   Outr miopatias                               G72  
+    545  G73   Transt juncao mioneural musculos doenc COP   G73  
+    546  G80   Paralisia cerebral infantil                  G80  
+    547  G81   Hemiplegia                                   G81  
+    548  G82   Paraplegia e tetraplegia                     G82  
+    549  G83   Outr sindr paraliticas                       G83  
+    550  G90   Transt do sist nervoso autonomo              G90  
+    551  G91   Hidrocefalia                                 G91  
+    552  G92   Encefalopatia toxica                         G92  
+    553  G93   Outr transt do encefalo                      G93  
+    554  G94   Outr transt do encefalo em doenc COP         G94  
+    555  G95   Outr doenc da medula espinal                 G95  
+    556  G96   Outr transt do sist nervoso central          G96  
+    557  G97   Transt pos-proced do sist nervoso NCOP       G97  
+    558  G98   Outr transt do sist nervoso NCOP             G98  
+    559  G99   Outr transt do sist nervoso em doenc COP     G99  
+    560  H00   Hordeolo e calazio                           H00  
+    561  H01   Outr inflam da palpebra                      H01  
+    562  H02   Outr transt da palpebra                      H02  
+    563  H03   Transt da palpebra em doenc COP              H03  
+    564  H04   Transt do aparelho lacrimal                  H04  
+    565  H05   Transt da orbita                             H05  
+    566  H06   Transt aparelho lacrimal orbita em doenc COP H06  
+    567  H10   Conjuntivite                                 H10  
+    568  H11   Outr transt da conjuntiva                    H11  
+    569  H13   Transt da conjuntiva em doenc COP            H13  
+    570  H15   Transt da esclerotica                        H15  
+    571  H16   Ceratite                                     H16  
+    572  H17   Cicatrizes e opacidades da cornea            H17  
+    573  H18   Outr transt da cornea                        H18  
+    574  H19   Transt da esclerotica e da cornea doenc COP  H19  
+    575  H20   Iridociclite                                 H20  
+    576  H21   Outr transt da iris e do corpo ciliar        H21  
+    577  H22   Transt da iris e do corpo ciliar doenc COP   H22  
+    578  H25   Catarata senil                               H25  
+    579  H26   Outr cataratas                               H26  
+    580  H27   Outr transt do cristalino                    H27  
+    581  H28   Catarata e outr transt cristalino doenc COP  H28  
+    582  H30   Inflam coriorretiniana                       H30  
+    583  H31   Outr transt da coroide                       H31  
+    584  H32   Transt coriorretinianos em doenc COP         H32  
+    585  H33   Descolamentos e defeitos da retina           H33  
+    586  H34   Oclusoes vasculares da retina                H34  
+    587  H35   Outr transt da retina                        H35  
+    588  H36   Transt da retina em doenc COP                H36  
+    589  H40   Glaucoma                                     H40  
+    590  H42   Glaucoma em doenc COP                        H42  
+    591  H43   Transt do humor vitreo                       H43  
+    592  H44   Transt do globo ocular                       H44  
+    593  H45   Transt humor vitreo e globo ocular doenc COP H45  
+    594  H46   Neurite optica                               H46  
+    595  H47   Outr transt do nervo optico e vias opticas   H47  
+    596  H48   Transt nervo optico e vias opticas doenc COP H48  
+    597  H49   Estrabismo paralitico                        H49  
+    598  H50   Outr estrabismos                             H50  
+    599  H51   Outr transt do movimento binocular           H51  
+    600  H52   Transt da refracao e da acomodacao           H52  
+    601  H53   Disturbios visuais                           H53  
+    602  H54   Cegueira e visao subnormal                   H54  
+    603  H55   Nistagmo e outr movimentos irregulares olho  H55  
+    604  H57   Outr transt do olho e anexos                 H57  
+    605  H58   Outr transt do olho e anexos em doenc COP    H58  
+    606  H59   Transt do olho e anexos pos-proced NCOP      H59  
+    607  H60   Otite externa                                H60  
+    608  H61   Outr transt do ouvido externo                H61  
+    609  H62   Transt do ouvido externo em doenc COP        H62  
+    610  H65   Otite media nao-supurativa                   H65  
+    611  H66   Otite media supurativa e as NE               H66  
+    612  H67   Otite media em doenc COP                     H67  
+    613  H68   Salpingite e obstrucao trompa de Eustaquio   H68  
+    614  H69   Outr transt da trompa de Eustaquio           H69  
+    615  H70   Mastoidite e afeccoes correlatas             H70  
+    616  H71   Colesteatoma do ouvido medio                 H71  
+    617  H72   Perfuracao da membrana do timpano            H72  
+    618  H73   Outr transt da membrana do timpano           H73  
+    619  H74   Outr transt do ouvido medio e da mastoide    H74  
+    620  H75   Outr transt ouvido medio mastoide doenc COP  H75  
+    621  H80   Otosclerose                                  H80  
+    622  H81   Transt da funcao vestibular                  H81  
+    623  H82   Sindr vertiginosas em doenc COP              H82  
+    624  H83   Outr transt do ouvido interno                H83  
+    625  H90   Perda audicao transt conducao neuro-sens     H90  
+    626  H91   Outr perdas de audicao                       H91  
+    627  H92   Otalgia e secrecao auditiva                  H92  
+    628  H93   Outr transt do ouvido NCOP                   H93  
+    629  H94   Outr transt do ouvido em doenc COP           H94  
+    630  H95   Transt ouvido apof mastoide pos-proced NCOP  H95  
+    631  I00   Febre reumatica s/mencao de compr do coracao I00  
+    632  I01   Febre reumatica c/compr do coracao           I01  
+    633  I02   Coreia reumatica                             I02  
+    634  I05   Doenc reumaticas da valva mitral             I05  
+    635  I06   Doenc reumaticas da valva aortica            I06  
+    636  I07   Doenc reumaticas da valva tricuspide         I07  
+    637  I08   Doenc de mult valvas                         I08  
+    638  I09   Outr doenc reumaticas do coracao             I09  
+    639  I10   Hipertensao essencial                        I10  
+    640  I11   Doenc cardiaca hipertensiva                  I11  
+    641  I12   Doenc renal hipertensiva                     I12  
+    642  I13   Doenc cardiaca e renal hipertensiva          I13  
+    643  I15   Hipertensao secund                           I15  
+    644  I20   Angina pectoris                              I20  
+    645  I21   Infarto agudo do miocardio                   I21  
+    646  I22   Infarto do miocardio recorrente              I22  
+    647  I23   Alg complic atuais subs infarto agud miocard I23  
+    648  I24   Outr doenc isquemicas agudas do coracao      I24  
+    649  I25   Doenc isquemica cronica do coracao           I25  
+    650  I26   Embolia pulmonar                             I26  
+    651  I27   Outr form de doenc cardiaca pulmonar         I27  
+    652  I28   Outr doenc dos vasos pulmonares              I28  
+    653  I30   Pericardite aguda                            I30  
+    654  I31   Outr doenc do pericardio                     I31  
+    655  I32   Pericardite em doenc COP                     I32  
+    656  I33   Endocardite aguda e subaguda                 I33  
+    657  I34   Transt nao-reumaticos da valva mitral        I34  
+    658  I35   Transt nao-reumaticos da valva aortica       I35  
+    659  I36   Transt nao-reumaticos da valva tricuspide    I36  
+    660  I37   Transt da valva pulmonar                     I37  
+    661  I38   Endocardite de valva NE                      I38  
+    662  I39   Endocardite transt valvulares card doenc COP I39  
+    663  I40   Miocardite aguda                             I40  
+    664  I41   Miocardite em doenc COP                      I41  
+    665  I42   Cardiomiopatias                              I42  
+    666  I43   Cardiomiopatia em doenc COP                  I43  
+    667  I44   Bloqueio atrioventricular e do ramo esquerdo I44  
+    668  I45   Outr transt de conducao                      I45  
+    669  I46   Parada cardiaca                              I46  
+    670  I47   Taquicardia paroxistica                      I47  
+    671  I48   Flutter e fibrilacao atrial                  I48  
+    672  I49   Outr arritmias cardiacas                     I49  
+    673  I50   Insuf cardiaca                               I50  
+    674  I51   Complic cardiopatias doenc cardiacas mal def I51  
+    675  I52   Outr afeccoes cardiacas em doenc COP         I52  
+    676  I60   Hemorragia subaracnoide                      I60  
+    677  I61   Hemorragia intracerebral                     I61  
+    678  I62   Outr hemorragias intracranianas nao-traum    I62  
+    679  I63   Infarto cerebral                             I63  
+    680  I64   Acid vasc cerebr NE como hemorrag isquemico  I64  
+    681  I65   Oclus/esten art pre-cereb q n res inf cereb  I65  
+    682  I66   Oclusao/estenose art cereb q n res inf cereb I66  
+    683  I67   Outr doenc cerebrovasculares                 I67  
+    684  I68   Transt cerebrovasculares em doenc COP        I68  
+    685  I69   Sequelas de doenc cerebrovasculares          I69  
+    686  I70   Aterosclerose                                I70  
+    687  I71   Aneurisma e disseccao da aorta               I71  
+    688  I72   Outr aneurismas                              I72  
+    689  I73   Outr doenc vasculares perifericas            I73  
+    690  I74   Embolia e trombose arteriais                 I74  
+    691  I77   Outr afeccoes das arterias e arteriolas      I77  
+    692  I78   Doenc dos capilares                          I78  
+    693  I79   Transt arter arteriolas capilares doenc COP  I79  
+    694  I80   Flebite e tromboflebite                      I80  
+    695  I81   Trombose da veia porta                       I81  
+    696  I82   Outr embolia e trombose venosas              I82  
+    697  I83   Varizes dos membros infer                    I83  
+    698  I84   Hemorroidas                                  I84  
+    699  I85   Varizes esofagianas                          I85  
+    700  I86   Varizes de outr localiz                      I86  
+    701  I87   Outr transt das veias                        I87  
+    702  I88   Linfadenite inespecifica                     I88  
+    703  I89   Outr transt nao-infecc vasos linf gangl linf I89  
+    704  I95   Hipotensao                                   I95  
+    705  I97   Transt aparelho circulat subseq proced NCOP  I97  
+    706  I98   Outr transt aparelho circulatorio doenc COP  I98  
+    707  I99   Outr transt do aparelho circulatorio e os NE I99  
+    708  J00   Nasofaringite aguda                          J00  
+    709  J01   Sinusite aguda                               J01  
+    710  J02   Faringite aguda                              J02  
+    711  J03   Amigdalite aguda                             J03  
+    712  J04   Laringite e traqueite agudas                 J04  
+    713  J05   Laringite obstrutiva aguda e epiglotite      J05  
+    714  J06   Infecc agudas vias aereas super loc mult NE  J06  
+    715  J10   Influenza dev virus influenza identificado   J10  
+    716  J11   Influenza dev virus nao identificado         J11  
+    717  J12   Pneumonia viral NCOP                         J12  
+    718  J13   Pneumonia dev Streptococcus pneumoniae       J13  
+    719  J14   Pneumonia dev Haemophilus infuenzae          J14  
+    720  J15   Pneumonia bacter NCOP                        J15  
+    721  J16   Pneumonia dev out microorg infecc espec NCOP J16  
+    722  J17   Pneumonia em doenc COP                       J17  
+    723  J18   Pneumonia p/microorg NE                      J18  
+    724  J20   Bronquite aguda                              J20  
+    725  J21   Bronquiolite aguda                           J21  
+    726  J22   Infecc agudas NE das vias aereas infer       J22  
+    727  J30   Rinite alergica e vasomotora                 J30  
+    728  J31   Rinite nasofaringite e faringite cronicas    J31  
+    729  J32   Sinusite cronica                             J32  
+    730  J33   Polipo nasal                                 J33  
+    731  J34   Outr transt do nariz e dos seios paranasais  J34  
+    732  J35   Doenc cronicas das amigdalas e das adenoides J35  
+    733  J36   Abscesso periamigdaliano                     J36  
+    734  J37   Laringite e laringotraqueite cronicas        J37  
+    735  J38   Doenc das cordas vocais e da laringe NCOP    J38  
+    736  J39   Outr doenc das vias aereas super             J39  
+    737  J40   Bronquite NE como aguda ou cronica           J40  
+    738  J41   Bronquite cronica simples e a mucopurulenta  J41  
+    739  J42   Bronquite cronica NE                         J42  
+    740  J43   Enfisema                                     J43  
+    741  J44   Outr doenc pulmonares obstrutivas cronicas   J44  
+    742  J45   Asma                                         J45  
+    743  J46   Estado de mal asmatico                       J46  
+    744  J47   Bronquectasia                                J47  
+    745  J60   Pneumoconiose dos mineiros de carvao         J60  
+    746  J61   Pneumoconiose dev amianto outr fibr minerais J61  
+    747  J62   Pneumoconiose dev poeira que cont silica     J62  
+    748  J63   Pneumoconiose dev outr poeiras inorganicas   J63  
+    749  J64   Pneumoconiose NE                             J64  
+    750  J65   Pneumoconiose assoc c/tuberc                 J65  
+    751  J66   Doenc das vias aereas dev poeiras org espec  J66  
+    752  J67   Pneumonite hipersensibilid dev poeiras org   J67  
+    753  J68   Afecc resp dev inal prod quim gas fumac vap  J68  
+    754  J69   Pneumonite dev solidos e liquidos            J69  
+    755  J70   Afeccoes respirat dev outr agentes externos  J70  
+    756  J80   Sindr do desconforto respirat do adulto      J80  
+    757  J81   Edema pulmonar NE de outr form               J81  
+    758  J82   Eosinofilia pulmonar NCOP                    J82  
+    759  J84   Outr doenc pulmonares intersticiais          J84  
+    760  J85   Abscesso do pulmao e do mediastino           J85  
+    761  J86   Piotorax                                     J86  
+    762  J90   Derrame pleural NCOP                         J90  
+    763  J91   Derrame pleural em afeccoes COP              J91  
+    764  J92   Placas pleurais                              J92  
+    765  J93   Pneumotorax                                  J93  
+    766  J94   Outr afeccoes pleurais                       J94  
+    767  J95   Afeccoes respirat pos-proced NCOP            J95  
+    768  J96   Insuf respirat NCOP                          J96  
+    769  J98   Outr transt respirat                         J98  
+    770  J99   Transt respirat em doenc COP                 J99  
+    771  K00   Disturbios desenvolv e da erupcao dos dentes K00  
+    772  K01   Dentes inclusos e impactados                 K01  
+    773  K02   Carie dentaria                               K02  
+    774  K03   Outr doenc dos tec dentarios duros           K03  
+    775  K04   Doenc da polpa e dos tec periapicais         K04  
+    776  K05   Gengivite e doenc periodontais               K05  
+    777  K06   Outr transt gengiva rebordo alveolar s/dent  K06  
+    778  K07   Anomalias dentofaciais                       K07  
+    779  K08   Outr transt dentes e estrut de sustentacao   K08  
+    780  K09   Cistos da regiao bucal NCOP                  K09  
+    781  K10   Outr doenc dos maxilares                     K10  
+    782  K11   Doenc das gland salivares                    K11  
+    783  K12   Estomatite e lesoes correlatas               K12  
+    784  K13   Outr doenc do labio e da mucosa oral         K13  
+    785  K14   Doenc da lingua                              K14  
+    786  K20   Esofagite                                    K20  
+    787  K21   Doenc de refluxo gastroesofagico             K21  
+    788  K22   Outr doenc do esofago                        K22  
+    789  K23   Transt do esofago em doenc COP               K23  
+    790  K25   Ulcera gastrica                              K25  
+    791  K26   Ulcera duodenal                              K26  
+    792  K27   Ulcera peptica de localiz NE                 K27  
+    793  K28   Ulcera gastrojejunal                         K28  
+    794  K29   Gastrite e duodenite                         K29  
+    795  K30   Dispepsia                                    K30  
+    796  K31   Outr doenc do estomago e do duodeno          K31  
+    797  K35   Apendicite aguda                             K35  
+    798  K36   Outr form de apendicite                      K36  
+    799  K37   Apendicite SOE                               K37  
+    800  K38   Outr doenc do apendice                       K38  
+    801  K40   Hernia inguinal                              K40  
+    802  K41   Hernia femoral                               K41  
+    803  K42   Hernia umbilical                             K42  
+    804  K43   Hernia ventral                               K43  
+    805  K44   Hernia diafragmatica                         K44  
+    806  K45   Outr hernias abdominais                      K45  
+    807  K46   Hernia abdominal NE                          K46  
+    808  K50   Doenc de Crohn                               K50  
+    809  K51   Colite ulcerativa                            K51  
+    810  K52   Outr gastroenterites e colites nao-infecc    K52  
+    811  K55   Transt vasculares do intestino               K55  
+    812  K56   Ileo paralitico e obstr intestinal s/hernia  K56  
+    813  K57   Doenc diverticular do intestino              K57  
+    814  K58   Sindr do colon irritavel                     K58  
+    815  K59   Outr transt funcionais do intestino          K59  
+    816  K60   Fissura e fistula das regioes anal e retal   K60  
+    817  K61   Abscesso das regioes anal e retal            K61  
+    818  K62   Outr doenc do reto e do anus                 K62  
+    819  K63   Outr doenc do intestino                      K63  
+    820  K65   Peritonite                                   K65  
+    821  K66   Outr transt do peritonio                     K66  
+    822  K67   Compr do peritonio em doenc infecc COP       K67  
+    823  K70   Doenc alcoolica do figado                    K70  
+    824  K71   Doenc hepatica toxica                        K71  
+    825  K72   Insuf hepatica NCOP                          K72  
+    826  K73   Hepatite cronica NCOP                        K73  
+    827  K74   Fibrose e cirrose hepaticas                  K74  
+    828  K75   Outr doenc inflam do figado                  K75  
+    829  K76   Outr doenc do figado                         K76  
+    830  K77   Transt do figado em doenc COP                K77  
+    831  K80   Colelitiase                                  K80  
+    832  K81   Colecistite                                  K81  
+    833  K82   Outr doenc da vesicula biliar                K82  
+    834  K83   Outr doenc das vias biliares                 K83  
+    835  K85   Pancreatite aguda                            K85  
+    836  K86   Outr doenc do pancreas                       K86  
+    837  K87   Transt ves biliar via biliar pancr doenc COP K87  
+    838  K90   Ma-absorcao intestinal                       K90  
+    839  K91   Transt do aparelho digestivo pos-proced NCOP K91  
+    840  K92   Outr doenc do aparelho digestivo             K92  
+    841  K93   Transt de outr orgaos digestivos doenc COP   K93  
+    842  L00   Sindr pele escaldada estafilococ recem-nasc  L00  
+    843  L01   Impetigo                                     L01  
+    844  L02   Abscesso cutaneo furunculo e antraz          L02  
+    845  L03   Celulite                                     L03  
+    846  L04   Linfadenite aguda                            L04  
+    847  L05   Cisto pilonidal                              L05  
+    848  L08   Outr infecc localiz pele e tec subcutaneo    L08  
+    849  L10   Penfigo                                      L10  
+    850  L11   Outr afeccoes acantoliticas                  L11  
+    851  L12   Penfigoide                                   L12  
+    852  L13   Outr afeccoes bolhosas                       L13  
+    853  L14   Afeccoes bolhosas em doenc COP               L14  
+    854  L20   Dermatite atopica                            L20  
+    855  L21   Dermatite seborreica                         L21  
+    856  L22   Dermatite das fraldas                        L22  
+    857  L23   Dermatites alergicas de contato              L23  
+    858  L24   Dermatites de contato p/irritantes           L24  
+    859  L25   Dermatite de contato NE                      L25  
+    860  L26   Dermatite esfoliativa                        L26  
+    861  L27   Dermatite dev subst de uso interno           L27  
+    862  L28   Liquen simples cronico e prurigo             L28  
+    863  L29   Prurido                                      L29  
+    864  L30   Outr dermatites                              L30  
+    865  L40   Psoriase                                     L40  
+    866  L41   Parapsoriase                                 L41  
+    867  L42   Pitiriase rosea                              L42  
+    868  L43   Liquen plano                                 L43  
+    869  L44   Outr afeccoes papulo-descamativas            L44  
+    870  L45   Afeccoes papulo-descamativas em doenc COP    L45  
+    871  L50   Urticaria                                    L50  
+    872  L51   Eritema polimorfo                            L51  
+    873  L52   Eritema nodoso                               L52  
+    874  L53   Outr afeccoes eritematosas                   L53  
+    875  L54   Eritema em doenc COP                         L54  
+    876  L55   Queim solar                                  L55  
+    877  L56   Outr alterac agud pele dev rad ultravioleta  L56  
+    878  L57   Alter pele dev expos cron rad nao ionizante  L57  
+    879  L58   Radiodermatite                               L58  
+    880  L59   Outr afecc pele tec subcutan relac radiacao  L59  
+    881  L60   Afeccoes das unhas                           L60  
+    882  L62   Afeccoes das unhas em doenc COP              L62  
+    883  L63   Alopecia areata                              L63  
+    884  L64   Alopecia androgenica                         L64  
+    885  L65   Outr form nao cicatric perda cabelos pelos   L65  
+    886  L66   Alopecia cicatricial                         L66  
+    887  L67   Anormalidades cor e pediculo cabelos pelos   L67  
+    888  L68   Hipertricose                                 L68  
+    889  L70   Acne                                         L70  
+    890  L71   Rosacea                                      L71  
+    891  L72   Cistos foliculares da pele e tec subcutaneo  L72  
+    892  L73   Outr afeccoes foliculares                    L73  
+    893  L74   Afeccoes das gland sudoriparas ecrinas       L74  
+    894  L75   Afeccoes das gland sudoriparas apocrinas     L75  
+    895  L80   Vitiligo                                     L80  
+    896  L81   Outr transt da pigmentacao                   L81  
+    897  L82   Ceratose seborreica                          L82  
+    898  L83   Acantose nigricans                           L83  
+    899  L84   Calos e calosidades                          L84  
+    900  L85   Outr form de espessamento epidermico         L85  
+    901  L86   Ceratodermia em doenc COP                    L86  
+    902  L87   Transt da eliminacao transepidermica         L87  
+    903  L88   Piodermite gangrenosa                        L88  
+    904  L89   Ulcera de decubito                           L89  
+    905  L90   Afeccoes atroficas da pele                   L90  
+    906  L91   Afeccoes hipertroficas da pele               L91  
+    907  L92   Afeccoes granulomatosas pele tec subcutaneo  L92  
+    908  L93   Lupus eritematoso                            L93  
+    909  L94   Outr afeccoes localizadas do tec conjuntivo  L94  
+    910  L95   Vasculite limitada a pele NCOP               L95  
+    911  L97   Ulcera dos membros infer NCOP                L97  
+    912  L98   Outr afeccoes da pele e tec subcutaneo NCOP  L98  
+    913  L99   Outr afeccoes pele tec subcutaneo doenc COP  L99  
+    914  M00   Artrite piogenica                            M00  
+    915  M01   Infecc diretas artic doenc infec parasit COP M01  
+    916  M02   Artropatias reacionais                       M02  
+    917  M03   Artropatias pos-infecc reac doenc infecc COP M03  
+    918  M05   Artrite reumatoide soro-positiva             M05  
+    919  M06   Outr artrites reumatoides                    M06  
+    920  M07   Artropatias psoriasicas e enteropaticas      M07  
+    921  M08   Artrite juvenil                              M08  
+    922  M09   Artrite juvenil em doenc COP                 M09  
+    923  M10   Gota                                         M10  
+    924  M11   Outr artropatias p/deposicao de cristais     M11  
+    925  M12   Outr artropatias espec                       M12  
+    926  M13   Outr artrites                                M13  
+    927  M14   Artropatias em outr doenc COP                M14  
+    928  M15   Poliartrose                                  M15  
+    929  M16   Coxartrose                                   M16  
+    930  M17   Gonartrose                                   M17  
+    931  M18   Artrose prim articulacao carpometacarpiana   M18  
+    932  M19   Outr artroses                                M19  
+    933  M20   Deform adquir dedos maos e pes               M20  
+    934  M21   Outr deform adquir dos membros               M21  
+    935  M22   Transt da rotula                             M22  
+    936  M23   Transt internos dos joelhos                  M23  
+    937  M24   Outr transt articulares especificos          M24  
+    938  M25   Outr transt articulares NCOP                 M25  
+    939  M30   Poliarterite nodosa e afeccoes correlatas    M30  
+    940  M31   Outr vasculopatias necrotizantes             M31  
+    941  M32   Lupus eritematoso disseminado                M32  
+    942  M33   Dermatopoliomiosite                          M33  
+    943  M34   Esclerose sistemica                          M34  
+    944  M35   Outr afeccoes sistemicas do tec conjuntivo   M35  
+    945  M36   Doenc sistemicas do tec conjuntivo doenc COP M36  
+    946  M40   Cifose e lordose                             M40  
+    947  M41   Escoliose                                    M41  
+    948  M42   Osteocondrose da coluna vertebral            M42  
+    949  M43   Outr dorsopatias deformantes                 M43  
+    950  M45   Espondilite ancilosante                      M45  
+    951  M46   Outr espondilopatias inflam                  M46  
+    952  M47   Espondilose                                  M47  
+    953  M48   Outr espondilopatias                         M48  
+    954  M49   Espondilopatias em doenc COP                 M49  
+    955  M50   Transt dos discos cervicais                  M50  
+    956  M51   Outr transt de discos intervertebrais        M51  
+    957  M53   Outr dorsopatias NCOP                        M53  
+    958  M54   Dorsalgia                                    M54  
+    959  M60   Miosite                                      M60  
+    960  M61   Calcificacao e ossificacao do musculo        M61  
+    961  M62   Outr transt musculares                       M62  
+    962  M63   Transt de musculo em doenc COP               M63  
+    963  M65   Sinovite e tenossinovite                     M65  
+    964  M66   Ruptura espontanea de sinovia e de tendao    M66  
+    965  M67   Outr transt das sinovias e dos tendoes       M67  
+    966  M68   Transt de sinovias e de tendoes em doenc COP M68  
+    967  M70   Transt tec moles relac uso excess e pressao  M70  
+    968  M71   Outr bursopatias                             M71  
+    969  M72   Transt fibroblasticos                        M72  
+    970  M73   Transt dos tec moles em doenc COP            M73  
+    971  M75   Lesoes do ombro                              M75  
+    972  M76   Entesopatias dos membros infer excl pe       M76  
+    973  M77   Outr entesopatias                            M77  
+    974  M79   Outr transt dos tec moles NCOP               M79  
+    975  M80   Osteoporose c/frat patologica                M80  
+    976  M81   Osteoporose s/frat patologica                M81  
+    977  M82   Osteoporose em doenc COP                     M82  
+    978  M83   Osteomalacia do adulto                       M83  
+    979  M84   Transt da continuidade do osso               M84  
+    980  M85   Outr transt da densidade e estrutura osseas  M85  
+    981  M86   Osteomielite                                 M86  
+    982  M87   Osteonecrose                                 M87  
+    983  M88   Doenc de Paget do osso                       M88  
+    984  M89   Outr transt osseos                           M89  
+    985  M90   Osteopatias em doenc COP                     M90  
+    986  M91   Osteocondrose juvenil do quadril e da pelve  M91  
+    987  M92   Outr osteocondroses juvenis                  M92  
+    988  M93   Outr osteocondropatias                       M93  
+    989  M94   Outr transt das cartilagens                  M94  
+    990  M95   Outr deform adquir sist osteomusc tec conj   M95  
+    991  M96   Transt osteomusculares pos-proced NCOP       M96  
+    992  M99   Lesoes biomecanicas NCOP                     M99  
+    993  N00   Sindr nefritica aguda                        N00  
+    994  N01   Sindr nefritica rapidamente progressiva      N01  
+    995  N02   Hematuria recidivante e persistente          N02  
+    996  N03   Sindr nefritica cronica                      N03  
+    997  N04   Sindr nefrotica                              N04  
+    998  N05   Sindr nefritica NE                           N05  
+    999  N06   Proteinuria isolada c/lesao morfolog espec   N06  
+   1000  N07   Nefropatia hereditaria NCOP                  N07  
+   1001  N08   Transt glomerulares em doenc COP             N08  
+   1002  N10   Nefrite tubulo-intersticial aguda            N10  
+   1003  N11   Nefrite tubulo-intersticial cronica          N11  
+   1004  N12   Nefrite tubulo-intersticial NE aguda cronica N12  
+   1005  N13   Uropatia obstrutiva e p/refluxo              N13  
+   1006  N14   Afec tubul tubulo-interst ind drog met pesad N14  
+   1007  N15   Outr doenc renais tubulo-intersticiais       N15  
+   1008  N16   Transt renais tubulo-intersticiais doenc COP N16  
+   1009  N17   Insuf renal aguda                            N17  
+   1010  N18   Insuf renal cronica                          N18  
+   1011  N19   Insuf renal NE                               N19  
+   1012  N20   Calculose do rim e do ureter                 N20  
+   1013  N21   Calculose do trato urinario infer            N21  
+   1014  N22   Calculose do trato urinario infer doenc COP  N22  
+   1015  N23   Colica nefretica NE                          N23  
+   1016  N25   Transt result funcao renal tubular alterada  N25  
+   1017  N26   Rim contraido NE                             N26  
+   1018  N27   Hipoplasia renal de causa desconhecida       N27  
+   1019  N28   Outr transt do rim e do ureter NCOP          N28  
+   1020  N29   Outr transt do rim e do ureter em doenc COP  N29  
+   1021  N30   Cistite                                      N30  
+   1022  N31   Disfuncoes neuromusculares da bexiga NCOP    N31  
+   1023  N32   Outr transt da bexiga                        N32  
+   1024  N33   Transt da bexiga em doenc COP                N33  
+   1025  N34   Uretrite e sindr uretral                     N34  
+   1026  N35   Estenose da uretra                           N35  
+   1027  N36   Outr transt da uretra                        N36  
+   1028  N37   Transt da uretra em doenc COP                N37  
+   1029  N39   Outr transt do trato urinario                N39  
+   1030  N40   Hiperplasia da prostata                      N40  
+   1031  N41   Doenc inflam da prostata                     N41  
+   1032  N42   Outr afeccoes da prostata                    N42  
+   1033  N43   Hidrocele e espermatocele                    N43  
+   1034  N44   Torcao do testiculo                          N44  
+   1035  N45   Orquite e epididimite                        N45  
+   1036  N46   Infertilidade masc                           N46  
+   1037  N47   Hipertrofia do prepucio fimose e parafimose  N47  
+   1038  N48   Outr transt do penis                         N48  
+   1039  N49   Transt inflam orgaos genitais masc NCOP      N49  
+   1040  N50   Outr transt dos orgaos genitais masc         N50  
+   1041  N51   Transt orgaos genitais masc doenc COP        N51  
+   1042  N60   Displasias mamarias benignas                 N60  
+   1043  N61   Transt inflam da mama                        N61  
+   1044  N62   Hipertrofia da mama                          N62  
+   1045  N63   Nodulo mamario NE                            N63  
+   1046  N64   Outr doenc da mama                           N64  
+   1047  N70   Salpingite e ooforite                        N70  
+   1048  N71   Doenc inflam do utero exceto o colo          N71  
+   1049  N72   Doenc inflam do colo do utero                N72  
+   1050  N73   Outr doenc inflam pelvicas femin             N73  
+   1051  N74   Transt inflam da pelve femin em doenc COP    N74  
+   1052  N75   Doenc da gland de Bartholin                  N75  
+   1053  N76   Outr afeccoes inflam da vagina e da vulva    N76  
+   1054  N77   Ulceracao e inflam vulvovaginais doenc COP   N77  
+   1055  N80   Endometriose                                 N80  
+   1056  N81   Prolapso genital femin                       N81  
+   1057  N82   Fistulas do trato genital femin              N82  
+   1058  N83   Transt nao-infl ovario tromp Falop lig largo N83  
+   1059  N84   Polipo do trato genital femin                N84  
+   1060  N85   Outr transt nao-inflam utero exc colo utero  N85  
+   1061  N86   Erosao e ectropio do colo do utero           N86  
+   1062  N87   Displasia do colo do utero                   N87  
+   1063  N88   Outr transt nao-inflam do colo do utero      N88  
+   1064  N89   Outr transt nao-inflam da vagina             N89  
+   1065  N90   Outr transt nao-inflam da vulva e do perineo N90  
+   1066  N91   Menstruacao ausente escassa e pouco freq     N91  
+   1067  N92   Menstruacao excessiva frequente e irregular  N92  
+   1068  N93   Outr sangramentos anormais utero e vagina    N93  
+   1069  N94   Dor outr afecc ass org genit fem cicl menstr N94  
+   1070  N95   Transt da menopausa e da perimenopausa       N95  
+   1071  N96   Abortamento habitual                         N96  
+   1072  N97   Infertilidade femin                          N97  
+   1073  N98   Complic assoc a fecundacao artificial        N98  
+   1074  N99   Transt trato geniturinario pos-proced NCOP   N99  
+   1075  O00   Gravidez ectopica                            O00  
+   1076  O01   Mola hidatiforme                             O01  
+   1077  O02   Outr produtos anormais da concepcao          O02  
+   1078  O03   Aborto espontaneo                            O03  
+   1079  O04   Aborto p/razoes medicas e legais             O04  
+   1080  O05   Outr tipos de aborto                         O05  
+   1081  O06   Aborto NE                                    O06  
+   1082  O07   Falha de tentativa de aborto                 O07  
+   1083  O08   Complic conseq aborto gravidez ectop molar   O08  
+   1084  O10   Hipertens pre-exist complic grav parto puerp O10  
+   1085  O11   Dist hipertens pre-exist proteinuria superp  O11  
+   1086  O12   Edema e proteinuria gestac s/hipertensao     O12  
+   1087  O13   Hipertensao gestacional s/proteinuria signif O13  
+   1088  O14   Hipertensao gestacional c/proteinuria signif O14  
+   1089  O15   Eclampsia                                    O15  
+   1090  O16   Hipertensao materna NE                       O16  
+   1091  O20   Hemorragia do inicio da gravidez             O20  
+   1092  O21   Vomitos excessivos na gravidez               O21  
+   1093  O22   Complic venosas na gravidez                  O22  
+   1094  O23   Infecc do trato geniturinario na gravidez    O23  
+   1095  O24   Diabetes mellitus na gravidez                O24  
+   1096  O25   Desnutric na gravidez                        O25  
+   1097  O26   Assist materna outr complic lig predom grav  O26  
+   1098  O28   Achados anorm rastr antenatal mae            O28  
+   1099  O29   Complic anestesia admin durante gravidez     O29  
+   1100  O30   Gestacao mult                                O30  
+   1101  O31   Complic especificas de gestacao mult         O31  
+   1102  O32   Assist prest mae apres anorm conh susp feto  O32  
+   1103  O33   Assist prest mae desprop conhecida suspeita  O33  
+   1104  O34   Assist prest mae anor conh susp org pelv mat O34  
+   1105  O35   Assist prest mae anorm lesao fet conhec susp O35  
+   1106  O36   Assist prest mae outr probl fet conhec susp  O36  
+   1107  O40   Polihidramnio                                O40  
+   1108  O41   Outr transt membranas e liquido amniotico    O41  
+   1109  O42   Ruptura prematura de membranas               O42  
+   1110  O43   Transt da placenta                           O43  
+   1111  O44   Placenta previa                              O44  
+   1112  O45   Descolamento prematuro da placenta           O45  
+   1113  O46   Hemorragia anteparto NCOP                    O46  
+   1114  O47   Falso trabalho de parto                      O47  
+   1115  O48   Gravidez prolongada                          O48  
+   1116  O60   Parto pre-termo                              O60  
+   1117  O61   Falha na inducao do trabalho de parto        O61  
+   1118  O62   Anormalidades da contracao uterina           O62  
+   1119  O63   Trabalho de parto prolongado                 O63  
+   1120  O64   Obstr trab parto dev ma-posic ma-apres feto  O64  
+   1121  O65   Obstr trab parto dev anorm pelvica da mae    O65  
+   1122  O66   Outr form de obstrucao do trabalho de parto  O66  
+   1123  O67   Trab parto parto compl hemorr intrapart NCOP O67  
+   1124  O68   Trab parto e parto complic sofrimento fetal  O68  
+   1125  O69   Trab parto parto compl anorm cordao umbilic  O69  
+   1126  O70   Laceracao do perineo durante o parto         O70  
+   1127  O71   Outr traum obstetricos                       O71  
+   1128  O72   Hemorragia pos-parto                         O72  
+   1129  O73   Retencao placenta e membranas s/hemorragias  O73  
+   1130  O74   Complic anestesia durante trab parto e parto O74  
+   1131  O75   Outr complic do trab parto e do parto NCOP   O75  
+   1132  O80   Parto unico espontaneo                       O80  
+   1133  O81   Parto unico p/forceps ou vacuo-extrator      O81  
+   1134  O82   Parto unico p/cesariana                      O82  
+   1135  O83   Outr tipos de parto unico assistido          O83  
+   1136  O84   Parto mult                                   O84  
+   1137  O85   Infecc puerperal                             O85  
+   1138  O86   Outr infecc puerperais                       O86  
+   1139  O87   Complic venosas no puerperio                 O87  
+   1140  O88   Embolia orig obstetrica                      O88  
+   1141  O89   Complic da anestesia admin durante puerperio O89  
+   1142  O90   Complic do puerperio NCOP                    O90  
+   1143  O91   Infecc mamarias assoc ao parto               O91  
+   1144  O92   Outr afeccoes mama e lactacao assoc ao parto O92  
+   1145  O95   Morte obstetrica de causa NE                 O95  
+   1146  O96   Morte qq caus obst mais 42d menos 1a parto   O96  
+   1147  O97   Morte p/sequelas causas obstetricas diretas  O97  
+   1148  O98   Doen inf paras mat COP compl grav part puerp O98  
+   1149  O99   Outr doenc mat COP compl grav parto puerp    O99  
+   1150  P00   Fet rec-nasc afet afec mat n obr rel grav at P00  
+   1151  P01   Fet rec-nasc afet complic maternas gravidez  P01  
+   1152  P02   Fet rec-nasc afet compl plac cord umb membr  P02  
+   1153  P03   Fet rec-nasc afet out compl trab parto parto P03  
+   1154  P04   Fet rec-nasc infl af noc trans plac leit mat P04  
+   1155  P05   Crescimento fetal retard e desnutric fetal   P05  
+   1156  P07   Transt rel gest curt dur peso baix nasc NCOP P07  
+   1157  P08   Transt relac gest prolong peso elevado nasc  P08  
+   1158  P10   Laceracao intracran hemorrag dev traum parto P10  
+   1159  P11   Outr traum de parto do sist nervoso central  P11  
+   1160  P12   Lesao do couro cabeludo dev traum de parto   P12  
+   1161  P13   Lesoes do esqueleto dev traum de parto       P13  
+   1162  P14   Lesoes ao nascer do sist nervoso periferico  P14  
+   1163  P15   Outr traum de parto                          P15  
+   1164  P20   Hipoxia intra-uterina                        P20  
+   1165  P21   Asfixia ao nascer                            P21  
+   1166  P22   Desconforto respirat do recem-nascido        P22  
+   1167  P23   Pneumonia congen                             P23  
+   1168  P24   Sindr de aspiracao neonatal                  P24  
+   1169  P25   Enfisema interst afecc corr orig per perinat P25  
+   1170  P26   Hemorragia pulmonar orig periodo perinatal   P26  
+   1171  P27   Doenc respirat cron orig periodo perinatal   P27  
+   1172  P28   Outr afeccoes respirat orig per perinatal    P28  
+   1173  P29   Transt cardiovasc orig periodo perinatal     P29  
+   1174  P35   Doenc virais congen                          P35  
+   1175  P36   Septicemia bacter do recem-nascido           P36  
+   1176  P37   Outr doenc infecc e parasit congen           P37  
+   1177  P38   Onfalite recem-nasc c/ou s/hemorragia leve   P38  
+   1178  P39   Outr infecc especificas do periodo perinatal P39  
+   1179  P50   Perda sanguinea fetal                        P50  
+   1180  P51   Hemorragia umbilical do recem-nascido        P51  
+   1181  P52   Hemorragia intracran nao-traum feto rec-nasc P52  
+   1182  P53   Doenc hemorragica do feto e do recem-nascido P53  
+   1183  P54   Outr hemorragias neonatais                   P54  
+   1184  P55   Doenc hemolitica do feto e do recem-nascido  P55  
+   1185  P56   Hidropsia fetal dev doenc hemolitica         P56  
+   1186  P57   Kernicterus                                  P57  
+   1187  P58   Ictericia neonatal dev outr hemolises excess P58  
+   1188  P59   Ictericia neonatal dev outr causas e as NE   P59  
+   1189  P60   Coagulacao intravasc dissem feto rec-nasc    P60  
+   1190  P61   Outr transt hematologicos perinatais         P61  
+   1191  P70   Trans transit metab carboid esp fet rec-nasc P70  
+   1192  P71   Transt transit metab calcio magn per neonat  P71  
+   1193  P72   Outr transt endocrinos transit period neonat P72  
+   1194  P74   Outr dist eletrolit metab transit per neonat P74  
+   1195  P75   Ileo meconial                                P75  
+   1196  P76   Outr obstrucoes intestinais do recem-nascido P76  
+   1197  P77   Enterocolite necrotizante do feto e rec-nasc P77  
+   1198  P78   Outr transt ap digestivo periodo perinatal   P78  
+   1199  P80   Hipotermia do recem-nascido                  P80  
+   1200  P81   Outr disturbios regulacao termica rec-nasc   P81  
+   1201  P83   Outr afecc compr tegum espec feto rec-nasc   P83  
+   1202  P90   Convulsoes do recem-nascido                  P90  
+   1203  P91   Outr disturbios funcao cerebral rec-nasc     P91  
+   1204  P92   Problemas de alimentacao do recem-nascido    P92  
+   1205  P93   Reacoes e intox dev drog admin feto rec-nasc P93  
+   1206  P94   Transt do tonus muscular do recem-nascido    P94  
+   1207  P95   Morte fetal de causa NE                      P95  
+   1208  P96   Outr afeccoes originadas periodo perinatal   P96  
+   1209  Q00   Anencefalia e malformacoes similares         Q00  
+   1210  Q01   Encefalocele                                 Q01  
+   1211  Q02   Microcefalia                                 Q02  
+   1212  Q03   Hidrocefalia congen                          Q03  
+   1213  Q04   Outr malformacoes congen do cerebro          Q04  
+   1214  Q05   Espinha bifida                               Q05  
+   1215  Q06   Outr malformacoes congen da medula espinhal  Q06  
+   1216  Q07   Outr malformacoes congen do sist nervoso     Q07  
+   1217  Q10   Malform congen palpebras ap lacrimal orbita  Q10  
+   1218  Q11   Anoftalmia microftalmia e macroftalmia       Q11  
+   1219  Q12   Malformacoes congen do cristalino            Q12  
+   1220  Q13   Malformacoes congen camara anterior do olho  Q13  
+   1221  Q14   Malformacoes congen camara posterior do olho Q14  
+   1222  Q15   Outr malformacoes congen do olho             Q15  
+   1223  Q16   Malform congen ouvido caus compr audicao     Q16  
+   1224  Q17   Outr malformacoes congen da orelha           Q17  
+   1225  Q18   Outr malformacoes congen da face e pescoco   Q18  
+   1226  Q20   Malform congen camaras e comunicacoes card   Q20  
+   1227  Q21   Malformacoes congen dos septos cardiacos     Q21  
+   1228  Q22   Malform congen valvas pulmonar tricuspide    Q22  
+   1229  Q23   Malformacoes congen valvas aortica e mitral  Q23  
+   1230  Q24   Outr malformacoes congen do coracao          Q24  
+   1231  Q25   Malformacoes congen das grandes arterias     Q25  
+   1232  Q26   Malformacoes congen das grandes veias        Q26  
+   1233  Q27   Outr malformacoes congen sist vasc perif     Q27  
+   1234  Q28   Outr malform congen aparelho circulatorio    Q28  
+   1235  Q30   Malformacao congen do nariz                  Q30  
+   1236  Q31   Malformacoes congen da laringe               Q31  
+   1237  Q32   Malformacoes congen traqueia e bronquios     Q32  
+   1238  Q33   Malformacoes congen do pulmao                Q33  
+   1239  Q34   Outr malformacoes congen aparelho respirat   Q34  
+   1240  Q35   Fenda palatina                               Q35  
+   1241  Q36   Fenda labial                                 Q36  
+   1242  Q37   Fenda labial c/fenda palatina                Q37  
+   1243  Q38   Outr malform congen lingua boca e faringe    Q38  
+   1244  Q39   Malformacoes congen do esofago               Q39  
+   1245  Q40   Outr malform congen trato digestivo super    Q40  
+   1246  Q41   Ausencia atresia estenose congen intest delg Q41  
+   1247  Q42   Ausencia atresia e estenose congen do colon  Q42  
+   1248  Q43   Outr malformacoes congen do intestino        Q43  
+   1249  Q44   Malform congen vesic biliar via biliar figad Q44  
+   1250  Q45   Outr malformacoes congen aparelho digestivo  Q45  
+   1251  Q50   Malform cong ovario tromp Falopio lig largos Q50  
+   1252  Q51   Malformacoes congen utero e do colo do utero Q51  
+   1253  Q52   Outr malformacoes congen org genitais femin  Q52  
+   1254  Q53   Testiculo nao-descido                        Q53  
+   1255  Q54   Hipospadias                                  Q54  
+   1256  Q55   Outr malformacoes congen org genitais masc   Q55  
+   1257  Q56   Sexo indeterminado e pseudo-hermafroditismo  Q56  
+   1258  Q60   Agenesia renal e outr defeitos reducao rim   Q60  
+   1259  Q61   Doenc cisticas do rim                        Q61  
+   1260  Q62   Anom cong obstr pelv renal malf cong ureter  Q62  
+   1261  Q63   Outr malformacoes congen do rim              Q63  
+   1262  Q64   Outr malformacoes congen aparelho urinario   Q64  
+   1263  Q65   Malformacoes congen do quadril               Q65  
+   1264  Q66   Deform congen do pe                          Q66  
+   1265  Q67   Deform osteom cong cabeca face coluna torax  Q67  
+   1266  Q68   Outr deform osteomusculares congen           Q68  
+   1267  Q69   Polidactilia                                 Q69  
+   1268  Q70   Sindactilia                                  Q70  
+   1269  Q71   Defeitos p/reducao do membro super           Q71  
+   1270  Q72   Defeitos p/reducao do membro infer           Q72  
+   1271  Q73   Defeitos p/reducao de membro NE              Q73  
+   1272  Q74   Outr malformacoes congen dos membros         Q74  
+   1273  Q75   Outr malformacoes congen ossos cranio e face Q75  
+   1274  Q76   Malform congen coluna vertebral ossos torax  Q76  
+   1275  Q77   Osteocondr c/anom cresc ossos long col vert  Q77  
+   1276  Q78   Outr osteocondrodisplasias                   Q78  
+   1277  Q79   Malformacoes congen sist osteomuscular NCOP  Q79  
+   1278  Q80   Ictiose congen                               Q80  
+   1279  Q81   Epidermolise bolhosa                         Q81  
+   1280  Q82   Outr malformacoes congen da pele             Q82  
+   1281  Q83   Malformacoes congen da mama                  Q83  
+   1282  Q84   Outr malformacoes congen do tegumento        Q84  
+   1283  Q85   Facomatoses NCOP                             Q85  
+   1284  Q86   Sindr c/malf cong dev causas exog conh NCOP  Q86  
+   1285  Q87   Outr sindr c/malform cong q acomet mult sist Q87  
+   1286  Q89   Outr malformacoes congen NCOP                Q89  
+   1287  Q90   Sindr de Down                                Q90  
+   1288  Q91   Sindr de Edwards e sindr de Patau            Q91  
+   1289  Q92   Outr trissomias e trissom parc autoss NCOP   Q92  
+   1290  Q93   Monossomias e delecoes dos autossomos NCOP   Q93  
+   1291  Q95   Rearranjos equilibr e marcadores estrut NCOP Q95  
+   1292  Q96   Sindr de Turner                              Q96  
+   1293  Q97   Outr anom cromoss sexuais fenotipo fem NCOP  Q97  
+   1294  Q98   Outr anom cromoss sexuais fenotipo masc NCOP Q98  
+   1295  Q99   Outr anomalias dos cromossomos NCOP          Q99  
+   1296  R00   Anormalidades do batimento cardiaco          R00  
+   1297  R01   Sopros e outr ruidos cardiacos               R01  
+   1298  R02   Gangrena NCOP                                R02  
+   1299  R03   Valor anormal pressao arterial s/diagn       R03  
+   1300  R04   Hemorragia das vias respirat                 R04  
+   1301  R05   Tosse                                        R05  
+   1302  R06   Anormalidades da respiracao                  R06  
+   1303  R07   Dor de garganta e no peito                   R07  
+   1304  R09   Outr sint sinais relat ap circulat respirat  R09  
+   1305  R10   Dor abdominal e pelvica                      R10  
+   1306  R11   Nausea e vomitos                             R11  
+   1307  R12   Pirose                                       R12  
+   1308  R13   Disfagia                                     R13  
+   1309  R14   Flatulencia e afeccoes correlatas            R14  
+   1310  R15   Incontinencia fecal                          R15  
+   1311  R16   Hepatomegalia e esplenomegalia NCOP          R16  
+   1312  R17   Ictericia NE                                 R17  
+   1313  R18   Ascite                                       R18  
+   1314  R19   Outr sint e sinais relat ap digest abdome    R19  
+   1315  R20   Disturbios da sensibilidade cutanea          R20  
+   1316  R21   Eritema e outr erupcoes cutaneas NE          R21  
+   1317  R22   Tumefac massa tumoracao loc pele tec subcut  R22  
+   1318  R23   Outr alteracoes cutaneas                     R23  
+   1319  R25   Movimentos involuntarios anormais            R25  
+   1320  R26   Anormalidades da marcha e da mobilidade      R26  
+   1321  R27   Outr disturbios da coordenacao               R27  
+   1322  R29   Outr sint sinais relat sist nerv osteomusc   R29  
+   1323  R30   Dor assoc a miccao                           R30  
+   1324  R31   Hematuria NE                                 R31  
+   1325  R32   Incontinencia urinaria NE                    R32  
+   1326  R33   Retencao urinaria                            R33  
+   1327  R34   Anuria e oliguria                            R34  
+   1328  R35   Poliuria                                     R35  
+   1329  R36   Secrecao uretral                             R36  
+   1330  R39   Outr sint e sinais relativos ap urinario     R39  
+   1331  R40   Sonolencia estupor e coma                    R40  
+   1332  R41   Outr sint sinais relat func cognit e consc   R41  
+   1333  R42   Tontura e instabilidade                      R42  
+   1334  R43   Disturbios do olfato e do paladar            R43  
+   1335  R44   Outr sint sinais relat sensac percep gerais  R44  
+   1336  R45   Sint e sinais relativos ao estado emocional  R45  
+   1337  R46   Sint e sinais relativos aparencia e comport  R46  
+   1338  R47   Disturbios da fala NCOP                      R47  
+   1339  R48   Dislexia e outr disfuncoes simbolicas NCOP   R48  
+   1340  R49   Disturbios da voz                            R49  
+   1341  R50   Febre orig desconhecida                      R50  
+   1342  R51   Cefaleia                                     R51  
+   1343  R52   Dor NCOP                                     R52  
+   1344  R53   Mal estar fadiga                             R53  
+   1345  R54   Senilidade                                   R54  
+   1346  R55   Sincope e colapso                            R55  
+   1347  R56   Convulsoes NCOP                              R56  
+   1348  R57   Choque NCOP                                  R57  
+   1349  R58   Hemorragia NCOP                              R58  
+   1350  R59   Aumento de volume dos ganglios linfaticos    R59  
+   1351  R60   Edema NCOP                                   R60  
+   1352  R61   Hiperidrose                                  R61  
+   1353  R62   Retardo do desenvolv fisiologico normal      R62  
+   1354  R63   Sint sinais relat ingestao alimentos liquid  R63  
+   1355  R64   Caquexia                                     R64  
+   1356  R68   Outr sint e sinais gerais                    R68  
+   1357  R69   Causas desconhecidas e NE de morbidade       R69  
+   1358  R70   Veloc hemossedim elev outr anorm visc plasm  R70  
+   1359  R71   Anormalidade das hemacias                    R71  
+   1360  R72   Anormalidade dos leucocitos NCOP             R72  
+   1361  R73   Aumento da glicemia                          R73  
+   1362  R74   Anormalidades dos niveis de enzimas sericas  R74  
+   1363  R75   Evidencia laboratorial do HIV                R75  
+   1364  R76   Outr achados imunologicos anormais no soro   R76  
+   1365  R77   Outr anormalidades das proteinas plasmaticas R77  
+   1366  R78   Presenca drog outr subst norm n encontr sang R78  
+   1367  R79   Outr achados anormais exames quimicos sangue R79  
+   1368  R80   Proteinuria isolada                          R80  
+   1369  R81   Glicosuria                                   R81  
+   1370  R82   Outr achados anormais na urina               R82  
+   1371  R83   Achados anormais liquido cefalorraquidiano   R83  
+   1372  R84   Achados anormais mat prov org respirat torax R84  
+   1373  R85   Achados anorm mat prov org digest cav abdom  R85  
+   1374  R86   Achados anormais mat prov org genitais masc  R86  
+   1375  R87   Achados anormais mat prov org genitais femin R87  
+   1376  R89   Achados anorms mat prov outr org ap sist tec R89  
+   1377  R90   Result anorm exam diagn imag sist nerv centr R90  
+   1378  R91   Achados anorm exames diagn imagem do pulmao  R91  
+   1379  R92   Achados anorm exames diagn imagem da mama    R92  
+   1380  R93   Achados anorm exam diagn imag out estr corp  R93  
+   1381  R94   Resultados anormais de estudos de funcao     R94  
+   1382  R95   Sindr da morte subita na infancia            R95  
+   1383  R96   Outr mortes subitas de causa desconhecida    R96  
+   1384  R98   Morte s/assist                               R98  
+   1385  R99   Outr causas mal definidas e NE mortalidade   R99  
+   1386  S00   Traum superf da cabeca                       S00  
+   1387  S01   Ferim da cabeca                              S01  
+   1388  S02   Frat do cranio e dos ossos da face           S02  
+   1389  S03   Luxacao entorse distensao artic lig cabeca   S03  
+   1390  S04   Traum dos nervos cranianos                   S04  
+   1391  S05   Traum do olho e da orbita ocular             S05  
+   1392  S06   Traum intracraniano                          S06  
+   1393  S07   Lesoes p/esmag da cabeca                     S07  
+   1394  S08   Amput traum de parte da cabeca               S08  
+   1395  S09   Outr traum da cabeca e os NE                 S09  
+   1396  S10   Traum superf do pescoco                      S10  
+   1397  S11   Ferim do pescoco                             S11  
+   1398  S12   Frat do pescoco                              S12  
+   1399  S13   Luxacao entorse distensao artic lig pescoco  S13  
+   1400  S14   Traum nervos medula espinhal nivel cervical  S14  
+   1401  S15   Traum dos vasos sanguineos nivel do pescoco  S15  
+   1402  S16   Traum de tendoes e de musculos do pescoco    S16  
+   1403  S17   Lesoes p/esmag do pescoco                    S17  
+   1404  S18   Amput traum ao nivel do pescoco              S18  
+   1405  S19   Outr traum do pescoco e os NE                S19  
+   1406  S20   Traum superf do torax                        S20  
+   1407  S21   Ferim do torax                               S21  
+   1408  S22   Frat de costelas esterno e coluna toracica   S22  
+   1409  S23   Luxacao entorse distensao artic lig do torax S23  
+   1410  S24   Traum nervos e medula espinhal nivel torax   S24  
+   1411  S25   Traum de vasos sanguineos do torax           S25  
+   1412  S26   Traum do coracao                             S26  
+   1413  S27   Traum de outr orgaos intratoracicos e dos NE S27  
+   1414  S28   Lesao p/esmag torax amput traum parte torax  S28  
+   1415  S29   Outr traum do torax e os NE                  S29  
+   1416  S30   Traum superf do abdome do dorso e da pelve   S30  
+   1417  S31   Ferim do abdome do dorso e da pelve          S31  
+   1418  S32   Frat da coluna lombar e da pelve             S32  
+   1419  S33   Luxac entors dist artic lig col lombar pelve S33  
+   1420  S34   Traum nerv med lombar niv abdome dorso pelve S34  
+   1421  S35   Traum vasos sang nivel abdome dorso pelve    S35  
+   1422  S36   Traum de orgaos intra-abdominais             S36  
+   1423  S37   Traum do aparelho urinario e orgaos pelvicos S37  
+   1424  S38   Lesao p/esmag amput traum part abd dors pelv S38  
+   1425  S39   Outr traum e os NE do abdome dorso e pelve   S39  
+   1426  S40   Traum superf do ombro e do braco             S40  
+   1427  S41   Ferim do ombro e do braco                    S41  
+   1428  S42   Frat do ombro e do braco                     S42  
+   1429  S43   Luxacao entorse distens artic lig cint escap S43  
+   1430  S44   Traum de nervos ao nivel do ombro e do braco S44  
+   1431  S45   Traum dos vasos sanguineos nivel ombro braco S45  
+   1432  S46   Traum de tendao e musculo nivel ombro braco  S46  
+   1433  S47   Lesao p/esmag do ombro e do braco            S47  
+   1434  S48   Amput traum do ombro e do braco              S48  
+   1435  S49   Outr traum e os NE do ombro e do braco       S49  
+   1436  S50   Traum superf do cotovelo e do antebraco      S50  
+   1437  S51   Ferim do antebraco                           S51  
+   1438  S52   Frat do antebraco                            S52  
+   1439  S53   Luxacao entorse distensao artic lig cotovelo S53  
+   1440  S54   Traum de nervos ao nivel do antebraco        S54  
+   1441  S55   Traum de vasos sanguineos ao nivel antebraco S55  
+   1442  S56   Traum do musculo e tendao ao nivel antebraco S56  
+   1443  S57   Lesao p/esmag do antebraco                   S57  
+   1444  S58   Amput traum do cotovelo e do antebraco       S58  
+   1445  S59   Outr traum do antebraco e os NE              S59  
+   1446  S60   Traum superf do punho e da mao               S60  
+   1447  S61   Ferim do punho e da mao                      S61  
+   1448  S62   Frat ao nivel do punho e da mao              S62  
+   1449  S63   Luxac entors distens artic lig niv punho mao S63  
+   1450  S64   Traum de nervos ao nivel do punho e da mao   S64  
+   1451  S65   Traum de vasos sanguineos nivel punho e mao  S65  
+   1452  S66   Traum de musculo e tendao nivel punho e mao  S66  
+   1453  S67   Lesao p/esmag do punho e da mao              S67  
+   1454  S68   Amput traum ao nivel do punho e da mao       S68  
+   1455  S69   Outr traum e os NE do punho e da mao         S69  
+   1456  S70   Traum superf do quadril e da coxa            S70  
+   1457  S71   Ferim do quadril e da coxa                   S71  
+   1458  S72   Frat do femur                                S72  
+   1459  S73   Luxacao entorse distensao artic lig quadril  S73  
+   1460  S74   Traum de nervos ao nivel do quadril e coxa   S74  
+   1461  S75   Traum vasos sanguineos nivel quadril e coxa  S75  
+   1462  S76   Traum musculo e tendao nivel quadril e coxa  S76  
+   1463  S77   Lesao p/esmag do quadril e da coxa           S77  
+   1464  S78   Amput traum do quadril e da coxa             S78  
+   1465  S79   Outr traum e os NE do quadril e da coxa      S79  
+   1466  S80   Traum superf da perna                        S80  
+   1467  S81   Ferim da perna                               S81  
+   1468  S82   Frat da perna incl tornozelo                 S82  
+   1469  S83   Luxacao entorse distensao art lig joelho     S83  
+   1470  S84   Traum de nervos perifericos da perna         S84  
+   1471  S85   Traum de vasos sanguineos da perna           S85  
+   1472  S86   Traum de musculo e de tendao ao nivel perna  S86  
+   1473  S87   Traum p/esmag da perna                       S87  
+   1474  S88   Amput traum da perna                         S88  
+   1475  S89   Outr traum e os NE da perna                  S89  
+   1476  S90   Traum superf do tornozelo e do pe            S90  
+   1477  S91   Ferim do tornozelo e do pe                   S91  
+   1478  S92   Frat do pe                                   S92  
+   1479  S93   Luxac entors distens artic lig niv tornoz pe S93  
+   1480  S94   Traum dos nervos ao nivel do tornozelo e pe  S94  
+   1481  S95   Traum vasos sanguineos nivel tornozelo e pe  S95  
+   1482  S96   Traum musculo e tendao nivel tornozelo e pe  S96  
+   1483  S97   Lesao p/esmag do tornozelo e do pe           S97  
+   1484  S98   Amput traum do tornozelo e do pe             S98  
+   1485  S99   Outr traum e os NE do tornozelo e do pe      S99  
+   1486  T00   Traum superf envolv mult regioes corpo       T00  
+   1487  T01   Ferim envolv mult regioes do corpo           T01  
+   1488  T02   Frat envolv mult regioes do corpo            T02  
+   1489  T03   Luxac entors distens envolv reg mult corpo   T03  
+   1490  T04   Traum p/esmag envolv mult regioes do corpo   T04  
+   1491  T05   Amput traum envolv mult regioes do corpo     T05  
+   1492  T06   Outr traum envolv regioes mult do corpo NCOP T06  
+   1493  T07   Traum mult NE                                T07  
+   1494  T08   Frat da coluna nivel NE                      T08  
+   1495  T09   Outr traum de coluna e tronco nivel NE       T09  
+   1496  T10   Frat do membro super nivel NE                T10  
+   1497  T11   Outr traum de membro super nivel NE          T11  
+   1498  T12   Frat do membro infer nivel NE                T12  
+   1499  T13   Outr traum de membro infer nivel NE          T13  
+   1500  T14   Traum de regiao NE do corpo                  T14  
+   1501  T15   Corpo estranho na parte externa do olho      T15  
+   1502  T16   Corpo estranho no ouvido                     T16  
+   1503  T17   Corpo estranho no trato respirat             T17  
+   1504  T18   Corpo estranho no aparelho digestivo         T18  
+   1505  T19   Corpo estranho no trato geniturinario        T19  
+   1506  T20   Queim e corrosao da cabeca e pescoco         T20  
+   1507  T21   Queim e corrosao do tronco                   T21  
+   1508  T22   Queim corrosao ombro membr sup exc punho mao T22  
+   1509  T23   Queim e corrosao do punho e da mao           T23  
+   1510  T24   Queim corros quadr membro inf exc tornoz pe  T24  
+   1511  T25   Queim e corrosao do tornozelo e do pe        T25  
+   1512  T26   Queim e corrosao limitadas ao olho e anexos  T26  
+   1513  T27   Queim e corrosao do trato respirat           T27  
+   1514  T28   Queim e corrosao de outr orgaos internos     T28  
+   1515  T29   Queim e corrosoes de mult regioes do corpo   T29  
+   1516  T30   Queim e corrosao parte NE do corpo           T30  
+   1517  T31   Queim classif seg ext superf corporal ating  T31  
+   1518  T32   Corrosoes classif seg ext superf corp ating  T32  
+   1519  T33   Geladura superf                              T33  
+   1520  T34   Geladura c/necrose de tec                    T34  
+   1521  T35   Geladura de mult partes do corpo e das NE    T35  
+   1522  T36   Intox p/antibioticos sistemicos              T36  
+   1523  T37   Intox outr subst antiinfecc antiparasit sist T37  
+   1524  T38   Intox p/hormonios seus subst sint antag NCOP T38  
+   1525  T39   Intox analges antipiret anti-reumat n-opiac  T39  
+   1526  T40   Intox p/narcoticos e psicodislepticos        T40  
+   1527  T41   Intox p/anestesicos e gases terapeuticos     T41  
+   1528  T42   Intox antiepilept sedativ-hipnot antiparkins T42  
+   1529  T43   Intox p/drogas psicotropicas NCOP            T43  
+   1530  T44   Intox p/drog q afet princ sist nerv autonomo T44  
+   1531  T45   Intox subst acao ess sist subst hematol NCOP T45  
+   1532  T46   Intox subst que atuam prim sobre ap circul   T46  
+   1533  T47   Intox p/subst que atuam prim s/ap gastroint  T47  
+   1534  T48   Intox subst q at prim musc lisos esq ap resp T48  
+   1535  T49   Int subs uso top pel muc med ut oft otor odo T49  
+   1536  T50   Intox diuret out drog medic subst biolog NE  T50  
+   1537  T51   Efeito toxico do alcool                      T51  
+   1538  T52   Efeito toxico de solventes organicos         T52  
+   1539  T53   Efeito tox deriv halog hidrocarb alif aromat T53  
+   1540  T54   Efeito toxico de corrosivos                  T54  
+   1541  T55   Efeito toxico de saboes e detergentes        T55  
+   1542  T56   Efeito toxico de metais                      T56  
+   1543  T57   Efeito toxico de outr subst inorganicas      T57  
+   1544  T58   Efeito toxico de monoxido de carbono         T58  
+   1545  T59   Efeito toxico de outr gases fumacas vapores  T59  
+   1546  T60   Efeito toxico de pesticidas                  T60  
+   1547  T61   Efeito tox subst nocivas cons como fruto mar T61  
+   1548  T62   Efeito tox outr subst noc inger como aliment T62  
+   1549  T63   Efeito toxico de contato c/animais venenosos T63  
+   1550  T64   Efeito tox aflatox outr micotox contam alim  T64  
+   1551  T65   Efeito toxico de outr subst e as NE          T65  
+   1552  T66   Efeitos NE de radiacao                       T66  
+   1553  T67   Efeitos do calor e da luz                    T67  
+   1554  T68   Hipotermia                                   T68  
+   1555  T69   Outr efeitos da temperatura reduzida         T69  
+   1556  T70   Efeitos pressao atmosferica e pressao agua   T70  
+   1557  T71   Asfixia                                      T71  
+   1558  T73   Efeitos de outr privacoes                    T73  
+   1559  T74   Sindr de maus tratos                         T74  
+   1560  T75   Efeitos de outr causas externas              T75  
+   1561  T78   Efeitos adversos NCOP                        T78  
+   1562  T79   Algumas complic precoces dos traum NCOP      T79  
+   1563  T80   Complic conseq infus transfus injecao terap  T80  
+   1564  T81   Complic de proced NCOP                       T81  
+   1565  T82   Complic disp prot impl enxert card e vasc    T82  
+   1566  T83   Complic disp prot impl enx geniturin int     T83  
+   1567  T84   Complic disp prot impl enx ortopedicos int   T84  
+   1568  T85   Complic outr disp proteticos impl enx int    T85  
+   1569  T86   Falha rejeicao orgaos e tec transplantados   T86  
+   1570  T87   Complic proprias de reimplante e amput       T87  
+   1571  T88   Outr complic cuidados medicos cirurg NCOP    T88  
+   1572  T90   Sequelas de traum da cabeca                  T90  
+   1573  T91   Sequelas de traum do pescoco e do tronco     T91  
+   1574  T92   Sequelas de traum do membro super            T92  
+   1575  T93   Sequelas de traum do membro infer            T93  
+   1576  T94   Sequelas traum envolv mult reg corpo e NE    T94  
+   1577  T95   Sequelas de queim corrosoes e geladuras      T95  
+   1578  T96   Sequelas intox drog medic subst biolog       T96  
+   1579  T97   Sequelas efeit tox subst orig pred nao-medic T97  
+   1580  T98   Sequelas outr efeitos causas externas e NE   T98  
+   1581  V01   Pedestre traum colis veic a pedal            V01  
+   1582  V02   Pedestre traum colis veic motor 2 3 rodas    V02  
+   1583  V03   Pedestre traum colis automov pickup caminhon V03  
+   1584  V04   Pedestre traum colis veic transp pesado onib V04  
+   1585  V05   Pedestre traum colis trem veic ferroviario   V05  
+   1586  V06   Pedestre traum colis outr veic nao-motoriz   V06  
+   1587  V09   Pedestre traum outr acid transp e NE         V09  
+   1588  V10   Ciclista traum colis pedestre animal         V10  
+   1589  V11   Ciclista traum colis outr veic a pedal       V11  
+   1590  V12   Ciclista traum colis veic motor 2 3 rodas    V12  
+   1591  V13   Ciclista traum colis automov pickup caminhon V13  
+   1592  V14   Ciclis traum colis veic transp pesado onibus V14  
+   1593  V15   Ciclista traum colis trem veic ferroviario   V15  
+   1594  V16   Ciclista traum colis outr veic nao-motoriz   V16  
+   1595  V17   Ciclista traum colis objeto fixo ou parado   V17  
+   1596  V18   Ciclista traum acid transp s/colis           V18  
+   1597  V19   Ciclista traum acid transp e NE              V19  
+   1598  V20   Motociclista traum colis pedestre animal     V20  
+   1599  V21   Motociclista traum colis veic pedal          V21  
+   1600  V22   Motocicl traum colis veic motor 2 3 rodas    V22  
+   1601  V23   Motocicl traum colis automov pickup caminhon V23  
+   1602  V24   Motocicl traum colis veic transp pesado onib V24  
+   1603  V25   Motociclista traum colis trem veic ferrov    V25  
+   1604  V26   Motocicl traum colis outr veic nao-motoriz   V26  
+   1605  V27   Motocicl traum colis objeto fixo parado      V27  
+   1606  V28   Motociclista traum acid transp s/colis       V28  
+   1607  V29   Motociclista traum outr acid transp e NE     V29  
+   1608  V30   Ocup tricicl mot traum colis pedestre animal V30  
+   1609  V31   Ocup tricicl motoriz traum colis veic pedal  V31  
+   1610  V32   Ocup tric mot traum col out veic mot 2 3 rod V32  
+   1611  V33   Ocup tric mot traum col auto pickup caminhon V33  
+   1612  V34   Ocup tric mot traum col veic transp pes onib V34  
+   1613  V35   Ocup tricic mot traum colis trem veic ferrov V35  
+   1614  V36   Ocup tric mot traum colis outr veic n-motor  V36  
+   1615  V37   Ocup tricic mot traum colis obj fixo parado  V37  
+   1616  V38   Ocup tricic motor traum acid transp s/colis  V38  
+   1617  V39   Ocup tricicl mot traum outr acid transp e NE V39  
+   1618  V40   Ocup automovel traum colis pedestre animal   V40  
+   1619  V41   Ocup automovel traum colis veic a pedal      V41  
+   1620  V42   Ocup autotraum colis outr veic mot 2 3 rodas V42  
+   1621  V43   Ocup automov traum col auto pickup caminhon  V43  
+   1622  V44   Ocup autom traum colis veic trans pesad onib V44  
+   1623  V45   Ocup automovel traum colis trem veic ferrov  V45  
+   1624  V46   Ocup automov traum colis outr veic n-motor   V46  
+   1625  V47   Ocup automovel traum colis obj fixo parado   V47  
+   1626  V48   Ocup automovel traum acid transp s/colis     V48  
+   1627  V49   Ocup automovel traum outr acid transp e NE   V49  
+   1628  V50   Ocup caminhonete traum colis pedestre animal V50  
+   1629  V51   Ocup caminhonete traum colis veic pedal      V51  
+   1630  V52   Ocup caminhon traum colis veic mot 2 3 rodas V52  
+   1631  V53   Ocup caminhon traum colis automov caminhon   V53  
+   1632  V54   Ocup caminhon traum col veic transp pes onib V54  
+   1633  V55   Ocup caminhon traum colis trem veic ferrov   V55  
+   1634  V56   Ocup caminhonete traum colis outr veic n-mot V56  
+   1635  V57   Ocup caminhonete traum colis obj fixo parado V57  
+   1636  V58   Ocup caminhonete traum acid transp s/colis   V58  
+   1637  V59   Ocup caminhonete traum outr acid transp NE   V59  
+   1638  V60   Ocup veic transp pesado traum colis ped anim V60  
+   1639  V61   Ocup veic transp pesado traum col veic pedal V61  
+   1640  V62   Ocup v transp pes traum col veic mot 2 3 rod V62  
+   1641  V63   Ocup veic tr pesado traum col auto caminhon  V63  
+   1642  V64   Ocup v tr pes tr col outr veic tr pes onib   V64  
+   1643  V65   Ocup veic tr pes traum col trem veic ferrov  V65  
+   1644  V66   Ocup veic tr pesado traum col out veic n-mot V66  
+   1645  V67   Ocup veic tr pesado traum col obj fixo parad V67  
+   1646  V68   Ocup veic tr pesado traum ac transp s/colis  V68  
+   1647  V69   Ocup veic tr pesado traum outr ac transp NE  V69  
+   1648  V70   Ocup onibus traum colis pedestre animal      V70  
+   1649  V71   Ocup onibus traum colis veic a pedal         V71  
+   1650  V72   Ocup onibus traum col out veic mot 2 3 rodas V72  
+   1651  V73   Ocup onibus traum colis automovel caminhonet V73  
+   1652  V74   Ocup onibus traum colis veic transp pes onib V74  
+   1653  V75   Ocup onibus traum colis trem veic ferrov     V75  
+   1654  V76   Ocup onibus traum colis outr veic n-motor    V76  
+   1655  V77   Ocup onibus traum colis objeto fixo parado   V77  
+   1656  V78   Ocup onibus traum acid transp s/colis        V78  
+   1657  V79   Ocup onibus traum outr acid transp e NE      V79  
+   1658  V80   Pess mont anim oc veic anim traum ac transp  V80  
+   1659  V81   Ocup trem veic ferroviario traum acid transp V81  
+   1660  V82   Ocup de um bonde traum acid transp           V82  
+   1661  V83   Ocup veic esp mot area ind traum ac transp   V83  
+   1662  V84   Ocup veic esp mot uso agric traum acid trans V84  
+   1663  V85   Ocup veic mot esp constr traum acid tansp    V85  
+   1664  V86   Ocup veic outr uso n-via pub traum ac transp V86  
+   1665  V87   Acid trans tipo espec desconh mod transp vit V87  
+   1666  V88   Ac n-trans tipo espec desconh mod transp vit V88  
+   1667  V89   Acid veic mot n-mot tipos de veic NE         V89  
+   1668  V90   Acid embarcacao caus afogamento submersao    V90  
+   1669  V91   Acid embarcacao causando outr tipo de traum  V91  
+   1670  V92   Afog submers rel transp agua s/acid embarc   V92  
+   1671  V93   Acid bord emb s/ac bem n caus afog submers   V93  
+   1672  V94   Outr acid transp p/agua e os NE              V94  
+   1673  V95   Acid de aeronave mot causando traum ao ocup  V95  
+   1674  V96   Acid aeronave s/motor causando traum a ocup  V96  
+   1675  V97   Outr acid espec de transporte aereo          V97  
+   1676  V98   Outr acid transp espec                       V98  
+   1677  V99   Acid transp NE                               V99  
+   1678  W00   Queda mesmo nivel envolv gelo e neve         W00  
+   1679  W01   Queda mesmo nivel escorr tropec passo falso  W01  
+   1680  W02   Queda env patins rodas gelo esqui pranch rod W02  
+   1681  W03   Outr qued mesmo niv colis empurrao outr pess W03  
+   1682  W04   Queda enquanto carreg apoiado p/outr pessoas W04  
+   1683  W05   Queda envolv uma cadeira de rodas            W05  
+   1684  W06   Queda de um leito                            W06  
+   1685  W07   Queda de uma cadeira                         W07  
+   1686  W08   Queda de outr tipo de mobilia                W08  
+   1687  W09   Queda envolv equipamento de playground       W09  
+   1688  W10   Queda em ou de escadas ou degraus            W10  
+   1689  W11   Queda em ou de escadas de mao                W11  
+   1690  W12   Queda em ou de um andaime                    W12  
+   1691  W13   Queda de ou p/fora edificios outr estruturas W13  
+   1692  W14   Queda de arvore                              W14  
+   1693  W15   Queda de penhasco                            W15  
+   1694  W16   Merg pulo agua caus out traum n afog submers W16  
+   1695  W17   Outr quedas de um nivel a outr               W17  
+   1696  W18   Outr quedas no mesmo nivel                   W18  
+   1697  W19   Queda s/especificacao                        W19  
+   1698  W20   Impacto caus objeto lanc projetado em queda  W20  
+   1699  W21   Impacto acid ativo passivo caus equip esport W21  
+   1700  W22   Impacto acid ativo passivo caus outr objetos W22  
+   1701  W23   Apert colhid comprim esmag dentro objetos    W23  
+   1702  W24   Contato elevadores instr de transm NCOP      W24  
+   1703  W25   Contato c/vidro cortante                     W25  
+   1704  W26   Contato c/faca espada e punhal               W26  
+   1705  W27   Contato c/ferramentas manuais s/motor        W27  
+   1706  W28   Contato segadeira mot p/cortar aparar grama  W28  
+   1707  W29   Contat out utens manuais ap domest equip mot W29  
+   1708  W30   Contato c/maquinaria agricola                W30  
+   1709  W31   Contato c/outr maquinas e c/as NE            W31  
+   1710  W32   Projetil de revolver                         W32  
+   1711  W33   Rifle espingarda armas fogo de maior tamanho W33  
+   1712  W34   Projeteis de outr armas de fogo e das NE     W34  
+   1713  W35   Explosao ou ruptura de caldeira              W35  
+   1714  W36   Explosao ou ruptura de cilindro de gas       W36  
+   1715  W37   Explosao ruptura pneumat tubulac mang press  W37  
+   1716  W38   Explosao ruptura outr ap pressurizados espec W38  
+   1717  W39   Queima de fogos de artificio                 W39  
+   1718  W40   Explosao de outr materiais                   W40  
+   1719  W41   Exposicao a um jato de alta pressao          W41  
+   1720  W42   Exposicao ao ruido                           W42  
+   1721  W43   Exposicao a vibracao                         W43  
+   1722  W44   Penetr corpo estranho olho orificio natural  W44  
+   1723  W45   Penetracao corpo objeto estranho pele        W45  
+   1724  W49   Exposicao outr forcas mecan inanimadas e NE  W49  
+   1725  W50   Golpe panc pontape mord escor infl outr pess W50  
+   1726  W51   Colis entre duas pessoas                     W51  
+   1727  W52   Esmag empurr pisot multidao deband massa     W52  
+   1728  W53   Mordedura de rato                            W53  
+   1729  W54   Mordedura ou golpe provocado p/cao           W54  
+   1730  W55   Mordedura golpe provoc outr animais mamif    W55  
+   1731  W56   Contato c/animais marinhos                   W56  
+   1732  W57   Morded picadas inseto outr artrop n-venen    W57  
+   1733  W58   Mordedura golpe provoc crocodilo ou aligator W58  
+   1734  W59   Mordedura ou esmag provocado p/outr repteis  W59  
+   1735  W60   Contato espinhos plantas ou folhas agucadas  W60  
+   1736  W64   Exposicao outr forcas mecan animadas e as NE W64  
+   1737  W65   Afogamento submersao durante banho banheira  W65  
+   1738  W66   Afogamento submersao consec queda banheira   W66  
+   1739  W67   Afogamento e submersao em piscina            W67  
+   1740  W68   Afogamento submersao conseq queda piscina    W68  
+   1741  W69   Afogamento e submersao em aguas naturais     W69  
+   1742  W70   Afogamento submersao conseq queda aguas nat  W70  
+   1743  W73   Outr afogamentos e submersao espec           W73  
+   1744  W74   Afogamento e submersao NE                    W74  
+   1745  W75   Sufocacao e estrangulamento acid na cama     W75  
+   1746  W76   Outr enforcamento e estrangulamento acid     W76  
+   1747  W77   Risco resp dev desmor queda terra outr subst W77  
+   1748  W78   Inalacao do conteudo gastrico                W78  
+   1749  W79   Inalacao ingest aliment caus obstr trat resp W79  
+   1750  W80   Inalac ingest outr obj caus obstr trat resp  W80  
+   1751  W81   Confinado aprision ambiente pobre oxigenio   W81  
+   1752  W83   Outr riscos espec a respiracao               W83  
+   1753  W84   Riscos NE a respiracao                       W84  
+   1754  W85   Exposicao linhas transm de corrente eletrica W85  
+   1755  W86   Exposicao a outr corrente eletrica espec     W86  
+   1756  W87   Exposicao a corrente eletrica NE             W87  
+   1757  W88   Exposicao a radiacao ionizante               W88  
+   1758  W89   Expos fontes lumin artif visiv luz ultraviol W89  
+   1759  W90   Exposicao outr tipos radiacao nao-ionizante  W90  
+   1760  W91   Exposicao a tipo NE de radiacao              W91  
+   1761  W92   Exposicao calor excessivo orig artificial    W92  
+   1762  W93   Exposicao frio excessivo orig artificial     W93  
+   1763  W94   Expos alta baixa variacoes pressao atmosf    W94  
+   1764  W99   Exposicao outr fatores ambient artif e NE    W99  
+   1765  X00   Expos fogo n-contr edificio outr tipo constr X00  
+   1766  X01   Expos fogo n-contr fora edif out tipo constr X01  
+   1767  X02   Exposicao fogo contr edif outr tipo constr   X02  
+   1768  X03   Expos fogo contr fora edif outr tipo constr  X03  
+   1769  X04   Exposicao combustao subst muito inflamavel   X04  
+   1770  X05   Exposicao a combustao de roupa de dormir     X05  
+   1771  X06   Exposicao combustao outr tipo roupa acessor  X06  
+   1772  X08   Exposicao outr tipo espec fumaca fogo chamas X08  
+   1773  X09   Exposicao a tipo NE de fumacas fogo chamas   X09  
+   1774  X10   Contato bebid alim gord oleo cozinha quentes X10  
+   1775  X11   Contato c/agua corrente quente de torneira   X11  
+   1776  X12   Contato c/outr liquidos quentes              X12  
+   1777  X13   Contato c/vapor dagua e c/vapores quentes    X13  
+   1778  X14   Contato c/ar e gases quentes                 X14  
+   1779  X15   Contato c/aparelhos domesticos quentes       X15  
+   1780  X16   Contato c/aquecedores radiadores e tubulacao X16  
+   1781  X17   Contato motores maquinas ferramentos quentes X17  
+   1782  X18   Contato c/outr metais quentes                X18  
+   1783  X19   Contato outr fontes calor subst quentes NE   X19  
+   1784  X20   Contato c/serpentes e lagartos venenosos     X20  
+   1785  X21   Contato c/aranhas venenosas                  X21  
+   1786  X22   Contato c/escorpioes                         X22  
+   1787  X23   Contato c/abelhas vespas e vespoes           X23  
+   1788  X24   Contato c/centopeias e miriapodes venenosas  X24  
+   1789  X25   Contato c/outr artropodes venenosos espec    X25  
+   1790  X26   Contato animais e plantas marinhos venenosos X26  
+   1791  X27   Contato c/outr animais venenosos espec       X27  
+   1792  X28   Contato c/outr plantas venenosas espec       X28  
+   1793  X29   Contato animais ou plantas venenosos s/espec X29  
+   1794  X30   Exposicao a calor natural excessivo          X30  
+   1795  X31   Exposicao a frio natural excessivo           X31  
+   1796  X32   Exposicao a luz solar                        X32  
+   1797  X33   Vitima de raio                               X33  
+   1798  X34   Vitima de terremoto                          X34  
+   1799  X35   Vitima de erupcao vulcanica                  X35  
+   1800  X36   Vitima avalanc desab terra out mov sup terr  X36  
+   1801  X37   Vitima de tempestade cataclismica            X37  
+   1802  X38   Vitima de inundacao                          X38  
+   1803  X39   Exposicao a outr forcas da natureza e as NE  X39  
+   1804  X40   Envenen acid analg antipir anti-reum n-opiac X40  
+   1805  X41   Env ac anticon sed hipn antipark psicot NCOP X41  
+   1806  X42   Envenen acid narcot psicodislepticos NCOP    X42  
+   1807  X43   Envenen acid outr subst farm sist nerv auton X43  
+   1808  X44   Envenen acid outr drog medic subst biolog NE X44  
+   1809  X45   Envenen acid p/e exposicao ao alcool         X45  
+   1810  X46   Envenen acid solv org hidrocarb halog vapor  X46  
+   1811  X47   Intox acid outr gases e vapores              X47  
+   1812  X48   Envenen acid p/e exposicao a pesticidas      X48  
+   1813  X49   Envenen acid outr subst quim nocivas e as NE X49  
+   1814  X50   Excesso exerc movim vigorosos ou repetitivos X50  
+   1815  X51   Viagem e movimento                           X51  
+   1816  X52   Estadia prolongada ambiente agravitacional   X52  
+   1817  X53   Falta de alimento                            X53  
+   1818  X54   Falta de agua                                X54  
+   1819  X57   Privacao NE                                  X57  
+   1820  X58   Exposicao a outr fatores espec               X58  
+   1821  X59   Exposicao a fatores NE                       X59  
+   1822  X60   Auto-int int analg antipir anti-reum n-opiac X60  
+   1823  X61   Auto-int int a-conv sed hip a-park psic NCOP X61  
+   1824  X62   Auto-intox intenc narcot psicodislept NCOP   X62  
+   1825  X63   Auto-int int outr subst farm sist nerv auton X63  
+   1826  X64   Auto-int intenc out drog med subst biolog NE X64  
+   1827  X65   Auto-intox voluntaria p/alcool               X65  
+   1828  X66   Auto-int int solv org hidrocarb halog vapor  X66  
+   1829  X67   Auto-intox intenc p/outr gases e vapores     X67  
+   1830  X68   Auto-intox intenc a pesticidas               X68  
+   1831  X69   Auto-int intenc outr prod quim subst noc NE  X69  
+   1832  X70   Lesao autoprov intenc enforc estrang sufoc   X70  
+   1833  X71   Lesao autoprov intenc p/afogamento submersao X71  
+   1834  X72   Lesao autoprov intenc disp arma fogo de mao  X72  
+   1835  X73   Les autoprov int disp arm fog maior calibre  X73  
+   1836  X74   Lesao autopr intenc disp outr arma fogo e NE X74  
+   1837  X75   Lesao autoprov intenc p/disp explosivos      X75  
+   1838  X76   Lesao autoprov intenc fumaca fogo e chamas   X76  
+   1839  X77   Lesao autopr int vapor agua gas  obj quent   X77  
+   1840  X78   Lesao autoprov intenc obj cortante  penetr   X78  
+   1841  X79   Lesao autoprov intenc p/objeto contundente   X79  
+   1842  X80   Lesao autoprov intenc precip lugar elevado   X80  
+   1843  X81   Lesao autoprov intenc precip perm obj movim  X81  
+   1844  X82   Lesao autoprov intenc impacto veic a motor   X82  
+   1845  X83   Lesao autoprov intenc p/outr meios espec     X83  
+   1846  X84   Lesao autoprov intenc p/meios NE             X84  
+   1847  X85   Agressao meio drog medic e subst biologicas  X85  
+   1848  X86   Agressao p/meio de subst corrosivas          X86  
+   1849  X87   Agressao p/pesticidas                        X87  
+   1850  X88   Agressao p/meio de gases e vapores           X88  
+   1851  X89   Agressao outr prod quim subst nocivas espec  X89  
+   1852  X90   Agressao prod quimicos e subst nocivas NE    X90  
+   1853  X91   Agressao enforc estrangulamento sufocacao    X91  
+   1854  X92   Agressao p/meio de afogamento e submersao    X92  
+   1855  X93   Agressao disparo de arma de fogo de mao      X93  
+   1856  X94   Agressao disparo arma fogo de maior calibre  X94  
+   1857  X95   Agressao disparo outr arma de fogo ou NE     X95  
+   1858  X96   Agressao p/meio de material explosivo        X96  
+   1859  X97   Agressao p/meio de fumaca fogo e chamas      X97  
+   1860  X98   Agressao vapor agua gases ou objetos quentes X98  
+   1861  X99   Agressao objeto cortante ou penetrante       X99  
+   1862  Y00   Agressao p/meio de um objeto contundente     Y00  
+   1863  Y01   Agressao p/meio projecao de um lugar elevado Y01  
+   1864  Y02   Agressao proj coloc vitima obj movimento     Y02  
+   1865  Y03   Agressao p/meio de impacto veic a motor      Y03  
+   1866  Y04   Agressao p/meio de forca corporal            Y04  
+   1867  Y05   Agressao sexual p/meio de forca fisica       Y05  
+   1868  Y06   Negligencia e abandono                       Y06  
+   1869  Y07   Outr sindr de maus tratos                    Y07  
+   1870  Y08   Agressao p/outr meios espec                  Y08  
+   1871  Y09   Agressao p/meios NE                          Y09  
+   1872  Y10   Env analg antipir antireum n-opiac int n det Y10  
+   1873  Y11   Env antic sed hipn antip psic NCOP int n det Y11  
+   1874  Y12   Envenen narcot psicodislept NCOP int n det   Y12  
+   1875  Y13   Env out subst farm sist nerv auton int n det Y13  
+   1876  Y14   Env out drog med subst biolog e NE int n det Y14  
+   1877  Y15   Envenen alcool intencao nao determinada      Y15  
+   1878  Y16   Env solv org hidrocarb halog vap int n det   Y16  
+   1879  Y17   Envenen outr gases vapores intenc n det      Y17  
+   1880  Y18   Envenen pesticidas intencao nao determinada  Y18  
+   1881  Y19   Env out prod quim subst noc e NE int n det   Y19  
+   1882  Y20   Enforc estrang sufoc intenc nao determinada  Y20  
+   1883  Y21   Afogamento submersao intenc nao determinada  Y21  
+   1884  Y22   Disparo de pistola intencao nao determinada  Y22  
+   1885  Y23   Disparo arma fogo maior calibre intenc n det Y23  
+   1886  Y24   Disparo outr arma fogo e NE intenc nao det   Y24  
+   1887  Y25   Contato c/material explosivo intenc n det    Y25  
+   1888  Y26   Exposicao fumaca fogo chamas intenc n det    Y26  
+   1889  Y27   Exposic vapor agua gas obj quente int n det  Y27  
+   1890  Y28   Contato obj cortante penetrante intenc n det Y28  
+   1891  Y29   Contato obj contundente intenc n det         Y29  
+   1892  Y30   Queda salto empurr lugar elev intenc n det   Y30  
+   1893  Y31   Queda perman corrida obj mov intenc n det    Y31  
+   1894  Y32   Impacto veic a motor intenc nao determinada  Y32  
+   1895  Y33   Outr fatos ou eventos espec intenc n det     Y33  
+   1896  Y34   Fatos ou eventos NE e intenc nao determinada Y34  
+   1897  Y35   Intervencao legal                            Y35  
+   1898  Y36   Operacoes de guerra                          Y36  
+   1899  Y40   Antibioticos sistemicos                      Y40  
+   1900  Y41   Outr antiinfecc e antiparasit sistemicos     Y41  
+   1901  Y42   Hormonios subst sintet antagonistas NCOP     Y42  
+   1902  Y43   Subst de acao prim sistemica                 Y43  
+   1903  Y44   Subst farm atuam prim s/constit sangue       Y44  
+   1904  Y45   Subst analges antipiret e antiinflamatorias  Y45  
+   1905  Y46   Drogas anticonvulsiv e antiparkinsonianas    Y46  
+   1906  Y47   Sedativos hipnoticos e tranquilizantes       Y47  
+   1907  Y48   Anestesicos e gases terapeuticos             Y48  
+   1908  Y49   Subst psicotropicas NCOP                     Y49  
+   1909  Y50   Estimulantes do sist nervoso central NCOP    Y50  
+   1910  Y51   Drogas que atuam prim s/sist nerv auton      Y51  
+   1911  Y52   Subst que atuam prim aparelho cardiovascular Y52  
+   1912  Y53   Subst que atuam prim aparelho gastrointest   Y53  
+   1913  Y54   Subst atuam prim metab agua sais min ac uric Y54  
+   1914  Y55   Subst atuam prim musc lisos esquelet ap resp Y55  
+   1915  Y56   Subst topic pele membr muc uso oft otor dent Y56  
+   1916  Y57   Outr drogas e medicamentos e as NE           Y57  
+   1917  Y58   Vacinas bacter                               Y58  
+   1918  Y59   Outr vacinas e subst biologicas e as NE      Y59  
+   1919  Y60   Cort punc perf hemorr acid cuid med cirurg   Y60  
+   1920  Y61   Obj estranho deix acid prest cuid cirurg med Y61  
+   1921  Y62   Asseps insuf prest cuidados cirurg e medicos Y62  
+   1922  Y63   Erros dosagem prest cuidados med e cirurg    Y63  
+   1923  Y64   Medicamentos ou subst biolog contaminados    Y64  
+   1924  Y65   Outr acid durante prest cuid medic cirurg    Y65  
+   1925  Y66   Nao admin de cuidado medico e cirurgico      Y66  
+   1926  Y69   Acid NE durante prest cuidado medic cirurg   Y69  
+   1927  Y70   Disp anestesiologia assoc incid adversos     Y70  
+   1928  Y71   Disp cardiovasculares assoc incid adversos   Y71  
+   1929  Y72   Disp utiliz otorrino assoc incid adversos    Y72  
+   1930  Y73   Disp usados gastroent urolog assoc incid adv Y73  
+   1931  Y74   Disp gerais uso hosp pessoal assoc incid adv Y74  
+   1932  Y75   Disp utiliz neurolog assoc incid adversos    Y75  
+   1933  Y76   Disp utiliz obstetr ginec assoc incid adv    Y76  
+   1934  Y77   Disp utiliz oftalmo assoc incid adversos     Y77  
+   1935  Y78   Disp utiliz radiologia assoc incid adversos  Y78  
+   1936  Y79   Disp ortopedicos assoc a incidentes adversos Y79  
+   1937  Y80   Disp utiliz med fisica assoc incid adversos  Y80  
+   1938  Y81   Disp util cirurg geral plast assoc incid adv Y81  
+   1939  Y82   Outr disp assoc incidentes adversos e os NE  Y82  
+   1940  Y83   Reac anorm compl tard interv cirurg s/acid   Y83  
+   1941  Y84   Reac anorm compl tard out proc med s/acid    Y84  
+   1942  Y85   Sequelas de acid transp                      Y85  
+   1943  Y86   Sequelas de outr acid                        Y86  
+   1944  Y87   Seq lesao autopr inten agress fato int indet Y87  
+   1945  Y88   Sequelas cuid med cirurg consid causa ext    Y88  
+   1946  Y89   Sequelas de outr causas externas             Y89  
+   1947  Y90   Evidencia alcoolismo det p/taxas alcoolemia  Y90  
+   1948  Y91   Evidencia alcoolismo determ p/nivel da intox Y91  
+   1949  Y95   Circunst relat condicoes nosocomiais         Y95  
+   1950  Y96   Circunst relat condicoes de trabalho         Y96  
+   1951  Y97   Circunst relat condicoes poluicao ambiental  Y97  
+   1952  Y98   Circunst relat condicoes do modo de vida     Y98  
+   1953  Z00   Exame geral invest pess s/queix diagn relat  Z00  
+   1954  Z01   Outr exam invest esp pess s/queix diag relat Z01  
+   1955  Z02   Exame med e consulta c/finalid admin         Z02  
+   1956  Z03   Observ avaliacao med doenc afecc suspeitas   Z03  
+   1957  Z04   Exame e observacao p/outr razoes             Z04  
+   1958  Z08   Exame seguim apos tratamento p/neopl malig   Z08  
+   1959  Z09   Exame seguim apos trat out afec n neop malig Z09  
+   1960  Z10   Exame geral de rotina subpopulacao definida  Z10  
+   1961  Z11   Exame esp rastr doenc infecc parasit         Z11  
+   1962  Z12   Exame especial rastr de neoplasias           Z12  
+   1963  Z13   Exame especial rastr de outr transt e doenc  Z13  
+   1964  Z20   Contato exposicao a doenc transmissiveis     Z20  
+   1965  Z21   Estado de infecc assintomatica p/HIV         Z21  
+   1966  Z22   Portador de doenc infecc                     Z22  
+   1967  Z23   Necess imuniz contra unica doenc bacter      Z23  
+   1968  Z24   Necess imuniz contra alg doenc virais unicas Z24  
+   1969  Z25   Necess imuniz contra outr doenc virais unic  Z25  
+   1970  Z26   Necess imuniz outr doenc infecc unicas       Z26  
+   1971  Z27   Necess imuniz assoc contra comb doenc infecc Z27  
+   1972  Z28   Imuniz nao realizada                         Z28  
+   1973  Z29   Necessidade de outr medidas profilaticas     Z29  
+   1974  Z30   Anticoncepcao                                Z30  
+   1975  Z31   Medidas de procriacao                        Z31  
+   1976  Z32   Exame ou teste de gravidez                   Z32  
+   1977  Z33   Gravidez como achado casual                  Z33  
+   1978  Z34   Supervisao de gravidez normal                Z34  
+   1979  Z35   Supervisao de gravidez de alto risco         Z35  
+   1980  Z36   Rastr pre-natal                              Z36  
+   1981  Z37   Resultado do parto                           Z37  
+   1982  Z38   Nascidos vivos segundo o local de nascimento Z38  
+   1983  Z39   Assist e exame pos-natal                     Z39  
+   1984  Z40   Cirurgia profilatica                         Z40  
+   1985  Z41   Proced p/outr propositos exc cuidados saude  Z41  
+   1986  Z42   Seguimento envolv cirurgia plastica          Z42  
+   1987  Z43   Atencao a orificios artificiais              Z43  
+   1988  Z44   Coloc ajust aparelhos de protese externa     Z44  
+   1989  Z45   Ajustamento e manuseio de disp implantado    Z45  
+   1990  Z46   Colocacao e ajustamento de outr aparelhos    Z46  
+   1991  Z47   Outr cuidados de seguimento ortopedico       Z47  
+   1992  Z48   Outr seguimento cirurgico                    Z48  
+   1993  Z49   Cuidados envolv dialise                      Z49  
+   1994  Z50   Cuidados envolv uso proced de reabilitacao   Z50  
+   1995  Z51   Outr cuidados medicos                        Z51  
+   1996  Z52   Doadores de orgaos e tec                     Z52  
+   1997  Z53   Pessoas cont serv saude proced esp n realiz  Z53  
+   1998  Z54   Convalescenca                                Z54  
+   1999  Z55   Problemas relac educacao e alfabetizacao     Z55  
+   2000  Z56   Problemas relacionados emprego e desemprego  Z56  
+   2001  Z57   Exposicao ocupacional a fatores de risco     Z57  
+   2002  Z58   Problemas relacionados c/o ambiente fisico   Z58  
+   2003  Z59   Probl relac habitacao e  cond economicas     Z59  
+   2004  Z60   Problemas relacionados c/o meio social       Z60  
+   2005  Z61   Problemas relac eventos negat vida infancia  Z61  
+   2006  Z62   Outr probl relac c/a educacao da crianca     Z62  
+   2007  Z63   Outr probl rel grupo prim apoio incl sit fam Z63  
+   2008  Z64   Problemas relac algumas outr circ psicossoc  Z64  
+   2009  Z65   Probl relac outr circunstancias psicossoc    Z65  
+   2010  Z70   Aconselh relat atit comport orient sexualid  Z70  
+   2011  Z71   Pess cont serv saud outr acons cons med NCOP Z71  
+   2012  Z72   Problemas relacionados c/o estilo de vida    Z72  
+   2013  Z73   Problemas relacionados c/a organiz modo vida Z73  
+   2014  Z74   Probl relac depend pess q oferece cuid saude Z74  
+   2015  Z75   Probl relac facilid medic outr cuid saude    Z75  
+   2016  Z76   Pessoas cont serv saude em outr circunst     Z76  
+   2017  Z80   Historia familiar de neopl malig             Z80  
+   2018  Z81   Historia familiar transt mentais e comport   Z81  
+   2019  Z82   Hist fam alg incap doenc cron incapacitacao  Z82  
+   2020  Z83   Historia familiar de outr transt especificos Z83  
+   2021  Z84   Historia familiar de outr afeccoes           Z84  
+   2022  Z85   Historia pessoal de neopl malig              Z85  
+   2023  Z86   Historia pessoal de algumas outr doenc       Z86  
+   2024  Z87   Historia pessoal de outr doenc e afeccoes    Z87  
+   2025  Z88   Hist pess alergia drog medic subst biolog    Z88  
+   2026  Z89   Ausencia adquir de membros                   Z89  
+   2027  Z90   Ausencia adquir de orgaos NCOP               Z90  
+   2028  Z91   Historia pessoal de fatores de risco NCOP    Z91  
+   2029  Z92   Historia pessoal de tratamento medico        Z92  
+   2030  Z93   Orificios artificiais                        Z93  
+   2031  Z94   Orgaos e tec transplantados                  Z94  
+   2032  Z95   Presenca implantes enxertos cardiacos vasc   Z95  
+   2033  Z96   Presenca de outr implantes funcionais        Z96  
+   2034  Z97   Presenca de outr disp proteticos             Z97  
+   2035  Z98   Outr estados pos-cirurgicos                  Z98  
+   2036  Z99   Depend maquinas e disp capacitantes NCOP     Z99  
+   2037  Causas n∆o codificadas ou n investigadas              ,

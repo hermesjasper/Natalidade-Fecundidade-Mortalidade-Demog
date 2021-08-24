@@ -1,0 +1,10 @@
+09 3  
+    001  Pedestre traumat acid transporte                   V01-V09
+    002  Ciclista traumat acid transporte                   V10-V19
+    003  Motociclista traumat acid transporte               V20-V29
+    004  Ocupante triciclo traumat acid transporte          V30-V39
+    005  Ocupante de automovel traumat acid transporte      V40-V59
+    006  Ocupante veiculo transporte traumat acid transp    V60-V69
+    007  Ocupante de onibus traumat acid transp             V70-V79
+    008  Outros acidentes transporte terrestre              V80-V89
+    009  AC transporte nao especificado                     V99

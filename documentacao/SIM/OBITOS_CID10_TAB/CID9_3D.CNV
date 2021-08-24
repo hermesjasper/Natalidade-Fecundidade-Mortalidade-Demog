@@ -1,0 +1,913 @@
+912 4
+    001  001 - C¢lera                                       0010-0019
+    002  002 - Febres Tif¢ide e Paratif¢ide                 0020-0029
+    003  003 - Outras Infecá‰es por Salmonella              0030-0039
+    004  004 - Shiguelose                                   0040-0049
+    005  005 - Outras Intoxic Alimentares (Bacterianas)     0050-0059
+    006  006 - Amebiase                                     0060-0069
+    007  007 - Outr Doenáas Intestinais dev Protozo†rios    0070-0079
+    008  008 - Infecá‰es Intestinais dev Outr Microorganism 0080-0089
+    009  009 - Infecá‰oes Intestinais Mal Definidas         0090-0099
+    010  010 - Infecá∆o Tuberculosa Primaria                0100-0109
+    011  011 - Tuberculose Pulmonar                         0110-0119
+    012  012 - Outras Tuberculoses Respirat¢rias            0120-0129
+    013  013 - Tuberculose Meninges e Sistema Nervoso Centr 0130-0139
+    014  014 - Tuberculose Intestino Perit¢rio Gangl Mesent 0140-0149
+    015  015 - Tuberculose Ossos e Articulaá‰es             0150-0159
+    016  016 - Tuberculose Aparelho Geniturin†rio           0160-0169
+    017  017 - Tuberculose de Outros Org∆os                 0170-0179
+    018  018 - Tuberculose Miliar                           0180-0189
+    019  020 - Peste                                        0200-0209
+    020  021 - Tularemia                                    0210-0219
+    021  022 - Carb£nuclo                                   0220-0229
+    022  023 - Brucelose                                    0230-0239
+    023  024 - Mormo                                        0240-0249
+    024  025 - Melioidose                                   0250-0259
+    025  026 - Febre Transmitida por Mordedura de Rato      0260-0269
+    026  027 - Outras Zoonoses Causadas por BactÇrias       0270-0279
+    027  030 - Hansen°ase                                   0300-0309
+    028  031 - Doenáas devidas a Outras Micobacterias       0310-0319
+    029  032 - Difteria                                     0320-0329
+    030  033 - Coqueluche                                   0330-0339
+    031  034 - Angina Estreptococica e Escarlatina          0340-0349
+    032  035 - Erisipelas                                   0350-0359
+    033  036 - Infecá∆o Meningococica                       0360-0369
+    034  037 - TÇtano (exceto Neonatal - 771.3)             0370-0379
+    035  038 - Septicemia                                   0380-0389
+    036  039 - Infecá‰es Actinomic¢ticas                    0390-0399
+    037  040 - Outras Doenáas Bacterianas                   0400-0409
+    038  041 - Infec Bacter Afecc Class Out Part e Loc NE   0410-0419
+    039  045 - Poliomielite Aguda                           0450-0459
+    040  046 - Infec Sist Nerv Central Dev V°rus Lento      0460-0469
+    041  047 - Meningite Devida a Enterovirus               0470-0479
+    042  048 - Out Doen Sist Nerv Centr Dev Entorovir       0480-0489
+    043  049 - Out Viroses s Nerv Cent n Transm Artrop      0490-0499
+    044  050 - Variola                                      0500-0509
+    045  051 - Vacina e Paravacinia                         0510-0519
+    046  052 - Varicela                                     0520-0529
+    047  053 - Herpes Zoster                                0530-0539
+    048  054 - Herpes Simples                               0540-0549
+    049  055 - Sarampo                                      0550-0559
+    050  056 - RubÇola                                      0560-0569
+    051  057 - Outros Exantemas por V°rus                   0570-0579
+    052  060 - Febre Amarela                                0600-0609
+    053  061 - Dengue                                       0610-0619
+    054  062 - Encefalite V°ral Transmitidas Mosquitos      0620-0629
+    055  063 - Encefalite V°ral Transmitidas Carrapato      0630-0639
+    056  064 - Encefal V°ral Transm Out Artrop e NE         0640-0649
+    057  065 - Febres Hemorr†gicas Transmit Artropodes      0650-0659
+    058  066 - Out Doenáas V°rais Transmit Artropodes       0660-0669
+    059  070 - Hepatite por V°rus                           0700-0709
+    060  071 - Raiva                                        0710-0719
+    061  072 - Parotidite Epidàmica                         0720-0729
+    062  073 - Ornitose                                     0730-0739
+    063  074 - Doenáas Especificas Dev V°rus Coxsackie      0740-0749
+    064  075 - Mononucleose Infecciosa                      0750-0759
+    065  076 - Tracoma                                      0760-0769
+    066  077 - Out Doen Conjuntiva Dev V°rus e Clamid       0770-0779
+    067  078 - Out Doen Devidas V°rus e Clamidias           0780-0789
+    068  079 - Infec V°r em Afec Class Out Part Loc NE      0790-0799
+    069  080 - Tifo (Epidàmico) Transmitido Piolho          0800-0809
+    070  081 - Outros Tifos                                 0810-0819
+    071  082 - Rickettsioses Transmitidas Carrapatos        0820-0829
+    072  083 - Outras Rickettsioses                         0830-0839
+    073  084 - Mal†ria                                      0840-0849
+    074  085 - Leishmaniose                                 0850-0859
+    075  086 - Tripanossom°ase                              0860-0869
+    076  087 - Febre Recorrente                             0870-0879
+    077  088 - Outras Doenáas Transmitidas Artropodes       0880-0889
+    078  090 - S°filis Congànita                            0900-0909
+    079  091 - S°filis Precoce Sintom†tica                  0910-0919
+    080  092 - S°filis Precoce Latente                      0920-0929
+    081  093 - S°filis Cardiovascular                       0930-0939
+    082  094 - Neuross°filis                                0940-0949
+    083  095 - Out Formas S°filis Tardia c Sintomatol       0950-0959
+    084  096 - S°filis Latente Tardia                       0960-0969
+    085  097 - Out Formas de S°filis e n∆o Especif          0970-0979
+    086  098 - Infecá‰es Gonoc¢cicas                        0980-0989
+    087  099 - Outras Doenáas VenÇreas                      0990-0999
+    088  100 - Leptospirose                                 1000-1009
+    089  101 - Angina de Vincent                            1010-1019
+    090  102 - Bouba                                        1020-1029
+    091  103 - Pinta                                        1030-1039
+    092  104 - Outras Infec Causadas por Espiroquetas       1040-1049
+    093  110 - Dermatofitose                                1100-1109
+    094  111 - Outras Dermatomicoses e nao Especif          1110-1119
+    095  112 - Moniliase                                    1120-1129
+    096  114 - Coccidioidomicose                            1140-1149
+    097  115 - Histoplasmose                                1150-1159
+    098  116 - Infecá∆o Blastomic¢tica                      1160-1169
+    099  117 - Outras Micoses                               1170-1179
+    100  118 - Micoses Oportunisticas                       1180-1189
+    101  120 - Esquistossom°ase                             1200-1209
+    102  121 - Outras Infestaá‰es por Trematode‰s           1210-1219
+    103  122 - Equinococose                                 1220-1229
+    104  123 - Outras Infestaá‰es por Cest¢ideos            1230-1239
+    105  124 - Triquin°ase                                  1240-1249
+    106  125 - Filar°ase e Dracont°ase                      1250-1259
+    107  126 - Ancilostom°ase e Necator°ase                 1260-1269
+    108  127 - Outras Helmint°ases Intestinais              1270-1279
+    109  128 - Outras Helmint°ases e n∆o Especificadas      1280-1289
+    110  129 - Parasitose Intestin sem Out Especif          1290-1299
+    111  130 - Toxoplasmose                                 1300-1309
+    112  131 - Tricomoniase                                 1310-1319
+    113  132 - Pediculose e Infestaá∆o por Phthirus         1320-1329
+    114  133 - Acar°ase                                     1330-1339
+    115  134 - Outras Infestaá‰es                           1340-1349
+    116  135 - Sarcoidose                                   1350-1359
+    117  136 - Out Doen Infect e Parasit e n∆o Especif      1360-1369
+    118  137 - Efeitos Tardios da Tuberculose               1370-1379
+    119  138 - Efeitos Tardios da Poliomielite Aguda        1380-1389
+    120  139 - Efeit Tard Out Doen Infecc e Parasitar       1390-1399
+    121  140 - Neoplasma Maligno do L†bio                   1400-1409
+    122  141 - Neoplasma Maligno da L°ngua                  1410-1419
+    123  142 - Neopl Malig das GlÉndulas Saliv Maiores      1420-1429
+    124  143 - Neoplasma Maligno da Gengiva                 1430-1439
+    125  144 - Neoplasma Maligno do Assoalho da Boca        1440-1449
+    126  145 - Neopl Malig Outras Partes Boca e n Esp       1450-1459
+    127  146 - Neoplasma Maligno da Orofaringe              1460-1469
+    128  147 - Neoplasma Maligno da Nasofaringe             1470-1479
+    129  148 - Neoplasma Maligno da Hipofaringe             1480-1489
+    130  149 - Neopl Mal Out Loc/Mal Def Lab Boc Farin      1490-1499
+    131  150 - Neoplasma Maligno do Esìfago                 1500-1509
+    132  151 - Neoplasma Maligno do Estìmago                1510-1519
+    133  152 - Neopl Malig Intest Delgado Incl Duodeno      1520-1529
+    134  153 - Neoplasma Maligno do C¢lon                   1530-1539
+    135  154 - Neopl Mal Reto Juncao Reto-Sigm e An£s       1540-1549
+    136  155 - Neopl Malig Figado V Biliar Intrahepat       1550-1559
+    137  156 - Neopl Malig Ves Bil e V Bil Extrahepat       1560-1569
+    138  157 - Neoplasma Maligno do PÉncreas                1570-1579
+    139  158 - Neopl Malig Retroperitìnio e Peritìnio       1580-1589
+    140  159 - Neopl M Out Loc e Mal Def Org Dig e Per      1590-1599
+    141  160 - Neopl M Foss Nas Ouvid Med e Seios Ass       1600-1609
+    142  161 - Neoplasma Maligno da Laringe                 1610-1619
+    143  162 - Neopl Malig Traquàia Brìnquios e Pulm∆o      1620-1629
+    144  163 - Neoplasma Maligno da Pleura                  1630-1639
+    145  164 - Neopl Malig Timo Coraá∆o e Mediastino        1640-1649
+    146  165 - Neopl M Out Loc e M Def Resp e Org Intr      1650-1659
+    147  170 - Neopl Malig Ossos e Cartilag Articulare      1700-1709
+    148  171 - Neopl Malig Tec Conjunt e Out Tec Moles      1710-1719
+    149  172 - Melanoma Maligno da Pele                     1720-1729
+    150  173 - Outros Neoplasmas Malignos da Pele           1730-1739
+    151  174 - Neoplasma Maligno da Mama Feminina           1740-1749
+    152  175 - Neoplasma Maligno da Mama Masculina          1750-1759
+    153  179 - Neopl Malig do Utero Porá∆o n∆o Especif      1790-1799
+    154  180 - Neoplasma Maligno do Colo do Ètero           1800-1809
+    155  181 - Neoplasma Maligno da Placenta                1810-1819
+    156  182 - Neoplasma Maligno do Corpo do Ètero          1820-1829
+    157  183 - Neopl Malig do Ov†rio e Out Anexos Uter      1830-1839
+    158  184 - Neopl Malig Out Org Genit Femin e n Esp      1840-1849
+    159  185 - Neoplasma Maligno da Prostata                1850-1859
+    160  186 - Neoplasma Maligno do Test°culo               1860-1869
+    161  187 - Neopl Malig Pànis Out Org Genit Mascul       1871-1879
+    162  188 - Neoplasma Maligno da Bexiga Urinaria         1880-1889
+    163  189 - Neo Mal Rim Out Org Urinar e n∆o Espec       1890-1899
+    164  190 - Neoplasma Maligno do Olho                    1900-1909
+    165  191 - Neoplasma Maligno do EncÇfalo                1910-1919
+    166  192 - Neopl Mal Out Part e n Espec Sist Nerv       1920-1929
+    167  193 - Neopasma Maligno da GlÉndula Tire¢ide        1930-1939
+    168  194 - Neo Mal Out Gland Endocr e Estrut Corr       1940-1949
+    169  195 - Neopl Malig Out Localiz e Mal Definidas      1950-1959
+    170  196 - Neopl Malig Secund e n Espec Gangl Linf      1960-1969
+    171  197 - Neopl Malig Secund Apar Respirat e Dig       1970-1979
+    172  198 - Neopl Malig Secund outr Localiz Especif      1980-1989
+    173  199 - Neopl Malig sem Especificaá∆o de Local       1990-1999
+    174  200 - Linfo e Reticulossarcoma                     2000-2009
+    175  201 - Doenáa de Hodgkin                            2010-2019
+    176  202 - Out Neopl Malig Tec Linf¢ide e Histioc       2020-2029
+    177  203 - Mieloma Multip e Neop Imunoproliferativ      2030-2039
+    178  204 - Leucemia Linf¢ide                            2040-2049
+    179  205 - Leucemia Miel¢ide                            2050-2059
+    180  206 - Leucemia Monoc°tica                          2060-2069
+    181  207 - Outras Leucemias Especificadas               2070-2079
+    182  208 - Leucemias Tipo Celular n∆o Especif           2080-2089
+    183  210 - Neoplasma Benigno L†bio Boca e Faringe       2100-2109
+    184  211 - Neopl Benig Out Partes Apar Digestivo        2110-2119
+    185  212 - Neopl Benig Org Respirat¢r e Intratorac      2120-2129
+    186  213 - Neopl Benig Ossos e Cartilag Articular       2130-2139
+    187  214 - Lipoma                                       2140-2149
+    188  215 - Out Neo Benig Tec Conj e Out Tecid Mol       2150-2159
+    189  216 - Neoplasma Benigno da Pele                    2160-2169
+    190  217 - Neoplasma Benigno da Mama                    2170-2179
+    191  218 - Leiomioma Èterino                            2180-2189
+    192  219 - Outros Neoplasmas Benignos do Ètero          2190-2199
+    193  220 - Neoplasma Benigno do Ov†rio                  2200-2209
+    194  221 - Neopl Benig Out Org Genitais Femininos       2210-2219
+    195  222 - Neopl Benig Org Genitais Masculinos          2220-2229
+    196  223 - Neopl Benig Rim Out Org Aparel Èrinario      2230-2239
+    197  224 - Neoplasma Benigno do Olho                    2240-2249
+    198  225 - Neopl Benig Encàfalo Out Part Sist Nerv      2250-2259
+    199  226 - Neoplasma Benigno da GlÉndula Tire¢ide       2260-2269
+    200  227 - Neo Ben Out GlÉnd Endoc e Estrut Correl      2270-2279
+    201  228 - Hemangioma Linfangiom Qualquer Localiz       2280-2289
+    202  229 - Neopl Benig Out Localiz e n∆o Especif        2290-2299
+    203  230 - Carcinoma In Situ Org∆os Digestivos          2300-2309
+    204  231 - Carcinoma In Situ Aparelho Respirat¢rio      2310-2319
+    205  232 - Carcinoma In Situ da Pele                    2320-2329
+    206  233 - Carcinoma In Situ Mama e Apar Geniturin      2330-2339
+    207  234 - Carcinoma In Situ Out Local e nao Espec      2340-2349
+    208  235 - Neopl Comport Incert Ap Dig e Respirat       2350-2359
+    209  236 - Neopl Comport Incerto Org Geniturin†rio      2360-2369
+    210  237 - Neo Comport Incert Glan Endoc e s Nerv       2370-2379
+    211  238 - Neo Comp Incert Out Loc e Tec e n∆o Esp      2380-2389
+    212  239 - Neoplasma de Natureza nao Especificada       2390-2399
+    213  240 - B¢cio Simples ou nao Especificado            2400-2409
+    214  241 - B¢cio Nodular nao T¢xico                     2410-2419
+    215  242 - Tireotoxicose com ou sem B¢cio               2420-2429
+    216  243 - Hipotireoidismo Congànito                    2430-2439
+    217  244 - Hipotireoidismo Adquirido                    2440-2449
+    218  245 - Tire¢idite                                   2450-2459
+    219  246 - Outros Transtornos da Tire¢ide               2460-2469
+    220  250 - Diabetes Mellitus                            2500-2509
+    221  251 - Out Transt Secreá∆o Pancre†tica Interna      2510-2519
+    222  252 - Transtornos das GlÉndulas Paratire¢ides      2520-2529
+    223  253 - Transt Hip¢fise e Controle Hipotalamico      2530-2539
+    224  254 - Doenáas do Timo                              2540-2549
+    225  255 - Transtornos das GlÉndulas Supra-Renais       2550-2559
+    226  256 - Disfuná∆o Ovariana                           2560-2569
+    227  257 - Disfuná∆o Testicular                         2570-2579
+    228  258 - Disf Poliglandular e Transt Correlatos       2580-2589
+    229  259 - Outros Transtornos End¢crinos                2590-2599
+    230  260 - Kwashiorkor                                  2600-2609
+    231  261 - Marasmo Nutricional                          2610-2619
+    232  262 - Out Formas Desnutriá Prot-Caloric Grav       2620-2629
+    233  263 - Out Tipos Desnutriá Prot-Cal e n∆o Esp       2630-2639
+    234  264 - Deficiància de Vitamina A                    2640-2649
+    235  265 - Deficiància de Tiamina e Niacina             2650-2659
+    236  266 - Deficiància de Componentes do Complex B      2660-2669
+    237  267 - Deficiància de µcido Ascorbico               2670-2679
+    238  268 - Deficiencia de Vitamina D                    2680-2689
+    239  269 - Outras Deficiàncias Nutricionais             2690-2699
+    240  270 - Transtorn Transp e Metabol Amino†cidos       2700-2709
+    241  271 - Transt Transport e Metabol Carbohidrat       2710-2719
+    242  272 - Transtornos do Metabolismo dos Lipideos      2720-2729
+    243  273 - Transtorn Metabol Proteinas Plasmaticas      2730-2739
+    244  274 - Gota                                         2740-2749
+    245  275 - Transtornos do Metabolismo dos Minerais      2750-2759
+    246  276 - Transt Equil Hidroeletrol e µcido-B†sic      2760-2769
+    247  277 - Outros Transt Metabolismo e os n∆o Esp       2770-2779
+    248  278 - Obesidade e Out Formas Hiperalimentaá∆o      2780-2789
+    249  279 - Transt Envolvendo Mecanismo Imunitario       2790-2799
+    250  280 - Anemias por Deficiància de Ferro             2800-2809
+    251  281 - Outras Anemias por Deficiància               2810-2819
+    252  282 - Anemias Hemoliticas Heredit†rias             2820-2829
+    253  283 - Anemias Hemoliticas Adquiridas               2830-2839
+    254  284 - Anemia Apl†stica                             2840-2849
+    255  285 - Outras Anemias e as n∆o Especificadas        2850-2859
+    256  286 - Defeitos da Coagulaá∆o                       2860-2869
+    257  287 - Purpura e Outras Afecá‰es Hemorragicas       2870-2879
+    258  288 - Doenáas dos Leucocitos                       2880-2889
+    259  289 - Out Doenáas Sangue e Org∆os Hematopoet       2890-2899
+    260  290 - Quadr Psicotic Organ Senis e PrÇ-Senis       2900-2909
+    261  291 - Psicoses Alc¢olicas                          2910-2919
+    262  292 - Psicoses por Drogas                          2920-2929
+    263  293 - Quadros Psicoticos OrgÉnicos Transitor       2930-2939
+    264  294 - Outros Quadros Psic¢ticos OrgÉnicos          2940-2949
+    265  295 - Psicoses Esquizofrenicas                     2950-2959
+    266  296 - Psicoses Afetivas                            2960-2969
+    267  297 - Estados Paran¢ides                           2970-2979
+    268  298 - Outras Psicoses n∆o OrgÉnicas                2980-2989
+    269  299 - Psicoses Especificas da InfÉncia             2990-2999
+    270  300 - Transtornos Neur¢ticos                       3000-3009
+    271  301 - Transtornos da Personalidade                 3010-3019
+    272  302 - Desvios e Transtornos Sexuais                3020-3029
+    273  303 - Sindrome da Dependància do µlcool            3030-3039
+    274  304 - Dependància de Drogas                        3040-3049
+    275  305 - Abuso de Drogas sem Dependància              3050-3059
+    276  306 - Disfuná‰es Fisiolog Orig Fatores Ment        3060-3069
+    277  307 - Sindromes e Sintomas Especiais NCOP          3070-3079
+    278  308 - Reaá∆o Aguda ao Stress                       3080-3089
+    279  309 - Reaá∆o de Ajustamento                        3090-3099
+    280  310 - Transt Ment n Psic Consec Les Org Cereb      3100-3109
+    281  311 - Transtornos Depressivos NCOP                 3110-3119
+    282  312 - Dist£rbios do Comportamento NCOP             3120-3129
+    283  313 - Dist Emoá‰es Especif InfÉncia e Adolesc      3130-3139
+    284  314 - Sindrome HipercinÇtica da InfÉncia           3140-3149
+    285  315 - Retardos Especificos do Desenvolvimento      3150-3159
+    286  316 - Fatores Psiq Ass Doen Class Outr Parte       3160-3169
+    287  317 - Oligofrània Leve                             3170-3179
+    288  318 - Outras Oligofrànias Especificadas            3180-3189
+    289  319 - Oligofrània n∆o Especificada                 3190-3199
+    290  320 - Meningite Bacteriana                         3200-3209
+    291  321 - Meningite Devida a Outros Microorganism      3210-3219
+    292  322 - Meningite de Causa n∆o Especificada          3220-3229
+    293  323 - Encefalite Mielite e Encefalomielite         3230-3239
+    294  324 - Abscessos Intracranianos Intra-Raquidia      3240-3249
+    295  325 - Flebit Trombofleb Seios Ven Intracran        3250-3259
+    296  326 - Ef Tard Absces ou Infec Piogen Intracr       3260-3269
+    297  330 - Degen Cereb Geralm Manifestam na InfÉnc      3300-3309
+    298  331 - Outras Degeneraá‰es Cerebrais                3310-3319
+    299  332 - Doenáa de Parkinson                          3320-3329
+    300  333 - Out D Sist Extrapir Transt da Motricid       3330-3339
+    301  334 - Doenáas Espinocerebelares                    3340-3349
+    302  335 - Doenáas CÇlulas Corno Anterior da Medul      3350-3359
+    303  336 - Outras Doenáas da Medula Espinhal            3360-3369
+    304  337 - Transtornos do Sistema Nervoso Autìnomo      3370-3379
+    305  340 - Esclerose Multipla                           3400-3409
+    306  341 - Out Doen Desmielinizant Sist Nerv Cent       3410-3419
+    307  342 - Hemiplegia                                   3420-3429
+    308  343 - Paralisia Cerebral Infantil                  3430-3439
+    309  344 - Outras Sindromes Paral°ticas                 3440-3449
+    310  345 - Epilepsia                                    3450-3459
+    311  346 - Enxaqueca                                    3460-3469
+    312  347 - Catalepsia e Narcolepsia                     3470-3479
+    313  348 - Outras Afecá‰es do CÇrebro                   3480-3489
+    314  349 - Out Transt Sistema Nerv e os n∆o Espec       3490-3499
+    315  350 - Transtornos do Nervo Trigàmeo                3500-3509
+    316  351 - Transtornos do Nervo Facial                  3510-3519
+    317  352 - Transtornos de Outros Nervos Cranianos       3520-3529
+    318  353 - Transtornos das Raizes e Plexos Nervos       3530-3539
+    319  354 - Mononeurite Memb Super e Mononeur Mult       3540-3549
+    320  355 - Mononeurite Membro Inferior                  3550-3559
+    321  356 - Neuropat Perif Hereditar e Idiop†ticas       3560-3569
+    322  357 - Neuropatias Inflamat¢rias e T¢xicas          3570-3579
+    323  358 - Transtornos Neuromusculares                  3580-3589
+    324  359 - Distrofias Musculares e Out Miopatias        3590-3599
+    325  360 - Transtornos do Globo Ocular                  3600-3609
+    326  361 - Descolamento e Defeitos da Retina            3610-3619
+    327  362 - Outros Transtornos da Retina                 3620-3629
+    328  363 - Inflam e Cicat Coriorret e Trans Coroid      3630-3639
+    329  364 - Transtornos da Iris e do Corpo Ciliar        3640-3649
+    330  365 - Glaucoma                                     3650-3659
+    331  366 - Catarata                                     3660-3669
+    332  367 - Transtornos da Refraá∆o e da Acomodaá∆o      3670-3679
+    333  368 - Dist£rbios da Vis∆o                          3680-3689
+    334  369 - Cegueira e Vis∆o Subnormal                   3690-3699
+    335  370 - Ceratite                                     3700-3709
+    336  371 - Opacidade e Outros Transtornos C¢rnea        3710-3719
+    337  372 - Transtornos da Conjuntiva                    3720-3729
+    338  373 - Inflamaá∆o das P†lpebras                     3730-3739
+    339  374 - Outros Transtornos das P†lpebras             3740-3749
+    340  375 - Transtornos do Aparelho Lacrimal             3750-3759
+    341  376 - Transtornos da ‡rbita                        3760-3769
+    342  377 - Transt Nervo ‡ptico e das Vias ‡pticas       3770-3779
+    343  378 - Estrab e Out Transt Moviment Binocular       3780-3789
+    344  379 - Outros Transtornos do Olho                   3790-3799
+    345  380 - Transtornos do Ouvido Externo                3800-3809
+    346  381 - Otit MÇdia n Sup Transt Tromp Eust†quio      3810-3819
+    347  382 - Otite MÇdia Supurativa e n∆o Especific       3820-3829
+    348  383 - Mastoidite e Afecá‰es Correlatas             3830-3839
+    349  384 - Out Transtornos da Membrana do T°mpano       3840-3849
+    350  385 - Out Transt Ouvido MÇdio e da Mast¢ide        3850-3859
+    351  386 - Sind Vertig Out Transt Sist Vestibular       3860-3869
+    352  387 - Otosclerose                                  3870-3879
+    353  388 - Outros Transtornos do Ouvido                 3880-3889
+    354  389 - Surdez                                       3890-3899
+    355  390 - Febre Reum†tica s/Menc Comprom C†rdiaco      3900-3909
+    356  391 - Febre Reum†tica com Comprometim C†rdiac      3910-3919
+    357  392 - CorÇia Reum†tica                             3920-3929
+    358  393 - Pericardite Reum†tica Crìnica                3930-3939
+    359  394 - Doenáas da V†lvula Mitral                    3940-3949
+    360  395 - Doenáas da V†lvula A¢rtica                   3950-3959
+    361  396 - Doenáas das V†lvulas Mitral e A¢rtica        3960-3969
+    362  397 - Doenáas de Outras Estruturas Endoc†rdio      3970-3979
+    363  398 - Outras Doenáas Reum†ticas do Coraá∆o         3980-3989
+    364  401 - Hipertens∆o Essencial                        4010-4019
+    365  402 - Doenáa Cardiaca Hipertensiva                 4020-4029
+    366  403 - Doenáa Renal Hipertensiva                    4030-4039
+    367  404 - Doenáa Cardiorrenal Hipertensiva             4040-4049
+    368  405 - Hipertens∆o Secundaria                       4050-4059
+    369  410 - Infarto Agudo do Mioc†rdio                   4100-4109
+    370  411 - Out Form Agud e Subag Doen Isquàm Cor        4110-4119
+    371  412 - Infarto Antigo do Mioc†rdio                  4120-4129
+    372  413 - Angina do Peito                              4130-4139
+    373  414 - Out Formas Doenáa Isquàmica Crìnica Cor      4140-4149
+    374  415 - Doenáa Pulmonar Aguda do Coraá∆o             4150-4159
+    375  416 - Doenáa Pulmonar Crìnica do Coraá∆o           4160-4169
+    376  417 - Outras Doenáas da Circulaá∆o Pulmonar        4170-4179
+    377  420 - Pericardite Aguda                            4200-4209
+    378  421 - Endocardite Aguda e Subaguda                 4210-4219
+    379  422 - Miocardite Aguda                             4220-4229
+    380  423 - Outras Doenáas do Peric†rdio                 4230-4239
+    381  424 - Outras Doenáas do Endoc†rdio                 4240-4249
+    382  425 - Cardiomiopatias                              4250-4259
+    383  426 - Transtornos da Conduá∆o                      4260-4269
+    384  427 - Arritmias Cardiacas                          4270-4279
+    385  428 - Insuficiància Cardiaca                       4280-4289
+    386  429 - Denom Complic Mal Def de Doen do Coraá∆o     4290-4299
+    387  430 - Hemorragia Subaracnoidiana                   4300-4309
+    388  431 - Hemorragia Intracerebral                     4310-4319
+    389  432 - Out Hemorr Intracranianas e n∆o Especif      4320-4329
+    390  433 - Estenose e Oclus Arterias PrÇ-Cerebrais      4330-4339
+    391  434 - Oclus∆o das Arterias Cerebrais               4340-4349
+    392  435 - Isquàmica Cerebral Transit¢ria               4350-4359
+    393  436 - Doenáa Cerebrovascular Aguda Mal Def         4360-4369
+    394  437 - Out Doen Cerebrovasculares e Mal Def         4370-4379
+    395  438 - Efeitos Tardios Doenáa Cerebrovascular       4380-4389
+    396  440 - Aterosclerose                                4400-4409
+    397  441 - Aneurisma A¢rtico                            4410-4419
+    398  442 - Outros Aneurismas                            4420-4429
+    399  443 - Outras Doenáas Vasculares PerifÇricas        4430-4439
+    400  444 - Embolia e Trombose ArtÇriais                 4440-4449
+    401  446 - Poliarterite Nodosa e Out Doenáas Afins      4460-4469
+    402  447 - Outras Doenáas de ArtÇrias e Arteriolas      4470-4479
+    403  448 - Doenáas dos Capilares                        4480-4489
+    404  451 - Flebite e Tromboflebite                      4510-4519
+    405  452 - Trombose da Veia Porta                       4520-4529
+    406  453 - Outras Embolias e Tromboses Venosas          4530-4539
+    407  454 - Var°zes das Extremidades Inferiores          4540-4549
+    408  455 - Hemorr¢idas                                  4550-4559
+    409  456 - Var°zes de Outras Localizaá‰es               4560-4569
+    410  457 - Transtornos nao Infecciosos dos Linfat       4570-4579
+    411  458 - Hipotens∆o                                   4580-4589
+    412  459 - Outros Transtornos do Apar Circulat¢rio      4590-4599
+    413  460 - Nasofaringite Aguda (Resfriado Comum)        4600-4609
+    414  461 - Sinusite Aguda                               4610-4619
+    415  462 - Faringite Aguda                              4620-4629
+    416  463 - Amigdalite Aguda                             4630-4639
+    417  464 - Laringite e Traqueite Agudas                 4640-4649
+    418  465 - Infec Agud V Respir Sup Loc Mul ou n Es      4650-4659
+    419  466 - Brìnquite e Brìnquiolite Agudas              4660-4669
+    420  470 - Desvio do Septo Nasal                        4700-4709
+    421  471 - Polipos Nasais                               4710-4719
+    422  472 - Faringite e Nasofaringite Crìnicas           4720-4729
+    423  473 - Sinusite Crìnica                             4730-4739
+    424  474 - Doenáa Crìnica Amigdalas e Aden¢ides         4740-4749
+    425  475 - Abscesso Periamigdaliano                     4750-4759
+    426  476 - Laringite Crìnica e Laringotraqueite         4760-4769
+    427  477 - Rinite AlÇrgica                              4770-4779
+    428  478 - Out Doen Vias Respirat¢rias Superiores       4780-4789
+    429  480 - Pneumonia Viral                              4800-4809
+    430  481 - Pneumonia Pneumoc¢cica                       4810-4819
+    431  482 - Outras Pneumonias Bacterianas                4820-4829
+    432  483 - Pneumonia Out Microrganismos Especific       4830-4839
+    433  484 - Pneumonia em Doe Infec Class Outr Parte      4840-4849
+    434  485 - Broncopneumonia Microorgan n∆o Especif       4850-4859
+    435  486 - Pneumonia Microorganismo n∆o Especific       4860-4869
+    436  487 - Gripe                                        4870-4879
+    437  490 - Bronquite n∆o Especif se Aguda ou Crìn       4900-4909
+    438  491 - Bronquite Crìnica                            4910-4919
+    439  492 - Enfisema                                     4920-4929
+    440  493 - Asma                                         4930-4939
+    441  494 - Bronquectasia                                4940-4949
+    442  495 - Alveolite AlÇrgica Extrinseca                4950-4959
+    443  496 - Obstuá∆o Crìnica Vias Respirat NCOP          4960-4969
+    444  500 - Pneumoconiose Trabalhadores em Carv∆o        5000-5009
+    445  501 - Asbestose                                    5010-5019
+    446  502 - Pneumoconiose Dev Out Silicas e Silicat      5020-5029
+    447  503 - Pneumoconiose Dev Out Poeiras InorgÉnic      5030-5039
+    448  504 - Pneumopatia Devido Inalaá∆o Out Poeiras      5040-5049
+    449  505 - Pneumoconiose n∆o Especificada               5050-5059
+    450  506 - Afec Respir Dev Fumaáa Gas Vapores Quim      5060-5069
+    451  507 - Pneumonite Devida a S¢lidos e L°quidos       5070-5079
+    452  508 - Afec Resp Dev Out Agent Ext e n∆o Espec      5080-5089
+    453  510 - Empiema                                      5100-5109
+    454  511 - Pleuris                                      5110-5119
+    455  512 - Pneumotorax                                  5120-5129
+    456  513 - Abscesso do Pulm∆o e Mediastino              5130-5139
+    457  514 - Congest∆o e Hipostase Pulmonares             5140-5149
+    458  515 - Fibrose Pulmonar p¢s-Inflamat¢ria            5150-5159
+    459  516 - Out Pneumopat Alveolares e Parietalveol      5160-5169
+    460  517 - Compromet Pulmon em Afec Class Out Part      5170-5179
+    461  518 - Outras Doenáas do Pulm∆o                     5180-5189
+    462  519 - Outras Doenáas do Aparelho Respirat¢rio      5190-5199
+    463  520 - Transt Desenvolv e da Erupá∆o de Dentes      5200-5209
+    464  521 - Doenáas dos Tecidos Dent†rios Duros          5210-5219
+    465  522 - Doenáas da Polpa e Tecidos Periapicais       5220-5229
+    466  523 - Doenáas Gengivais e Periodontais             5230-5239
+    467  524 - Anomal Dentofaciais Inclusiv Maloclus∆o      5240-5249
+    468  525 - Out Doen e Afecá Dentes e Estr Susten        5250-5259
+    469  526 - Doenáas das Mandibulas                       5260-5269
+    470  527 - Doenáas das GlÉndulas Salivares              5270-5279
+    471  528 - Doen Tec Mol Boc Exc Les Gengiv e Ling       5280-5289
+    472  529 - Doenáas e Outras Afecá‰es da L°ngua          5290-5299
+    473  530 - Doenáas do Esìfago                           5300-5309
+    474  531 - Èlcera G†strica                              5310-5319
+    475  532 - Èlcera Duodenal                              5320-5329
+    476  533 - Èlcera PÇptica Localiz n∆o Especificada      5330-5339
+    477  534 - Èlcera Gastrojejunal                         5340-5349
+    478  535 - Gastrite e Duodenite                         5350-5359
+    479  536 - Transtornos da Funá∆o G†strica               5360-5369
+    480  537 - Out Transtornos do Estìmago e Du¢deno        5370-5379
+    481  540 - Apendicite Aguda                             5400-5409
+    482  541 - Apendicite n∆o Especificada                  5410-5419
+    483  542 - Outras Formas de Apendicite                  5420-5429
+    484  543 - Outras Doenáas do Apàndice                   5430-5439
+    485  550 - HÇrnia Ingu°nal                              5500-5509
+    486  551 - Out HÇrnias Cavid Abdominal com Gangren      5510-5519
+    487  552 - Out HÇrn Cavid Abd c Obstr s Menc Gangr      5520-5529
+    488  553 - Out HÇrn Cav Abdon s Menc Obstr ou Gang      5530-5539
+    489  555 - Enterite Regional                            5550-5559
+    490  556 - Proctocolite Idiop†tica                      5560-5569
+    491  557 - Insuficiància Vascular do Intestino          5570-5579
+    492  558 - Out Gastroenterites e Colites n∆o Infec      5580-5589
+    493  560 - Obstruá∆o Intestin sem Mená∆o de HÇrnia      5600-5609
+    494  562 - Diverticulos do Intestino                    5620-5629
+    495  564 - Transtornos Digestivos Funcionais NCOP       5640-5649
+    496  565 - Fissura e Fistula Anal                       5650-5659
+    497  566 - Abscesso das Regi‰es Anal e Retal            5660-5669
+    498  567 - Peritonite                                   5670-5679
+    499  568 - Outras Afecá‰es do Peritìnio                 5680-5689
+    500  569 - Outras Afecá‰es do Intestino                 5690-5699
+    501  570 - Necrose Aguda e Subaguda do Figado           5700-5709
+    502  571 - Doenáa Crìnica do Figado e Cirrose           5710-5719
+    503  572 - Abscess Figad Sequela Doenáa Hepat Cron      5720-5729
+    504  573 - Outros Transtornos do Figado                 5730-5739
+    505  574 - Colelitiase                                  5740-5749
+    506  575 - Outros Transtornos da Vesicula Biliar        5750-5759
+    507  576 - Outros Transtornos do Trato Biliar           5760-5769
+    508  577 - Doenáas do Pancràas                          5770-5779
+    509  578 - Hemorragia Gastrointestinal                  5780-5789
+    510  579 - M† Absorá∆o Intestinal                       5790-5799
+    511  580 - Glomerulonefrite Aguda                       5800-5809
+    512  581 - Sindrome Nefr¢tica                           5810-5819
+    513  582 - Glomerulonefrite Crìnica                     5820-5829
+    514  583 - Nefrite Nefropatia n Esp Aguda ou Crìn       5830-5839
+    515  584 - Insuficiància Renal Aguda                    5845-5849
+    516  585 - Insuficiància Renal Crìnica                  5850-5859
+    517  586 - Insuficiància Renal n∆o Especificada         5860-5869
+    518  587 - Esclerose Renal n∆o Especificada             5870-5879
+    519  588 - Transt Result de Funá∆o Renal Deficient      5880-5889
+    520  589 - Rim Pequeno de Causa Desconhecida            5890-5899
+    521  590 - Infecá‰es do Rim                             5900-5909
+    522  591 - Hidronefrose                                 5910-5919
+    523  592 - Calculose do Rim e Ureter                    5920-5929
+    524  593 - Outros Transtornos do Rim e Ureter           5930-5939
+    525  594 - Calculose do Trato Urinario Inferior         5940-5949
+    526  595 - Cistites                                     5950-5959
+    527  596 - Outras Afecá‰es da Bexiga                    5960-5969
+    528  597 - Uretrit n Transm Sexual e Sindr Uretral      5970-5979
+    529  598 - Estenose da Uretra                           5980-5989
+    530  599 - Out Afecá‰es da Uretra e Trato Urinario      5990-5999
+    531  600 - Hiperplasia da Pr¢stata                      6000-6009
+    532  601 - Doenáas Inflamat¢rias da Pr¢stata            6010-6019
+    533  602 - Outras Afecá‰es da Pr¢stata                  6020-6029
+    534  603 - Hidrocele                                    6030-6039
+    535  604 - Orquite e Epididimite                        6040-6049
+    536  605 - Hipertrofia do Prepucio e Fimose             6050-6059
+    537  606 - Infertilidade Masculina                      6060-6069
+    538  607 - Doenáas do Pànis                             6070-6079
+    539  608 - Out Transt Org∆os Genitais Masculinos        6080-6089
+    540  610 - Displasias Mamarias Benignas                 6100-6109
+    541  611 - Outras Doenáas da Mama                       6110-6119
+    542  614 - D Infl Ovar Tr Falop Tec Cel Pelv Perit      6140-6149
+    543  615 - Doen Inflamat¢rias do Ètero Excet Colo       6150-6159
+    544  616 - Doen Inflamat Colo Utero Vagina e Vulv       6160-6169
+    545  617 - Endometriose                                 6170-6179
+    546  618 - Prolapso Genital                             6180-6189
+    547  619 - Fistulas do Trato Genital Feminino           6190-6199
+    548  620 - Transt n Infl Ovar Tr Falop e Lig Larg       6200-6209
+    549  621 - Afecá‰es do Ètero n/Classif Outra Parte      6210-6219
+    550  622 - Transt n∆o Inflamat¢rios do Colo Uterin      6220-6229
+    551  623 - Transtornos n∆o Inflamat¢rios da Vagina      6230-6239
+    552  624 - Transt nao Inflam da Vulva e do Per°neo      6240-6249
+    553  625 - Dor e Outr Sint Assoc Org∆os Genit Fem       6250-6259
+    554  626 - Transt Menstr e Out Hemor Anor T Gen Fe      6260-6269
+    555  627 - Transt da Menopausa e da p¢s-Menopausa       6270-6279
+    556  628 - Infertilidade Feminina                       6280-6289
+    557  629 - Out Transtorn Org∆os Genitais Femininos      6290-6299
+    558  630 - Mola Hidatiforme                             6300-6309
+    559  631 - Outros Produtos Anormais da Concepá∆o        6310-6319
+    560  632 - Aborto Retido                                6320-6329
+    561  633 - Gravidez Ect¢pica                            6330-6339
+    562  634 - Aborto EspontÉneo                            6340-6349
+    563  635 - Aborto Induzido c Indic Admit Legalment      6350-6359
+    564  636 - Aborto Induzido s Indic Admit Legalment      6360-6369
+    565  637 - Aborto n∆o Especificado                      6370-6379
+    566  638 - Tentativa de Aborto Malograda                6380-6389
+    567  639 - Complic de Aborto Gravid Ectop e Molar       6390-6399
+    568  640 - Hemorragia do Inicio da Gravidez             6400-6409
+    569  641 - Hemor Antepart Desc Prem Plac Plac Prev      6410-6419
+    570  642 - Hipertens∆o Compl Gravidez Part e Puerp      6420-6429
+    571  643 - Vìmitos Excessivos na Gravidez               6430-6439
+    572  644 - Trabalho de Parto Prematuro ou Falso         6440-6449
+    573  645 - Gravidez Prolongada                          6450-6459
+    574  646 - Outras Complicaá‰es da Gravidez NCOP         6460-6469
+    575  647 - D Infec p Mae Cl Out Part Compl Grav PP      6470-6479
+    576  648 - Out Afec Mae Cl Out Part Compl Grav p p      6480-6489
+    577  650 - Parto Normal                                 6500-6509
+    578  651 - Gestaá∆o M£ltipla                            6510-6519
+    579  652 - Ma Posiá∆o Ma Apresentaá∆o do Feto           6520-6529
+    580  653 - Desproporá∆o                                 6530-6539
+    581  654 - Anormalid Org∆os Tecidos Moles da Pelve      6540-6549
+    582  655 - Anorm Fet Confirm ou Susp Afet Cond Mae      6550-6559
+    583  656 - Out Probl Fet Placen Que Afet Cond Mae       6560-6569
+    584  657 - Polihidramnio                                6570-6579
+    585  658 - Out Probl Assoc Cavidad Amniotic e Memb      6580-6589
+    586  659 - Out Indic Assist Interv Rel T Part NCOP      6590-6599
+    587  660 - Trabalho de Parto Obstruido                  6600-6609
+    588  661 - Anormal Contraá∆o Uterina em Trab Parto      6610-6619
+    589  662 - Trabalho de Parto Prolongado                 6620-6629
+    590  663 - Complicaá‰es do Cord∆o Umbilical             6630-6639
+    591  664 - Trauma do Per°neo e da Vulva Dur o Part      6640-6649
+    592  665 - Outros Traumas ObstÇtricos                   6650-6659
+    593  666 - Hemorragia p¢s-Parto                         6660-6669
+    594  667 - Retená Placenta ou Membranas sem Hemorr      6670-6679
+    595  668 - Complic Admin Anest Out Sed no Trab Par      6680-6689
+    596  669 - Out Compl Trabalho Parto e Parto NCOP        6690-6699
+    597  670 - Infecá∆o Puerperal                           6700-6709
+    598  671 - Complic Sist Venos Ocor Gravidez e Puer      6710-6719
+    599  672 - Hipertermia Orig Desconh Ocor Dur Puerp      6720-6729
+    600  673 - Embolia Pulmonar ObstÇtrica                  6730-6739
+    601  674 - Out Compl PuerpÇrio n∆o Especific NCOP       6740-6749
+    602  675 - Infec Mama e do Mamilo Assoc com o Part      6750-6759
+    603  676 - Out Afec Mama Assoc Parto e Transt Lact      6760-6769
+    604  680 - Fur£nculo                                    6800-6809
+    605  681 - Celulite e Abscesso dos Dedos M∆o e PÇ       6810-6819
+    606  682 - Outras Celulites e Abscessos                 6820-6829
+    607  683 - Linfadenite Aguda                            6830-6839
+    608  684 - Impetigo                                     6840-6849
+    609  685 - Cisto Pilonidal                              6850-6859
+    610  686 - Out Infec Localiz Pele e Tec Celul Subc      6860-6869
+    611  690 - Dermatoses Eritematodescamativas             6900-6909
+    612  691 - Dermatite At¢pica e Afecá‰es Afins           6910-6919
+    613  692 - Dermatite de Contato e Outros Eczemas        6920-6929
+    614  693 - Dermatite Devida a SubstÉncias Ingerid       6930-6939
+    615  694 - Dermatoses Bolhosas                          6940-6949
+    616  695 - Afecá‰es Eritematosas                        6950-6959
+    617  696 - Psoriase e Transtornos Afins                 6960-6969
+    618  697 - Liquen                                       6970-6979
+    619  698 - Prurido e Afecá‰es Afins                     6980-6989
+    620  700 - Calos e Calosidades                          7000-7009
+    621  701 - Out Afec Hipertrofic e Atroficas da Pel      7010-7019
+    622  702 - Outras Dermatoses                            7020-7029
+    623  703 - Doenáas das Unhas                            7030-7039
+    624  704 - Doenáas dos Pelos e Foliculos Pilosos        7040-7049
+    625  705 - Transtornos das GlÉndulas Sudoriparas        7050-7059
+    626  706 - Doenáas das GlÉndulas Seb†ceas               7060-7069
+    627  707 - Èlcera Crìnica da Pele                       7070-7079
+    628  708 - Urticaria                                    7080-7089
+    629  709 - Out Transt Pele e Tecido Celular Subcut      7090-7099
+    630  710 - Doenáas Difusas do Tecido Conjuntivo         7100-7109
+    631  711 - Artropatias Associadas a Infecá‰es           7110-7119
+    632  712 - Artropatias por Deposiá∆o de Cristais        7120-7129
+    633  713 - Artrop Assoc Outr Transt Class Out Part      7130-7139
+    634  714 - Artr Reumat e Outras Poliartropat Infl       7140-7149
+    635  715 - Osteoartrose e Transtornos Afins             7150-7159
+    636  716 - Out Artropatias e as n∆o Especificadas       7160-7169
+    637  717 - Desarranjos Internos do Joelho               7170-7179
+    638  718 - Outros Desarranjos das Articulaá‰es          7180-7189
+    639  719 - Out Trans Articulares e os n Especific       7190-7199
+    640  720 - Espondil Anquil Out Espondilopat Inflam      7200-7209
+    641  721 - Espondilose e Transtornos Afins              7210-7219
+    642  722 - Transtornos dos Discos Intervertebrais       7220-7229
+    643  723 - Outros Transtornos da Regi∆o Cervical        7230-7239
+    644  724 - Out Transt Dorso e os n∆o Especificados      7240-7249
+    645  725 - Polimialgia Reum†tica                        7250-7259
+    646  726 - Entesopat PerifÇricas e Sindromes Afins      7260-7269
+    647  727 - Out Transt Sinovias Tend‰es e Bols Sino      7270-7279
+    648  728 - Transt de M£sculos Ligamentos e Fascias      7280-7289
+    649  729 - Outros Transtornos dos Tecidos Moles         7290-7299
+    650  730 - Osteom Periost Out Infec Atingem Ossos       7300-7309
+    651  731 - Osteit Deform Osteopat Assoc Out Transt      7310-7319
+    652  732 - Osteocondropatias                            7320-7329
+    653  733 - Out Transtornos dos Ossos e Cartilagens      7330-7339
+    654  734 - Pe Plano                                     7340-7349
+    655  735 - Deformidades Adquiridas dos Artelhos         7350-7359
+    656  736 - Out Deformidades Adquiridas dos Membros      7360-7369
+    657  737 - Desvio da Coluna Vertebral                   7370-7379
+    658  738 - Outras Deformidades Adquiridas               7380-7389
+    659  739 - Les‰es n∆o Alopaticas NCOP                   7390-7399
+    660  740 - Anencefalia e Anomalias Similares            7400-7409
+    661  741 - Espinha Bifida                               7410-7419
+    662  742 - Out Anomalias Congànitas do Sist Nervos      7420-7429
+    663  743 - Anomalias Congànitas do Olho                 7430-7439
+    664  744 - Anomalias Congànitas Ouvido Face Pescoá      7440-7449
+    665  745 - Anomal Bulbo Card e do Fecham Sept Card      7450-7459
+    666  746 - Outras Anomalias Congànitas do Coraá∆o       7460-7469
+    667  747 - Out Anomalias Congàn Aparel Circulat¢r       7470-7479
+    668  748 - Anomalias Congànitas Aparel Respirat¢r       7480-7489
+    669  749 - Fissura Abobada Palatina e L†bio Lepor       7490-7499
+    670  750 - Out Anom Cong da Parte Sup Tubo Digest       7500-7509
+    671  751 - Out Anomalias Congànitas Aparelho Dig        7510-7519
+    672  752 - Anomalias Congànitas dos Org∆os Genit        7520-7529
+    673  753 - Anomalias Congànitas Aparelho Urinario       7530-7539
+    674  754 - Algumas Deformid Osteomusculares Congen      7540-7549
+    675  755 - Outras Anomalias Congànitas dos Membros      7550-7559
+    676  756 - Outras Anomal Osteomusculares Congànit       7560-7569
+    677  757 - Anomalias Congànitas do Tegumento            7570-7579
+    678  758 - Anomalias Cromossomicas                      7580-7589
+    679  759 - Outras Anomal Congànitas e n∆o Especif       7590-7599
+    680  760 - Afec Mat n Obr Rel Grav Atu Af Fet RN        7600-7609
+    681  761 - Compl Maternas Gravidez Afet Feto ou RN      7610-7619
+    682  762 - Compl Placent Cord Umbil Afet Feto RN        7620-7629
+    683  763 - Out Comp Trab Par ou Par Afet Feto RN        7630-7639
+    684  764 - Cresc Fetal Retardado Malnutricao Fetal      7640-7649
+    685  765 - Trans Ges Curt Dur Pes Baix Nasc Tip NE      7650-7659
+    686  766 - Transt Rel Gest Prolongad e Peso Elevad      7660-7669
+    687  767 - Traumatismo Ocorrido Durante Nascimento      7670-7679
+    688  768 - Hipoxia Intra-Uterina Asfixia ao Nascer      7680-7689
+    689  769 - Sindrome de Angustia Respirat¢ria            7690-7699
+    690  770 - Outras Afecá‰es Respir Feto e RecÇm-Nas      7700-7709
+    691  771 - Infecá Espec Per Perinatal (Exc TÇtano)      7710-7719
+    692  771.3 - TÇtano neonatal                            7713-7713
+    693  772 - Hemorragia Fetal e Neonatal                  7720-7729
+    694  773 - Doen Hemolit do Feto ou RN Dev Isoimun       7730-7739
+    695  774 - Outras Ictericias Perinatais                 7740-7749
+    696  775 - Disturb Endocrino Metabol Espec Feto RN      7750-7759
+    697  776 - Transtornos Hematol¢gicos do Feto e RN       7760-7769
+    698  777 - Transtornos Perinatais Aparelho Digest       7770-7779
+    699  778 - Afec Comp Tegum Regul Tàrmica Feto e RN      7780-7789
+    700  779 - Out Afec e Mal Def Origin Period Perin       7790-7799
+    701  780 - Sintomas Gerais                              7800-7809
+    702  781 - Sint Rel Sistema Nervoso e Osteomuscul       7810-7819
+    703  782 - Sint Rel Pele Out Tecidos do Tegumento       7820-7829
+    704  783 - Sint Rel Nutricao Metabolismo e Desenv       7830-7839
+    705  784 - Sint Relativos a Cabeáa e ao Pescoáo         7840-7849
+    706  785 - Sint Relativos Aparelho Cardiovascular       7850-7859
+    707  786 - Sint Rel Ap Respirat Out Sint Toracicos      7860-7869
+    708  787 - Sintomas Relativos ao Aparelho Digestiv      7870-7879
+    709  788 - Sintomas Relativos ao Aparelho Èrinario      7880-7889
+    710  789 - Out Sint Relativos ao Abdomen e a Pelve      7890-7899
+    711  790 - Achados n∆o Especific ao Exame do Sang       7900-7909
+    712  791 - Achados n∆o Especific ao Exame de Urina      7910-7919
+    713  792 - Achad Anorm n Espec Exam Outr Subst          7920-7929
+    714  793 - Achad Anorm n Espec Exam Radio e Outros      7930-7939
+    715  794 - Result Anormais n Espec de Provas Func       7940-7949
+    716  795 - Achad Histol e Imunol Anorm n Espec          7950-7959
+    717  796 - Outros Achados Anormais nao Espec            7960-7969
+    718  797 - Senilidade sem Mená∆o de Psicose             7970-7979
+    719  798 - Morte S£bita de Causa Desconhecida           7980-7989
+    720  799 - Out Causas Mal Definidas e Desconhecid       7990-7999
+    721  E800 - Acid Estr Ferro Colis∆o Mater Rodante       8000-8009
+    722  E801 - Acid Estr Ferro Colis∆o Outro Objeto        8010-8019
+    723  E802 - Acid Estr Fer Descarrilamen sem Colis       8020-8029
+    724  E803 - Acid Estr Fer c Explos Incàndio ou Fog      8030-8039
+    725  E804 - Acid por Queda Dentro Sobre ou de Trem      8040-8049
+    726  E805 - Acid Golpe Causado Mat Rod Estr Ferr        8050-8059
+    727  E806 - Out Acid Especificados de Estrada Ferr      8060-8069
+    728  E807 - Acid Est Ferro Natureza n∆o Especific       8070-8079
+    729  E810 - Acid Trans Colis Veic a Motor e Trem        8100-8109
+    730  E811 - Ac Tr Veic Sain Retor Pist Colis Out V      8110-8119
+    731  E812 - Out Ac Trans Col Veic Mot c Out V Mot       8120-8129
+    732  E813 - Ac Trans Colis Veic Mot e Out Tip Veic      8130-8139
+    733  E814 - Ac Trans Colis Veiculo Motor e Pedestr      8140-8149
+    734  E815 - Out Ac Trans Col Veic Motor em Via Pub      8150-8159
+    735  E816 - Ac Trans Perda Contr Veic Mot sem Col       8160-8169
+    736  E817 - Ac Trans ao Subir ou Desc V Mot s Col       8170-8179
+    737  E818 - Out Ac Trans Ve°culo a Mot sem Colis∆o      8180-8189
+    738  E819 - Ac Trans Ve°culo a Motor de Nat n Esp       8190-8199
+    739  E820 - Acid Ve°c Mot p Mov s Neve Exc Trans        8200-8209
+    740  E821 - Acid Out Ve°c Espcial Mot Exc de Trans      8210-8219
+    741  E822 - Out Ac V Mot Exc Trans Colis Obj Movim      8220-8229
+    742  E823 - Out Ac V Mot Exc Trans Colis Obj Parad      8230-8239
+    743  E824 - Out Ac V Mot Exc Trans ao Sub Desc V M      8240-8249
+    744  E825 - Out Ac Vei Mot Exc Trans Out Nat e n E      8250-8259
+    745  E826 - Acidente Causado por Ve°culo a Pedal        8260-8269
+    746  E827 - Acidente Caus por Ve°culo Traá∆o Anim       8270-8279
+    747  E828 - Acidente Envolvendo Animal Montado          8280-8289
+    748  E829 - Acidente de Outros Ve°culos de Estrada      8290-8299
+    749  E830 - Acid de Transp µgua Que Cause Submers       8300-8309
+    750  E831 - Acid Transp µgua Caus Out Tipo Traumat      8310-8319
+    751  E832 - Out Form Subm Afog Acid em Transp µgua      8320-8329
+    752  E833 - Qued Escad Mov Fix Portat em Transp µg      8330-8339
+    753  E834 - Out Qued um Nivel a Out em Transp  µg       8340-8349
+    754  E835 - Out Qued e nao Espec em Transp por µg       8350-8359
+    755  E836 - Acid Maquinar Ocorr em Transp por µgua      8360-8369
+    756  E837 - Acid Expl Incànd Fogo em Transp por µg      8370-8379
+    757  E838 - Out Ac e n Espec Ocor em Transp por µg      8380-8389
+    758  E840 - Acid Aeron Motor Durante Decol ou Ater      8400-8409
+    759  E841 - Out Acid ou nao Especific Aeronave Mot      8410-8419
+    760  E842 - Acidente de Aeronave nao Motorizada         8420-8429
+    761  E843 - Qued Ocor Dentro de Sobre ou de Aeron       8430-8439
+    762  E844 - Out Acid Especificad de Transp Aereo        8440-8449
+    763  E845 - Acidente de Nave Espacial                   8450-8459
+    764  E846 - Ac V Mot Us Inter Edific Indust Comerc      8460-8469
+    765  E847 - Acid Ve°c Trac Cabo Exc Mov Sobre Tril      8470-8479
+    766  E848 - Acidentes de Outros Ve°culos NCOP           8480-8489
+    767  E850 - Intox Acid Analg Antipiret e Anti-Reum      8500-8509
+    768  E851 - Intoxicaá∆o Acidental por Barbituricos      8510-8519
+    769  E852 - Intox Acidental por Out Sedat e Hipnot      8520-8529
+    770  E853 - Intoxicaá∆o Acidental p Tranquilizant       8530-8539
+    771  E854 - Intox Acid por Out Agentes Psicotropic      8540-8549
+    772  E855 - Intox Acid Out Drog Aá∆o SNC e SN Aut       8550-8559
+    773  E856 - Intoxicaá∆o Acidental por Antibi¢ticos      8560-8569
+    774  E857 - Intox Acidental p Subst Antiinfeccios       8570-8579
+    775  E858 - Intoxicaá∆o Acidental por Outras Drog       8580-8589
+    776  E860 - Intoxicaá∆o Acidental por Alc¢ol NCOP       8600-8609
+    777  E861 - Intoxicaá∆o Acidental por Subst Limpez      8610-8619
+    778  E862 - Intox Ac Der Petr Out Solv e Vap NCOP       8620-8629
+    779  E863 - Intox Ac Prep Qui Agr Hort Ex Adu Fert      8630-8639
+    780  E864 - Intox Acid Subst Corros e Caustic NCOP      8640-8649
+    781  E865 - Intox Acident Alimentos e Plantas Vene      8650-8659
+    782  E866 - Intox Acid Out Subs Sol e Liq e n Esp       8660-8669
+    783  E867 - Intoxicaá∆o Acidental por G†s de Rua        8670-8679
+    784  E868 - Intox Ac Out G†s Ilum Mon Carb Out Fon      8680-8689
+    785  E869 - Intox Acid por Outros G†ses e Vapores       8690-8699
+    786  E870 - Corte Puná∆o Perfurac Hemor Duran Cuid      8700-8709
+    787  E871 - Obj Estranho Deixado no Corpo Dur Proc      8710-8719
+    788  E872 - Falha de Esterilizaá∆o Durante Proced       8720-8729
+    789  E873 - Erros de Dosagem                            8730-8739
+    790  E874 - Falh Mecan Instrum Apar Durante Proced      8740-8749
+    791  E875 - Contam Inf Sang Outr Liq Drog Subs Bio      8750-8759
+    792  E876 - Outros Acid e n Esp Durante Cuidad Med      8760-8769
+    793  E878 - Reaá Anorm Comp Tard Inter Cirur s Men      8780-8789
+    794  E879 - Reaá Anorm Compl Tard por Proced s Men      8790-8799
+    795  E880 - Queda em ou de Escada ou Degraus            8800-8809
+    796  E881 - Queda em ou de Escada de M∆o e Andaim       8810-8819
+    797  E882 - Queda de ou Fora de Edific ou Out Cons      8820-8829
+    798  E883 - Queda em Buraco ou Out Abertur em Sup       8830-8839
+    799  E884 - Outras Quedas de um Nivel a Outro           8840-8849
+    800  E885 - Qued Mesm Niv Escorreg Tropec ou Trasp      8850-8859
+    801  E886 - Queda Mesmo Nivel p Colis∆o ou Empurr       8860-8869
+    802  E887 - Fratura de Causa n∆o Especificada           8870-8879
+    803  E888 - Outras Quedas ou n∆o Especificadas          8880-8889
+    804  E890 - Incàndio em Habitaá∆o Particular            8900-8909
+    805  E891 - Incànd Out Edif ou Out Construá∆o e NE      8910-8919
+    806  E892 - Incàndio Exc em Edificio ou Out Constr      8920-8929
+    807  E893 - Acidente Causado por Combust das Vest       8930-8939
+    808  E894 - Combust∆o Material Altamente Inflam†v       8940-8949
+    809  E895 - Acid Fogo Controlado em Habit Particul      8950-8959
+    810  E896 - Ac Fogo Control Out Edific Constr e NE      8960-8969
+    811  E897 - Ac Fogo Control Exc em Edif Out Constr      8970-8979
+    812  E898 - Acid Caus Out Fogos Chamas Especificad      8980-8989
+    813  E899 - Acidente Causado por Fogo n Especific       8990-8999
+    814  E900 - Calor Excessivo                             9000-9009
+    815  E901 - Frio Excessivo                              9010-9019
+    816  E902 - Press Atm Alt e Baix e Variaá Pres Atm      9020-9029
+    817  E903 - Viagem e Movimento                          9030-9039
+    818  E904 - Fome Sede Exposiá∆o aos Element e Negl      9040-9049
+    819  E905 - Intox e Reaá Toxic Animais e Plant Ven      9050-9059
+    820  E906 - Outras Les‰es Causadas por Animais          9060-9069
+    821  E907 - Raio                                        9070-9079
+    822  E908 - Tempest Catac e Enchentes Dev Tempest       9080-9089
+    823  E909 - Erupá∆o Movim Cataclism Superf Terrest      9090-9099
+    824  E910 - Afogamento e Submers∆o Acidentais           9100-9109
+    825  E911 - Aspir Ingest Alim Obstr Tr Resp ou Suf      9110-9119
+    826  E912 - Aspir Ingest Out Obj Secr Obstr Tr Res      9120-9129
+    827  E913 - Sufocaá∆o Mecanica Acidental                9130-9139
+    828  E914 - Penetr Acid Corpo Estranho Olho e Anex      9140-9149
+    829  E915 - Penetr Acid Corpo Estr em Out Orif Nat      9150-9159
+    830  E916 - Impact Acid Causado p Queda de um Obj       9160-9169
+    831  E917 - Impacto Acid Contra Objetos ou Pessoas      9170-9179
+    832  E918 - Acid Aprisionam Dentro de ou Entre Obj      9180-9189
+    833  E919 - Acidentes Causados por M†quinas             9190-9199
+    834  E920 - Acid Obj ou Instr Cortant Penetr Perf       9200-9209
+    835  E921 - Acid Caus Explos∆o de Recip Pressuriz       9210-9219
+    836  E922 - Acidente Causado por Arma de Fogo           9220-9229
+    837  E923 - Acidente Causado por Material Explosiv      9230-9239
+    838  E924 - Acid Obj Subst Quent Vap Caust Corros       9240-9249
+    839  E925 - Acidente Causado por Corrente ElÇtrica      9250-9259
+    840  E926 - Exposiá∆o a Radiaá∆o                        9260-9269
+    841  E927 - Excess de Exercic e Moviment Extenuant      9270-9279
+    842  E928 - Out Causas e n∆o Esp Ambientais Natur       9280-9289
+    843  E929 - Efeitos Tardios de Les∆o Acidental          9290-9299
+    844  E930 - Antibi¢ticos                                9300-9309
+    845  E931 - Outras SubstÉncias Antiinfecciosas          9310-9319
+    846  E932 - Hormìnios e Substitutos SintÇticos          9320-9329
+    847  E933 - SubstÉncias de Aá∆o Primariam Sistemic      9330-9339
+    848  E934 - SubstÉncias de Aá∆o Primariam Hematol       9340-9349
+    849  E935 - AnalgÇsicos AntipirÇticos Anti-Reumat       9350-9359
+    850  E936 - Drog Anticolvulsionantes Antiparkinson      9360-9369
+    851  E937 - Sedativos e Hipn¢ticos                      9370-9379
+    852  E938 - Out Drog Depres Sistema Nervoso Centr       9380-9389
+    853  E939 - Agentes Psicotr¢picos                       9390-9399
+    854  E940 - Estimulantes do Sistema Nervoso Centr       9400-9409
+    855  E941 - Drogas Atuam Prim Sist Nervoso Autonom      9410-9419
+    856  E942 - Subst Atuam Prim Aparelho Cardiovascul      9420-9429
+    857  E943 - Subst Atuam Prim Aparelho Gastrointest      9430-9439
+    858  E944 - Drogas At Metab Agua dos Mine e Ac Ur       9440-9449
+    859  E945 - Subst Atuam Musc Lisa e Estr e Ap Resp      9450-9459
+    860  E946 - Sub At Pel Memb Muc Drog Oft Otor Dent      9460-9469
+    861  E947 - Outras Drogas e Medicam e n Especific       9470-9479
+    862  E948 - Vacinas Bacterianas                         9480-9489
+    863  E949 - Outras Vacinas e SubstÉncias Biol¢gic       9490-9499
+    864  E950 - Suic°dio por S¢lidos ou Liquidos            9500-9509
+    865  E951 - Suic°dio por G†s DomÇstico                  9510-9519
+    866  E952 - Suic°dio por Outros Gases e Vapores         9520-9529
+    867  E953 - Suic°dio Enforcam Estrangul Sufocaá∆o       9530-9539
+    868  E954 - Suic°dio por Submers∆o (Afogamento)         9540-9549
+    869  E955 - Suic°dio por Arma de Fogo e Explosivos      9550-9559
+    870  E956 - Suic°dio por Instrumento Cortant Penet      9560-9569
+    871  E957 - Suic°dio por Precipitaá∆o Lugar Elevad      9570-9579
+    872  E958 - Suic°dio Outros Procedimentos e n Esp       9580-9589
+    873  E959 - Efeitos Tardios Les‰es Auto-Infligidas      9590-9599
+    874  E960 - Luta Briga e Violaá∆o                       9600-9609
+    875  E961 - Ataque Subst Corrosiv ou Caust Exc Env      9610-9619
+    876  E962 - Envenenamento Intencion Prov Out Pess       9620-9629
+    877  E963 - Homic°dio Estrangulamento e Enforcam        9630-9639
+    878  E964 - Homic°dio por Submers∆o (Afogamento)        9640-9649
+    879  E965 - Ataque com Armas de Fogo ou Explosivo       9650-9659
+    880  E966 - Ataque com Instrumen Cortante Penetr        9660-9669
+    881  E967 - Sindr Crian Espan e Out Form Maus Trat      9670-9679
+    882  E968 - Ataque Out Proced Especific e n Espec       9680-9689
+    883  E969 - Efeitos Tard Les Infl Intenc Out Pess       9690-9699
+    884  E970 - Les∆o p Intervená∆o Legal Armas de Fog      9700-9709
+    885  E971 - Les∆o p Intervená∆o Legal com Explosiv      9710-9719
+    886  E972 - Les∆o por Intervená∆o Legal com G†s         9720-9729
+    887  E973 - Les p Interv Legal com Obj Contundente      9730-9739
+    888  E974 - Les Interv Leg Instr Cortan e Penetr        9740-9749
+    889  E975 - Les Intervená∆o Legal c Out Meios Esp       9750-9759
+    890  E976 - Les∆o Intervená∆o Legal Meios n Espec       9760-9769
+    891  E977 - Efeitos Tardios Les Inflig Interv Leg       9770-9779
+    892  E978 - Execuá∆o Legal                              9780-9789
+    893  E980 - Enven Solid Liquid Ign Acid ou Intenc       9800-9809
+    894  E981 - Enven G†s Domest Ign Acid ou Intencion      9810-9819
+    895  E982 - Enven Out Gases Ign Acid ou Intencion       9820-9829
+    896  E983 - Les Enforc Estrang Sufoc Ig Acid Int        9830-9839
+    897  E984 - Les∆o Submers∆o Ign Acid ou Intencion       9840-9849
+    898  E985 - Les∆o Arma Fogo e Explos Ig Acid Int        9850-9859
+    899  E986 - Les Instr Cort Penetr Ig Acid ou Inten      9860-9869
+    900  E987 - Les Dev Queda Lug Elevado Ig Acid Int       9870-9879
+    901  E988 - Les Out Meios e n Espec Ig Acid ou Int      9880-9889
+    902  E989 - Efeitos Tard Les∆o Ig Acid ou Intenc        9890-9899
+    903  E990 - Les∆o Operaá∆o de Guerra Fogo e Incend      9900-9909
+    904  E991 - Les∆o Balas Fragment Operaá‰es de Guer      9910-9919
+    905  E992 - Les Expl Armam Naval Operaá‰es de Guer      9920-9929
+    906  E993 - Les Out Explos‰es em Operaá‰es de Guer      9930-9939
+    907  E994 - Les Destruiá∆o de Aeronave Oper Guerr       9940-9949
+    908  E995 - Les Out Meios ou n Esp Op Guerra Conv       9950-9959
+    909  E996 - Les Arma Nuclear em Operaá‰es de Guerr      9960-9969
+    910  E997 - Les Out Form Guerra n∆o Convencional        9970-9979
+    911  E998 - Les Op Guerra Ocorr Ap¢s Cessaá∆o Host      9980-9989
+    912  E999 - Efeit Tardios de Les Operaá∆o de Guerr      9990-9999

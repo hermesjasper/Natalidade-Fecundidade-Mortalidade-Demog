@@ -1,0 +1,50 @@
+43 4
+      1  Colera                                             A000-A009
+      2  Febre Tifoide                                      A010
+      3  Tuberculose                                        A150-A159
+      3  Tuberculose                                        A160-A169 
+      3  Tuberculose                                        A170-A179 
+      3  Tuberculose                                        A180-A189 
+      3  Tuberculose                                        A190-A199 
+      4  Peste                                              A200-A209 
+      5  Hansen¡ase                                         A300-A309
+      6  Tetano Neonatal                                    A330-A339
+      7  Tetano Obstetrico                                  A340-A349
+      8  Tetano (outros)                                    A350-A359 
+      9  Difteria                                           A360-A369
+     10  Coqueluche                                         A370-A379
+ 34  35   -Mening Meningococica                             A390
+     11  P¢lio                                              A800-A809
+     12  Var¡ola                                            B030-B039 
+     13  Sarampo                                            B050-B059 
+     14  Rub‚ola                                            B060-B069 
+     15  Febre Amarela                                      A950-A959 
+     16  Dengue                                             A900-A909
+     17  Dengue Hemorrag                                    A910-A919
+     18  Hepatite A                                         B150-B159
+     19  Hepatite B                                         B160-B169
+     20  Hepatite C                                         B171
+     21  Outras Hepat                                       B178
+     22  Raiva Humana                                       A820-A829 
+     23  Malaria                                            B500-B549   
+ 23  24  Mal ria Falsip                                     B500-B509
+ 23  25  Mal ria Vivax                                      B510-B519
+ 23  26  Mal ria Malarie                                    B520-B529
+ 23  27  Outras Malarias                                    B530-B549 
+     28  Leishmaniose Visc                                  B550
+     29  Leishmaniose Teg                                   B551
+     30  Chagas                                             B570-B579
+     31  S¡filis                                            A500-A504
+     32  Esquistossomose                                    B650-B659
+     33  Filariose                                          B740-B749
+     34  Meningites                                         Z999
+ 34  36   -Meningite Haemoph                                G000
+ 34  37   -Meningite Tub                                    A170
+ 34  38   -Mening Pneumoc                                   G001
+ 34  39   -Mening Estreptoc                                 G002
+ 34  40   -Mening Estafiloc                                 G003
+ 34  41   -Mening Bacter Outras                             G008
+ 34  42   -Mening Bacetr Nespec                             G009
+ 34  43   -Mening nao Especific                             G030-G039
+
+

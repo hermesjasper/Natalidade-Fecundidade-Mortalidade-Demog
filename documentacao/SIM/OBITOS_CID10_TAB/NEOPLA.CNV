@@ -1,0 +1,137 @@
+135 3                                                       
+      1  C01   Neopl malig da base da lingua                C01  
+      2  C02   Neopl malig outr partes e NE da lingua       C02  
+      3  C03   Neopl malig da gengiva                       C03  
+      4  C04   Neopl malig do assoalho da boca              C04  
+      5  C05   Neopl malig do palato                        C05  
+      6  C06   Neopl malig outr partes e partes NE da boca  C06  
+      7  C07   Neopl malig da gland parotida                C07  
+      8  C08   Neopl malig outr gland saliv maiores e NE    C08  
+      9  C09   Neopl malig da amigdala                      C09  
+     10  C10   Neopl malig da orofaringe                    C10  
+     11  C11   Neopl malig da nasofaringe                   C11  
+     12  C12   Neopl malig do seio piriforme                C12  
+     13  C13   Neopl malig da hipofaringe                   C13  
+     14  C14   Neop mal out loc mal def labio cav oral far  C14  
+     15  C15   Neopl malig do esofago                       C15  
+     16  C16   Neopl malig do estomago                      C16  
+     17  C17   Neopl malig do intestino delgado             C17  
+     18  C18   Neopl malig do colon                         C18  
+     19  C19   Neopl malig da juncao retossigmoide          C19  
+     20  C20   Neopl malig do reto                          C20  
+     21  C21   Neopl malig do anus e do canal anal          C21  
+     22  C22   Neopl malig figado vias biliares intra-hepat C22  
+     23  C23   Neopl malig da vesicula biliar               C23  
+     24  C24   Neopl malig outr partes e NE vias biliares   C24  
+     25  C25   Neopl malig do pancreas                      C25  
+     26  C26   Neopl malig outr mal def aparelho digestivo  C26  
+     27  C30   Neopl malig cavidade nasal e do ouvido medio C30  
+     28  C31   Neopl malig dos seios da face                C31  
+     29  C32   Neopl malig da laringe                       C32  
+     30  C33   Neopl malig da traqueia                      C33  
+     31  C34   Neopl malig dos bronquios e dos pulmoes      C34  
+     32  C37   Neopl malig do timo                          C37  
+     33  C38   Neopl malig do coracao mediastino e pleura   C38  
+     34  C39   Neop mal out loc mal def ap resp org intrat  C39  
+     35  C40   Neopl malig ossos/cartilag artic membros     C40  
+     36  C41   Neopl malig ossos/cartil artic outr loc e NE C41  
+     37  C43   Melanoma malig da pele                       C43  
+     38  C44   Outr neopl malig da pele                     C44  
+     39  C45   Mesotelioma                                  C45  
+     40  C46   Sarcoma de Kaposi                            C46  
+     41  C47   Neopl malig nervos perif e sist nerv autonom C47  
+     42  C48   Neopl malig tec moles retro- e peritonio     C48  
+     43  C49   Neopl malig tec conjuntivo e outr tec moles  C49  
+     44  C50   Neopl malig da mama                          C50  
+     45  C51   Neopl malig da vulva                         C51  
+     46  C52   Neopl malig da vagina                        C52  
+     47  C53   Neopl malig do colo do utero                 C53  
+     48  C54   Neopl malig do corpo do utero                C54  
+     49  C55   Neopl malig do utero porcao NE               C55  
+     50  C56   Neopl malig do ovario                        C56  
+     51  C57   Neopl malig outr org genitais femin e NE     C57  
+     52  C58   Neopl malig da placenta                      C58  
+     53  C60   Neopl malig do penis                         C60  
+     54  C61   Neopl malig da prostata                      C61  
+     55  C62   Neopl malig dos testiculos                   C62  
+     56  C63   Neopl malig outr org genit masc e NE         C63  
+     57  C64   Neopl malig do rim exceto pelve renal        C64  
+     58  C65   Neopl malig da pelve renal                   C65  
+     59  C66   Neopl malig dos ureteres                     C66  
+     60  C67   Neopl malig da bexiga                        C67  
+     61  C68   Neopl malig de outr orgaos urinarios e NE    C68  
+     62  C69   Neopl malig do olho e anexos                 C69  
+     63  C70   Neopl malig das meninges                     C70  
+     64  C71   Neopl malig do encefalo                      C71  
+     65  C72   Neop mal med esp nerv cran out sist nerv cen C72  
+     66  C73   Neopl malig da gland tireoide                C73  
+     67  C74   Neopl malig da gland supra-renal             C74  
+     68  C75   Neopl malig outr gland endocrinas estr relac C75  
+     69  C76   Neopl malig outr localiz e mal definidas     C76  
+     70  C77   Neopl malig secund e NE gangl linfaticos     C77  
+     71  C78   Neopl malig secund org respirat e digestivos C78  
+     72  C79   Neopl malig secund de outr localiz           C79  
+     73  C80   Neopl malig s/especificacao de localiz       C80  
+     74  C81   Doenc de Hodgkin                             C81  
+     75  C82   Linfoma nao-Hodgkin folicular                C82  
+     76  C83   Linfoma nao-Hodgkin difuso                   C83  
+     77  C84   Linfomas de celulas T cutaneas e perifericas C84  
+     78  C85   Linfoma nao-Hodgkin de outr tipos e tipo NE  C85  
+     79  C88   Doenc imunoproliferativas malignas           C88  
+     80  C90   Mieloma mult e neopl malig de plasmocitos    C90  
+     81  C91   Leucemia linfoide                            C91  
+     82  C92   Leucemia mieloide                            C92  
+     83  C93   Leucemia monocitica                          C93  
+     84  C94   Outr leucemias de celulas de tipo espec      C94  
+     85  C95   Leucemia de tipo celular NE                  C95  
+     86  C96   Outr neopl mal e NE tec linf hematop e corr  C96  
+     87  C97   Neopl malig de localiz mult independentes    C97  
+     88  D00   Carcinoma in situ cav oral esofago estomago  D00  
+     89  D01   Carcinoma in situ de outr orgaos digestivos  D01  
+     90  D02   Carcinoma in situ ouvido medio e ap respirat D02  
+     91  D03   Melanoma in situ                             D03  
+     92  D04   Carcinoma in situ da pele                    D04  
+     93  D05   Carcinoma in situ da mama                    D05  
+     94  D06   Carcinoma in situ do colo do utero           D06  
+     95  D07   Carcinoma in situ outr orgaos genitais e NE  D07  
+     96  D09   Carcinoma in situ de outr localiz e das NE   D09  
+     97  D10   Neopl benig da boca e da faringe             D10  
+     98  D11   Neopl benig de gland salivares maiores       D11  
+     99  D12   Neopl benig do colon reto canal anal e anus  D12  
+    100  D13   Neopl benig outr part e mal def ap digestivo D13  
+    101  D14   Neopl benig ouvido medio e aparelho respirat D14  
+    102  D15   Neopl benig outr orgaos intratoracicos e NE  D15  
+    103  D16   Neopl benig de osso e cartilagem articular   D16  
+    104  D17   Neopl lipomatosa benig                       D17  
+    105  D18   Hemangioma e linfangioma de qualquer localiz D18  
+    106  D19   Neopl benig de tec mesotelial                D19  
+    107  D20   Neopl benig tec mole retro- e peritonio      D20  
+    108  D21   Outr neopl benig tec conj e outr tec moles   D21  
+    109  D22   Nevos melanociticos                          D22  
+    110  D23   Outr neopl benig da pele                     D23  
+    111  D24   Neopl benig da mama                          D24  
+    112  D25   Leiomioma do utero                           D25  
+    113  D26   Outr neopl benig do utero                    D26  
+    114  D27   Neopl benig do ovario                        D27  
+    115  D28   Neopl benig outr org genitais femin e NE     D28  
+    116  D29   Neopl benig dos orgaos genitais masc         D29  
+    117  D30   Neopl benig dos orgaos urinarios             D30  
+    118  D31   Neopl benig do olho e anexos                 D31  
+    119  D32   Neopl benig das meninges                     D32  
+    120  D33   Neopl benig encef e out part sist nerv centr D33  
+    121  D34   Neopl benig da gland tireoide                D34  
+    122  D35   Neopl benig de outr gland endocrinas e NE    D35  
+    123  D36   Neopl benig de outr localiz e de localiz NE  D36  
+    124  D37   Neopl comp incerto/desc cav oral e org dig   D37  
+    125  D38   Neopl comp inc/desc ouv med org resp intrat  D38  
+    126  D39   Neopl comp incerto/desconh org genitais fem  D39  
+    127  D40   Neopl comp incerto/desconh org genitais masc D40  
+    128  D41   Neopl comp incerto/desconh orgaos urinarios  D41  
+    129  D42   Neopl comp incerto/desconhecido meninges     D42  
+    130  D43   Neopl comp inc/desc encefalo sist nerv centr D43  
+    131  D44   Neopl comp incerto/desconh gland endocrinas  D44  
+    132  D45   Policitemia vera                             D45  
+    133  D46   Sindr mielodisplasicas                       D46  
+    134  D47   Out neop comp inc/des tec linf hemat tec cor D47  
+    135  D48   Neopl comp inc/desconh outr localiz e NE     D48  
+       

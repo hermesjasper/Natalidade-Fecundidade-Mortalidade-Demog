@@ -1,0 +1,13 @@
+12  4
+      1  D18.0 Hemangioma de qq localizacao                 D180
+      2  Q00-Q07 Sistema Nervoso                            Q000-Q079
+      3  Q10-Q18 Olho, ouvido, face e pescoco               Q100-Q189
+      4  Q20-Q28 Apareclho circulatório                     Q200-Q289
+      5  Q30-Q34 Aparelho respiratorio                      Q300-Q349
+      6  Q35-Q37 Fenda labial e palatina                    Q350-Q379
+      7  Q38-Q45 Outras aparelho digestivo                  Q380-Q459
+      8  Q50-Q56 Orgaos genitais                            Q500-Q569
+      9  Q60-Q64 Aparelho urinario                          Q600-Q649
+     10  Q65-Q79 Deform aparelho osteomuscular              Q650-Q799
+     11  Q80-Q89 Outrass Mal formacoes                      Q800-Q899
+     12  Q90-Q99 Anomal cromoss ncop                        Q900-Q999

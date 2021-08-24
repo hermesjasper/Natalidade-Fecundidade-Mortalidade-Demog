@@ -1,0 +1,8 @@
+007 1 L
+      1  N Inf                                               ,
+      2  Hospital                                           1
+      3  Out est saude                                      2
+      4  Domicílio                                          3
+      5  Via publica                                        4
+      6  Outros                                             5
+      7  Ign                                                6,7,8,9,0

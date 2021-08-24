@@ -1,0 +1,64 @@
+63 6
+      1  Só Entrev.domiciliar                               SXXXXX
+      2  Só Registros de ambulatório                        XSXXXX
+      3  Só Prontuário hospitalar                           XXSXXX
+      4  Só SVO                                             XXXSXX
+      5  Só IML                                             XXXXSX
+      6  Só Prof Saude                                      XXXXXS
+      7  Amb + IML                                          XSXXSX
+      8  Amb + Prof Saude                                   XSXXXS
+      9  Amb + Pront                                        XSSXXX
+     10  Amb + SVO                                          XSXSXX
+     11  Entrev + IML                                       SXXXSX
+     12  Entrev + Prof Saude                                SXXXXS
+     13  Entrev + Pront                                     SXSXXX
+     14  Entrev + SVO                                       SXXSXX
+     15  Entrev + Ambulat                                   SSXXXX
+     16  IML + Prof Saude                                   XXXXSS
+     17  Pront + IML                                        XXSXSX
+     18  Pront + Prof Saude                                 XXSXXS
+     19  Pront + SVO                                        XXSSXX
+     20  SVO + IML                                          XXXSSX
+     21  SVO + Prof Saude                                   XXXSXS
+     22  Amb + IML + Prof Saude                             XSXXSS
+     23  Amb + Pront + IML                                  XSSXSX
+     24  Amb + Pront + Prof Saude                           XSSXXS
+     25  Amb + Pront + SVO                                  XSSSXX
+     26  Amb + SVO + IML                                    XSXSSX
+     27  Amb + SVO + Prof Saude                             XSXSXS
+     28  Entrev  + SVO + Prof Saude                         SXXSXS
+     29  Entrev + Amb + IML                                 SSXXSX
+     30  Entrev + Amb + Prof Saude                          SSXXXS
+     31  Entrev + Amb + SVO                                 SSXSXX
+     32  Entrev + IML + Prof Saude                          SXXXSS
+     33  Entrev + Pront + IML                               SXSXSX
+     34  Entrev + Pront + Prof Saude                        SXSXXS
+     35  Entrev + Pront + SVO                               SXSSXX
+     36  Entrev + SVO + IML                                 SXXSSX
+     37  Entrev + Amb. + Pront                              SSSXXX
+     38  Pront + IML + Prof Saude                           XXSXSS
+     39  Pront + SVO + IML                                  XXSSSX
+     40  Pront + SVO + Prof Saude                           XXSSXS
+     41  SVO + IML + Prof Saude                             XXXSSS
+     42  Amb + Pront + IML + Prof Saude                     XSSXSS
+     43  Amb + Pront + SVO + IML                            XSSSSX
+     44  Amb + Pront + SVO + Prof Saude                     XSSSXS
+     45  Amb + SVO + IML + Prof Saude                       XSXSSS
+     46  Entrev +  Pront + SVO + IML                        SXSSSX
+     47  Entrev + Amb + IML + Prof Saude                    SSXXSS
+     48  Entrev + Amb + Pront + IML                         SSSXSX
+     49  Entrev + Amb + Pront + Prof Saude                  SSSXXS
+     50  Entrev + Amb + Pront + SVO                         SSSSXX
+     51  Entrev + Amb + SVO + IML                           SSXSSX
+     52  Entrev + Amb + SVO + Prof Saude                    SSXSXS
+     53  Entrev + Pront + IML + Prof Saude                  SXSXSS
+     54  Entrev + Pront + SVO + Prof Saude                  SXSSXS
+     55  Entrev + SVO + IML + Prof Saude                    SXXSSS
+     56  Pront + SVO + IML + Prof Saude                     XXSSSS
+     57  Amb + Pront + SVO + IML + Prof Saude               XSSSSS
+     58  Entrev + Amb + Pront + IML + Prof Saude            SSSXSS
+     59  Entrev + Amb + Pront + SVO + IML                   SSSSSX
+     60  Entrev + Amb + Pront + SVO + Prof Saude            SSSSXS
+     61  Entrev + Amb + SVO + IML + Prof Saude              SSXSSS
+     62  Entrev + Pront + SVO + IML + Prof Saude            SXSSSS
+     63  Entrev + Amb + Pront + SVO + IML + Prof Saude      SSSSSS

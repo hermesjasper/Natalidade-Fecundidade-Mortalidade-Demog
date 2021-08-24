@@ -1,0 +1,73 @@
+72    4
+     72  3. DEMAIS CAUSAS MORTES                            A000-Z999
+      1  1.1. Reduziveis por acoes de imunoprevencao        ----
+  1   2  .. Tuberculose                                     A150-A199,B900-B909
+  1   3  .. Tetano obstetrico                               A340-A349
+  1   4  .. Tetano                                          A350-A359
+  1   5  .. Difteria                                        A360-A369
+  1   6  .. Coqueluche                                      A370-A379
+  1   7  .. Poliomielite aguda                              A800-A809
+  1   8  .. Sarampo                                         B050-B059
+  1   9  .. Rubéola                                         B060-B069
+  1  10  .. Hepatite B                                      B160-B169
+  1  11  .. Meningite por Haemophilus                       G000
+     12  1.2. Reduziveis por acoes Promocao, Prevencao      ----
+ 12  13  .. Doenþas diarreicas                              A000-A099
+ 12  14  .. HIV / AIDS                                      B200-B249
+ 12  15  .. Hepatites (exc Hep B)                           B150-B159,B170-B199
+ 12  16  .. Sifilis, gonorreias e outras DST'S              A500-A599,A630-A649,N700-N735,N738-N739,N750-N769
+ 12  17  .. Outras infeccoes                                A230-A269,A280-A329,A38X,A390-A419,A46X,A692,J020,J030,B500-B539,B54X,G001-G009,G01X
+ 12  18  .. Febre reumatica e doenca reumatica aguda        I000-I099
+ 12  19  .. Infeccoes resps, inc pneumonia e influenza      J000-J019,J028,J029,J038,J039,J040-J059,J060,J100-J229
+ 12  20  .. Infeccoes musculo-esqueleticas                  L020-L089
+ 12  21  .. Outras Doencas notificacoes compulsorias        A200-A229,A270-A279,A30-A309,A770-A779,A820-A829,A90X,A91X,A923,A950-A959,A985,B03X,B550-B559,B570-B571,B650-B659
+ 12  22  .. Infeccao do trato Urinario                      N390
+     23  1.3. Reduziveis DANT                               ----
+ 23  24  .. Doencas de Chagas                               B572
+ 23  25  .. Cancer labio, melanona e outros pele            C000-C009,C430-C449
+ 23  26  .. Cancer primario do figado                       C220-C229
+ 23  27  .. Cancer do estomago                              C160-C169
+ 23  28  .. Cancer colo-retal                               C180-C219
+ 23  29  .. Cancer boca, faringe e laringe                  C01X-C069,C090-C109,C12X-C148,C320-C329
+ 23  30  .. Cancer esofago                                  C150-C159
+ 23  31  .. Neoplasia traqueia, bronquio, pulmao            C33X-C349
+ 23  32  .. Cancer mama                                     C500-C509
+ 23  33  .. Cancer cervical e de utero                      C530-C559
+ 23  34  .. Cancer testiculos                               C620-C629
+ 23  35  .. Cancer tireoide                                 C73X
+ 23  36  .. Doenca de Hodgkin                               C810-C819
+ 23  37  .. Leucemia linfoide                               C910-C919
+ 23  38  .. Tireotoxicose, hipotireoidismo e defic iodo     E010-E059
+ 23  39  .. Hipotireiodismo congenito,CAH,PKU,Galacta       E000-E009,E250,E700,E742
+ 23  40  .. Diabetes                                        E10X-E149
+ 23  41  .. Defic nutric e anemias carenciais               E40X-E46X,E500-E649,D500-D539
+ 23  42  .. Desidratação                                    E86X
+ 23  43  .. Psicose alcoolica e out transt do alcool        F100-F109,I426,K292,K700-K709
+ 23  44  .. Varizes esofageanas                             I850-I859
+ 23  45  .. Epilepsia                                       G400-G419
+ 23  46  .. Doenca hipertensiva                             I10X-I139
+ 23  47  .. Doenca isquemica do coracao                     I200-I259
+ 23  48  .. Aterosclerose                                   I700-I709
+ 23  49  .. Insuficiencia cardiaca                          I500-I509
+ 23  50  .. Hemorragia intracerebral ou oclusao             I610-I619,I630-I635,I638,I639-I669
+ 23  51  .. Bronquite cronica e enfizema                    J40X-J439
+ 23  52  .. Asma                                            J450-J469
+ 23  53  .. Ulcera gastrica e duodenal                      K250-K289
+ 23  54  .. Apendicite                                      K350-K359
+ 23  55  .. Pneumoconiose                                   J60X-J709
+ 23  56  .. Obstrucao intestinal e hernia                   K400-K469,K560-K567
+ 23  57  .. Transtornos da vesicula biliar                  K800-K839
+ 23  58  .. Insuficiencia renal cronica                     N180-N189
+     59  1.4. Reduziveis Morte Materna                      ----
+ 59  60  ... Complic gravidez, parto e puerperio            O000-O029,O030-O269,O290-O999
+     61  1.5. Reduziveis Acidentes e Violencias             ----
+ 61  62  .. Acidentes de transporte                         V010-V999
+ 61  63  .. Afogamento e submersão acidentais               W650-W749
+ 61  64  .. Exposição ao fumo, ao fogo e às chamas          X000-X099
+ 61  65  .. Intoxicacoes                                    X400-X499
+ 61  66  .. Suicidios                                       X600-X849
+ 61  67  .. Homicídios                                      X850-Y099
+ 61  68  .. Lesao de intenção indeterminada                 Y100-Y349
+ 61  69  .. Quedas acidentais                               W000-W199
+ 61  70  .. Condicoes iatrogenicas                          Y600-Y699,Y830-Y849
+     71  2. Mal definidas                                   R000-R949,R960-R999

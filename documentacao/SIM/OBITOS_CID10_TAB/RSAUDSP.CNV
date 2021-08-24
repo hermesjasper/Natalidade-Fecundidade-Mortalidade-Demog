@@ -1,0 +1,706 @@
+     25  6                                                        
+      1  3501 S.Paulo                                       355030
+      1  3501 S.Paulo                                       358001
+      1  3501 S.Paulo                                       358002
+      1  3501 S.Paulo                                       358003
+      1  3501 S.Paulo                                       358004
+      1  3501 S.Paulo                                       358005
+      1  3501 S.Paulo                                       358006
+      1  3501 S.Paulo                                       358007
+      1  3501 S.Paulo                                       358008
+      1  3501 S.Paulo                                       358009
+      1  3501 S.Paulo                                       358010
+      1  3501 S.Paulo                                       358011
+      1  3501 S.Paulo                                       358012
+      1  3501 S.Paulo                                       358013
+      1  3501 S.Paulo                                       358014
+      1  3501 S.Paulo                                       358015
+      1  3501 S.Paulo                                       358016
+      1  3501 S.Paulo                                       358017
+      1  3501 S.Paulo                                       358018
+      1  3501 S.Paulo                                       358019
+      1  3501 S.Paulo                                       358020
+      1  3501 S.Paulo                                       358021
+      1  3501 S.Paulo                                       358022
+      1  3501 S.Paulo                                       358023
+      1  3501 S.Paulo                                       358024
+      1  3501 S.Paulo                                       358025
+      1  3501 S.Paulo                                       358026
+      1  3501 S.Paulo                                       358027
+      1  3501 S.Paulo                                       358028
+      1  3501 S.Paulo                                       358029
+      1  3501 S.Paulo                                       358030
+      1  3501 S.Paulo                                       358031
+      1  3501 S.Paulo                                       358032
+      1  3501 S.Paulo                                       358033
+      1  3501 S.Paulo                                       358034
+      1  3501 S.Paulo                                       358035
+      1  3501 S.Paulo                                       358036
+      1  3501 S.Paulo                                       358037
+      1  3501 S.Paulo                                       358038
+      1  3501 S.Paulo                                       358039
+      1  3501 S.Paulo                                       358040
+      1  3501 S.Paulo                                       358041
+      1  3501 S.Paulo                                       358042
+      1  3501 S.Paulo                                       358043
+      1  3501 S.Paulo                                       358044
+      1  3501 S.Paulo                                       358045
+      1  3501 S.Paulo                                       358046
+      1  3501 S.Paulo                                       358047
+      1  3501 S.Paulo                                       358048
+      1  3501 S.Paulo                                       358049
+      1  3501 S.Paulo                                       358050
+      1  3501 S.Paulo                                       358051
+      1  3501 S.Paulo                                       358052
+      1  3501 S.Paulo                                       358053
+      1  3501 S.Paulo                                       358054
+      1  3501 S.Paulo                                       358055
+      1  3501 S.Paulo                                       358056
+      1  3501 S.Paulo                                       358057
+      1  3501 S.Paulo                                       358058
+      2  3502 Santo André                                   351380
+      2  3502 Santo André                                   352940
+      2  3502 Santo André                                   354330
+      2  3502 Santo André                                   354410
+      2  3502 Santo André                                   354780
+      2  3502 Santo André                                   354870
+      2  3502 Santo André                                   354880
+      3  3503 Moji das Cruzes                               350390
+      3  3503 Moji das Cruzes                               350660
+      3  3503 Moji das Cruzes                               351570
+      3  3503 Moji das Cruzes                               351830
+      3  3503 Moji das Cruzes                               351880
+      3  3503 Moji das Cruzes                               352310
+      3  3503 Moji das Cruzes                               353060
+      3  3503 Moji das Cruzes                               353980
+      3  3503 Moji das Cruzes                               354500
+      3  3503 Moji das Cruzes                               354680
+      3  3503 Moji das Cruzes                               355250
+      4  3504 Franco da Rocha                               350900
+      4  3504 Franco da Rocha                               350920
+      4  3504 Franco da Rocha                               351630
+      4  3504 Franco da Rocha                               351640
+      4  3504 Franco da Rocha                               352850
+      5  3505 Osasco                                        350570
+      5  3505 Osasco                                        351060
+      5  3505 Osasco                                        351300
+      5  3505 Osasco                                        351500
+      5  3505 Osasco                                        351510
+      5  3505 Osasco                                        352220
+      5  3505 Osasco                                        352250
+      5  3505 Osasco                                        352500
+      5  3505 Osasco                                        352620
+      5  3505 Osasco                                        353440
+      5  3505 Osasco                                        353910
+      5  3505 Osasco                                        354730
+      5  3505 Osasco                                        354995
+      5  3505 Osasco                                        355280
+      5  3505 Osasco                                        355645
+      6  3506 Araçatuba                                     350110
+      6  3506 Araçatuba                                     350210
+      6  3506 Araçatuba                                     350280
+      6  3506 Araçatuba                                     350420
+      6  3506 Araçatuba                                     350440
+      6  3506 Araçatuba                                     350510
+      6  3506 Araçatuba                                     350620
+      6  3506 Araçatuba                                     350640
+      6  3506 Araçatuba                                     350650
+      6  3506 Araçatuba                                     350770
+      6  3506 Araçatuba                                     350775
+      6  3506 Araçatuba                                     350810
+      6  3506 Araçatuba                                     351100
+      6  3506 Araçatuba                                     351190
+      6  3506 Araçatuba                                     351250
+      6  3506 Araçatuba                                     351650
+      6  3506 Araçatuba                                     351680
+      6  3506 Araçatuba                                     351710
+      6  3506 Araçatuba                                     351780
+      6  3506 Araçatuba                                     351820
+      6  3506 Araçatuba                                     351890
+      6  3506 Araçatuba                                     352044
+      6  3506 Araçatuba                                     352300
+      6  3506 Araçatuba                                     352650
+      6  3506 Araçatuba                                     352725
+      6  3506 Araçatuba                                     352770
+      6  3506 Araçatuba                                     353010
+      6  3506 Araçatuba                                     353210
+      6  3506 Araçatuba                                     353286
+      6  3506 Araçatuba                                     353320
+      6  3506 Araçatuba                                     353330
+      6  3506 Araçatuba                                     353730
+      6  3506 Araçatuba                                     353740
+      6  3506 Araçatuba                                     353770
+      6  3506 Araçatuba                                     354440
+      6  3506 Araçatuba                                     354805
+      6  3506 Araçatuba                                     354840
+      6  3506 Araçatuba                                     354925
+      6  3506 Araçatuba                                     355230
+      6  3506 Araçatuba                                     355255
+      6  3506 Araçatuba                                     355520
+      6  3506 Araçatuba                                     355630
+      7  3507 Araraquara                                    350170
+      7  3507 Araraquara                                    350320
+      7  3507 Araraquara                                    350670
+      7  3507 Araraquara                                    350740
+      7  3507 Araraquara                                    351010
+      7  3507 Araraquara                                    351370
+      7  3507 Araraquara                                    351400
+      7  3507 Araraquara                                    351430
+      7  3507 Araraquara                                    351560
+      7  3507 Araraquara                                    351685
+      7  3507 Araraquara                                    351930
+      7  3507 Araraquara                                    351960
+      7  3507 Araraquara                                    352270
+      7  3507 Araraquara                                    352930
+      7  3507 Araraquara                                    353205
+      7  3507 Araraquara                                    353290
+      7  3507 Araraquara                                    354070
+      7  3507 Araraquara                                    354290
+      7  3507 Araraquara                                    354370
+      7  3507 Araraquara                                    354650
+      7  3507 Araraquara                                    354690
+      7  3507 Araraquara                                    354750
+      7  3507 Araraquara                                    354890
+      7  3507 Araraquara                                    355270
+      7  3507 Araraquara                                    355370
+      7  3507 Araraquara                                    355475
+      8  3508 Assis                                         350400
+      8  3508 Assis                                         350630
+      8  3508 Assis                                         350720
+      8  3508 Assis                                         351000
+      8  3508 Assis                                         351015
+      8  3508 Assis                                         351330
+      8  3508 Assis                                         351519
+      8  3508 Assis                                         351610
+      8  3508 Assis                                         351950
+      8  3508 Assis                                         352090
+      8  3508 Assis                                         352790
+      8  3508 Assis                                         352880
+      8  3508 Assis                                         353380
+      8  3508 Assis                                         353470
+      8  3508 Assis                                         353530
+      8  3508 Assis                                         353550
+      8  3508 Assis                                         353715
+      8  3508 Assis                                         353970
+      8  3508 Assis                                         354320
+      8  3508 Assis                                         354540
+      8  3508 Assis                                         354640
+      8  3508 Assis                                         355050
+      8  3508 Assis                                         355395
+      8  3508 Assis                                         355460
+      8  3508 Assis                                         355720
+      9  3509 Barretos                                      350090
+      9  3509 Barretos                                      350550
+      9  3509 Barretos                                      350610
+      9  3509 Barretos                                      350930
+      9  3509 Barretos                                      351200
+      9  3509 Barretos                                      351210
+      9  3509 Barretos                                      351495
+      9  3509 Barretos                                      351740
+      9  3509 Barretos                                      351790
+      9  3509 Barretos                                      352420
+      9  3509 Barretos                                      353150
+      9  3509 Barretos                                      353390
+      9  3509 Barretos                                      353900
+      9  3509 Barretos                                      355190
+      9  3509 Barretos                                      355310
+      9  3509 Barretos                                      355320
+      9  3509 Barretos                                      355365
+      9  3509 Barretos                                      355440
+      9  3509 Barretos                                      355680
+      9  3509 Barretos                                      355690
+     10  3510 Bauru                                         350070
+     10  3510 Bauru                                         350340
+     10  3510 Bauru                                         350430
+     10  3510 Bauru                                         350470
+     10  3510 Bauru                                         350520
+     10  3510 Bauru                                         350530
+     10  3510 Bauru                                         350600
+     10  3510 Bauru                                         350680
+     10  3510 Bauru                                         350730
+     10  3510 Bauru                                         350745
+     10  3510 Bauru                                         350790
+     10  3510 Bauru                                         350830
+     10  3510 Bauru                                         350880
+     10  3510 Bauru                                         351410
+     10  3510 Bauru                                         351450
+     10  3510 Bauru                                         351700
+     10  3510 Bauru                                         351720
+     10  3510 Bauru                                         351730
+     10  3510 Bauru                                         351810
+     10  3510 Bauru                                         351910
+     10  3510 Bauru                                         352000
+     10  3510 Bauru                                         352200
+     10  3510 Bauru                                         352290
+     10  3510 Bauru                                         352530
+     10  3510 Bauru                                         352680
+     10  3510 Bauru                                         352710
+     10  3510 Bauru                                         352750
+     10  3510 Bauru                                         352800
+     10  3510 Bauru                                         352980
+     10  3510 Bauru                                         353657
+     10  3510 Bauru                                         353670
+     10  3510 Bauru                                         353890
+     10  3510 Bauru                                         353940
+     10  3510 Bauru                                         354010
+     10  3510 Bauru                                         354110
+     10  3510 Bauru                                         354160
+     10  3510 Bauru                                         354250
+     10  3510 Bauru                                         354460
+     10  3510 Bauru                                         355470
+     10  3510 Bauru                                         355550
+     10  3510 Bauru                                         355590
+     11  3511 Botucatu                                      350055
+     11  3511 Botucatu                                      350230
+     11  3511 Botucatu                                      350310
+     11  3511 Botucatu                                      350360
+     11  3511 Botucatu                                      350450
+     11  3511 Botucatu                                      350500
+     11  3511 Botucatu                                      350690
+     11  3511 Botucatu                                      350750
+     11  3511 Botucatu                                      351140
+     11  3511 Botucatu                                      351230
+     11  3511 Botucatu                                      351260
+     11  3511 Botucatu                                      351540
+     11  3511 Botucatu                                      351925
+     11  3511 Botucatu                                      352180
+     11  3511 Botucatu                                      352280
+     11  3511 Botucatu                                      352350
+     11  3511 Botucatu                                      352640
+     11  3511 Botucatu                                      352860
+     11  3511 Botucatu                                      353580
+     11  3511 Botucatu                                      353610
+     11  3511 Botucatu                                      353750
+     11  3511 Botucatu                                      353880
+     11  3511 Botucatu                                      354050
+     11  3511 Botucatu                                      354105
+     11  3511 Botucatu                                      355010
+     11  3511 Botucatu                                      355120
+     11  3511 Botucatu                                      355300
+     11  3511 Botucatu                                      355380
+     11  3511 Botucatu                                      355420
+     11  3511 Botucatu                                      355465
+     12  3512 Campinas                                      350050
+     12  3512 Campinas                                      350160
+     12  3512 Campinas                                      350190
+     12  3512 Campinas                                      350410
+     12  3512 Campinas                                      350710
+     12  3512 Campinas                                      350760
+     12  3512 Campinas                                      350840
+     12  3512 Campinas                                      350950
+     12  3512 Campinas                                      350960
+     12  3512 Campinas                                      351280
+     12  3512 Campinas                                      351907
+     12  3512 Campinas                                      352050
+     12  3512 Campinas                                      352340
+     12  3512 Campinas                                      352400
+     12  3512 Campinas                                      352520
+     12  3512 Campinas                                      352550
+     12  3512 Campinas                                      352590
+     12  3512 Campinas                                      352700
+     12  3512 Campinas                                      352730
+     12  3512 Campinas                                      353120
+     12  3512 Campinas                                      353180
+     12  3512 Campinas                                      353200
+     12  3512 Campinas                                      353240
+     12  3512 Campinas                                      353340
+     12  3512 Campinas                                      353650
+     12  3512 Campinas                                      353680
+     12  3512 Campinas                                      353710
+     12  3512 Campinas                                      353820
+     12  3512 Campinas                                      353860
+     12  3512 Campinas                                      354580
+     12  3512 Campinas                                      355160
+     12  3512 Campinas                                      355210
+     12  3512 Campinas                                      355240
+     12  3512 Campinas                                      355495
+     12  3512 Campinas                                      355620
+     12  3512 Campinas                                      355635
+     12  3512 Campinas                                      355650
+     12  3512 Campinas                                      355670
+     13  3513 Franca                                        350300
+     13  3513 Franca                                        350820
+     13  3513 Franca                                        351320
+     13  3513 Franca                                        351620
+     13  3513 Franca                                        351770
+     13  3513 Franca                                        352010
+     13  3513 Franca                                        352130
+     13  3513 Franca                                        352370
+     13  3513 Franca                                        352410
+     13  3513 Franca                                        352540
+     13  3513 Franca                                        352970
+     13  3513 Franca                                        353190
+     13  3513 Franca                                        353360
+     13  3513 Franca                                        353430
+     13  3513 Franca                                        353630
+     13  3513 Franca                                        353700
+     13  3513 Franca                                        354270
+     13  3513 Franca                                        354310
+     13  3513 Franca                                        354360
+     13  3513 Franca                                        354490
+     13  3513 Franca                                        354940
+     13  3513 Franca                                        354950
+     14  3514 Marília                                       350010
+     14  3514 Marília                                       350140
+     14  3514 Marília                                       350150
+     14  3514 Marília                                       350335
+     14  3514 Marília                                       350580
+     14  3514 Marília                                       350980
+     14  3514 Marília                                       351470
+     14  3514 Marília                                       351565
+     14  3514 Marília                                       351580
+     14  3514 Marília                                       351600
+     14  3514 Marília                                       351660
+     14  3514 Marília                                       351670
+     14  3514 Marília                                       351900
+     14  3514 Marília                                       351920
+     14  3514 Marília                                       352080
+     14  3514 Marília                                       352160
+     14  3514 Marília                                       352580
+     14  3514 Marília                                       352740
+     14  3514 Marília                                       352780
+     14  3514 Marília                                       352890
+     14  3514 Marília                                       352900
+     14  3514 Marília                                       353370
+     14  3514 Marília                                       353410
+     14  3514 Marília                                       353450
+     14  3514 Marília                                       353460
+     14  3514 Marília                                       353490
+     14  3514 Marília                                       353600
+     14  3514 Marília                                       354000
+     14  3514 Marília                                       354085
+     14  3514 Marília                                       354180
+     14  3514 Marília                                       354200
+     14  3514 Marília                                       354380
+     14  3514 Marília                                       354470
+     14  3514 Marília                                       354510
+     14  3514 Marília                                       355500
+     14  3514 Marília                                       355660
+     15  3515 Piracicaba                                    350060
+     15  3515 Piracicaba                                    350200
+     15  3515 Piracicaba                                    350330
+     15  3515 Piracicaba                                    351040
+     15  3515 Piracicaba                                    351170
+     15  3515 Piracicaba                                    351220
+     15  3515 Piracicaba                                    351240
+     15  3515 Piracicaba                                    351270
+     15  3515 Piracicaba                                    351490
+     15  3515 Piracicaba                                    352110
+     15  3515 Piracicaba                                    352140
+     15  3515 Piracicaba                                    352360
+     15  3515 Piracicaba                                    352670
+     15  3515 Piracicaba                                    352690
+     15  3515 Piracicaba                                    353090
+     15  3515 Piracicaba                                    353870
+     15  3515 Piracicaba                                    353930
+     15  3515 Piracicaba                                    354210
+     15  3515 Piracicaba                                    354390
+     15  3515 Piracicaba                                    354400
+     15  3515 Piracicaba                                    354515
+     15  3515 Piracicaba                                    354620
+     15  3515 Piracicaba                                    354670
+     15  3515 Piracicaba                                    354700
+     15  3515 Piracicaba                                    355040
+     16  3516 Presidente Prudente                           350080
+     16  3516 Presidente Prudente                           350130
+     16  3516 Presidente Prudente                           350240
+     16  3516 Presidente Prudente                           350890
+     16  3516 Presidente Prudente                           350910
+     16  3516 Presidente Prudente                           351440
+     16  3516 Presidente Prudente                           351512
+     16  3516 Presidente Prudente                           351530
+     16  3516 Presidente Prudente                           351535
+     16  3516 Presidente Prudente                           351990
+     16  3516 Presidente Prudente                           352060
+     16  3516 Presidente Prudente                           352560
+     16  3516 Presidente Prudente                           352600
+     16  3516 Presidente Prudente                           352870
+     16  3516 Presidente Prudente                           352920
+     16  3516 Presidente Prudente                           353020
+     16  3516 Presidente Prudente                           353160
+     16  3516 Presidente Prudente                           353215
+     16  3516 Presidente Prudente                           353220
+     16  3516 Presidente Prudente                           353310
+     16  3516 Presidente Prudente                           353480
+     16  3516 Presidente Prudente                           353540
+     16  3516 Presidente Prudente                           353640
+     16  3516 Presidente Prudente                           353830
+     16  3516 Presidente Prudente                           353920
+     16  3516 Presidente Prudente                           354120
+     16  3516 Presidente Prudente                           354130
+     16  3516 Presidente Prudente                           354140
+     16  3516 Presidente Prudente                           354150
+     16  3516 Presidente Prudente                           354170
+     16  3516 Presidente Prudente                           354220
+     16  3516 Presidente Prudente                           354240
+     16  3516 Presidente Prudente                           354323
+     16  3516 Presidente Prudente                           354425
+     16  3516 Presidente Prudente                           354550
+     16  3516 Presidente Prudente                           354710
+     16  3516 Presidente Prudente                           354770
+     16  3516 Presidente Prudente                           354830
+     16  3516 Presidente Prudente                           354930
+     16  3516 Presidente Prudente                           355290
+     16  3516 Presidente Prudente                           355390
+     16  3516 Presidente Prudente                           355430
+     16  3516 Presidente Prudente                           355510
+     17  3517 Registro                                      350540
+     17  3517 Registro                                      350925
+     17  3517 Registro                                      350990
+     17  3517 Registro                                      351480
+     17  3517 Registro                                      352030
+     17  3517 Registro                                      352042
+     17  3517 Registro                                      352120
+     17  3517 Registro                                      352330
+     17  3517 Registro                                      352460
+     17  3517 Registro                                      352610
+     17  3517 Registro                                      352990
+     17  3517 Registro                                      353620
+     17  3517 Registro                                      353720
+     17  3517 Registro                                      354260
+     17  3517 Registro                                      355180
+     18  3518 Ribeirão Preto                                350100
+     18  3518 Ribeirão Preto                                350560
+     18  3518 Ribeirão Preto                                350590
+     18  3518 Ribeirão Preto                                350780
+     18  3518 Ribeirão Preto                                350940
+     18  3518 Ribeirão Preto                                351090
+     18  3518 Ribeirão Preto                                351310
+     18  3518 Ribeirão Preto                                351460
+     18  3518 Ribeirão Preto                                351860
+     18  3518 Ribeirão Preto                                351885
+     18  3518 Ribeirão Preto                                352430
+     18  3518 Ribeirão Preto                                352510
+     18  3518 Ribeirão Preto                                352760
+     18  3518 Ribeirão Preto                                353130
+     18  3518 Ribeirão Preto                                353950
+     18  3518 Ribeirão Preto                                354020
+     18  3518 Ribeirão Preto                                354090
+     18  3518 Ribeirão Preto                                354340
+     18  3518 Ribeirão Preto                                354625
+     18  3518 Ribeirão Preto                                354760
+     18  3518 Ribeirão Preto                                354790
+     18  3518 Ribeirão Preto                                355090
+     18  3518 Ribeirão Preto                                355140
+     18  3518 Ribeirão Preto                                355150
+     18  3518 Ribeirão Preto                                355170
+     19  3519 Santos                                        350635
+     19  3519 Santos                                        351350
+     19  3519 Santos                                        351870
+     19  3519 Santos                                        352210
+     19  3519 Santos                                        353110
+     19  3519 Santos                                        353760
+     19  3519 Santos                                        354100
+     19  3519 Santos                                        354850
+     19  3519 Santos                                        355100
+     20  3520 S.João da Boa Vista                           350030
+     20  3520 S.João da Boa Vista                           350040
+     20  3520 S.João da Boa Vista                           350380
+     20  3520 S.João da Boa Vista                           350870
+     20  3520 S.João da Boa Vista                           351080
+     20  3520 S.João da Boa Vista                           351390
+     20  3520 S.João da Boa Vista                           351515
+     20  3520 S.João da Boa Vista                           351518
+     20  3520 S.João da Boa Vista                           351905
+     20  3520 S.João da Boa Vista                           352260
+     20  3520 S.João da Boa Vista                           352380
+     20  3520 S.João da Boa Vista                           352470
+     20  3520 S.João da Boa Vista                           353050
+     20  3520 S.João da Boa Vista                           353070
+     20  3520 S.João da Boa Vista                           353080
+     20  3520 S.João da Boa Vista                           354630
+     20  3520 S.João da Boa Vista                           354800
+     20  3520 S.João da Boa Vista                           354810
+     20  3520 S.João da Boa Vista                           354910
+     20  3520 S.João da Boa Vista                           354970
+     20  3520 S.João da Boa Vista                           355080
+     20  3520 S.João da Boa Vista                           355330
+     20  3520 S.João da Boa Vista                           355360
+     20  3520 S.João da Boa Vista                           355640
+     20  3520 S.João da Boa Vista                           355730
+     21  3521 S.José dos Campos                             350850
+     21  3521 S.José dos Campos                             351050
+     21  3521 S.José dos Campos                             352020
+     21  3521 S.José dos Campos                             352040
+     21  3521 S.José dos Campos                             352440
+     21  3521 S.José dos Campos                             352490
+     21  3521 S.José dos Campos                             353170
+     21  3521 S.José dos Campos                             353560
+     21  3521 S.José dos Campos                             354600
+     21  3521 S.José dos Campos                             354990
+     21  3521 S.José dos Campos                             355070
+     21  3521 S.José dos Campos                             355540
+     22  3522 S.José do Rio Preto                           350020
+     22  3522 S.José do Rio Preto                           350120
+     22  3522 S.José do Rio Preto                           350180
+     22  3522 S.José do Rio Preto                           350260
+     22  3522 S.José do Rio Preto                           350370
+     22  3522 S.José do Rio Preto                           350395
+     22  3522 S.José do Rio Preto                           350460
+     22  3522 S.José do Rio Preto                           350480
+     22  3522 S.José do Rio Preto                           351070
+     22  3522 S.José do Rio Preto                           351110
+     22  3522 S.José do Rio Preto                           351120
+     22  3522 S.José do Rio Preto                           351130
+     22  3522 S.José do Rio Preto                           351290
+     22  3522 S.José do Rio Preto                           351385
+     22  3522 S.José do Rio Preto                           351420
+     22  3522 S.José do Rio Preto                           351492
+     22  3522 S.José do Rio Preto                           351520
+     22  3522 S.José do Rio Preto                           351550
+     22  3522 S.José do Rio Preto                           351590
+     22  3522 S.José do Rio Preto                           351690
+     22  3522 S.José do Rio Preto                           351750
+     22  3522 S.José do Rio Preto                           351800
+     22  3522 S.José do Rio Preto                           351940
+     22  3522 S.José do Rio Preto                           351980
+     22  3522 S.José do Rio Preto                           352070
+     22  3522 S.José do Rio Preto                           352115
+     22  3522 S.José do Rio Preto                           352150
+     22  3522 S.José do Rio Preto                           352190
+     22  3522 S.José do Rio Preto                           352450
+     22  3522 S.José do Rio Preto                           352480
+     22  3522 S.José do Rio Preto                           352570
+     22  3522 S.José do Rio Preto                           352810
+     22  3522 S.José do Rio Preto                           352820
+     22  3522 S.José do Rio Preto                           352830
+     22  3522 S.José do Rio Preto                           352885
+     22  3522 S.José do Rio Preto                           352910
+     22  3522 S.José do Rio Preto                           352950
+     22  3522 S.José do Rio Preto                           352960
+     22  3522 S.José do Rio Preto                           352965
+     22  3522 S.José do Rio Preto                           353000
+     22  3522 S.José do Rio Preto                           353030
+     22  3522 S.José do Rio Preto                           353040
+     22  3522 S.José do Rio Preto                           353100
+     22  3522 S.José do Rio Preto                           353140
+     22  3522 S.José do Rio Preto                           353250
+     22  3522 S.José do Rio Preto                           353260
+     22  3522 S.José do Rio Preto                           353270
+     22  3522 S.José do Rio Preto                           353280
+     22  3522 S.José do Rio Preto                           353284
+     22  3522 S.José do Rio Preto                           353300
+     22  3522 S.José do Rio Preto                           353325
+     22  3522 S.José do Rio Preto                           353350
+     22  3522 S.José do Rio Preto                           353400
+     22  3522 S.José do Rio Preto                           353420
+     22  3522 S.José do Rio Preto                           353475
+     22  3522 S.José do Rio Preto                           353500
+     22  3522 S.José do Rio Preto                           353510
+     22  3522 S.José do Rio Preto                           353520
+     22  3522 S.José do Rio Preto                           353570
+     22  3522 S.José do Rio Preto                           353590
+     22  3522 S.José do Rio Preto                           353625
+     22  3522 S.José do Rio Preto                           353660
+     22  3522 S.José do Rio Preto                           353690
+     22  3522 S.José do Rio Preto                           353810
+     22  3522 S.José do Rio Preto                           353960
+     22  3522 S.José do Rio Preto                           353990
+     22  3522 S.José do Rio Preto                           354025
+     22  3522 S.José do Rio Preto                           354030
+     22  3522 S.José do Rio Preto                           354040
+     22  3522 S.José do Rio Preto                           354080
+     22  3522 S.José do Rio Preto                           354420
+     22  3522 S.José do Rio Preto                           354450
+     22  3522 S.José do Rio Preto                           354480
+     22  3522 S.José do Rio Preto                           354560
+     22  3522 S.José do Rio Preto                           354570
+     22  3522 S.José do Rio Preto                           354610
+     22  3522 S.José do Rio Preto                           354660
+     22  3522 S.José do Rio Preto                           354720
+     22  3522 S.José do Rio Preto                           354740
+     22  3522 S.José do Rio Preto                           354765
+     22  3522 S.José do Rio Preto                           354900
+     22  3522 S.José do Rio Preto                           354920
+     22  3522 S.José do Rio Preto                           354980
+     22  3522 S.José do Rio Preto                           355130
+     22  3522 S.José do Rio Preto                           355260
+     22  3522 S.José do Rio Preto                           355340
+     22  3522 S.José do Rio Preto                           355490
+     22  3522 S.José do Rio Preto                           355530
+     22  3522 S.José do Rio Preto                           355535
+     22  3522 S.José do Rio Preto                           355560
+     22  3522 S.José do Rio Preto                           355570
+     22  3522 S.José do Rio Preto                           355580
+     22  3522 S.José do Rio Preto                           355600
+     22  3522 S.José do Rio Preto                           355610
+     22  3522 S.José do Rio Preto                           355695
+     22  3522 S.José do Rio Preto                           355710
+     22  3522 S.José do Rio Preto                           355715
+     23  3523 Sorocaba                                      350075
+     23  3523 Sorocaba                                      350115
+     23  3523 Sorocaba                                      350220
+     23  3523 Sorocaba                                      350270
+     23  3523 Sorocaba                                      350275
+     23  3523 Sorocaba                                      350290
+     23  3523 Sorocaba                                      350535
+     23  3523 Sorocaba                                      350700
+     23  3523 Sorocaba                                      350715
+     23  3523 Sorocaba                                      350800
+     23  3523 Sorocaba                                      350945
+     23  3523 Sorocaba                                      351020
+     23  3523 Sorocaba                                      351030
+     23  3523 Sorocaba                                      351150
+     23  3523 Sorocaba                                      351160
+     23  3523 Sorocaba                                      351760
+     23  3523 Sorocaba                                      351850
+     23  3523 Sorocaba                                      351970
+     23  3523 Sorocaba                                      352100
+     23  3523 Sorocaba                                      352170
+     23  3523 Sorocaba                                      352215
+     23  3523 Sorocaba                                      352230
+     23  3523 Sorocaba                                      352240
+     23  3523 Sorocaba                                      352265
+     23  3523 Sorocaba                                      352320
+     23  3523 Sorocaba                                      352390
+     23  3523 Sorocaba                                      352585
+     23  3523 Sorocaba                                      352840
+     23  3523 Sorocaba                                      353282
+     23  3523 Sorocaba                                      353780
+     23  3523 Sorocaba                                      353790
+     23  3523 Sorocaba                                      354060
+     23  3523 Sorocaba                                      354165
+     23  3523 Sorocaba                                      354280
+     23  3523 Sorocaba                                      354300
+     23  3523 Sorocaba                                      354325
+     23  3523 Sorocaba                                      354350
+     23  3523 Sorocaba                                      354520
+     23  3523 Sorocaba                                      354530
+     23  3523 Sorocaba                                      355020
+     23  3523 Sorocaba                                      355060
+     23  3523 Sorocaba                                      355110
+     23  3523 Sorocaba                                      355220
+     23  3523 Sorocaba                                      355350
+     23  3523 Sorocaba                                      355385
+     23  3523 Sorocaba                                      355400
+     23  3523 Sorocaba                                      355450
+     23  3523 Sorocaba                                      355700
+     24  3524 Taubaté                                       350250
+     24  3524 Taubaté                                       350315
+     24  3524 Taubaté                                       350350
+     24  3524 Taubaté                                       350490
+     24  3524 Taubaté                                       350860
+     24  3524 Taubaté                                       350970
+     24  3524 Taubaté                                       350995
+     24  3524 Taubaté                                       351340
+     24  3524 Taubaté                                       351360
+     24  3524 Taubaté                                       351840
+     24  3524 Taubaté                                       352630
+     24  3524 Taubaté                                       352660
+     24  3524 Taubaté                                       352720
+     24  3524 Taubaté                                       353230
+     24  3524 Taubaté                                       353800
+     24  3524 Taubaté                                       353850
+     24  3524 Taubaté                                       354075
+     24  3524 Taubaté                                       354190
+     24  3524 Taubaté                                       354230
+     24  3524 Taubaté                                       354430
+     24  3524 Taubaté                                       354820
+     24  3524 Taubaté                                       354860
+     24  3524 Taubaté                                       354960
+     24  3524 Taubaté                                       355000
+     24  3524 Taubaté                                       355200
+     24  3524 Taubaté                                       355410
+     24  3524 Taubaté                                       355480
+     25  3500 Município ignorado - SP                       350000
+

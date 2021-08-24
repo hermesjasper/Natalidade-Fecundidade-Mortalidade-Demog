@@ -1,0 +1,15 @@
+14 2 L
+      1  N Inf                                                ,
+      2  Sem Escolaridade                                   00
+      3  Fundamental I Incompleto                           01
+      4  Fundamental I Completo                             02
+      5  Fundamental I Incompleto ou Inespecif              10
+      6  Fundamental II Incompleto                          03
+      7  Fundamental II Completo                            04
+      8  Fundamental II Incompleto ou Inespecif             11
+      9  Ensino Medio Incompleto                            05
+     10  Ensino Medio Completo                              06
+     11  Ensino Medio Incompleto ou Inespecif               12
+     12  Superior Incompleto                                07
+     13  Superior Completo                                  08
+     14  Ignorado                                           09

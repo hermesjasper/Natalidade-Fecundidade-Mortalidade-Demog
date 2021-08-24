@@ -1,0 +1,7 @@
+006 1 L
+    001  N Inf                                               ,  
+    002  Boletim Ocorrência                                 1
+    003  Hospital                                           2
+    004  Família                                            3
+    005  Outra                                              4
+    006  Ign                                                0,5,6,7,8,9

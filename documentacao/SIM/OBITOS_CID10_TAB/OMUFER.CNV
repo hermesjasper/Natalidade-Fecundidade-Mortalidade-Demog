@@ -1,0 +1,9 @@
+8 1 L
+      1  N Inf                                               ,
+      2  Na gravidez                                        1
+      3  No parto                                           2
+      4  No Aborto                                          3
+      5  Ate 42d apos parto                                 4
+      6  43d-01a apos parto                                 5
+      7  Nao ocorreu nestes periodos                        8
+      8  Ign                                                9

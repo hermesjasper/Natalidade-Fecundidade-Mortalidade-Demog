@@ -1,0 +1,7 @@
+006 1 L
+    001  N Inf                                               ,
+    002  Acidente                                           1
+    003  Suicídio                                           2
+    004  Homicidio                                          3
+    005  Outros                                             4
+    006  Ign                                                5,6,7,8,9,0

@@ -1,0 +1,146 @@
+145 4
+      1  001-031 Algumas Doencas Infecciosas e Parasitar    A000-B999
+  1   2    001 Doencas Infecciosas intestinais              A000-A099  
+  2   3    002 Colera                                       A000-A009
+  2   4    003 Diarr e Gastroenter orig infec presumivel    A09 ,
+  2   5    004 Outras Doencas Infecciosas Intestinais       A010-A089
+  5   6      004.1 Febres Tifoide e Paratifoide             A010-A019
+  1   7  005-006 Tuberculose                                A150-A199
+  7   8    005 Tuberculose respiratoria                     A150-A169
+  7   9    006 Outras tuberculoses                          A170-A199
+  1  10  007-015 Outras Doencas bacterianas                 A200-A649
+ 10  11    007 Peste                                        A200-A209
+ 10  12    008 Leptospirose                                 A270-A279
+ 10  13    009 Hanseniase                                   A300-A309
+ 10  14    010 Tetano                                       A330-A359
+ 14  15      010.1 Tetano neonatal                          A33 ,
+ 14  16      010.2 Tetano obstetrico                        A34 ,
+ 14  17      010.3 Tetano acidental                         A35 ,
+ 10  18    011 Difteria                                     A360-A369
+ 10  19    012 Coqueluche                                   A370-A379
+ 10  20    013 Infeccao meningococica                       A390-A399
+ 10  21    014 Septicemia                                   A400-A419
+ 10  22    015 Infeccoes com transm predominant sexual      A500-A649
+  1  23  016-023 Doencas virais                             A800-B249
+ 23  24    016 Poliomielite aguda                           A800-A809
+ 23  25    017 Raiva                                        A820-A829
+ 23  26    018 Dengue                                       A90 ,
+ 23  27    019 Febre Amarela                                A950-A959
+ 23  28    020 Out febres p/arbovirus e febr hemorr virais  A91 ,A920-A939,A94 ,A960-A99 ,
+ 23  29    021 Sarampo                                      B050-B059      
+ 23  30    022 Hepatite viral                               B150-B199
+ 23  31    023 Doen p/Virus da Imunodefic Humana (HIV)      B200-B249
+  1  32  024-027 Doencas devidas a Protozoarios             B500-B649
+ 32  33    024 Malaria                                      B500-B549
+ 32  34    025 Leishmaniose                                 B550-B559      
+ 32  35    026 Doenca de Chagas                             B570-B579      
+ 32  36    027 Toxoplasmose                                 B580-B589      
+  1  37  028-031 Helmintiases                               B650-B839  
+ 37  38    028 Esquistossomose                              B650-B659
+ 37  39    029 Cisticercose                                 B690-B699      
+ 37  40    030 Restante de Helmintiases                     B660-B689,B700-B839
+  1  41    031 Restante de algumas doenc infecc e parasit   A650-A799,B250-B499,B840-B999
+     42  032-052 Neoplasias                                 C000-D489
+ 42  43    032 Neopl malig do labio, cav oral e faringe     C000-C149
+ 42  44    033 Neoplasia maligna do esofago                 C150-C159
+ 42  45    034 Neoplasia maligna do estomago                C160-C169
+ 42  46    035 Neoplasia maligna do colo,reto e anus        C180-C219
+ 42  47    036 Neopl malig do figado e vias bil intrahepat  C220-C229
+ 42  48    037 Neoplasia maligna do pancreas                C250-C259      
+ 42  49    038 Neoplasia maligna da laringe                 C320-C329
+ 42  50    039 Neopl malig da traqueia,bronquios e pulmoes  C33 ,C340-C349
+ 42  51    040 Neoplasia maligna da pele                    C430-C439      
+ 42  52    041 Neoplasia maligna da mama                    C500-C509
+ 42  53    042 Neoplasia maligna do colo do utero           C530-C539      
+ 42  54    043 Neopl malig de corpo e partes n/esp utero    C540-C559  
+ 42  55    044 Neoplasia maligna do ovario                  C56 ,
+ 42  56    045 Neoplasia maligna da prostata                C61 ,
+ 42  57    046 Neoplasia maligna da bexiga                  C670-C679
+ 42  58    047 Neopl malig mening,encef e out partes SNC    C700-C729
+ 42  59    048 Linfoma nao-Hodgkin                          C820-C859  
+ 42  60    049 Mieloma mult e neopl malig de plasmocitos    C900-C909         
+ 42  61    050 Leucemia                                     C910-C959
+ 42  62    051 Neoplasias in situ, Benig, Comport Incert    D000-D489
+ 42  63    052 Restante de neoplasias malignas              C170-C179,C230-C249,C260-C319,C370-C419,C440-C499,C510-C529,C570-C609,C620-C669,C680-C699,C730-C819,C880-C899,C960-C979
+     64  053-054 D Sangue e Org Hemat e Alguns Trans Imunit D500-D899
+ 64  65    053 Anemias                                      D500-D649
+ 64  66    054 Rest d sangue, org hemat e alg transt imuni  D650-D899
+     67  055-057 D Endocrinas, Nutricionais e Metabolicas   E000-E909   
+ 67  68    055 Diabetes Mellitus                            E100-E149
+ 67  69    056 Desnutricao                                  E400-E469
+ 67  70    057 Rest doencas endocr, nutricion e metabol     E000-E079,E150-E349,E500-E909
+     71  058-059 Transtornos Mentais e Comportamentais      F000-F999
+ 71  72    058 Transt ment e comport uso subst psicoativas  F100-F199
+ 72  73      058.1 Trans ment e comport devid uso alcool    F100-F109
+ 71  74    059 Rest transtornos mentais e comportamentais   F000-F099,F200-F999
+     75  060-063 Doencas do Sistema Nervoso                 G000-G999
+ 75  76    060 Meningite                                    G000-G009,G030-G039
+ 75  77    061 Doenca de Alzheimer                          G300-G309   
+ 75  78    062 Epilepsia                                    G400-G409,G410-G419
+ 75  79    063 Restante das doencas do Sistema Nervoso      G040-G259,G310-G399,G430-G989
+     80  064 Doencas dos Olhos e Anexos                     H000-H599
+     81  065 Doencas do Ouvido e da Apofise Mastoide        H600-H959            
+     82  066-072 Doencas do Aparelho Circulatorio           I000-I999  
+ 82  83    066 Febre reumat aguda e doen reum cron coracao  I00 ,I010-I099
+ 82  84    067 Doencas hipertensivas                        I100-I159     
+ 82  85    068 Doencas isquemicas do coracao                I200-I259 
+ 85  86      068.1 Infarto agudo do miocardio               I210-I219      
+ 82  87    069 Outras doencas cardiacas                     I260-I529  
+ 82  88    070 Doencas cerebrovasculares                    I600-I699           
+ 82  89    071 Aterosclerose                                I700-I709
+ 82  90    072 Rest doencas do aparelho circulatorio        I710-I999  
+     91  073-077 Doencas do Aparelho Respiratorio           J000-J999  
+ 91  92    073 Influenza (Gripe)                            J09 ,J100-J119
+ 91  93    074 Pneumonia                                    J120-J189  
+ 91  94    075 Out infec agudas das vias aereas inferiores  J200-J229
+ 94  95      075.1 Bronquiolite                             J210-J219     
+ 91  96    076 Doencas cronicas das vias aereas inferiores  J400-J479
+ 96  97      076.1 Asma                                     J450-J460      
+ 91  98    077 Restante  doencas do aparelho respiratorio   J000-J069,J300-J399,J600-J999
+     99  078-082 Doencas do Aparelho Digestivo              K000-K939  
+ 99 100    078 Ulcera gastrica, duodenal e peptica          K250-K279
+ 99 101    079 Peritonite                                   K650-K659      
+ 99 102    080 Doencas do figado                            K700-K779            
+102 103      080.1 Doenca alcoolica do figado               K700-K709
+102 104      080.2 Fibrose e cirrose do figado              K740-K749      
+102 105      080.3 Outras doencas do figado                 K710-K739,K750-K779
+ 99 106    081 Colecistite                                  K810-K819
+ 99 107    082 Rest doencas do aparelho digestivo           K000-K249,K280-K649,K660-K699,K780-K809,K820-K939
+    108  083 Doencas da Pele e Tecido Subcutaneo            L00 ,L010-L999
+    109  084 Doencas Sist Osteomusc e Tecido Conjuntivo     M000-M999
+    110  085-087 Doencas do Aparelho Geniturinario          N000-N999  
+110 111    085 D glomerulares e d renais tubulo-interstic   N000-N169
+110 112    086 Insuficiencia renal                          N170-N199  
+110 113    087 Rest doencas do aparelho geniturinario       N200-N999  
+    114  088-093 Gravidez, Parto e Puerperio                O000-O999
+114 115    088 Gravidez que termina em aborto               O000-O089
+114 116    089 Outras mortes obstetricas diretas            O110-O239,O244,O260-O927
+114 117    090 Mortes obstetricas indiretas                 O100-O109,O240-O243,O249-O259,O980-O998
+114 118    091 Morte obstetrica tardia                      O96 ,
+114 119    092 Sequela de causa obstetrica                  O97 ,
+114 120    093 Restante de gravidez, parto e puerperio      O95 ,
+    121  094-098 Alg Afeccoes origin no periodo perinatal   P000-P969
+121 122    094 Feto e recem-nasc afet fat mat e compl grav  P000-P049
+121 123    095 Transt relac duracao gestacao e cresc fetal  P050-P089
+121 124    096 Traumatismo de parto                         P100-P159
+121 125    097 Trans resp e cardiovas espec per perinatal   P200-P299  
+121 126    098 Rest afec originadas no periodo perinatal    P350-P969  
+    127  099-101 Malf Congen, Deform e Anomal Cromossomicas Q000-Q999  
+127 128    099 Malformacoes congenitas do Sistema Nervoso   Q000-Q079
+127 129    100 Malf congenitas do aparelho circulatorio     Q200-Q289 
+127 130    101 Rest de malf cong, deform e anomal cromoss   Q100-Q189,Q300-Q999
+    131  102-104 Sint, Sin e Ach Anorm Clin e Lab, NCOP     R000-R999  
+131 132    102 Senilidade                                   R54 ,
+131 133    103 Morte sem assistencia medica                 R98 ,
+131 134    104 Rest sint, sin e ach anorm clin e laborat    R000-R539,R550-R969,R99 ,
+    135  105-114 Causas externas de morbidade e mortalidade V010-Y989
+135 136    105 Acidentes de transporte                      V010-V999
+135 137    106 Quedas                                       W000-W199
+135 138    107 Afogamento e submersoes acidentais           W650-W749
+135 139    108 Exposicao a fumaca, ao fogo e as chamas      X000-X099
+135 140    109 Envenen, intoxic por ou expos a subst nociv  X400-X499
+135 141    110 Lesoes autoprovocadas voluntariamente        X600-X849
+135 142    111 Agressoes                                    X850-Y099
+135 143    112 Eventos(fatos) cuja intencao e indetermin    Y100-Y349
+135 144    113 Intervencoes legais e operacoes de guerra    Y350-Y369
+135 145    114 Demais causas externas                       W200-W649,W750-W999,X100-X399,X500-X599,Y400-Y899

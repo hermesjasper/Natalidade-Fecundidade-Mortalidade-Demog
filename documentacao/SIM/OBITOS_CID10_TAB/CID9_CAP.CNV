@@ -1,0 +1,29 @@
+28 3
+    001  I.   Doenáas infecciosas e parasit†rias            001-139
+    002  II.  Neoplasmas                                    140-239
+    003  III. Doenáas endoc nutric metab e transt imunitar  240-279
+    004  IV.  Doenáas do sangue e org∆os hematopoeticos     280-289
+    005  V.   Transtornos mentais                           290-319
+    006  VI.  Doenáas do sist nervoso e dos org sentidos    320-389
+    007  VII. Doenáas do aparelho circulat¢rio              390-459
+    008  VIII.Doenáas do aparelho respirat¢rio              460-519
+    009  IX.  Doenáas do aparelho digestivo                 520-579
+    010  X.   Doenáas do aparelho geniturin†rio             580-629
+    011  XI.  Complicaáoes da gravidez parto e puerperio    630-676
+    012  XII. Doenáas da pele e tecido celular subcutÉneo   680-709
+    013  XIII.Doenáas sist osteomuscular e tec conjuntivo   710-739
+    014  XIV. Anomalias congànitas                          740-759
+    015  XV.  Algumas afecáoes origin no periodo perinatal  760-779
+    016  XVI. Sintomas sinais e afecáoes mal definidas      780-799
+    017  XVII.Causas externas                               999
+017 018  - Acidentes de transporte                          800-848
+017 019  - Intoxicaá‰es acidentais                          850-879
+017 020  - Quedas acidentais                                880-888
+017 021  - Acidentes por fogo e chamas                      890-899
+017 022  - Acidentes devido a fatores ambientais e naturais 900-929
+017 023  - Efeitos adversos a drogas e medicamentos         930-949
+017 024  - Suicidios                                        950-959
+017 025  - Homicidios                                       960-969
+017 026  - Intervencoes legais                              970-978
+017 027  - Les∆o intencao nao determinada                   980-989
+017 028  - Outras                                           990-998

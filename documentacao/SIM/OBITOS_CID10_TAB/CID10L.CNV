@@ -1,0 +1,65 @@
+62  3
+     62  Demais causas de morte                             A00-Z99
+      1  Doencas infec intest                               A00-A09
+      2  Tuberculose                                        A15-A19
+      3  Infec menigococica                                 A39 
+      4  Septicemia                                         A40-A41
+      5  Aids                                               B20-B24
+      6  D Chagas                                           B57
+      7  CA esofago                                         C15
+      8  CA estomago                                        C16
+      9  CA colon                                           C18
+     10  CA reto, anus                                      C19-C21
+     11  CA figado                                          C22
+     12  CA pancreas                                        C25
+     13  CA laringe                                         C32
+     14  CA pulmao                                          C34
+     15  CA mama                                            C50
+     16  CA colo de utero                                   C53
+     17  CA utero porcao n/esp                              C55
+     18  CA prostata                                        C61
+     19  Leucemias                                          C91-C95
+     20  Anemias                                            D50-D64
+     21  Diabetes mellitus                                  E10-E14
+     22  Desnutricao                                        E40-E46
+     23  Alcoolismo                                         F10
+     24  Meningites                                         G00-G03
+     25  D. reumatica cronica coracao                       I05-I09
+     26  D. hipertensivas                                   I10-I13
+     27  Infarto agudo do miocardio                         I21
+     28  Outras doencas isquem coracao                      I20,I22-I25
+     29  D. circulacao pulmonar                             I26-I28
+     30  Miocardiopatias                                    I42
+     31  Insuficiencia cardiaca                             I50
+     32  D. cerebrovasculares                               I60-I69
+     33  Ateroesclerose                                     I70
+     34  Aneurisma e disseccao aorta                        I71
+     35  Pneumonias                                         J12-J18
+     36  Bronquite, enfisema, asma                          J40-J47
+     37  Outras doencas pulmao                              J96-J98
+     38  Ulcera estomago e duodeno                          K25-K27
+     39  Doencas do apendice                                K35-K38
+     40  Cirrose e d cronicas figado                        K70,K73-K74
+     41  Insuficiencia renal                                N17-N19
+     42  Doencas glomerulares                               N00-N08
+     43  Hiperplasia da prostata                            N40
+     44  Mortes maternas                                    O00-O99,A34
+     45  Prematuridade                                      P07
+     46  Hipoxia intra-uterina/asfixia nascer               P20-P21
+     47  D. membrana hialina                                P22
+     48  Afec. respiratorias RN                             P23-P28
+     49  Infeccoes espec. periodo perinatal                 P35-P39
+     50  Demais causas perinatais                           P00-P06,P29-P34,P08-P19,P40-P99
+     51  Anom congenitas sist nervoso                       Q00-Q07
+     52  Anom congenitas coracao e circ                     Q20-Q28
+     53  Anom congenitas ap digestivo                       Q38-Q45
+     54  Demais anomalias congenitas                        Q08-Q19,Q29-Q37,Q45-Q99
+     55  Mal definidas                                      R00-R99
+     56  Acidentes de transito transporte                   V01-V04,V06-V09,V12-V14,V18-V79,V87-V89
+     57  Quedas                                             W00-W19
+     58  Outros acidentes                                   W20-X59,V90-V99,V05,V10-V11,Y40-Y98,V80-V86,V15-V17,V88 
+     59  Suicidios                                          X60-X84
+     60  Homicidios                                         X85-Y09
+     61  Lesoes intenc indeterminada                        Y10-Y34
+
+

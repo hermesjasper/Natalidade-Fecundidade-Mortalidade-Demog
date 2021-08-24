@@ -1,0 +1,201 @@
+200 6
+      1  Sem Definição                                      001000
+      2  Exame  Citologia                                   002004
+      3  Anatomia Patologica                                002005
+      4  Sem Definição                                      003000
+      5  Dpa,Dpac,Hd Gar. Acess Realiza/Ref. Dpi/Dpi Autom. 004001
+      6  Dpi/Dpi Aut. ,Dpa,Dpac, e Hd Gar. A Exec de Acesso 004002
+      7  Dpi Viabilizando ou Nao Acessos                    004013
+      8  Dpi,Dpac,Dpa Viabilizando ou Nao Acessos           004014
+      9  Hemodialise Viabilizando ou Nao Acessos            004015
+     10  Dpi Hemodialise Viabilizando ou Nao Acessos        004016
+     11  Dpac Dpa Hemodialise Viabilizando ou Nao Acessos   004017
+     12  Dpi Dpac Dpa Hemodialise Viabilizando ou Nao Acess 004018
+     13  SERVICO 004-CLASSIFICACAO 019                      004019
+     14  Dispensação e Conrole de Órtese Prótese C/Comisão  005020
+     15  Dispensação de Prótese                             005021
+     16  Exames Endoscópicos de Via Aéreas                  006022
+     17  Exames Endoscópicos de Vias Digestivas             006023
+     18  Dispensação de Medicamentos Excepcionais/Alto Cust 007001
+     19  Programa Farmácia Popular                          007002
+     20  Fisioterapia em Disf. Neurofuncionais              008130
+     21  Fisioterapia em Disf. de Origem Vascular           008131
+     22  Fisioterapia em Disf. Cardíacas                    008134
+     23  Fisioterapia em Disf. do Sistema Respiratório      008153
+     24  Fisioterapia em Disf. do Sistema Músculo Esqueléti 008154
+     25  Sem Definição                                      009000
+     26  Triagem Cli e Col. em Posto de Coleta I            010003
+     27  Triagem Cli e Col. e Processamento Posto Coleta Ii 010010
+     28  Triagem Cli e Col. e Ex. Imuno-Hemato Posto Coleta 010021
+     29  Triagem Cli e Col. e Ex. Imuno-Hemato Posto Coleta 010028
+     30  Triagem Cli. Col. Pre-Transfusao I e Ii e Transf.  010030
+     31  Triagem Cl e Col Pre-Trans Podendo ou Não Col Tran 010033
+     32  Pre-Transfusao I e Ii e Transfusao em Ag Transfsui 010036
+     33  Sorologia Ii em Unidade Sorológica                 010037
+     34  Triagem Cli Irrad. Sangue Deleucociação Preparo Al 010057
+     35  Triagem Cli Sorol. I Sorol. I e Ii em Hemonucleo   010067
+     36  Triagem Cli Serv. Hemoterapia Distribuidor I       010077
+     37  Triagem Cli Serv. Hemoterapia Distribuidor Ii      010086
+     38  Triagem Cli Pre-Transf.e Ii Transfusao em Hemote   010089
+     39  Triagem Cli Exames Deleuc. em Serv. de Hemotera    010097
+     40  Triagem Cli Exames Deleucocitação em Hemocentro    010098
+     41  Exames de Medicina Nuclear In Vitro                011051
+     42  Exames de Medicina Nuclear In Vivo                 011052
+     43  Teste Ergométrico                                  012053
+     44  Teste de Holter                                    012096
+     45  Exame Eletrocardiografo                            012161
+     46  Exame Eletrocardiografo Por Telemedicina           012165
+     47  Cardioversao Eletrica Eletiva                      012166
+     48  Coleta de Materiais Fora da Est. Laboratorio       013047
+     49  Exame de Media Compl. 1 Nivel Ref da Noas-M1       013058
+     50  Exame de Media Compl 2 Nivel Ref da Noas-M2        013059
+     51  Exame de Media Compl 3 Nivel Ref da Noas-M3        013060
+     52  SERVICO 013-CLASSIFICACAO 062                      013062
+     53  Exames de Histocompatibilidade Por Meio Sorologia  013132
+     54  Exames de Histocompatibilidade Po Sorol.e Biologia 013133
+     55  Exames de Alta Complexidade                        013142
+     56  Centro de Atenção Psicossocial I Caps I            014124
+     57  Centro de Atenção Psicossocial Ii Caps Ii          014126
+     58  Centro de Atenção Psicossocial Iii Caps Iii        014127
+     59  Centro de Atenção Psic. A Infancia e A Adolescenci 014129
+     60  Centro de Atenção Psico Alcool e Outras Drogas Cap 014147
+     61  Sem Definição                                      015000
+     62  Exame de Média Compl. 1º Nível Ref Noas M1         016071
+     63  Exame de Media Compl 2º Nivel Ref Noas M2          016072
+     64  Exame de Media Compl 3º Nivel Ref Noas M3          016073
+     65  Exames de Alta Complexidade                        016143
+     66  Sem Definição                                      017000
+     67  Reabilitação Visual                                018082
+     68  Reabilitacao Mental/Autismo                        018100
+     69  Medicina Fisica e Reabilitação Nivel Ref           018115
+     70  Reabilitação Fisica Nivel Intermediaria            018116
+     71  SERVICO 018-CLASSIFICACAO 083                      018083
+     72  Sem Definição                                      019000
+     73  Media Complexidade 1 Nivel Ref                     020087
+     74  Media Complexidade 2 Nivel Ref                     020119
+     75  Media Complexidade 3 Nifel Ref                     020121
+     76  Alta Complexidade                                  020144
+     77  Clinica                                            021090
+     78  Cirurgica                                          021091
+     79  Pré-Hospitalar (Clínica,Cirúrgica e Traumato)      021095
+     80  Traumato-Ortopedica                                021108
+     81  Sem Definição                                      022000
+     82  SERVICO 023-CLASSIFICACAO 000                      023000
+     83  Autorizacao Intermunicipais                        023180
+     84  Autorizacao Interestaduais                         023181
+     85  Diagnostico da Tuberculose                         024103
+     86  Tratamento da Tuberculose                          024104
+     87  Busca Internacional Doador Medula ou Out Precursor 025107
+     88  SERVICO 026-CLASSIFICACAO 109                      026109
+     89  SERVICO 026-CLASSIFICACAO 118                      026118
+     90  Diagnóstico,Trat. e Reab. Auditiva Na Média        027001
+     91  Diagnóstico,Trat. e Reab. Auditiva Na Alta         027002
+     92  Terapia Fonoaudiólogica                            027003
+     93  Diagnose Terapia em Otorrinoralingologia           027114
+     94  Tratamento Recem-Nascidos Lab. Prop ou Terc.       029040
+     95  Tratamento Recem Nascido Doenças Falciformes       029041
+     96  Tratamento Recem-Nascido Fibrose Cística           029042
+     97  Sem Classificacao                                  030000
+     98  Sem Classificacao                                  031000
+     99  Gestação de Baixo Risco                            032122
+    100  Gestaçao de Alto Risco                             032123
+    101  Ceo I                                              034001
+    102  Ceo Ii                                             034002
+    103  Lrpd                                               034003
+    104  Reabilitação Oral                                  034125
+    105  Diagnose e Terapia Clinica e Cirurgica             035146
+    106  Ações Assist. Saúde Srst Estadual A                036155
+    107  Ações Assist. Saúde Srst Estadual B                036156
+    108  Ações Assist. Saúde Srst Estadual C                036157
+    109  Ações Assist. Saúde Srst Regional A                036158
+    110  Ações Assist. Saúde Srst Regional B                036159
+    111  Ações Assist. Saúde Srst Regional C                036167
+    112  Trat Queimadura Alta Complexidade                  037110
+    113  Trat Queimadura Intermediario                      037111
+    114  Trat Queimadura Primario                           037112
+    115  Diagnose e Assistencia Ventilatoria Nasal          046099
+    116  Assistencia Domiciliar Pacientes Hospitais Psquiát 050128
+    117  Abordagem e Tratamento do Fumante                  054168
+    118  Atend Clinico,Cirurgico e Traumato/Orto/Pronto Ate 060160
+    119  Proc Menor Compl. Prof Nivel Medio ou Tecnico      061162
+    120  Proc Media Compl Prof Nivel Medio ou Tecnico       061163
+    121  Proc Maior Compl Prof Nivel Superior               061164
+    122  Proc Menor Compl Prof Nivel Medio ou Tecnico       062170
+    123  Proc Media Compl Prof Nivel Superior               062171
+    124  Proc Maior Complexidade Exec Prof Nivel Superior   062172
+    125  Sem Classificacao                                  063000
+    126  Atendimento em Presidio Ate 100 Presos             065183
+    127  Atendimento em Presidio Acima 100 Presos           065184
+    128  Atendimento em Manicomio Ate 100 Presos            065185
+    129  Atendimento em Manicomio Acima de 100 Presos       065186
+    130  Fistula Arteriovenosa Sem Enxerto                  066001
+    131  Fistula Arteriovenosa Com Enxerto                  066002
+    132  SERVICO 500-CLASSIFICACAO 001                      500001
+    133  SERVICO 500-CLASSIFICACAO 002                      500002
+    134  Estudo Eletrofisiologico                           500003
+    135  Cirurgia Cardiovascular (Adulto)                   500004
+    136  Cirurgia Cardiovascular (Criança)                  500005
+    137  Cirurgia Vascular                                  500006
+    138  Cardiologia Intervencionista(Hemodinâmica)         500007
+    139  Endovascular Extracardiaca                         500008
+    140  Centro de Referencia                               500009
+    141  Coluna                                             501001
+    142  Mao                                                501002
+    143  Joelho                                             501003
+    144  Quadril                                            501004
+    145  Tumor Osseo                                        501005
+    146  Ombro                                              501006
+    147  Renal                                              502001
+    148  Medula Ossea                                       502002
+    149  Coracao                                            502003
+    150  Pulmao                                             502004
+    151  Cornea                                             502005
+    152  Figado                                             502006
+    153  Pancreas                                           502007
+    154  Retirada de Orgaos                                 502008
+    155  Pele                                               502009
+    156  Valvulas Cardiacas                                 502010
+    157  Osteocondroligamentos                              502011
+    158  Aval. Biomicrocopica/ Cons. Cornea/Esclera         502012
+    159  Contagem Endotelial Corneana                       502013
+    160  Acompanhamento de Paciente Transplantado           502014
+    161  Nivel I-Realiza 48 Neurocirurgias/Ano              503001
+    162  Nivel Ii-Realiza 96 Neurocirurgias/Ano             503002
+    163  Nivel Iii-Realiza 120 Neurocirurgias/Ano           503003
+    164  Sem Classificacao                                  504000
+    165  Sem Classificacao                                  505000
+    166  Sem Classificacao                                  506000
+    167  Sem Classificacao                                  507000
+    168  Sem Classificacao                                  509000
+    169  Sem Classificacao                                  510000
+    170  Oncologia                                          512001
+    171  Pneumologia                                        512002
+    172  Osteomuscular                                      512003
+    173  Cardiovascular                                     512004
+    174  Causas Externas                                    512005
+    175  Aids                                               512006
+    176  Neurologia                                         512007
+    177  Alto Risco Secundario                              513001
+    178  Alto Risco Terciario                               513002
+    179  SERVICO 513-CLASSIFICACAO 003                      513003
+    180  SERVICO 513-CLASSIFICACAO 004                      513004
+    181  Laqueadura                                         515001
+    182  Vasectomia                                         515002
+    183  Saude Mental                                       517001
+    184  Aids                                               517002
+    185  Geriatrico                                         517003
+    186  Fibrose Cistica                                    517004
+    187  Cirurgico/Diagnostico                              517005
+    188  Medula Ossea                                       517006
+    189  Sem Classificacao                                  519000
+    190  Enteral Pediatrico                                 520001
+    191  Enteral Adulto                                     520002
+    192  Parenteral Neonatal                                520003
+    193  Parenteral Pediatrico                              520004
+    194  Parenteral Adulto                                  520005
+    195  Radiologia Clinica                                 522001
+    196  Medicina Nuclear                                   522002
+    197  Vinculada A Hospital                               523001
+    198  Vinculada A Uma Equipe do Psf                      523002
+    199  Sem Classificacao                                  524000
+    200  Sem Classificacao                                  525000

@@ -1,0 +1,144 @@
+143 3
+      1  001-031 ALGUMAS DOENÇAS INFECCIOSAS E PARASITÁRIAS A00-B99
+  1   2  . 001 Doenças infecciosas intestinais              A00-A09
+  2   3  ... 002 Cólera                                     A00-A00
+  2   4  ... 003 Diarréia e gastroenterite orig infec pres  A09
+  2   5  ... 004 Outras doenças infecciosas intestinais     A01-A08
+  5   6  ..... 004.1 Febres tifóide e paratifóide           A01-A01
+  1   7  . 005-006 Tuberculose                              A15-A19
+  7   8  ... 005 Tuberculose respiratória                   A15-A16
+  7   9  ... 006 Outras tuberculoses                        A17-A19
+  1  10  . 007-015 Outras doenças bacterianas               A20-A64
+ 10  11  ... 007 Peste                                      A20-A20
+ 10  12  ... 008 Leptospirose                               A27-A27
+ 10  13  ... 009 Hanseníase                                 A30-A30
+ 10  14  ... 010 Tétano                                     A33-A35
+ 14  15  ..... 010.1 Tétano neonatal                        A33
+ 14  16  ..... 010.2 Tétano obstétrico                      A34
+ 14  17  ..... 010.3 Tétano acidental                       A35
+ 10  18  ... 011 Difteria                                   A36-A36
+ 10  19  ... 012 Coqueluche                                 A37-A37
+ 10  20  ... 013 Infecção meningocócica                     A39-A39
+ 10  21  ... 014 Septicemia                                 A40-A41
+ 10  22  ... 015 Infecções com transmissão predom sexual    A50-A64
+  1  23  . 016-023 Doenças virais                           A80-B24
+ 23  24  ... 016 Poliomielite aguda                         A80-A80
+ 23  25  ... 017 Raiva                                      A82-A82
+ 23  26  ... 018 Dengue                                     A90
+ 23  27  ... 019 Febre amarela                              A95-A95
+ 23  28  ... 020 Out febres p/arbovírus e febr hemor virais A91-A94,A96-A99
+ 23  29  ... 021 Sarampo                                    B05-B05
+ 23  30  ... 022 Hepatite viral                             B15-B19
+ 23  31  ... 023 Doen p/vírus da imunodefic humana (HIV)    B20-B24
+  1  32  . 024-027 Doenças transmitidas por protozoários    B50-B64
+ 32  33  ... 024 Malária                                    B50-B54
+ 32  34  ... 025 Leishmaniose                               B55-B55
+ 32  35  ... 026 Doença de Chagas                           B57-B57
+ 32  36  ... 027 Toxoplasmose                               B58-B58
+  1  37  . 028-030 Helmintíases                             B65-B83
+ 37  38  ... 028 Esquistossomose                            B65-B65
+ 37  39  ... 029 Cisticercose                               B69-B69
+ 37  40  ... 030 Restante de helmintíases                   B66-B68,B70-B83
+  1  41  . 031 Restante algumas doenç infec e parasitárias  A65-A79,B25-B49,B84-B99
+     42  032-052 NEOPLASIAS                                 C00-D48
+ 42  43  . 032 Neopl malig do lábio, cav oral e faringe     C00-C14
+ 42  44  . 033 Neoplasia maligna do esôfago                 C15-C15
+ 42  45  . 034 Neoplasia maligna do estômago                C16-C16
+ 42  46  . 035 Neoplasia maligna do cólon,reto e ânus       C18-C21
+ 42  47  . 036 Neopl malig do fígado e vias bil intrahepát  C22-C22
+ 42  48  . 037 Neoplasia maligna do pâncreas                C25-C25
+ 42  49  . 038 Neoplasia maligna da laringe                 C32-C32
+ 42  50  . 039 Neopl malig da traquéia,brônquios e pulmões  C33-C34
+ 42  51  . 040 Neoplasia maligna da pele                    C43-C43
+ 42  52  . 041 Neoplasia maligna da mama                    C50-C50
+ 42  53  . 042 Neoplasia maligna do colo do útero           C53-C53
+ 42  54  . 043 Neopl malig de corpo e partes n/esp útero    C54-C55
+ 42  55  . 044 Neoplasia maligna do ovário                  C56
+ 42  56  . 045 Neoplasia maligna da próstata                C61
+ 42  57  . 046 Neoplasia maligna da bexiga                  C67-C67
+ 42  58  . 047 Neopl malig mening,encéf e out partes SNC    C70-C72
+ 42  59  . 048 Linfoma não-Hodgkin                          C82-C85
+ 42  60  . 049 Mieloma mult e neopl malig de plasmócitos    C90-C90
+ 42  61  . 050 Leucemia                                     C91-C95
+ 42  62  . 051 Neoplasias in situ, benig, comport incert    D00-D48
+ 42  63  . 052 Restante de neoplasias malignas              C17-C17,C23-C24,C26-C31,C37-C41,C44-C49,C51-C52,C57-C60,C62-C66,C68-C69,C73-C81,C88-C89,C96-C97
+     64  053-054 D SANGUE E ORG HEMAT E ALGUNS TRANS IMUNIT D50-D89
+ 64  65  . 053 Anemias                                      D50-D64
+ 64  66  . 054 Rest d sangue, org hemat e alg transt imunit D65-D89
+     67  055-057 D ENDÓCRINAS, NUTRICIONAIS E METABÓLICAS   E00-E90
+ 67  68  . 055 Diabetes mellitus                            E10-E14
+ 67  69  . 056 Desnutrição                                  E40-E46
+ 67  70  . 057 Rest doenças endócr, nutricion e metabólicas E00-E07,E15-E34,E50-E90
+     71  058-059 TRANSTORNOS MENTAIS E COMPORTAMENTAIS      F00-F99
+ 71  72  . 058 Transt ment e comport uso subst psicoativas  F10-F19
+ 72  73  ... 058.1 Trans ment e comport devid uso álcool    F10-F10
+ 71  74  . 059 Rest transtornos mentais e comportamentais   F00-F09,F20-F99
+     75  060-063 DOENÇAS DO SISTEMA NERVOSO                 G00-G99
+ 75  76  . 060 Meningite                                    G00-G00,G03-G03
+ 75  77  . 061 Doença de Alzheimer                          G30-G30
+ 75  78  . 062 Epilepsia                                    G40-G40,G41-G41
+ 75  79  . 063 Restante das doenças do sistema nervoso      G04-G25,G31-G39,G43-G98
+     80  064 DOENÇAS DOS OLHOS E ANEXOS                     H00-H59
+     81  065 DOENÇAS DO OUVIDO E DA APÓFISE MASTÓIDE        H60-H95
+     82  066-072 DOENÇAS DO APARELHO CIRCULATÓRIO           I00-I99
+ 82  83  . 066 Febre reumát aguda e doen reum crôn coração  I00-I09
+ 82  84  . 067 Doenças hipertensivas                        I10-I15
+ 82  85  . 068 Doenças isquêmicas do coração                I20-I25
+ 85  86  ... 068.1 Infarto agudo do miocárdio               I21-I21
+ 82  87  . 069 Outras doenças cardíacas                     I26-I52
+ 82  88  . 070 Doenças cerebrovasculares                    I60-I69
+ 82  89  . 071 Aterosclerose                                I70-I70
+ 82  90  . 072 Rest doenças do aparelho circulatório        I71-I99
+     91  073-077 DOENÇAS DO APARELHO RESPIRATÓRIO           J00-J99
+ 91  92  . 073 Influenza (gripe)                            J09-J11
+ 91  93  . 074 Pneumonia                                    J12-J18
+ 91  94  . 075 Out infec agudas das vias aéreas inferiores  J20-J22
+ 94  95  ... 075.1 Bronquiolite                             J21-J21
+ 91  96  . 076 Doenças crônicas das vias aéreas inferiores  J40-J47
+ 96  97  ... 076.1 Asma                                     J45-J46
+ 91  98  . 077 Restante  doenças do aparelho respiratório   J00-J06,J30-J39,J60-J99
+     99  078-082 DOENÇAS DO APARELHO DIGESTIVO              K00-K93
+ 99 100  . 078 Úlcera gástrica, duodenal e péptica          K25-K27
+ 99 101  . 079 Peritonite                                   K65-K65
+ 99 102  . 080 Doenças do fígado                            K70-K77
+102 103  ... 080.1 Doença alcoólica do fígado               K70-K70
+102 104  ... 080.2 Fibrose e cirrose do fígado              K74-K74
+102 105  ... 080.3 Outras doenças do fígado                 K71-K73,K75-K77
+ 99 106  . 081 Colecistite                                  K81-K81
+ 99 107  . 082 Rest doenças do aparelho digestivo           K00-K22,K28-K64,K66-K66,K80-K80,K82-K93
+    108  083 DOENÇAS DA PELE E TECIDO SUBCUTÂNEO            L00-L99
+    109  084 DOENÇAS SIST OSTEOMUSC E TECIDO CONJUNTIVO     M00-M99
+    110  085-087 DOENÇAS DO APARELHO GENITURINÁRIO          N00-N99
+110 111  . 085 D glomerulares e d renais túbulo-interstic   N00-N16
+110 112  . 086 Insuficiência renal                          N17-N19
+110 113  . 087 Rest doenças do aparelho geniturinário       N20-N99
+    114  088-091 GRAVIDEZ, PARTO E PUERPÉRIO                O00-O99
+114 115  . 088 Gravidez que termina em aborto               O00-O08
+114 116  . 089 Outras mortes obstétricas diretas            O10-O92
+114 117  . 090 Mortes obstétricas indiretas                 O98-O99
+114 118  . 091 Restante de gravidez, parto e puerpério      O94-O97
+    119  092-096 ALG AFECÇÕES ORIGIN NO PERÍODO PERINATAL   P00-P96
+119 120  . 092 Feto e recemnasc afet fat mat e compl grav   P00-P04
+119 121  . 093 Transt relac duração gestação e cresc fetal  P05-P08
+119 122  . 094 Traumatismo de parto                         P10-P15
+119 123  . 095 Trans resp e cardiovas espec per perinatal   P20-P29
+119 124  . 096 Rest afec originadas no período perinatal    P35-P96
+    125  097-099 MALF CONGÊN, DEFORM E ANOMAL CROMOSSÔMICAS Q00-Q99
+125 126  . 097 Malformações congênitas do sistema nervoso   Q00-Q07
+125 127  . 098 Malf congênitas do aparelho circulatório     Q20-Q28
+125 128  . 099 Rest de malf cong, deform e anomal Cromoss   Q10-Q18,Q30-Q99
+    129  100-102 SINT, SIN E ACH ANORM CLÍN E LAB, NCOP     R00-R99
+129 130  . 100 Senilidade                                   R54
+129 131  . 101 Morte sem assistência médica                 R98
+129 132  . 102 Rest sint, sin e ach anorm clín e laborat    R00-R53,R55-R96,R99
+    133  103-112 CAUSAS EXTERNAS DE MORBIDADE E MORTALIDADE V01-Y98
+133 134  . 103 Acidentes de transporte                      V01-V99
+133 135  . 104 Quedas                                       W00-W19
+133 136  . 105 Afogamento e submersões acidentais           W65-W74
+133 137  . 106 Exposição à fumaça, ao fogo e às chamas      X00-X09
+133 138  . 107 Envenen, intoxic por ou expos a subst nociv  X40-X49
+133 139  . 108 Lesões autoprovocadas voluntariamente        X60-X84
+133 140  . 109 Agressões                                    X85-Y09
+133 141  . 110 Eventos(fatos) cuja intenção é indeterminada Y10-Y34
+133 142  . 111 Intervenções legais e operações de guerra    Y35-Y36
+133 143  . 112 Todas as outras causas externas              W20-W64,W75-W99,X10-X39,X50-X59,Y40-Y89

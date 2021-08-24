@@ -1,0 +1,6 @@
+005 1
+    005  Ignorado                                           0-9
+    001  Via Pública                                        1
+    002  Domicílio                                          2
+    003  Outro                                              3
+    004  Local de Trabalho                                  4

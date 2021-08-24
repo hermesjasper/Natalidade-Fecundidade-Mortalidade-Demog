@@ -1,0 +1,368 @@
+; Obitos - Brasil
+Ac:\sivitaisweb\sim\dbf\do*.db? 
+;       Definicoes para Ano e Mes do Obito
+
+XORIGEM, ORIGEM, 1, ORIGEM.CNV
+LCAUMUL, CAUSABAS, 1,  CID10_3D.CNV
+
+XMal definidas-OMS,    CAUSABAS,  1 , maldefoms.cnv
+XMaldefinição-SVS/MS,  CAUSABAS,  1 ,  maldefms.cnv
+; Definições para tabular os códigos Garbage 
+XCodigos Garbage,              CAUSABAS,    1,    Garbage15.cnv
+
+XNUMERO DO MAT,     NUMERODO,   1, NUMERODO.CNV
+LHospital Amigo,    CODESTAB,   1, HAMIGO.CNV
+SHospital Amigo,    CODESTAB,   1, HAMIGO.CNV
+XDO novo modelo,    NUMERODO,   1, modelDOnum.cnv
+XDO epidemiologica, STDOEPIDEM  1, DONOVA.CNV
+XAno do Obito,      DTOBITO,    7,  ANO.CNV
+XMes do Obito,      DTOBITO,    3,  MESES.CNV
+XMes do Cadastro,   DTCADASTRO, 3, MESES.CNV
+XMes de Investigac, DTINVESTIG, 3, MESES.CNV
+XDia Recebimento,   DTRECEBIM,  1, DIAS.CNV
+XMes Recebimento,   DTRECEBIM,  3, MESES.CNV
+XAno Recebimento,   DTRECEBIM,  7, ANO.CNVL
+XDia 1º Recebimento, DTRECORIG, 1, DIAS.CNV
+XMes 1º Recebimento, DTRECORIG,  3, MESES.CNV
+XAno 1º Recebimento, DTRECORIG,  7, ANO.CNV
+XTipo Obito,        TIPOBITO,   1,  TIPOBITO.CNV
+XInstalacao,        CODINST,    1,  CODINST.CNV
+SMunic Instal,      CODINST,    4,  MUNICBR.CNV
+LMunic Instal,      CODINST,    4,  MUNICBR.CNV
+LNumero Micro,      CODINST,    10, MICRO.CNV
+SNumero Micro,      CODINST,    10, MICRO.CNV
+XCom Codificador,   STCODIFICA, 1,  CODIFICA.CNV
+XCodificado,        CODIFICADO, 1,  CODIFICADO.CNV
+XObito investigado, TPPOS,      1,  INVESTIG.CNV
+SC nao Codificadas, CAUSABAS,   1,  CAUSABRA.CNV
+XVersao Sistema,   VERSAOSIST,  1,  VERSAO.CNV
+XVersao SCB,       VERSAOSCB,   1,  VERSCB.CNV
+LCausa (CID10 3D), CAUSABAS,   1,  CID10_3D.CNV
+SCausa (CID10 3D), CAUSABAS,   1,  CID10_3D.CNV
+DCausa (Cap CID10),CAUSABAS,   1,  CID10CAP.CNV
+SCausa (Cap CID10),CAUSABAS,   1,  CID10CAP.CNV
+CCausa (Cap CID10),CAUSABAS,   1,  CID10CAP.CNV
+LCausa (CID10 BR), CAUSABAS,   1,  CID10_BR.CNV
+LCausa Original,   CAUSABAS_O, 1,  CID10_3D.CNV
+SCausa Original,   CAUSABAS_O, 1,  CID10_3D.CNV
+LCausa Orig Capit, CAUSABAS_O, 1,  CID10CAP.CNV
+SCausa Orig Capit, CAUSABAS_O, 1,  CID10CAP.CNV
+LCausas Asterisco, CAUSABAS,   1,  ASTERISC.CNV
+SCausas Asterisco, CAUSABAS,   1,  ASTERISC.CNV
+LCausas Invalidas, CAUSABAS,   1,  CINVALID.CNV
+SCausas Invalidas, CAUSABAS,   1,  CINVALID.CNV
+SCausas presumiveis,CAUSABAS,   1, CAUPRESU.CNV
+LCausas presumiveis,CAUSABAS,   1, CAUPRESU.CNV
+;
+;LCB_PRE (CID10 3D),CB_PRE,     1,  CID10_3D.CNV
+;SCB_PRE (CID10 3D),CB_PRE,     1,  CID10_3D.CNV
+;LCB_PRE (CID10 CAP),CB_PRE,    1,  CID10CAP.CNV
+;LCB_PRE (CID10 BR),CB_PRE,     1,  CID10_BR.CNV
+;LCB_RES (CID10 3D),CB_PRE,     1,  CID10_3D.CNV
+;SCB_RES (CID10 3D),CB_PRE,     1,  CID10_3D.CNV
+;LCB_RES (CID10 CAP),CB_PRE,    1,  CID10CAP.CNV
+;LCB_RES (CID10 BR),CB_PRE,     1,  CID10_BR.CNV
+;
+;CAUSAS RESSELECIONADAS
+XStatusRessel S N,   STRESSELE,    1,  SIMNAO.CNV
+XMotivo N RESSELEC,  NPROC,        1,  NPROC.CNV
+XCOMPARA_CB,        COMPARA_CB,    1,  RESEL1.CNV
+XAno Resselecao,    DTRESSELE,  5,  ANORESS.CNV
+XMes Resselecao,    DTRESSELE,  3,  MESES.CNV
+XVersão Resselec,   VRSRESSELE, 1,  VERSCB.CNV
+XVersão Scb_Pre,    VERSCBPRE,  1,  VERSCB.CNV
+XVersao SCB R,      VRSRESSELE,   1,  VERSCB.CNV
+;
+LCausas Determin,   CAUSABAS,   1,  CID10L.CNV
+SCausas Determin,   CAUSABAS,   1,  CID10L.CNV
+LD Isquem Coracao,  CAUSABAS,   1,  ISQUEM.CNV
+SD Isquem Coracao,  CAUSABAS,   1,  ISQUEM.CNV
+LHomicidios,        CAUSABAS,   1,  HOMICID.CNV
+SHomicidios,        CAUSABAS,   1,  HOMICID.CNV
+LSuicidios,         CAUSABAS,   1,  SUICID.CNV
+SSuicidios,         CAUSABAS,   1,  SUICID.CNV
+SNeoplasias,        CAUSABAS,   1,  NEOPLA.CNV
+LNeoplasias,        CAUSABAS,   1,  NEOPLA.CNV
+LImunopreviniveis,  CAUSABAS,   1,  CAUMEN.CNV
+SImunopreviniveis,  CAUSABAS,   1,  CAUMEN.CNV
+XDCNT_PRE,         CAUSABAS,   1,  DPREMAT.CNV
+LCID10 4C Cap 01,  CAUSABAS,   1,  CID10_01.CNV
+SCID10 4C Cap 01,  CAUSABAS,   1,  CID10_01.CNV
+LCID10 4C Cap 02,  CAUSABAS,   1,  CID10_02.CNV
+SCID10 4C Cap 02,  CAUSABAS,   1,  CID10_02.CNV
+LCID10 4C Cap 03,  CAUSABAS,   1,  CID10_03.CNV
+SCID10 4C Cap 03,  CAUSABAS,   1,  CID10_03.CNV
+LCID10 4C Cap 04,  CAUSABAS,   1,  CID10_04.CNV
+SCID10 4C Cap 04,  CAUSABAS,   1,  CID10_04.CNV
+LCID10 4C Cap 05,  CAUSABAS,   1,  CID10_05.CNV
+SCID10 4C Cap 05,  CAUSABAS,   1,  CID10_05.CNV
+LCID10 4C Cap 06,  CAUSABAS,   1,  CID10_06.CNV
+SCID10 4C Cap 06,  CAUSABAS,   1,  CID10_06.CNV
+LCID10 4C Cap 07,  CAUSABAS,   1,  CID10_07.CNV
+SCID10 4C Cap 07,  CAUSABAS,   1,  CID10_07.CNV
+LCID10 4C Cap 08,  CAUSABAS,   1,  CID10_08.CNV
+SCID10 4C Cap 08,  CAUSABAS,   1,  CID10_08.CNV
+LCID10 4C Cap 09,  CAUSABAS,   1,  CID10_09.CNV
+SCID10 4C Cap 09,  CAUSABAS,   1,  CID10_09.CNV
+LCID10 4C Cap 10,  CAUSABAS,   1,  CID10_10.CNV
+SCID10 4C Cap 10,  CAUSABAS,   1,  CID10_10.CNV
+LCID10 4C Cap 11,  CAUSABAS,   1,  CID10_11.CNV
+SCID10 4C Cap 11,  CAUSABAS,   1,  CID10_11.CNV
+LCID10 4C Cap 12,  CAUSABAS,   1,  CID10_12.CNV
+SCID10 4C Cap 12,  CAUSABAS,   1,  CID10_12.CNV
+LCID10 4C Cap 13,  CAUSABAS,   1,  CID10_13.CNV
+SCID10 4C Cap 13,  CAUSABAS,   1,  CID10_13.CNV
+LCID10 4C Cap 14,  CAUSABAS,   1,  CID10_14.CNV
+SCID10 4C Cap 14,  CAUSABAS,   1,  CID10_14.CNV
+LCID10 4C Cap 15,  CAUSABAS,   1,  CID10_15.CNV
+SCID10 4C Cap 15,  CAUSABAS,   1,  CID10_15.CNV
+LCID10 4C Cap 16,  CAUSABAS,   1,  CID10_16.CNV
+SCID10 4C Cap 16,  CAUSABAS,   1,  CID10_16.CNV
+LCID10 4C Cap 17,  CAUSABAS,   1,  CID10_17.CNV
+SCID10 4C Cap 17,  CAUSABAS,   1,  CID10_17.CNV
+LCID10 4C Cap 18,  CAUSABAS,   1,  CID10_18.CNV
+SCID10 4C Cap 18,  CAUSABAS,   1,  CID10_18.CNV
+LCID10 4C Cap 20,  CAUSABAS,   1,  CID10_20.CNV
+SCID10 4C Cap 20,  CAUSABAS,   1,  CID10_20.CNV
+XRetroalimentacao, RETROALIM,  1,  RETRO.CNV
+SUF Resid,         CODMUNRES,  1,  UF.CNV
+LUF Resid,         CODMUNRES,  1,  UF.CNV
+xUF Resid col,     CODMUNRES,  1,  UFC.CNV
+LUF Resid/Regiao,  CODMUNRES,  1,  UFREG.CNV
+DRegiao Res,       CODMUNRES,    1,  REGIAO.CNV
+CRegiao Res,       CODMUNRES,    1,  REGIAOC.CNV
+SRegiao Res,       CODMUNRES,    1,  REGIAO.CNV
+LRegMetr Res-BR,   CODMUNRES,    1,  RMETRBR.CNV
+SRegMetr Res-BR,   CODMUNRES,    1,  RMETRBR.CNV
+LCapital Res,      CODMUNRES,    1,  CAPITAIS.CNV
+SCapital Res,      CODMUNRES,    1,  CAPITAIS.CNV
+LMunic Res - BRA,  CODMUNRES,  1,  MUNICBR.CNV
+SMunic Res - BRA,  CODMUNRES,  1,  MUNICBR.CNV
+LMunic Resid - AC, CODMUNRES,  1,  MUNICAC.CNV
+SMunic Resid - AC, CODMUNRES,  1,  MUNICAC.CNV
+LMunic Resid - RO, CODMUNRES,  1,  MUNICRO.CNV
+SMunic Resid - RO, CODMUNRES,  1,  MUNICRO.CNV
+LMunic Resid - AM, CODMUNRES,  1,  MUNICAM.CNV
+SMunic Resid - AM, CODMUNRES,  1,  MUNICAM.CNV
+LMunic Resid - RR, CODMUNRES,  1,  MUNICRR.CNV
+SMunic Resid - RR, CODMUNRES,  1,  MUNICRR.CNV
+LMunic Resid - PA, CODMUNRES,  1,  MUNICPA.CNV
+SMunic Resid - PA, CODMUNRES,  1,  MUNICPA.CNV
+LMunic Resid - AP, CODMUNRES,  1,  MUNICAP.CNV
+SMunic Resid - AP, CODMUNRES,  1,  MUNICAP.CNV
+LMunic Resid - TO, CODMUNRES,  1,  MUNICTO.CNV
+SMunic Resid - TO, CODMUNRES,  1,  MUNICTO.CNV
+LMunic Resid - MA, CODMUNRES,  1,  MUNICMA.CNV
+SMunic Resid - MA, CODMUNRES,  1,  MUNICMA.CNV
+LMunic Resid - PI, CODMUNRES,  1,  MUNICPI.CNV
+SMunic Resid - PI, CODMUNRES,  1,  MUNICPI.CNV
+LMunic Resid - CE, CODMUNRES,  1,  MUNICCE.CNV
+SMunic Resid - CE, CODMUNRES,  1,  MUNICCE.CNV
+LMunic Resid - RN, CODMUNRES,  1,  MUNICRN.CNV
+SMunic Resid - RN, CODMUNRES,  1,  MUNICRN.CNV
+LMunic Resid - PB, CODMUNRES,  1,  MUNICPB.CNV
+SMunic Resid - PB, CODMUNRES,  1,  MUNICPB.CNV
+LMunic Resid - PE, CODMUNRES,  1,  MUNICPE.CNV
+SMunic Resid - PE, CODMUNRES,  1,  MUNICPE.CNV
+LMunic Resid - AL, CODMUNRES,  1,  MUNICAL.CNV
+SMunic Resid - AL, CODMUNRES,  1,  MUNICAL.CNV
+LMunic Resid - SE, CODMUNRES,  1,  MUNICSE.CNV
+SMunic Resid - SE, CODMUNRES,  1,  MUNICSE.CNV
+LMunic Resid - BA, CODMUNRES,  1,  MUNICBA.CNV
+SMunic Resid - BA, CODMUNRES,  1,  MUNICBA.CNV
+LMunic Resid - MG, CODMUNRES,  1,  MUNICMG.CNV
+SMunic Resid - MG, CODMUNRES,  1,  MUNICMG.CNV
+LMunic Resid - ES, CODMUNRES,  1,  MUNICES.CNV
+SMunic Resid - ES, CODMUNRES,  1,  MUNICES.CNV
+LMunic Resid - RJ, CODMUNRES,  1,  MUNICRJ.CNV
+SMunic Resid - RJ, CODMUNRES,  1,  MUNICRJ.CNV
+LMunic Resid - SP, CODMUNRES,  1,  MUNICSP.CNV
+SMunic Resid - SP, CODMUNRES,  1,  MUNICSP.CNV
+LMunic Resid - PR, CODMUNRES,  1,  MUNICPR.CNV
+SMunic Resid - PR, CODMUNRES,  1,  MUNICPR.CNV
+LMunic Resid - SC, CODMUNRES,  1,  MUNICSC.CNV
+SMunic Resid - SC, CODMUNRES,  1,  MUNICSC.CNV
+LMunic Resid - PR, CODMUNRES,  1,  MUNICPR.CNV
+SMunic Resid - PR, CODMUNRES,  1,  MUNICPR.CNV
+LMunic Resid - SC, CODMUNRES,  1,  MUNICSC.CNV
+SMunic Resid - SC, CODMUNRES,  1,  MUNICSC.CNV
+LMunic Resid - RS, CODMUNRES,  1,  MUNICRS.CNV
+SMunic Resid - RS, CODMUNRES,  1,  MUNICRS.CNV
+LMunic Resid - MS, CODMUNRES,  1,  MUNICMS.CNV
+SMunic Resid - MS, CODMUNRES,  1,  MUNICMS.CNV
+LMunic Resid - MT, CODMUNRES,  1,  MUNICMT.CNV
+SMunic Resid - MT, CODMUNRES,  1,  MUNICMT.CNV
+LMunic Resid - GO, CODMUNRES,  1,  MUNICGO.CNV
+SMunic Resid - GO, CODMUNRES,  1,  MUNICGO.CNV
+DMunic Resid-DF,   CODMUNRES,   1,  MUNICDF.CNV
+SMunic Resid-DF,   CODMUNRES,   1,  MUNICDF.CNV
+XEntorno DF_Res,   CODMUNRES,  1,  ENTORNO.CNV
+;LBairro Res,       CODBAIRES,DESCBAI,   C:\TABWIN\BAIRRO.DBF
+;SBairro Res,       CODBAIRES,DESCBAI,   C:\TABWIN\BAIRRO.DBF
+;SLogradouro Res,   CODENDRES,DESCLOG,   C:\TABWIN\LOGRAD.DBF
+;SLogradouro Res,   CODENDRES,DESCLOG,   C:\TABWIN\LOGRAD.DBF
+;       Definições para ocorrência
+XLocal Ocorrencia, LOCOCOR,    1,  LOCOCOR.CNV
+;Definições para Estabelecimento
+XEstabelecim Saude,      CODESTAB,  DESCESTAB,  CNESDO18.DBF
+XEsf Adm pub/ñpub,       CODESTAB,        1,    ESFERA18.cnv
+LNatur Organiz 2006,  CODESTAB,   1, NAT_ORG.CNV
+SNatur Organiz 2006,  CODESTAB,   1, NAT_ORG.CNV
+LNat Org Estab 2007,  CODESTAB,  1,  NATDO07.CNV
+SNat Org Estab 2007,  CODESTAB,  1,  NATDO07.CNV
+;       Definições para Município de Ocorrência
+DRegiao Ocor,      CODMUNOCOR,   1,  REGIAO.CNV
+CRegiao Ocor,      CODMUNOCOR,   1,  REGIAOC.CNV
+SRegiao Ocor,      CODMUNOCOR,   1,  REGIAO.CNV
+DUF Ocor,          CODMUNOCOR,   1,  UF.CNV
+CUF Ocor,          CODMUNOCOR,   1,  UFC.CNV
+SUF Ocor,          CODMUNOCOR,   1,  UF.CNV
+LRegMetr Ocor-BR,  CODMUNOCOR,   1,  RMETRBR.CNV
+LCapital Ocor,     CODMUNOCOR,   1,  CAPITAIS.CNV
+LMunic Ocor - BRA, CODMUNOCOR, 1,  MUNICBR.CNV
+SMunic Ocor - BRA, CODMUNOCOR, 1,  MUNICBR.CNV
+LMunic Ocorr - AC, CODMUNOCOR,  1,  MUNICAC.CNV
+SMunic Ocorr - AC, CODMUNOCOR,  1,  MUNICAC.CNV
+LMunic Ocorr - RO, CODMUNOCOR,  1,  MUNICRO.CNV
+SMunic Ocorr - RO, CODMUNOCOR,  1,  MUNICRO.CNV
+LMunic Ocorr - AM, CODMUNOCOR,  1,  MUNICAM.CNV
+SMunic Ocorr - AM, CODMUNOCOR,  1,  MUNICAM.CNV
+LMunic Ocorr - RR, CODMUNOCOR,  1,  MUNICRR.CNV
+SMunic Ocorr - RR, CODMUNOCOR,  1,  MUNICRR.CNV
+LMunic Ocorr - PA, CODMUNOCOR,  1,  MUNICPA.CNV
+SMunic Ocorr - PA, CODMUNOCOR,  1,  MUNICPA.CNV
+LMunic Ocorr - AP, CODMUNOCOR,  1,  MUNICAP.CNV
+SMunic Ocorr - AP, CODMUNOCOR,  1,  MUNICAP.CNV
+LMunic Ocorr - TO, CODMUNOCOR,  1,  MUNICTO.CNV
+SMunic Ocorr - TO, CODMUNOCOR,  1,  MUNICTO.CNV
+LMunic Ocorr - MA, CODMUNOCOR,  1,  MUNICMA.CNV
+SMunic Ocorr - MA, CODMUNOCOR,  1,  MUNICMA.CNV
+LMunic Ocorr - PI, CODMUNOCOR,  1,  MUNICPI.CNV
+SMunic Ocorr - PI, CODMUNOCOR,  1,  MUNICPI.CNV
+LMunic Ocorr - CE, CODMUNOCOR,  1,  MUNICCE.CNV
+SMunic Ocorr - CE, CODMUNOCOR,  1,  MUNICCE.CNV
+LMunic Ocorr - RN, CODMUNOCOR,  1,  MUNICRN.CNV
+SMunic Ocorr - RN, CODMUNOCOR,  1,  MUNICRN.CNV
+LMunic Ocorr - PB, CODMUNOCOR,  1,  MUNICPB.CNV
+SMunic Ocorr - PB, CODMUNOCOR,  1,  MUNICPB.CNV
+LMunic Ocorr - PE, CODMUNOCOR,  1,  MUNICPE.CNV
+SMunic Ocorr - PE, CODMUNOCOR,  1,  MUNICPE.CNV
+LMunic Ocorr - AL, CODMUNOCOR,  1,  MUNICAL.CNV
+SMunic Ocorr - AL, CODMUNOCOR,  1,  MUNICAL.CNV
+LMunic Ocorr - SE, CODMUNOCOR,  1,  MUNICSE.CNV
+SMunic Ocorr - SE, CODMUNOCOR,  1,  MUNICSE.CNV
+LMunic Ocorr - BA, CODMUNOCOR,  1,  MUNICBA.CNV
+SMunic Ocorr - BA, CODMUNOCOR,  1,  MUNICBA.CNV
+LMunic Ocorr - MG, CODMUNOCOR,  1,  MUNICMG.CNV
+SMunic Ocorr - MG, CODMUNOCOR,  1,  MUNICMG.CNV
+LMunic Ocorr - ES, CODMUNOCOR,  1,  MUNICAC.CNV
+SMunic Ocorr - ES, CODMUNOCOR,  1,  MUNICAC.CNV
+LMunic Ocorr - RJ, CODMUNOCOR,  1,  MUNICRJ.CNV
+SMunic Ocorr - RJ, CODMUNOCOR,  1,  MUNICRJ.CNV
+LMunic Ocorr - SP, CODMUNOCOR,  1,  MUNICSP.CNV
+SMunic Ocorr - SP, CODMUNOCOR,  1,  MUNICSP.CNV
+LMunic Ocorr - PR, CODMUNOCOR,  1,  MUNICPR.CNV
+SMunic Ocorr - PR, CODMUNOCOR,  1,  MUNICPR.CNV
+LMunic Ocorr - SC, CODMUNOCOR,  1,  MUNICSC.CNV
+SMunic Ocorr - SC, CODMUNOCOR,  1,  MUNICSC.CNV
+LMunic Ocorr - PR, CODMUNOCOR,  1,  MUNICPR.CNV
+SMunic Ocorr - PR, CODMUNOCOR,  1,  MUNICPR.CNV
+LMunic Ocorr - SC, CODMUNOCOR,  1,  MUNICSC.CNV
+SMunic Ocorr - SC, CODMUNOCOR,  1,  MUNICSC.CNV
+LMunic Ocorr - RS, CODMUNOCOR,  1,  MUNICRS.CNV
+SMunic Ocorr - RS, CODMUNOCOR,  1,  MUNICRS.CNV
+LMunic Ocorr - MS, CODMUNOCOR,  1,  MUNICMS.CNV
+SMunic Ocorr - MS, CODMUNOCOR,  1,  MUNICMS.CNV
+LMunic Ocorr - MT, CODMUNOCOR,  1,  MUNICMT.CNV
+SMunic Ocorr - MT, CODMUNOCOR,  1,  MUNICMT.CNV
+LMunic Ocorr - GO, CODMUNOCOR,  1,  MUNICGO.CNV
+SMunic Ocorr - GO, CODMUNOCOR,  1,  MUNICGO.CNV
+DMunic Ocorr-DF,   CODMUNOCOR,  1,  MUNICDF.CNV
+SMunic Ocorr-DF,   CODMUNOCOR,    1,  MUNICDF.CNV
+XEntorno DF_OCor,  CODMUNOCOR,    1,  ENTORNO.CNV
+;
+XEscol anos concl, ESC,         1,  INSTRUC.CNV
+XEscol series,     ESC2010,     1,  ESCSERIE.CNV
+XEscol series agreg,ESCFALAGR1, 1,  ESCAGR1.CNV
+XEsc Mae anos conc,ESCMAE,      1,  INSTRUC.CNV
+XEsc Mae series,   ESCMAE2010,  1,  ESCSERIE.CNV
+XEsc Mae ser agreg,ESCMAEAGR1,  1,  ESCAGR1.CNV
+;       Definições para Sexo
+XSexo,             SEXO,       1,  SEXOC.CNV
+CEstado Civil,     ESTCIV,     1,  ESTCIV.CNV
+;       Definições para Idade
+LIdade Detalhada,  IDADE,      1,  IDADE.CNV
+SIdade Detalhada,  IDADE,      1,  IDADE.CNV
+XFaixa Etaria (5), IDADE,      1,  FXIDAD5.CNV
+XFaixa Etaria (9), IDADE,      1,  FXIDAD9.CNV
+XFaixa Etaria (13),IDADE,      1,  FXIDADP.CNV
+XFaixa Etaria OMS, IDADE,      1,  FXIDAWHO.CNV
+XFx Etar Infant 1, IDADE,      1,  FXINFAN1.CNV
+XFx Etar Infant 2, IDADE,      1,  FXINFAN2.CNV
+;       Definições para Idade da Mae
+XTipo de Violencia,CIRCOBITO,  1,  TIPOVIOL.CNV
+XRaca Cor,         RACACOR,    1,  RACA.CNV
+QRaca Cor,         RACACOR,    1,  RACA.CNV
+;       Definições para Naturalidade
+DNaturalidade,     NATURAL,    1,  NAT1212.CNV
+SNaturalidade,     NATURAL,    1,  NAT1212.CNV
+SMunic Naturalid,  CODMUNNATU, 1,  MUNICBR.CNV
+LMunic Naturalid,  CODMUNNATU, 1,  MUNICBR.CNV
+LMunic IML/SVO,    COMUNSVOIM, 1,  MUNICBR.CNV
+SMunic IML/SVO,    COMUNSVOIM, 1,  MUNICBR.CNV
+;
+;       Definições para Assistência Médica
+XAssist Medica,    ASSISTMED,  1,  ASSMEDIC.CNV
+XMedico Atest,     ATESTANTE,  1,  ATESTANT.CNV
+;       Definições para Necropsia
+XNecropsia,        NECROPSIA,  1,  NECROPS.CNV
+;       Definições para Óbito Feminino 1
+;       Definições para Causas Externas
+XAcid Trabalho,    ACIDTRAB,   1,  ACITRAB.CNV
+;       Definições para Idade da Mae
+XIdade Mãe,        IDADEMAE,   1,  IDADEMA.CNV
+;
+;       Definições para Ocupacao da Mae
+;
+DOcupação Mãe,     OCUPMAE,    1,  CBO2002.CNV
+SOcupação Mãe,     OCUPMAE,    1,  CBO2002.CNV
+;       Definições para Filhos Tidos
+XFilhos Vivos,     QTDFILVIVO,  1, FILTIDO.CNV
+XFilhos Mortos,    QTDFILMORT,   1, FILTIDO.CNV
+;       Definições para Semanas de Gestacao
+XGravidez,         GRAVIDEZ,   1,  GRAVIDEZ.CNV
+CTipo Parto,       PARTO,      1, PARTO.CNV
+CObito Parto,      OBITOPARTO, 1, OPARTO.CNV
+XSemanas Gestação, GESTACAO,  1,  SEMANAS.CNV
+XGestac Detalhada, SEMAGESTAC, 1, SGESTAC.CNV
+XPeso Nascer,      PESO,      1,  PESO.CNV
+XObito na Gravidez,OBITOGRAV,  1,  OBITOGRA.CNV
+XObito no Puerp,   OBITOPUERP, 1,  OBITOPUE.CNV
+XOb Mulher id Fert,TPMORTEOCO, 1,  OMUFER.CNV
+
+;       Definições para Tipo de Gravidez
+SOcupacao,         OCUP,       1,  CBO2002.CNV
+LOcupacao,         OCUP,       1,  CBO2002.CNV
+LOcup Grande Grupo,OCUP,       1,  GRUPO1.CNV
+SOcup Grande Grupo,OCUP,       1,  GRUPO1.CNV
+LOcup Subgrupo 3d, OCUP,       1,  GRUPO3.CNV
+SOcup Subgrupo 3d, OCUP,       1,  GRUPO3.CNV
+LOc Subgrupo Princ,OCUP,       1,  GRUPO2.CNV
+SOc Subgrupo Princ,OCUP,       1,  GRUPO2.CNV
+LOcupac Familia 4d,OCUP,       1,  GRUPO4.CNV
+SOcupac Familia 4d,OCUP,       1,  GRUPO4.CNV
+;
+;Ocupacao para arquivos ate o ano 2005
+;
+LOcup Sist Antigo, OCUP,       1,  OCUPA.CNV
+SOcup Sist Antigo, OCUP,       1,  OCUPA.CNV
+LOc Gr Sist Antigo,OCUP,       1,  GRUPOCUP.CNV
+SOc Gr Sist Antigo,OCUP,       1,  GRUPOCUP.CNV
+XNaturalidade,     NATURAL,    1,  NATUR.CNV
+XCirurgia,         CIRURGIA,   1,  CIRURGIA.CNV
+XExame complem,    EXAME,      1,  EXAME.CNV
+XFonte Informac,   FONTE,      1,  FONTINFO.CNV
+XFonte Investig,   FONTEINV,   1,  FONTEINV.CNV
+
+XEvit 0 a 4, CAUSABAS, 1, CID10-Evit0a4.cnv
+XEvit 5 a 74, CAUSABAS, 1, CID10-Evit5a74.cnv

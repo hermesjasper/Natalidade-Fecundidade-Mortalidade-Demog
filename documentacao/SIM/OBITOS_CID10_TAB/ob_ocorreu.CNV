@@ -1,0 +1,11 @@
+10 1 L
+      1  Não investigado                                     ,
+      2  Durante a gestação                                 1
+      3  Durante o abortamento                              2
+      4  Após o abortamento                                 3
+      5  No parto ou até 1 hora após o parto                4
+      6  No puerperio - até 42 dias após o parto            5
+      7  Entre 43 dias e até 1 ano após o parto             6
+      8  A investigação não identificou o momento do obito  7
+      9  Mais de um ano após o parto                        8
+     10  O obito não ocorreu nas circunst anteriores        9

@@ -1,0 +1,470 @@
+     20  6                                                        
+      1  4301 01-Porto Alegre                               430060
+      1  4301 01-Porto Alegre                               430087
+      1  4301 01-Porto Alegre                               430310
+      1  4301 01-Porto Alegre                               430390
+      1  4301 01-Porto Alegre                               430460
+      1  4301 01-Porto Alegre                               430640
+      1  4301 01-Porto Alegre                               430760
+      1  4301 01-Porto Alegre                               430770
+      1  4301 01-Porto Alegre                               430905
+      1  4301 01-Porto Alegre                               430920
+      1  4301 01-Porto Alegre                               431080
+      1  4301 01-Porto Alegre                               431162
+      1  4301 01-Porto Alegre                               431247
+      1  4301 01-Porto Alegre                               431306
+      1  4301 01-Porto Alegre                               431337
+      1  4301 01-Porto Alegre                               431340
+      1  4301 01-Porto Alegre                               431480
+      1  4301 01-Porto Alegre                               431490
+      1  4301 01-Porto Alegre                               431514
+      1  4301 01-Porto Alegre                               431695
+      1  4301 01-Porto Alegre                               431870
+      1  4301 01-Porto Alegre                               431990
+      1  4301 01-Porto Alegre                               432000
+      1  4301 01-Porto Alegre                               432300
+      2  4302 02-Porto Alegre                               430085
+      2  4302 02-Porto Alegre                               430110
+      2  4302 02-Porto Alegre                               430165
+      2  4302 02-Porto Alegre                               430175
+      2  4302 02-Porto Alegre                               430190
+      2  4302 02-Porto Alegre                               430235
+      2  4302 02-Porto Alegre                               430265
+      2  4302 02-Porto Alegre                               430270
+      2  4302 02-Porto Alegre                               430350
+      2  4302 02-Porto Alegre                               430360
+      2  4302 02-Porto Alegre                               430468
+      2  4302 02-Porto Alegre                               430517
+      2  4302 02-Porto Alegre                               430535
+      2  4302 02-Porto Alegre                               430544
+      2  4302 02-Porto Alegre                               430650
+      2  4302 02-Porto Alegre                               430676
+      2  4302 02-Porto Alegre                               430810
+      2  4302 02-Porto Alegre                               430880
+      2  4302 02-Porto Alegre                               430930
+      2  4302 02-Porto Alegre                               430955
+      2  4302 02-Porto Alegre                               431010
+      2  4302 02-Porto Alegre                               431112
+      2  4302 02-Porto Alegre                               431179
+      2  4302 02-Porto Alegre                               431198
+      2  4302 02-Porto Alegre                               431225
+      2  4302 02-Porto Alegre                               431240
+      2  4302 02-Porto Alegre                               431403
+      2  4302 02-Porto Alegre                               431405
+      2  4302 02-Porto Alegre                               431475
+      2  4302 02-Porto Alegre                               431575
+      2  4302 02-Porto Alegre                               431600
+      2  4302 02-Porto Alegre                               431650
+      2  4302 02-Porto Alegre                               431820
+      2  4302 02-Porto Alegre                               431840
+      2  4302 02-Porto Alegre                               431848
+      2  4302 02-Porto Alegre                               431935
+      2  4302 02-Porto Alegre                               431950
+      2  4302 02-Porto Alegre                               432035
+      2  4302 02-Porto Alegre                               432055
+      2  4302 02-Porto Alegre                               432110
+      2  4302 02-Porto Alegre                               432120
+      2  4302 02-Porto Alegre                               432170
+      2  4302 02-Porto Alegre                               432200
+      2  4302 02-Porto Alegre                               432225
+      2  4302 02-Porto Alegre                               432252
+      3  4303 03-Pelotas                                    430063
+      3  4303 03-Pelotas                                    430130
+      3  4303 03-Pelotas                                    430450
+      3  4303 03-Pelotas                                    430466
+      3  4303 03-Pelotas                                    430512
+      3  4303 03-Pelotas                                    430543
+      3  4303 03-Pelotas                                    430605
+      3  4303 03-Pelotas                                    430710
+      3  4303 03-Pelotas                                    431100
+      3  4303 03-Pelotas                                    431245
+      3  4303 03-Pelotas                                    431420
+      3  4303 03-Pelotas                                    431440
+      3  4303 03-Pelotas                                    431460
+      3  4303 03-Pelotas                                    431560
+      3  4303 03-Pelotas                                    431730
+      3  4303 03-Pelotas                                    431850
+      3  4303 03-Pelotas                                    431880
+      3  4303 03-Pelotas                                    432232
+      4  4304 04-Santa Maria                                430290
+      4  4304 04-Santa Maria                                430637
+      4  4304 04-Santa Maria                                430670
+      4  4304 04-Santa Maria                                430800
+      4  4304 04-Santa Maria                                430840
+      4  4304 04-Santa Maria                                431053
+      4  4304 04-Santa Maria                                431075
+      4  4304 04-Santa Maria                                431110
+      4  4304 04-Santa Maria                                431113
+      4  4304 04-Santa Maria                                431120
+      4  4304 04-Santa Maria                                431210
+      4  4304 04-Santa Maria                                431303
+      4  4304 04-Santa Maria                                431310
+      4  4304 04-Santa Maria                                431447
+      4  4304 04-Santa Maria                                431532
+      4  4304 04-Santa Maria                                431550
+      4  4304 04-Santa Maria                                431690
+      4  4304 04-Santa Maria                                431740
+      4  4304 04-Santa Maria                                431843
+      4  4304 04-Santa Maria                                431912
+      4  4304 04-Santa Maria                                431940
+      4  4304 04-Santa Maria                                431960
+      4  4304 04-Santa Maria                                431980
+      4  4304 04-Santa Maria                                432065
+      4  4304 04-Santa Maria                                432149
+      4  4304 04-Santa Maria                                432220
+      4  4304 04-Santa Maria                                432237
+      4  4304 04-Santa Maria                                432345
+      5  4305 05-Caxias do Sul                              430057
+      5  4305 05-Caxias do Sul                              430080
+      5  4305 05-Caxias do Sul                              430210
+      5  4305 05-Caxias do Sul                              430225
+      5  4305 05-Caxias do Sul                              430230
+      5  4305 05-Caxias do Sul                              430367
+      5  4305 05-Caxias do Sul                              430440
+      5  4305 05-Caxias do Sul                              430480
+      5  4305 05-Caxias do Sul                              430510
+      5  4305 05-Caxias do Sul                              430595
+      5  4305 05-Caxias do Sul                              430740
+      5  4305 05-Caxias do Sul                              430786
+      5  4305 05-Caxias do Sul                              430790
+      5  4305 05-Caxias do Sul                              430820
+      5  4305 05-Caxias do Sul                              430860
+      5  4305 05-Caxias do Sul                              430910
+      5  4305 05-Caxias do Sul                              430925
+      5  4305 05-Caxias do Sul                              430940
+      5  4305 05-Caxias do Sul                              431043
+      5  4305 05-Caxias do Sul                              431164
+      5  4305 05-Caxias do Sul                              431237
+      5  4305 05-Caxias do Sul                              431238
+      5  4305 05-Caxias do Sul                              431261
+      5  4305 05-Caxias do Sul                              431280
+      5  4305 05-Caxias do Sul                              431290
+      5  4305 05-Caxias do Sul                              431308
+      5  4305 05-Caxias do Sul                              431320
+      5  4305 05-Caxias do Sul                              431330
+      5  4305 05-Caxias do Sul                              431335
+      5  4305 05-Caxias do Sul                              431400
+      5  4305 05-Caxias do Sul                              431442
+      5  4305 05-Caxias do Sul                              431517
+      5  4305 05-Caxias do Sul                              431725
+      5  4305 05-Caxias do Sul                              431844
+      5  4305 05-Caxias do Sul                              431862
+      5  4305 05-Caxias do Sul                              431900
+      5  4305 05-Caxias do Sul                              431975
+      5  4305 05-Caxias do Sul                              432235
+      5  4305 05-Caxias do Sul                              432250
+      5  4305 05-Caxias do Sul                              432254
+      5  4305 05-Caxias do Sul                              432280
+      5  4305 05-Caxias do Sul                              432330
+      5  4305 05-Caxias do Sul                              432360
+      6  4306 06-Passo Fundo                                430005
+      6  4306 06-Passo Fundo                                430055
+      6  4306 06-Passo Fundo                                430066
+      6  4306 06-Passo Fundo                                430180
+      6  4306 06-Passo Fundo                                430320
+      6  4306 06-Passo Fundo                                430355
+      6  4306 06-Passo Fundo                                430410
+      6  4306 06-Passo Fundo                                430470
+      6  4306 06-Passo Fundo                                430490
+      6  4306 06-Passo Fundo                                430495
+      6  4306 06-Passo Fundo                                430550
+      6  4306 06-Passo Fundo                                430585
+      6  4306 06-Passo Fundo                                430597
+      6  4306 06-Passo Fundo                                430630
+      6  4306 06-Passo Fundo                                430705
+      6  4306 06-Passo Fundo                                430750
+      6  4306 06-Passo Fundo                                430885
+      6  4306 06-Passo Fundo                                430980
+      6  4306 06-Passo Fundo                                430990
+      6  4306 06-Passo Fundo                                430995
+      6  4306 06-Passo Fundo                                431125
+      6  4306 06-Passo Fundo                                431127
+      6  4306 06-Passo Fundo                                431130
+      6  4306 06-Passo Fundo                                431180
+      6  4306 06-Passo Fundo                                431213
+      6  4306 06-Passo Fundo                                431235
+      6  4306 06-Passo Fundo                                431242
+      6  4306 06-Passo Fundo                                431262
+      6  4306 06-Passo Fundo                                431265
+      6  4306 06-Passo Fundo                                431267
+      6  4306 06-Passo Fundo                                431275
+      6  4306 06-Passo Fundo                                431410
+      6  4306 06-Passo Fundo                                431477
+      6  4306 06-Passo Fundo                                431660
+      6  4306 06-Passo Fundo                                431755
+      6  4306 06-Passo Fundo                                431775
+      6  4306 06-Passo Fundo                                431795
+      6  4306 06-Passo Fundo                                431805
+      6  4306 06-Passo Fundo                                431842
+      6  4306 06-Passo Fundo                                431860
+      6  4306 06-Passo Fundo                                432040
+      6  4306 06-Passo Fundo                                432050
+      6  4306 06-Passo Fundo                                432080
+      6  4306 06-Passo Fundo                                432090
+      6  4306 06-Passo Fundo                                432215
+      6  4306 06-Passo Fundo                                432218
+      6  4306 06-Passo Fundo                                432255
+      6  4306 06-Passo Fundo                                432320
+      6  4306 06-Passo Fundo                                432335
+      6  4306 06-Passo Fundo                                432340
+      7  4307 07-Bagé                                       430160
+      7  4307 07-Bagé                                       430435
+      7  4307 07-Bagé                                       430660
+      7  4307 07-Bagé                                       430965
+      7  4307 07-Bagé                                       431150
+      7  4307 07-Bagé                                       431450
+      7  4307 07-Bagé                                       431830
+      8  4308 08-Cachoeira do Sul                           430010
+      8  4308 08-Cachoeira do Sul                           430120
+      8  4308 08-Cachoeira do Sul                           430280
+      8  4308 08-Cachoeira do Sul                           430300
+      8  4308 08-Cachoeira do Sul                           430513
+      8  4308 08-Cachoeira do Sul                           430690
+      8  4308 08-Cachoeira do Sul                           430781
+      8  4308 08-Cachoeira do Sul                           430975
+      8  4308 08-Cachoeira do Sul                           431339
+      8  4308 08-Cachoeira do Sul                           431402
+      8  4308 08-Cachoeira do Sul                           431406
+      8  4308 08-Cachoeira do Sul                           431700
+      8  4308 08-Cachoeira do Sul                           432026
+      8  4308 08-Cachoeira do Sul                           432070
+      9  4309 09-Cruz Alta                                  430560
+      9  4309 09-Cruz Alta                                  430610
+      9  4309 09-Cruz Alta                                  430845
+      9  4309 09-Cruz Alta                                  431000
+      9  4309 09-Cruz Alta                                  431535
+      9  4309 09-Cruz Alta                                  431643
+      9  4309 09-Cruz Alta                                  431645
+      9  4309 09-Cruz Alta                                  431670
+      9  4309 09-Cruz Alta                                  432030
+      9  4309 09-Cruz Alta                                  432100
+     10  4310 10-Alegrete                                   430040
+     10  4310 10-Alegrete                                   430187
+     10  4310 10-Alegrete                                   431060
+     10  4310 10-Alegrete                                   431171
+     10  4310 10-Alegrete                                   431175
+     10  4310 10-Alegrete                                   431530
+     10  4310 10-Alegrete                                   431640
+     10  4310 10-Alegrete                                   431710
+     10  4310 10-Alegrete                                   431810
+     10  4310 10-Alegrete                                   432240
+     11  4311 11-Erechim                                    430090
+     11  4311 11-Erechim                                    430155
+     11  4311 11-Erechim                                    430170
+     11  4311 11-Erechim                                    430192
+     11  4311 11-Erechim                                    430205
+     11  4311 11-Erechim                                    430380
+     11  4311 11-Erechim                                    430485
+     11  4311 11-Erechim                                    430511
+     11  4311 11-Erechim                                    430537
+     11  4311 11-Erechim                                    430695
+     11  4311 11-Erechim                                    430697
+     11  4311 11-Erechim                                    430700
+     11  4311 11-Erechim                                    430720
+     11  4311 11-Erechim                                    430755
+     11  4311 11-Erechim                                    430805
+     11  4311 11-Erechim                                    430825
+     11  4311 11-Erechim                                    430870
+     11  4311 11-Erechim                                    430890
+     11  4311 11-Erechim                                    431046
+     11  4311 11-Erechim                                    431070
+     11  4311 11-Erechim                                    431090
+     11  4311 11-Erechim                                    431170
+     11  4311 11-Erechim                                    431190
+     11  4311 11-Erechim                                    431200
+     11  4311 11-Erechim                                    431220
+     11  4311 11-Erechim                                    431360
+     11  4311 11-Erechim                                    431478
+     11  4311 11-Erechim                                    431970
+     11  4311 11-Erechim                                    432060
+     11  4311 11-Erechim                                    432163
+     11  4311 11-Erechim                                    432290
+     12  4312 12-Santo Ângelo                               430250
+     12  4312 12-Santo Ângelo                               430330
+     12  4312 12-Santo Ângelo                               430520
+     12  4312 12-Santo Ângelo                               430635
+     12  4312 12-Santo Ângelo                               430693
+     12  4312 12-Santo Ângelo                               430783
+     12  4312 12-Santo Ângelo                               430865
+     12  4312 12-Santo Ângelo                               430900
+     12  4312 12-Santo Ângelo                               430950
+     12  4312 12-Santo Ângelo                               431055
+     12  4312 12-Santo Ângelo                               431455
+     12  4312 12-Santo Ângelo                               431510
+     12  4312 12-Santo Ângelo                               431630
+     12  4312 12-Santo Ângelo                               431647
+     12  4312 12-Santo Ângelo                               431750
+     12  4312 12-Santo Ângelo                               431770
+     12  4312 12-Santo Ângelo                               431800
+     12  4312 12-Santo Ângelo                               431890
+     12  4312 12-Santo Ângelo                               431915
+     12  4312 12-Santo Ângelo                               431920
+     12  4312 12-Santo Ângelo                               431937
+     12  4312 12-Santo Ângelo                               432032
+     12  4312 12-Santo Ângelo                               432057
+     12  4312 12-Santo Ângelo                               432234
+     12  4312 12-Santo Ângelo                               432375
+     13  4313 13-S.Cruz do Sul                              430420
+     13  4313 13-S.Cruz do Sul                              430915
+     13  4313 13-S.Cruz do Sul                              430957
+     13  4313 13-S.Cruz do Sul                              431215
+     13  4313 13-S.Cruz do Sul                              431395
+     13  4313 13-S.Cruz do Sul                              431407
+     13  4313 13-S.Cruz do Sul                              431570
+     13  4313 13-S.Cruz do Sul                              431680
+     13  4313 13-S.Cruz do Sul                              432067
+     13  4313 13-S.Cruz do Sul                              432253
+     13  4313 13-S.Cruz do Sul                              432260
+     13  4313 13-S.Cruz do Sul                              432270
+     14  4314 14-Santa Rosa                                 430030
+     14  4314 14-Santa Rosa                                 430045
+     14  4314 14-Santa Rosa                                 430220
+     14  4314 14-Santa Rosa                                 430370
+     14  4314 14-Santa Rosa                                 430400
+     14  4314 14-Santa Rosa                                 430430
+     14  4314 14-Santa Rosa                                 430600
+     14  4314 14-Santa Rosa                                 430673
+     14  4314 14-Santa Rosa                                 430960
+     14  4314 14-Santa Rosa                                 430970
+     14  4314 14-Santa Rosa                                 431040
+     14  4314 14-Santa Rosa                                 431301
+     14  4314 14-Santa Rosa                                 431342
+     14  4314 14-Santa Rosa                                 431500
+     14  4314 14-Santa Rosa                                 431505
+     14  4314 14-Santa Rosa                                 431507
+     14  4314 14-Santa Rosa                                 431720
+     14  4314 14-Santa Rosa                                 431790
+     14  4314 14-Santa Rosa                                 431849
+     14  4314 14-Santa Rosa                                 431910
+     14  4314 14-Santa Rosa                                 431930
+     14  4314 14-Santa Rosa                                 432023
+     14  4314 14-Santa Rosa                                 432180
+     14  4314 14-Santa Rosa                                 432210
+     14  4314 14-Santa Rosa                                 432230
+     15  4315 15-Palmeira das Missões                       430195
+     15  4315 15-Palmeira das Missões                       430215
+     15  4315 15-Palmeira das Missões                       430260
+     15  4315 15-Palmeira das Missões                       430515
+     15  4315 15-Palmeira das Missões                       430530
+     15  4315 15-Palmeira das Missões                       430580
+     15  4315 15-Palmeira das Missões                       430590
+     15  4315 15-Palmeira das Missões                       430642
+     15  4315 15-Palmeira das Missões                       430692
+     15  4315 15-Palmeira das Missões                       430912
+     15  4315 15-Palmeira das Missões                       431085
+     15  4315 15-Palmeira das Missões                       431142
+     15  4315 15-Palmeira das Missões                       431230
+     15  4315 15-Palmeira das Missões                       431295
+     15  4315 15-Palmeira das Missões                       431349
+     15  4315 15-Palmeira das Missões                       431370
+     15  4315 15-Palmeira das Missões                       431540
+     15  4315 15-Palmeira das Missões                       431610
+     15  4315 15-Palmeira das Missões                       431620
+     15  4315 15-Palmeira das Missões                       431642
+     15  4315 15-Palmeira das Missões                       431845
+     15  4315 15-Palmeira das Missões                       432010
+     15  4315 15-Palmeira das Missões                       432185
+     15  4315 15-Palmeira das Missões                       432195
+     16  4316 16-Lajeado                                    430070
+     16  4316 16-Lajeado                                    430100
+     16  4316 16-Lajeado                                    430140
+     16  4316 16-Lajeado                                    430200
+     16  4316 16-Lajeado                                    430240
+     16  4316 16-Lajeado                                    430245
+     16  4316 16-Lajeado                                    430469
+     16  4316 16-Lajeado                                    430558
+     16  4316 16-Lajeado                                    430620
+     16  4316 16-Lajeado                                    430645
+     16  4316 16-Lajeado                                    430675
+     16  4316 16-Lajeado                                    430680
+     16  4316 16-Lajeado                                    430780
+     16  4316 16-Lajeado                                    430807
+     16  4316 16-Lajeado                                    430830
+     16  4316 16-Lajeado                                    431030
+     16  4316 16-Lajeado                                    431036
+     16  4316 16-Lajeado                                    431057
+     16  4316 16-Lajeado                                    431140
+     16  4316 16-Lajeado                                    431205
+     16  4316 16-Lajeado                                    431260
+     16  4316 16-Lajeado                                    431300
+     16  4316 16-Lajeado                                    431415
+     16  4316 16-Lajeado                                    431513
+     16  4316 16-Lajeado                                    431515
+     16  4316 16-Lajeado                                    431520
+     16  4316 16-Lajeado                                    431545
+     16  4316 16-Lajeado                                    431580
+     16  4316 16-Lajeado                                    431675
+     16  4316 16-Lajeado                                    431846
+     16  4316 16-Lajeado                                    431971
+     16  4316 16-Lajeado                                    432045
+     16  4316 16-Lajeado                                    432085
+     16  4316 16-Lajeado                                    432130
+     16  4316 16-Lajeado                                    432145
+     16  4316 16-Lajeado                                    432162
+     16  4316 16-Lajeado                                    432285
+     17  4317 17-Ijuí                                       430020
+     17  4317 17-Ijuí                                       430150
+     17  4317 17-Ijuí                                       430500
+     17  4317 17-Ijuí                                       430540
+     17  4317 17-Ijuí                                       430570
+     17  4317 17-Ijuí                                       430587
+     17  4317 17-Ijuí                                       431020
+     17  4317 17-Ijuí                                       431041
+     17  4317 17-Ijuí                                       431115
+     17  4317 17-Ijuí                                       431333
+     17  4317 17-Ijuí                                       431390
+     17  4317 17-Ijuí                                       431430
+     17  4317 17-Ijuí                                       431780
+     17  4317 17-Ijuí                                       431973
+     18  4318 18-Osório                                     430105
+     18  4318 18-Osório                                     430163
+     18  4318 18-Osório                                     430463
+     18  4318 18-Osório                                     430467
+     18  4318 18-Osório                                     430471
+     18  4318 18-Osório                                     430545
+     18  4318 18-Osório                                     430655
+     18  4318 18-Osório                                     431033
+     18  4318 18-Osório                                     431173
+     18  4318 18-Osório                                     431177
+     18  4318 18-Osório                                     431244
+     18  4318 18-Osório                                     431250
+     18  4318 18-Osório                                     431350
+     18  4318 18-Osório                                     431365
+     18  4318 18-Osório                                     431760
+     18  4318 18-Osório                                     432135
+     18  4318 18-Osório                                     432143
+     18  4318 18-Osório                                     432150
+     18  4318 18-Osório                                     432160
+     18  4318 18-Osório                                     432166
+     18  4318 18-Osório                                     432183
+     18  4318 18-Osório                                     432380
+     19  4319 19-Frederico Westphalen                       430050
+     19  4319 19-Frederico Westphalen                       430064
+     19  4319 19-Frederico Westphalen                       430185
+     19  4319 19-Frederico Westphalen                       430237
+     19  4319 19-Frederico Westphalen                       430340
+     19  4319 19-Frederico Westphalen                       430607
+     19  4319 19-Frederico Westphalen                       430632
+     19  4319 19-Frederico Westphalen                       430730
+     19  4319 19-Frederico Westphalen                       430745
+     19  4319 19-Frederico Westphalen                       430850
+     19  4319 19-Frederico Westphalen                       431050
+     19  4319 19-Frederico Westphalen                       431160
+     19  4319 19-Frederico Westphalen                       431270
+     19  4319 19-Frederico Westphalen                       431344
+     19  4319 19-Frederico Westphalen                       431380
+     19  4319 19-Frederico Westphalen                       431445
+     19  4319 19-Frederico Westphalen                       431449
+     19  4319 19-Frederico Westphalen                       431470
+     19  4319 19-Frederico Westphalen                       431555
+     19  4319 19-Frederico Westphalen                       431590
+     19  4319 19-Frederico Westphalen                       432020
+     19  4319 19-Frederico Westphalen                       432132
+     19  4319 19-Frederico Westphalen                       432140
+     19  4319 19-Frederico Westphalen                       432147
+     19  4319 19-Frederico Westphalen                       432190
+     19  4319 19-Frederico Westphalen                       432310
+     19  4319 19-Frederico Westphalen                       432350
+     19  4319 19-Frederico Westphalen                       432370
+     20  4300 Município ignorado - RS                       430000
+

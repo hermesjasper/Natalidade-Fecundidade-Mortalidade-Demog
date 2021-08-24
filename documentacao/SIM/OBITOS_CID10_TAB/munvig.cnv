@@ -1,0 +1,173 @@
+172   6
+      1  110012  Ji-Paraná                                  110012
+      2  110020  Porto Velho                                110020
+      3  120040  Rio Branco                                 120040
+      4  130340  Parintins                                  130340
+      5  140010  Boa Vista                                  140010
+      6  140047  Rorainópolis                               140047
+      7  150010  Abaetetuba                                 150010
+      8  150080  Ananindeua                                 150080
+      9  150140  Belém                                      150140
+     10  150150  Benevides                                  150150
+     11  150210  Cametá                                     150210
+     12  150240  Castanhal                                  150240
+     13  150420  Marabá                                     150420
+     14  150442  Marituba                                   150442
+     15  150635  Santa Bárbara do Pará                      150635
+     16  150680  Santarém                                   150680
+     17  160030  Macapá                                     160030
+     18  160060  Santana                                    160060
+     19  170210  Araguaína                                  170210
+     20  172100  Palmas                                     172100
+     21  210300  Caxias                                     210300
+     22  210330  Codó                                       210330
+     23  210530  Imperatriz                                 210530
+     24  210750  Paço do Lumiar                             210750
+     25  211120  São José de Ribamar                        211120
+     26  211130  São Luís                                   211130
+     27  211220  Timon                                      211220
+     28  220040  Altos                                      220040
+     29  220550  José de Freitas                            220550
+     30  220770  Parnaíba                                   220770
+     31  221100  Teresina                                   221100
+     32  221110  União                                      221110
+     33  230370  Caucaia                                    230370
+     34  230420  Crato                                      230420
+     35  230440  Fortaleza                                  230440
+     36  230730  Juazeiro do Norte                          230730
+     37  230765  Maracanaú                                  230765
+     38  230770  Maranguape                                 230770
+     39  231290  Sobral                                     231290
+     40  240260  Ceará-Mirim                                240260
+     41  240800  Mossoró                                    240800
+     42  240810  Natal                                      240810
+     43  240325  Parnamirim                                 240325
+     44  241200  São Gonçalo do Amarante                    241200
+     45  250180  Bayeux                                     250180
+     46  250320  Cabedelo                                   250320
+     47  250400  Campina Grande                             250400
+     48  250750  João Pessoa                                250750
+     49  250890  Mamanguape                                 250890
+     50  251370  Santa Rita                                 251370
+     51  260290  Cabo de Santo Agostinho                    260290
+     52  260410  Caruaru                                    260410
+     53  260790  Jaboatão dos Guararapes                    260790
+     54  260960  Olinda                                     260960
+     55  261070  Paulista                                   261070
+     56  261110  Petrolina                                  261110
+     57  261160  Recife                                     261160
+     58  270030  Arapiraca                                  270030
+     59  270430  Maceió                                     270430
+     60  270690  Pilar                                      270690
+     61  280030  Aracaju                                    280030
+     62  280480  Nossa Senhora do Socorro                   280480
+     63  290070  Alagoinhas                                 290070
+     64  290320  Barreiras                                  290320
+     65  290570  Camaçari                                   290570
+     66  291080  Feira de Santana                           291080
+     67  291360  Ilhéus                                     291360
+     68  291480  Itabuna                                    291480
+     69  291800  Jequié                                     291800
+     70  291840  Juazeiro                                   291840
+     71  291920  Lauro de Freitas                           291920
+     72  292740  Salvador                                   292740
+     73  293330  Vitória da Conquista                       293330
+     74  310350  Araguari                                   310350
+     75  310560  Barbacena                                  310560
+     76  310620  Belo Horizonte                             310620
+     77  310670  Betim                                      310670
+     78  311830  Conselheiro Lafaiete                       311830
+     79  311860  Contagem                                   311860
+     80  311940  Coronel Fabriciano                         311940
+     81  312230  Divinópolis                                312230
+     82  312770  Governador Valadares                       312770
+     83  312980  Ibirité                                    312980
+     84  313130  Ipatinga                                   313130
+     85  313670  Juiz de Fora                               313670
+     86  314015  Mário Campos                               314015
+     87  314330  Montes Claros                              314330
+     88  314790  Passos                                     314790
+     89  314800  Patos de Minas                             314800
+     90  315180  Poços de Caldas                            315180
+     91  315250  Pouso Alegre                               315250
+     92  315460  Ribeirão das Neves                         315460
+     93  315670  Sabará                                     315670
+     94  315780  Santa Luzia                                315780
+     95  316720  Sete Lagoas                                316720
+     96  316860  Teófilo Otoni                              316860
+     97  317010  Uberaba                                    317010
+     98  317020  Uberlândia                                 317020
+     99  317070  Varginha                                   317070
+    100  317120  Vespasiano                                 317120
+    101  320130  Cariacica                                  320130
+    102  320500  Serra                                      320500
+    103  320510  Viana                                      320510
+    104  320520  Vila Velha                                 320520
+    105  320530  Vitória                                    320530
+    106  330455  Rio de Janeiro                             330455
+    107  330490  São Gonçalo                                330490
+    108  330630  Volta Redonda                              330630
+    109  350950  Campinas                                   350950
+    110  351880  Guarulhos                                  351880
+    111  352940  Mauá                                       352940
+    112  353440  Osasco                                     353440
+    113  354340  Ribeirão Preto                             354340
+    114  354780  Santo André                                354780
+    115  354990  São José dos Campos                        354990
+    116  354870  São Bernardo do Campo                      354870
+    117  355030  São Paulo                                  355030
+    118  410040  Almirante Tamandaré                        410040
+    119  410140  Apucarana                                  410140
+    120  410180  Araucária                                  410180
+    121  410420  Campo Largo                                410420
+    122  410480  Cascavel                                   410480
+    123  410580  Colombo                                    410580
+    124  410690  Curitiba                                   410690
+    125  410765  Fazenda Rio Grande                         410765
+    126  410830  Foz do Iguaçu                              410830
+    127  410940  Guarapuava                                 410940
+    128  411370  Londrina                                   411370
+    129  411520  Maringá                                    411520
+    130  411820  Paranaguá                                  411820
+    131  411950  Piraquara                                  411950
+    132  411990  Ponta Grossa                               411990
+    133  412550  São José dos Pinhais                       412550
+    134  412770  Toledo                                     412770
+    135  420240  Blumenau                                   420240
+    136  420420  Chapecó                                    420420
+    137  420460  Criciúma                                   420460
+    138  420540  Florianópolis                              420540
+    139  420820  Itajaí                                     420820
+    140  420890  Jaraguá do Sul                             420890
+    141  420910  Joinville                                  420910
+    142  420930  Lages                                      420930
+    143  421190  Palhoça                                    421190
+    144  421660  São José                                   421660
+    145  430060  Alvorada                                   430060
+    146  430160  Bagé                                       430160
+    147  430310  Cachoeirinha                               430310
+    148  430460  Canoas                                     430460
+    149  430510  Caxias do Sul                              430510
+    150  430920  Gravataí                                   430920
+    151  430930  Guaíba                                     430930
+    152  431340  Novo Hamburgo                              431340
+    153  431410  Passo Fundo                                431410
+    154  431440  Pelotas                                    431440
+    155  431490  Porto Alegre                               431490
+    156  431560  Rio Grande                                 431560
+    157  431690  Santa Maria                                431690
+    158  431870  São Leopoldo                               431870
+    159  432000  Sapucaia do Sul                            432000
+    160  432240  Uruguaiana                                 432240
+    161  432300  Viamão                                     432300
+    162  500270  Campo Grande                               500270
+    163  500370  Dourados                                   500370
+    164  510340  Cuiabá                                     510340
+    165  510760  Rondonópolis                               510760
+    166  510840  Várzea Grande                              510840
+    167  520110  Anápolis                                   520110
+    168  520140  Aparecida de Goiânia                       520140
+    169  520870  Goiânia                                    520870
+    170  521250  Luziânia                                   521250
+    171  522140  Trindade                                   522140
+    172  530010  Brasília                                   530010

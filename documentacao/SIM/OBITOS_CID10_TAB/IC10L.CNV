@@ -1,0 +1,101 @@
+98  4
+      1  Todas causas de morte                              A000-Y899
+      2  Doencas infec intest                               A000-A099
+      3  Tuberculose                                        A150-A199
+      4  Doencas transm por vetores e raiva                 A200-A209,A440-A449,A750-A799,A820-A849,A852,A900-A969,A980-A982,A988,B500-B579
+      5  Doencas Imunopreviniveis                           A330-A379,A800-A809,B010-B019,B050-B069,B150-B169,B170,B180-B181,B189,B190-B199,B260-B269
+      6  Meningites                                         A390-A399,A870-A879,G000-G039
+      7  Septicemia                                         A400-A419
+      8  H I V                                              B200-B249
+      9  Neop Malig esofago                                 C150-C159
+     10  Neop Malig estomago                                C160-C169
+     11  Neop Malig colon, reto, Jrs, anus                  C180-C219
+     12  Neop Malig figado                                  C220-C229
+     13  Neop Malig vesicula e outras biliares              C230-C249
+     14  Neop Malig pancreas                                C250-C259
+     15  Neop Malig laringe                                 C320-C329
+     16  Neop Malig traqueira e pulmao                      C330-C349
+     17  Melanoma e out neop pele                           C430-C449 
+     18  Neop Malig mama fem                                C500-C509
+     19  Neop Malig do utero                                CCCC
+ 19  20   .Colo                                             C530-C539
+ 19  21   .Corpo                                            C540-C549    
+ 19  22   .Porcao n/esp                                     C550-C559
+     23  Neop Malig ovario                                  C560-C569
+     24  Neop Malig prostata                                C610-C619
+     25  Neop Malig rins, exceto pelve                      C640-C649
+     26  Neop Malig bexiga                                  C670-C679
+     27  Neop Malig encefalo                                C710-C719
+     28  Neop Malig tec linfatico, bemat e correl           C810-C969
+     29  Neop Benignas                                      D000-D489
+     30  Diabetes mellitus                                  E100-E149
+     31  Desnutricao e anemias nutricionais                 D500-D539,E400-E649
+     32  Transt equil liquidos                              E860-E879
+     33  Demencia e Doen Alzheimer                          FFFF
+ 33  34   .Demencia                                         F010-F019,F030-F039
+ 33  35   .Doenca de Alzheimer                              G300-G309
+     36  Transt Mental comp dev subst psicoat               F100-F199
+     37  Doenca Parkinson                                   G200-G209
+     38  Epilepsia e esta mal epiletico                     G400-G409,G410-G419
+     39  D. reumatica cronica coracao                       I050-I099
+     40  D. hipertensivas                                   I100-I159
+     41  Doencas isquemicas do coracao                      I200-I259
+     42   .Agudas                                           I200-I249
+     43   .Cronicas                                         I250-I259
+     44  D. cardiopulmonar e circulacao pulmonar            I260-I289
+     45  Transt valvulares nao reumaticos                   I340-I349
+     46  Cardiomiopatia                                     I420-I429
+     47  Parada cardiaca                                    I460-I469
+     48  Arritimias cardiacas                               I470-I499
+     49  Insuf cardiaca, compl e doen mal def do coracao    I500-I519
+     50  D. cerebrovasculares                               I600-I699
+     51  Ateroesclerose                                     I700-I709
+     52  Aneurisma e disseccao aorta                        I710-I719
+     53  D. respirat agudas exceto influenza e penumo       J000-J069,J200-J229
+     54  Influenza e Pneumonias                             J100-J189
+     55  D. cron vias respirat inferiores                   J400-J479
+     56  Edema pulmonar e outras d resp afetam interstício  J800-J849
+     57  Insuficiência respiratória                         J960-J969
+     58  Apendicite, hérnia e obstrução intestinal          K350-K469,K560-K569
+     59  Cirrose e outras doenças do fígado                 K700-K769
+     60   .Doen alcoolica do figado                         K700-k709
+     61   .Insuficiencia hepatica                           K720-k729
+     62   .fibrose e cirrose do figado                      K740-k749
+     63  Doenças sist osteomuscular e tecido conjuntivo     M000-M999
+     64   .Poliartropatias inflamatorias                    M050-M149
+     65   .Artrose                                          M150-M199
+     66   .Poliarterite nodosa e out vasculop               M300-M319
+     67   .Lupus eritomatoso sistemico                      M320-M329
+     68   .Esclerose sistemica                              M340-M349
+     69   .Transtornos da densid e estrut ossea             M800-M859
+     70   .Osteomielite                                     M860-M869
+     71  Doenças do sistema urinário                        N000-N399
+     72  Gravidez, parto e puerpério                        O000-O999
+     73   .Aborto                                           O000-O079
+     74   .Eclampsia                                        O100-O119
+     75   .Complic trab parto e parto                       O600-O759
+     76   .Complic princi relac com puerperio               O850-O929
+     77  Certas afecções originadas no período perinatal    P000-P969
+     78   .Traumat nasc e out causas obstetricas            P010-P039,P100-P159
+     79   .Prematuridade e afec afins                       P050-P079
+     80   .Transt respirat especificos periodo perinatal    P200-P289
+     81   .Sepsis bacter do recem nascido                   P360-P369
+     82   .Transt hemorragicos e hematologicos              P500-P619
+     83  Malf congênitas, deformid anomalias cromossômicas  Q000-Q999
+     84   .Anencefalia e out malf sist nervoso              Q000-Q079
+     85   .Mal formacoes coracao                            Q200-Q249
+     86   .Mal formacoes do sist respiratorio               Q300-Q349
+     87   .Mal formacoes e deformidades sist osteomusc      Q650-Q799
+     88   .Anomalias cromossomicas                          Q900-Q999
+     89  Acidentes de transporte terrestre                  V000-V899
+     90  Quedas                                             W000-W199
+     91  Disparo arma fogo n intenc                         W320-W349
+     92  Afogamentos e submers acidentais                   W650-W749
+     93  Acidentes que obstruem respiracao                  W750-W849
+     94  Envenenamento acidental                            X400-X499
+     95  Suicidios                                          X600-X849
+     96  Agresões (homicidios)                              X850-Y099
+     97  Lesoes intenc indeterminada                        Y100-Y349
+     98  Causas Mal definidas                               R000-R999
+
+

@@ -1,0 +1,131 @@
+130 4
+      1  01 Doen‡as infecciosas intestinais                 0010-0099
+  1   2     010 C¢lera                                      0010-0019
+  1   3     011 Febre tif¢ide e paratif¢ide                 0020-0029
+  1   4     012 Shiguelose                                  0040-0049
+  1   5     013 Intoxica‡äes alimentares                    0030-0039,0050-0059
+  1   6     014 Ameb¡ase                                    0060-0069
+  1   7     015 Infec intestin dev a out microorg especif   0070-0089
+  1   8     016 Infec‡äes intestinais mal definidas         0090-0099
+      9  02 Tuberculose                                     0100-0189
+  9  10     020 Tuberculose pulmonar                        0110-0119
+  9  11     021 Outras tuberculoses respirat¢rias           0100-0109,0120-0129
+  9  12     022 Tuberc meninges e sist nervoso central      0130-0139
+  9  13     026 Tuberculose miliar                          0180-0189
+     14  03 Outras doen‡as bacterianas                      0200-0419
+ 14  15     030 Peste                                       0200-0209
+ 14  16     032 Hansen¡ase                                  0300-0309
+ 14  17     033 Difteria                                    0320-0329
+ 14  18     034 Coqueluche                                  0330-0339
+ 14  19     035 Angina estreptococ escarlatina e erisipelas 0340-0359
+ 14  20     036 Infec‡Æo meningoc¢cica                      0360-0369
+ 14  21     037 T‚tano (exclui o neonatal - 456)            0370-0379
+ 14  22     038 Septicemia                                  0380-0389
+     23  04 Doen‡as virais                                  0450-0799
+ 23  24     040 Poliomielite aguda                          0450-0459
+ 23  25     042 Sarampo                                     0550-0559
+ 23  26     044 Febre amarela                               0600-0609
+ 23  27     045 Encefalite transmitida por artr¢podes       0620-0649
+ 23  28     046 Hepatite por v¡rus                          0700-0709
+ 23  29     047 Raiva                                       0710-0719
+     30  05 Rickettsioses e out doenc transmit p artr¢podes 0800-0889
+ 30  31     052 Mal ria                                     0840-0849
+ 30  32     053 Leishmaniose                                0850-0859
+ 30  33     054 Tripanossom¡ase                             0860-0869
+     34  06 Doencas ven‚reas                                0900-0999
+ 34  35     060 S¡filis                                     0900-0979
+     36  07 Out doenc infec e parasit e efeitos tardios     1000-1399
+ 36  37     072 Esquistossom¡ase                            1200-1209
+ 36  38     075 Ancilostom¡ase e necator¡ase                1260-1269
+ 36  39     077 Efeitos tardios da tuberculose              1370-1379
+ 36  40     079.0 Leptospirose                              1000-1009
+ 36  41     079.1 Infec‡äes blastomic¢ticas                 1160-1169
+     42  08-14 Neoplasmas malignos                          1400-2089
+ 42  43     090 Neoplasma maligno do es“fago                1500-1509
+ 42  44     091 Neoplasma maligno do est“mago               1510-1519
+ 42  45     093 Neoplasma maligno do colo                   1530-1539
+ 42  46     094 Neopl malig reto jun‡Æo retossigmoid e ƒnus 1540-1549
+ 42  47     096 Neoplasma maligno do pƒncreas               1570-1579
+ 42  48     100 Neoplasma maligno da laringe                1610-1619
+ 42  49     101 Neopl maligno traqu‚ia br“nquios e pulmÆo   1620-1629
+ 42  50     113 Neoplasma maligno da mama feminina          1740-1749
+ 42  51     120 Neoplasma maligno do colo do £tero          1800-1809
+ 42  52     122 Neopl maligno do £tero out loc e nao espec  1790-1799,1820-1829
+ 42  53     124 Neoplasma maligno da pr¢stata               1850-1859
+ 42  54     141 Leucemia                                    2040-2089
+     55  15-17 Neopl benig carcin in situ out neop n esp    2100-2399
+ 55  56     152 Neoplasma benigno do £tero                  2180-2199
+     57  18 Doenc end¢crinas e metab¢licas e transt imunit  2400-2599,2700-2799
+ 57  58     180 Transtorno de glƒndula tire¢ide             2400-2469
+ 57  59     181 Diabetes mellitus                           2500-2509
+     60  19 Deficiˆncias nutricionais                       2600-2699
+ 60  61     191 Marasmo nutricional                         2610-2619
+ 60  62     192 Out formas de desnutri‡Æo prot‚ico-cal¢rica 2620-2639
+     63  20 Doen‡as do sangue e dos ¢rgaos hematopo‚ticos   2800-2899
+ 63  64     200 Anemia                                      2800-2859
+     65  21 Transtornos mentais                             2900-3199
+ 65  66     215 S¡ndrome de dependˆncia do  lcool           3030-3039
+     67  22-24 Doenc do sist nervoso e dos ¢rgaos dos sent  3200-3899
+ 67  68     220 Meningite                                   3200-3229
+ 67  69     225 Epilepsia                                   3450-3459
+ 67  70     240 Otite m‚dia e mastoidite                    3810-3839
+     71  25 Febre reum tica e doenc reum tica do cora‡Æo    3900-3989
+ 71  72     250 Febre reum tica ativa                       3900-3929
+ 71  73     251 Doen‡a reum tica cr“nica do cora‡Æo         3930-3989
+     74  26 Doen‡a hipertensiva                             4010-4059
+     75  27 Doen‡a isquˆmica do cora‡Æo                     4100-4149
+ 75  76     270 Infarto agudo do mioc rdio                  4100-4109
+     77  28 Doenc da circ pulmonar e out formas de d do cor 4150-4299
+     78  29 Doen‡a cerebrovascular                          4300-4389
+     79  30 Outras doen‡as do aparelho circulat¢rio         4400-4599
+ 79  80     300 Aterosclerose                               4400-4409
+     81  31 Doen‡as do trato respirat¢rio superior          4600-4659,4700-4789
+ 81  82     316 Certas infec‡äes respirat¢rias agudas       4600-4659
+     83  32 Outras doen‡as do aparelho respirat¢rio         4660-4669,4800-5199
+ 83  84     320 Bronquite bronquiolites agudas              4660-4669
+ 83  85     321 Pneumonia                                   4800-4869
+ 83  86     322 Gripe                                       4870-4879
+ 83  87     323 Bronquite cr“nica e n espec enfisema e asma 4900-4939
+ 83  88     326.1 Pneumococ e certas d devidas a agent ext  5000-5069,5080-5089
+ 83  89     326.2 Pneumonite devida a s¢lidos e l¡quidos    5070-5079
+     90  33-34 Doen‡as do aparelho digestivo                5200-5799
+ 90  91     341 élcera do est“mago e do duodeno             5310-5339
+ 90  92     342 Apendicite                                  5400-5439
+ 90  93     343 H‚rnia da cavidade abdominal                5500-5539
+ 90  94     344 Obstru‡Æo intestinal sem men‡Æo de h‚rnia   5600-5609
+ 90  95     347 Doen‡a cr“nica do f¡gado e cirrose          5710-5719
+     96  35 Doen‡as do aparelho urin rio                    5800-5999
+ 96  97     350 Nefrite s¡ndrome nefr¢tica e nefrose        5800-5899
+     98  36 Doen‡as dos ¢rgaos genitais masculinos          6000-6089
+ 98  99     360 Hiperplasia da pr¢stata                     6000-6009
+    100  37 Doen‡as dos ¢rgÆos genitais femininos           6100-6299
+    101  38 Aborto                                          6300-6399
+    102  39 Causas obst‚tricas diretas                      6400-6469,6510-6769
+    103  40 Causas obst‚tricas indiretas                    6470-6489
+    104  42 Doen‡as da pele e do tecido celular subcutƒneo  6800-7099
+    105  43 Doen‡as do sist osteomuscular e do tecido conj  7100-7399
+    106  44 Anomalias congˆnitas                            7400-7599
+106 107     440 e 441 Anomalias congˆnitas do sist nervoso  7400-7429
+106 108     442 Anomal congenit do cora‡Æo e do ap circulat 7450-7479
+106 109     443 Fissura ab¢bada palatina e l bio leporino   7490-7499
+    110  45 Afec‡äes originadas no per¡odo perinatal        7600-7799
+110 111     452 Cresc fetal retardado malnutr fet e premat  7640-7659
+110 112     453 Trauma de parto                             7670-7679
+110 113     454 Hip¢xia asfixia ao nascer e out afec resp   7680-7709
+110 114     455 Doenca hemol¡tica do feto ou do rec‚m-nasc  7730-7739
+110 115     456 T‚tano neonatal   771.3                     7713-7713
+    116  46 Sinais sintomas e afec‡äes mal definidas        7800-7999
+116 117     461 Sintomas relacionados apar cardiovascular   7850-7859
+116 118     465 Senilidade sem men‡Æo de psicose            7970-7979
+    119  E47 Acidentes de transporte                        8000-8489
+119 120     E471 Acidentes de trƒnsito de ve¡culo a motor   8100-8199
+    121  E48-E49 Enven acid e acident prov pacien dur proc  8500-8799
+    122  E50 Quedas acidentais                              8800-8889
+    123  E51 Acidentes causados por fogo e chama            8900-8999
+    124  E52-E53 Out acid incl efeit tard e efet adver drog 9000-9499
+124 125     E521 Afogamento e submersÆo acidentais          9100-9109
+124 126     E525 Alim e objet caus obstruc do trato respir  9110-9139
+124 127     E526 Acidentes causados pela corrente el‚trica  9250-9259
+    128  E54 Suic¡dios e lesäes auto infligidas             9500-9599
+    129  E55 Homic¡dios e lesäes provocadas intencionalment 9600-9699
+    130  E56 Outras violˆncias                              9700-9999

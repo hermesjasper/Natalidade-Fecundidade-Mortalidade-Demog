@@ -1,0 +1,452 @@
+451  6                                                                                    
+      1  2700102  ÁGUA BRANCA                               2700102
+      2  2702603  FEIRA GRANDE                              2702603
+      3  2703304  INHAPI                                    2703304
+      4  2703809  JOAQUIM GOMES                             2703809
+      5  2706307  PALMEIRA DOS ÍNDIOS                       2706307
+      6  2706422  PARICONHA                                 2706422
+      7  2805604  PORTO DA FOLHA                            2805604
+      8  2707503  PORTO REAL DO COLÉGIO                     2707503
+      9  2708808  SÃO SEBASTIÃO                             2708808
+     10  2709202  TRAIPU                                    2709202
+     11  1500602  ALTAMIRA                                  1500602
+     12  1507300  SÃO FÉLIX DO XINGU                        1507300
+     13  1507805  SENADOR JOSÉ PORFÍRIO                     1507805
+     14  1508357  VITÓRIA DO XINGU                          1508357
+     15  1200203  CRUZEIRO DO SUL                           1200203
+     16  1200302  FEIJÓ                                     1200302
+     17  1200328  JORDÃO                                    1200328
+     18  1200336  MÂNCIO LIMA                               1200336
+     19  1200351  MARECHAL THAUMATURGO                      1200351
+     20  1200393  PORTO WALTER                              1200393
+     21  1200427  RODRIGUES ALVES                           1200427
+     22  1200609  TARAUACÁ                                  1200609
+     23  1300409  BARCELOS                                  1300409
+     24  1303601  SANTA ISABEL DO RIO NEGRO                 1303601
+     25  1303809  SÃO GABRIEL DA CACHOEIRA                  1303809
+     26  1200054  ASSIS BRASIL                              1200054
+     27  1300706  BOCA DO ACRE                              1300706
+     28  1200344  MANOEL URBANO                             1200344
+     29  1303502  PAUINI                                    1303502
+     30  1100205  PORTO VELHO                               1100205
+     31  1200435  SANTA ROSA DO PURUS                       1200435
+     32  1200500  SENA MADUREIRA                            1200500
+     33  1300060  AMATURÁ                                   1300060
+     34  1300607  BENJAMIN CONSTANT                         1300607
+     35  1303700  SANTO ANTÔNIO DO IÇÁ                      1303700
+     36  1303908  SÃO PAULO DE OLIVENÇA                     1303908
+     37  1304062  TABATINGA                                 1304062
+     38  1304237  TONANTINS                                 1304237
+     39  1500503  ALMEIRIM                                  1500503
+     40  1505106  ÓBIDOS                                    1505106
+     41  1600501  OIAPOQUE                                  1600501
+     42  1600154  PEDRA BRANCA DO AMAPARI                   1600154
+     43  5202502  ARUANÃ                                    5202502
+     44  5103353  CONFRESA                                  5103353
+     45  1708205  FORMOSO DO ARAGUAIA                       1708205
+     46  1711902  LAGOA DA CONFUSÃO                         1711902
+     47  5105309  LUCIÁRA                                   5105309
+     48  5214705  NOVA AMÉRICA                              5214705
+     49  5218904  RUBIATABA                                 5218904
+     50  5107776  SANTA TEREZINHA                           5107776
+     51  5107859  SÃO FÉLIX DO ARAGUAIA                     5107859
+     52  2900207  ABARÉ                                     2900207
+     53  2901403  ANGICAL                                   2901403
+     54  2902658  BANZAÊ                                    2902658
+     55  4202156  BELMONTE                                  4202156
+     56  2905602  CAMACAN                                   2905602
+     57  2905800  CAMAMU                                    2905800
+     58  2909901  CURAÇÁ                                    2909901
+     59  2910701  EUCLIDES DA CUNHA                         2910701
+     60  2911402  GLÓRIA                                    2911402
+     61  2913200  IBOTIRAMA                                 2913200
+     62  2913606  ILHÉUS                                    2913606
+     63  2915403  ITAJU DO COLÔNIA                          2915403
+     64  2915601  ITAMARAJU                                 2915601
+     65  2922250  MUQUÉM DE SÃO FRANCISCO                   2922250
+     66  2923902  PAU BRASIL                                2923902
+     67  2924009  PAULO AFONSO                              2924009
+     68  2925303  PORTO SEGURO                              2925303
+     69  2925501  PRADO                                     2925501
+     70  2927101  RODELAS                                   2927101
+     71  2927705  SANTA CRUZ CABRÁLIA                       2927705
+     72  2928406  SANTA RITA DE CÁSSIA                      2928406
+     73  2930154  SERRA DO RAMALHO                          2930154
+     74  2930774  SOBRADINHO                                2930774
+     75  2300200  ACARAÚ                                    2300200
+     76  2301000  AQUIRAZ                                   2301000
+     77  2301406  ARATUBA                                   2301406
+     78  2302800  CANINDÉ                                   2302800
+     79  2303709  CAUCAIA                                   2303709
+     80  2304103  CRATEÚS                                   2304103
+     81  2306405  ITAPIPOCA                                 2306405
+     82  2306553  ITAREMA                                   2306553
+     83  2307650  MARACANAÚ                                 2307650
+     84  2308609  MONSENHOR TABOSA                          2308609
+     85  2309409  NOVO ORIENTE                              2309409
+     86  2309706  PACATUBA                                  2309706
+     87  2311009  PORANGA                                   2311009
+     88  2311264  QUITERIANÓPOLIS                           2311264
+     89  2312403  SÃO GONÇALO DO AMARANTE                   2312403
+     90  2313203  TAMBORIL                                  2313203
+     91  5101605  BARÃO DE MELGAÇO                          5101605
+     92  5101704  BARRA DO BUGRES                           5101704
+     93  5101902  BRASNORTE                                 5101902
+     94  5102637  CAMPO NOVO DO PARECIS                     5102637
+     95  5103403  CUIABÁ                                    5103403
+     96  5103502  DIAMANTINO                                5103502
+     97  5103908  GENERAL CARNEIRO                          5103908
+     98  5105903  NOBRES                                    5105903
+     99  5106307  PARANATINGA                               5106307
+    100  5106752  PONTES E LACERDA                          5106752
+    101  5106828  PORTO ESPERIDIÃO                          5106828
+    102  5107602  RONDONÓPOLIS                              5107602
+    103  5107800  SANTO ANTÔNIO DO LEVERGER                 5107800
+    104  5107875  SAPEZAL                                   5107875
+    105  5107958  TANGARÁ DA SERRA                          5107958
+    106  1501576  BOM JESUS DO TOCANTINS                    1501576
+    107  1502152  CANAÃ DOS CARAJÁS                         1502152
+    108  1502301  CAPITÃO POÇO                              1502301
+    109  2103174  CENTRO NOVO DO MARANHÃO                   2103174
+    110  1503093  GOIANÉSIA DO PARÁ                         1503093
+    111  1503705  ITUPIRANGA                                1503705
+    112  1503804  JACUNDÁ                                   1503804
+    113  1504703  MOJU                                      1504703
+    114  1505106  ÓBIDOS                                    1505106
+    115  1505304  ORIXIMINÁ                                 1505304
+    116  1505502  PARAGOMINAS                               1505502
+    117  1505536  PARAUAPEBAS                               1505536
+    118  1506559  SANTA LUZIA DO PARÁ                       1506559
+    119  1507151  SÃO DOMINGOS DO ARAGUAIA                  1507151
+    120  1508001  TOMÉ-AÇU                                  1508001
+    121  1508100  TUCURUÍ                                   1508100
+    122  1500602  ALTAMIRA                                  1500602
+    123  5100805  APIACÁS                                   5100805
+    124  5103205  COLÍDER                                   5103205
+    125  1503754  JACAREACANGA                              1503754
+    126  5105101  JUARA                                     5105101
+    127  5106422  PEIXOTO DE AZEVEDO                        5106422
+    128  5107354  SÃO JOSÉ DO XINGU                         5107354
+    129  1501253  BANNACH                                   1501253
+    130  1502764  CUMARU DO NORTE                           1502764
+    131  1505437  OURILÂNDIA DO NORTE                       1505437
+    132  1505551  PAU D´ARCO                                1505551
+    133  1507300  SÃO FÉLIX DO XINGU                        1507300
+    134  1400050  ALTO ALEGRE                               1400050
+    135  1400027  AMAJARI                                   1400027
+    136  1400100  BOA VISTA                                 1400100
+    137  1400159  BONFIM                                    1400159
+    138  1400175  CANTÁ                                     1400175
+    139  1400233  CAROEBE                                   1400233
+    140  1400407  NORMANDIA                                 1400407
+    141  1400456  PACARAIMA                                 1400456
+    142  1400605  SÃO LUIZ                                  1400605
+    143  1400704  UIRAMUTÃ                                  1400704
+    144  1300086  ANAMÃ                                     1300086
+    145  1300300  AUTAZES                                   1300300
+    146  1300631  BERURI                                    1300631
+    147  1300805  BORBA                                     1300805
+    148  1301100  CAREIRO                                   1301100
+    149  1301159  CAREIRO DA VÁRZEA                         1301159
+    150  1301704  HUMAITÁ                                   1301704
+    151  1301902  ITACOATIARA                               1301902
+    152  1302702  MANICORÉ                                  1302702
+    153  1303205  NOVO AIRÃO                                1303205
+    154  1303304  NOVO ARIPUANÃ                             1303304
+    155  2100477  ALTO ALEGRE DO PINDARÉ                    2100477
+    156  2100600  AMARANTE DO MARANHÃO                      2100600
+    157  2100873  ARAGUANÃ                                  2100873
+    158  2100956  ARAME                                     2100956
+    159  2101608  BARRA DO CORDA                            2101608
+    160  2102002  BOM JARDIM                                2102002
+    161  2102036  BOM JESUS DAS SELVAS                      2102036
+    162  2104081  FERNANDO FALCÃO                           2104081
+    163  2104800  GRAJAÚ                                    2104800
+    164  2105351  ITAIPAVA DO GRAJAÚ                        2105351
+    165  2105476  JENIPAPO DOS VIEIRAS                      2105476
+    166  2106375  MARANHÃOZINHO                             2106375
+    167  2107001  MONTES ALTOS                              2107001
+    168  2107357  NOVA OLINDA DO MARANHÃO                   2107357
+    169  2111029  SÃO JOÃO DO CARÚ                          2111029
+    170  5000609  AMAMBAÍ                                   5000609
+    171  5000708  ANASTÁCIO                                 5000708
+    172  5000906  ANTÔNIO JOÃO                              5000906
+    173  5001102  AQUIDAUANA                                5001102
+    174  5001243  ARAL MOREIRA                              5001243
+    175  5002100  BELA VISTA                                5002100
+    176  5002308  BRASILÂNDIA                               5002308
+    177  5002407  CAARAPÓ                                   5002407
+    178  5002704  CAMPO GRANDE                              5002704
+    179  5003157  CORONEL SAPUCAIA                          5003157
+    180  5003207  CORUMBÁ                                   5003207
+    181  5003488  DOIS IRMÃOS DO BURITI                     5003488
+    182  5003504  DOURADINA                                 5003504
+    183  5003702  DOURADOS                                  5003702
+    184  5003751  ELDORADO                                  5003751
+    185  5004809  JAPORÃ                                    5004809
+    186  5005152  JUTI                                      5005152
+    187  5005251  LAGUNA CARAPÃ                             5005251
+    188  5005400  MARACAJU                                  5005400
+    189  5005608  MIRANDA                                   5005608
+    190  5005806  NIOAQUE                                   5005806
+    191  5006358  PARANHOS                                  5006358
+    192  5006606  PONTA PORÃ                                5006606
+    193  5006903  PORTO MURTINHO                            5006903
+    194  5007505  ROCHEDO                                   5007505
+    195  5007703  SETE QUEDAS                               5007703
+    196  5007901  SIDROLÂNDIA                               5007901
+    197  5007950  TACURU                                    5007950
+    198  1302405  LÁBREA                                    1302405
+    199  1304104  TAPAUÁ                                    1304104
+    200  1300029  ALVARÃES                                  1300029
+    201  1301001  CARAUARI                                  1301001
+    202  1301209  COARI                                     1301209
+    203  1301407  EIRUNEPÉ                                  1301407
+    204  1301506  ENVIRA                                    1301506
+    205  1301803  IPIXUNA                                   1301803
+    206  1301951  ITAMARATI                                 1301951
+    207  1302108  JAPURÁ                                    1302108
+    208  1302207  JURUÁ                                     1302207
+    209  1302306  JUTAÍ                                     1302306
+    210  1302801  MARAÃ                                     1302801
+    211  1304203  TEFÉ                                      1304203
+    212  1304260  UARINI                                    1304260
+    213  3200607  ARACRUZ                                   3200607
+    214  3103405  ARAÇUAÍ                                   3103405
+    215  3106606  BERTÓPOLIS                                3106606
+    216  3110301  CALDAS                                    3110301
+    217  3113800  CARMÉSIA                                  3113800
+    218  3119500  CORONEL MURTA                             3119500
+    219  3133501  ITAPECERICA                               3133501
+    220  3137007  LADAINHA                                  3137007
+    221  3140506  MARTINHO CAMPOS                           3140506
+    222  3152006  POMPÉU                                    3152006
+    223  3154309  RESPLENDOR                                3154309
+    224  3157658  SANTA HELENA DE MINAS                     3157658
+    225  3162450  SÃO JOÃO DAS MISSÕES                      3162450
+    226  4100103  ABATIÁ                                    4100103
+    227  4104402  CÂNDIDO DE ABREU                          4104402
+    228  4105409  CHOPINZINHO                               4105409
+    229  4105706  CLEVELÂNDIA                               4105706
+    230  4106506  CORONEL VIVIDA                            4106506
+    231  4106902  CURITIBA                                  4106902
+    232  4107157  DIAMANTE D´OESTE                          4107157
+    233  4107546  ESPIGÃO ALTO DO IGUAÇU                    4107546
+    234  4108809  GUAÍRA                                    4108809
+    235  4109500  GUARAQUEÇABA                              4109500
+    236  4110201  INÁCIO MARTINS                            4110201
+    237  4113304  LARANJEIRAS DO SUL                        4113304
+    238  4113700  LONDRINA                                  4113700
+    239  4114401  MANGUEIRINHA                              4114401
+    240  4114500  MANOEL RIBAS                              4114500
+    241  4117057  NOVA LARANJEIRAS                          4117057
+    242  4117305  ORTIGUEIRA                                4117305
+    243  4117602  PALMAS                                    4117602
+    244  4118204  PARANAGUÁ                                 4118204
+    245  4119509  PIRAQUARA                                 4119509
+    246  4119954  PONTAL DO PARANÁ                          4119954
+    247  4123105  SANTA AMÉLIA                              4123105
+    248  4124707  SÃO JERÔNIMO DA SERRA                     4124707
+    249  4125704  SÃO MIGUEL DO IGUAÇU                      4125704
+    250  4127403  TERRA ROXA                                4127403
+    251  4127809  TOMAZINA                                  4127809
+    252  4127965  TURVO                                     4127965
+    253  4128203  UNIÃO DA VITÓRIA                          4128203
+    254  1300508  BARREIRINHA                               1300508
+    255  1302900  MAUÉS                                     1302900
+    256  1303007  NHAMUNDÁ                                  1303007
+    257  1505304  ORIXIMINÁ                                 1505304
+    258  1303403  PARINTINS                                 1303403
+    259  2600500  ÁGUAS BELAS                               2600500
+    260  2602803  BUÍQUE                                    2602803
+    261  2603009  CABROBÓ                                   2603009
+    262  2603926  CARNAUBEIRA DA PENHA                      2603926
+    263  2605707  FLORESTA                                  2605707
+    264  2606606  IBIMIRIM                                  2606606
+    265  2607000  INAJÁ                                     2607000
+    266  2608057  JATOBÁ                                    2608057
+    267  2609303  MIRANDIBA                                 2609303
+    268  2609808  OROCÓ                                     2609808
+    269  2610905  PESQUEIRA                                 2610905
+    270  2611002  PETROLÂNDIA                               2611002
+    271  2614808  TACARATU                                  2614808
+    272  2615805  TUPANATINGA                               2615805
+    273  1100015  ALTA FLORESTA D´OESTE                     1100015
+    274  1100080  COSTA MARQUES                             1100080
+    275  1101005  GOVERNADOR JORGE TEIXEIRA                 1101005
+    276  1100106  GUAJARÁ-MIRIM                             1100106
+    277  1301704  HUMAITÁ                                   1301704
+    278  1100114  JARU                                      1100114
+    279  1100122  JI-PARANÁ                                 1100122
+    280  1302702  MANICORÉ                                  1302702
+    281  1101302  MIRANTE DA SERRA                          1101302
+    282  1100338  NOVA MAMORÉ                               1100338
+    283  1100205  PORTO VELHO                               1100205
+    284  5107578  RONDOLÂNDIA                               5107578
+    285  1101492  SÃO FRANCISCO DO GUAPORÉ                  1101492
+    286  1100320  SÃO MIGUEL DO GUAPORÉ                     1100320
+    287  1101500  SERINGUEIRAS                              1101500
+    288  2501401  BAÍA DA TRAIÇÃO                           2501401
+    289  2509057  MARCAÇÃO                                  2509057
+    290  2512903  RIO TINTO                                 2512903
+    291  1503606  ITAITUBA                                  1503606
+    292  1503754  JACAREACANGA                              1503754
+    293  1508050  TRAIRÃO                                   1508050
+    294  4200101  ABELARDO LUZ                              4200101
+    295  4300059  ÁGUA SANTA                                4300059
+    296  3300100  ANGRA DOS REIS                            3300100
+    297  4201307  ARAQUARI                                  4201307
+    298  3503356  ARCO-ÍRIS                                 3503356
+    299  3503901  ARUJÁ                                     3503901
+    300  3504305  AVAÍ                                      3504305
+    301  3505005  BARÃO DE ANTONINA                         3505005
+    302  4301909  BARRA DO RIBEIRO                          4301909
+    303  4302055  BENJAMIN CONSTANT DO SUL                  4302055
+    304  4202305  BIGUAÇU                                   4202305
+    305  3507704  BRAÚNA                                    3507704
+    306  4302808  CAÇAPAVA DO SUL                           4302808
+    307  4303202  CACIQUE DOBLE                             4303202
+    308  4303509  CAMAQUÃ                                   4303509
+    309  3509908  CANANÉIA                                  3509908
+    310  4304671  CAPIVARI DO SUL                           4304671
+    311  4304713  CARAÁ                                     4304713
+    312  3510609  CARAPICUÍBA                               3510609
+    313  4204202  CHAPECÓ                                   4204202
+    314  4305371  CHARRUA                                   4305371
+    315  4305801  CONSTANTINA                               4305801
+    316  3513009  COTIA                                     3513009
+    317  3515004  EMBU                                      3515004
+    318  3515103  EMBU-GUAÇU                                3515103
+    319  4306924  ENGENHO VELHO                             4306924
+    320  4205175  ENTRE RIOS                                4205175
+    321  4306973  EREBANGO                                  4306973
+    322  4307807  ESTRELA                                   4307807
+    323  4307815  ESTRELA VELHA                             4307815
+    324  4307906  FARROUPILHA                               4307906
+    325  4308052  FAXINALZINHO                              4308052
+    326  3515707  FERRAZ DE VASCONCELOS                     3515707
+    327  4205407  FLORIANÓPOLIS                             4205407
+    328  3516309  FRANCISCO MORATO                          3516309
+    329  3516408  FRANCO DA ROCHA                           3516408
+    330  4309126  GRAMADO DOS LOUREIROS                     4309126
+    331  4309308  GUAÍBA                                    4309308
+    332  3518800  GUARULHOS                                 3518800
+    333  4309902  IBIRAIARAS                                4309902
+    334  3520301  IGUAPE                                    3520301
+    335  4207205  IMARUÍ                                    4207205
+    336  4207684  IPUAÇU                                    4207684
+    337  4310504  IRAÍ                                      4310504
+    338  3522109  ITANHAÉM                                  3522109
+    339  3522208  ITAPECERICA DA SERRA                      3522208
+    340  3522505  ITAPEVI                                   3522505
+    341  3523107  ITAQUAQUECETUBA                           3523107
+    342  3523305  ITARIRI                                   3523305
+    343  3525003  JANDIRA                                   3525003
+    344  4209151  JOSÉ BOITEUX                              4209151
+    345  3526209  JUQUITIBA                                 3526209
+    346  4311403  LAJEADO                                   4311403
+    347  4311429  LAJEADO DO BUGRE                          4311429
+    348  4311601  LIBERATO SALZANO                          4311601
+    349  4311775  MAQUINÉ                                   4311775
+    350  4312138  MATO CASTELHANO                           4312138
+    351  3529401  MAUÁ                                      3529401
+    352  3529906  MIRACATU                                  3529906
+    353  3530805  MOJI MIRIM                                3530805
+    354  3531100  MONGAGUÁ                                  3531100
+    355  4312625  MULITERNO                                 4312625
+    356  4211306  NAVEGANTES                                4211306
+    357  4312708  NONOAI                                    4312708
+    358  3534401  OSASCO                                    3534401
+    359  4211900  PALHOÇA                                   4211900
+    360  4313656  PALMARES DO SUL                           4313656
+    361  3303807  PARATI                                    3303807
+    362  3536208  PARIQUERA-AÇU                             3536208
+    363  3537602  PERUÍBE                                   3537602
+    364  4314704  PLANALTO                                  4314704
+    365  4314902  PORTO ALEGRE                              4314902
+    366  4213609  PORTO UNIÃO                               4213609
+    367  4315404  REDENTORA                                 4315404
+    368  3304557  RIO DE JANEIRO                            3304557
+    369  4315552  RIO DOS ÍNDIOS                            4315552
+    370  4315750  RIOZINHO                                  4315750
+    371  4316105  RONDA ALTA                                4316105
+    372  4316451  SALTO DO JACUÍ                            4316451
+    373  3547304  SANTANA DE PARNAÍBA                       3547304
+    374  3547809  SANTO ANDRÉ                               3547809
+    375  3548708  SÃO BERNARDO DO CAMPO                     3548708
+    376  3548807  SÃO CAETANO DO SUL                        3548807
+    377  4216206  SÃO FRANCISCO DO SUL                      4216206
+    378  4318705  SÃO LEOPOLDO                              4318705
+    379  4319158  SÃO MIGUEL DAS MISSÕES                    4319158
+    380  3550308  SÃO PAULO                                 3550308
+    381  3550704  SÃO SEBASTIÃO                             3550704
+    382  4319737  SÃO VALÉRIO DO SUL                        4319737
+    383  3551009  SÃO VICENTE                               3551009
+    384  4217501  SEARA                                     4217501
+    385  3551801  SETE BARRAS                               3551801
+    386  3552809  TABOÃO DA SERRA                           3552809
+    387  4321402  TENENTE PORTELA                           4321402
+    388  4321501  TORRES                                    4321501
+    389  4321857  TRÊS PALMEIRAS                            4321857
+    390  3555406  UBATUBA                                   3555406
+    391  4323002  VIAMÃO                                    4323002
+    392  4323101  VICENTE DUTRA                             4323101
+    393  4219358  VITOR MEIRELES                            4219358
+    394  1702109  ARAGUAÍNA                                 1702109
+    395  1703826  CACHOEIRINHA                              1703826
+    396  1708205  FORMOSO DO ARAGUAIA                       1708205
+    397  1709005  GOIATINS                                  1709005
+    398  1709500  GURUPI                                    1709500
+    399  1710508  ITACAJÁ                                   1710508
+    400  1711902  LAGOA DA CONFUSÃO                         1711902
+    401  1712801  MAURILÂNDIA DO TOCANTINS                  1712801
+    402  1718840  SANDOLÂNDIA                               1718840
+    403  1718865  SANTA FÉ DO ARAGUAIA                      1718865
+    404  1506583  SANTA MARIA DAS BARREIRAS                 1506583
+    405  1721109  TOCANTÍNIA                                1721109
+    406  1721208  TOCANTINÓPOLIS                            1721208
+    407  1300201  ATALAIA DO NORTE                          1300201
+    408  1100379  ALTO ALEGRE DOS PARECIS                   1100379
+    409  5101407  ARIPUANÃ                                  5101407
+    410  5101902  BRASNORTE                                 5101902
+    411  1100049  CACOAL                                    1100049
+    412  1100924  CHUPINGUAIA                               1100924
+    413  5103304  COMODORO                                  5103304
+    414  5103361  CONQUISTA D´OESTE                         5103361
+    415  1100072  CORUMBIARA                                1100072
+    416  5103379  COTRIGUAÇU                                5103379
+    417  1100098  ESPIGÃO D´OESTE                           1100098
+    418  5105101  JUARA                                     5105101
+    419  5105150  JUÍNA                                     5105150
+    420  1101203  MINISTRO ANDREAZZA                        1101203
+    421  5106182  NOVA LACERDA                              5106182
+    422  1100189  PIMENTA BUENO                             1100189
+    423  5107578  RONDOLÂNDIA                               5107578
+    424  1100304  VILHENA                                   1100304
+    425  5100201  ÁGUA BOA                                  5100201
+    426  5101803  BARRA DO GARÇAS                           5101803
+    427  5101852  BOM JESUS DO ARAGUAIA                     5101852
+    428  5102603  CAMPINÁPOLIS                              5102603
+    429  5102702  CANARANA                                  5102702
+    430  5103908  GENERAL CARNEIRO                          5103908
+    431  5106174  NOVA NAZARÉ                               5106174
+    432  5106281  NOVO SÃO JOAQUIM                          5106281
+    433  5106307  PARANATINGA                               5106307
+    434  5107008  POXORÉO                                   5107008
+    435  5107792  SANTO ANTÔNIO DO LESTE                    5107792
+    436  5102702  CANARANA                                  5102702
+    437  5103700  FELIZ NATAL                               5103700
+    438  5103858  GAÚCHA DO NORTE                           5103858
+    439  5105580  MARCELÂNDIA                               5105580
+    440  5106240  NOVA UBIRATÃ                              5106240
+    441  5107065  QUERÊNCIA                                 5107065
+    442  5107859  SÃO FÉLIX DO ARAGUAIA                     5107859
+    443  5107354  SÃO JOSÉ DO XINGU                         5107354
+    444  1400050  ALTO ALEGRE                               1400050
+    445  1400027  AMAJARI                                   1400027
+    446  1300409  BARCELOS                                  1300409
+    447  1400209  CARACARAÍ                                 1400209
+    448  1400282  IRACEMA                                   1400282
+    449  1400308  MUCAJAÍ                                   1400308
+    450  1303601  SANTA ISABEL DO RIO NEGRO                 1303601
+    451  1303809  SÃO GABRIEL DA CACHOEIRA                  1303809

@@ -1,0 +1,12 @@
+010 1 L
+    001  N Inf                                               ,
+    002  Comitê de Morte Materna e/ou Infantil              1
+    003  Visita domiciliar / Entrevista familia             2
+    004  Estab Saude / Prontuario                           3
+    005  Relacion com outros bancos de dados                4
+    006  S V O                                              5
+    007  I M L                                              6
+    008  Outra  fonte                                       7
+    009  Multiplas fontes                                   8
+    010  Ignorado                                           9
+

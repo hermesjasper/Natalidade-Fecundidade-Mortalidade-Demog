@@ -1,0 +1,191 @@
+190 6
+      1  Hosp Ger de Clínicas de Rio Branco - HGCRB         2001578
+      2  Fund de Med Tropical do Amazonas - FMTAM           2013606
+      3  Hosp Univ Getúlio Vargas                           2017644
+      4  P.Soc. 28 de Agosto                                2013649
+      5  P.Soc. da Criança Zona Sul                         2012472
+      6  Hosp de Guarnição de Tabatinga                     2016125
+      7  Hosp da Criança e do Adolescente do Estado do AP   2019647
+      8  Hosp Munic São Rafael - Altamira                   2330830
+      9  Hosp da Fund Sta Casa de Misericórdia do Pará      2752700
+     10  Hosp Univ João de Barros Barreto                   2332981
+     11  Hosp Sto Antônio Maria de Zaccaria                 2678403
+     12  Hosp e Mat São José Ltda*                          0007641
+     13  Hosp Munic de Starém                               2329905
+     14  Hosp Reg  de Tucurui                               2621614
+     15  Centro de Med Tropical de Rondônia                 2493853
+     16  Hosp de Base Dr Ary Pinheiro                       4001303
+     17  Hosp Ger de Roraima                                2319659
+     18  Hosp de Refer de Araguaina                         2600536
+     19  Hosp de Refer de Palmas Dr. Francisco Ayres        2786117
+     20  Hosp Escola Dr. Helvio Auto - UNCISAL              2720035
+     21  Hosp Univ Prof. Alberto Antunes                    2006197
+     22  Mat Escola Sta Mônica                              2009250
+     23  Hosp Ger Clériston Andrade                         2799758
+     24  Hosp Ger Prado Valadares                           2400693
+     25  Hosp Couto Maia                                    0005428
+     26  Hosp Especializado Octavio Mangabeira              0004065
+     27  Hosp Ger de Estado                                 0004294
+     28  Hosp Ger Ernesto Simões Filho                      0004073
+     29  Hosp Ger Roberto Stos                              0003859
+     30  Hosp M Gesteira-Liga Álvaro Bahia C/Mortal Inf     0004278
+     31  Hosp Sâo Rafael (Hosp Monte Tabor-C.It Br P Sanit  0003808
+     32  Hosp Sta Casa Miseric da Bahia - Hosp Sta Izabel   0003832
+     33  Hosp Sto Antonio das Obras Sociais Irmã Dulce      2802104
+     34  Hosp Univ Prof. Edgard Stos                        0003816
+     35  Hosp Espanhol - Real Soc Espanhola de Benefic      0004057
+     36  Hosp Ger de Vitória da Conquista                   2402076
+     37  Hosp e Mat São Vicente de Paulo - Barbalha         2564211
+     38  Hosp Ger de Fortaleza                              2497654
+     39  Hosp Ger Dr. César Cals                            2499363
+     40  Hosp Inf Albert Sabin                              2563681
+     41  Hosp São José                                      2561417
+     42  Hosp Univ Walter Cantídio                          2561492
+     43  Instituto Dr. José Frota                           2529149
+     44  Sta Casa de Misericórdia - Sobral                  3021114
+     45  Hosp da Criança Dr. Odorico Amaral de Matos        2458799
+     46  Hosp de Urgência e Emerg Clementino Moura - Soc II 2308800
+     47  Hosp Djalma Marques - Socorrão I                   2308762
+     48  Hosp Ger Tarquínio Lopes Filho                     2646536
+     49  Hosp Presidente Vargas                             2458292
+     50  Hosp Univ - UFMA                                   2726653
+     51  Hosp Reg de Urgência e Emergência de Campina Grande2362856
+     52  Hosp Univ Alcides Carneiro - U.Fed Campina Grande  2676060
+     53  Complexo Hospar Clementino Fraga                   2399717
+     54  Hosp Univ Lauro Wanderley                          2400243
+     55  Hosp Agamenon Magalhães                            0000418
+     56  Hosp Corrêa Picanço                                0000981
+     57  Hosp da Restauração                                0000655
+     58  Hosp das Clínicas da UFPE                          0000396
+     59  Hosp Ger Otávio Freitas                            0000426
+     60  Hosp Getúlio Vargas                                2802783
+     61  Hosp Univ Oswaldo Cruz                             0000477
+     62  Inst Med Integral Prof.Fernando Figueira - IMIP    0000434
+     63  Hosp Reg Justino Luz - Picos                       4009622
+     64  Hosp Gétulio Vargas                                2726971
+     65  Hosp Inf Lucídio Portella                          2323249
+     66  Inst de Doenças Tropicais Natan Portella Nunes     2323338
+     67  Hosp Giselda Trigueiro                             4013484
+     68  Hosp Monsenhor Walfredo Gurgel                     2653923
+     69  Hosp Univ Onofre Lopes                             2653982
+     70  Hosp Governador João Alves Filho                   2816210
+     71  Hosp da Univ Federal de Sergipe                    0002534
+     72  Hosp Reg da Asa Norte - HRAN                       0010464
+     73  Hosp Reg do Gama - HRG                             0010472
+     74  Hosp Reg de Sobradinho                             0010502
+     75  Hosp das Clínicas da Univ Federal de Goiás         2338424
+     76  Hosp de Doenças Tropicais - HDT                    2506661
+     77  Hosp de Urg de Goiania Dr.Valdemiro da Cruz/HUGO   2338262
+     78  Hosp Materno Inf/SES                               2339196
+     79  Sta Casa de Misericórdia de Goiânia                2338351
+     80  Hosp Munic Jamel Cecílio                           2361744
+     81  Assoc Benefic Campo Grande - Sta Casa do Estado MS 0009717
+     82  Hosp Reg de Mato Grosso do Sul - HRMS              0009725
+     83  Hosp Univ Maria Aparecida Pedrossian - Fund UFMS   0009709
+     84  Hosp e P.Soc. Munic de Cuiabá                      2495015
+     85  Hosp Univ Julio Müller - Fund UFMT                 2655411
+     86  Hosp e P.Soc. Munic/Fund Saúde Várzea Grande-FUSVAG2391635
+     87  Hosp Inf N.Sra. da Glória                          0011800
+     88  Hosp Univ Cassiano Antônio Moraes - HUCAM          4044916
+     89  Sta Casa de Misericórdia de Vitória                0011746
+     90  Hosp Univ Alzira Velano/Fund de Ens Tecnol Alfenas 2171988
+     91  Sta Casa de Misericódia de Araxá                   2164620
+     92  Hosp das Clínicas da UFMG                          0027049
+     93  Hosp Eduardo de Menezes/FHEMIG                     2181770
+     94  Hosp Inf João Paulo II                             0026948
+     95  Hosp Munic Odilon Behrens                          2192896
+     96  Hosp N.Sra. da Conceição - Irm N.Sra. da Conceição 2206064
+     97  Casa de Caridade de Carangola                      2764776
+     98  Hosp Munic de Governador Valadares                 2222043
+     99  Hosp Univ de Juiz de Fora                          2218798
+    100  Hosp Univ Clemente de Faria de Montes Claros       2219654
+    101  Sta Casa de Misericordia de Passos                 2775999
+    102  Hosp Reg Antônio Dias/FHEIMIG                      2726726
+    103  Hosp N.Sra. das Dores - Irm do Hosp N.Sra.das Dores2111640
+    104  Hosp das Clin Samuel Libânio Pouso Alegre - Fundesp2127989
+    105  Associação Hospar Sta Rosália                      2208172
+    106  Hosp Escola da Faculdade de Med do Triang Mineiro  2206595
+    107  Hosp  de Clínicas de Uberlândia - UFU              2146355
+    108  Hosp Bom Pastor - Fund Hospar Município de Varginha2761092
+    109  Fund Dr.João Barcelo Martins-Hosp Ferreira Machado 2287579
+    110  Hosp Estadual Adão Pereira Nunes                   2290227
+    111  Hosp Estadual Azevedo Lima                         0012521
+    112  Centro de Pesquisa do Hosp Evandro Chagas - FIOCRUZ2288338
+    113  Hosp dos Servidores do Estado                      2269988
+    114  Hosp Estadual Carlos Chagas                        2273411
+    115  Hosp Estadual Getúlio Vargas                       2270234
+    116  Hosp Estadual Pedro II                             2758091
+    117  Hosp Estadual Rocha Faria                          2295407
+    118  Hosp Ger de Bonsucesso                             2269880
+    119  Hosp Munic Miguel Couto                            2270269
+    120  Hosp Munic Souza Aguiar                            2280183
+    121  Hosp Univ Clementino Fraga Filho/UFRJ              2280167
+    122  Hosp Univ Pedro Ernesto                            2269783
+    123  Instituto Estadual de Infectologia São Sebastião   2273365
+    124  Hosp Estadual Alberto Torres                       2298031
+    125  Sta Casa de Miseric Araçatuba- Hosp Sag CoracJesus 2078775
+    126  Hosp Reg de Assis                                  2083094
+    127  Sta Casa de Barretos                               2092611
+    128  Hosp Estadual de Bauru                             2790602
+    129  Hosp das Clin da Faculdade de Med Botucatu/UNESP   2748223
+    130  Hosp das Clínicas/UNICAMP                          2079798
+    131  Hosp e Mat Celso Pierro                            2082128
+    132  Hosp Munic Mário Gatti                             2081490
+    133  Hosp Reg Ferraz de Vasconcelos - Dr Osiris F Coelho2080079
+    134  Fund Civil Casa Miseric Franca - Sta Casa de Miser 2705982
+    135  Hosp Estadual Prof. Carlos da Silva Lacaz          3028399
+    136  Hosp Ger de Guarulhos                              2080338
+    137  Sta Casa de Misericórdia de Itapeva                2027186
+    138  Irmandade Sta Casa de Misericordia de Limeira      2081458
+    139  Hosp das Clín - Unid I Mat Inf Fund Mun Ens Marilia2025523
+    140  Hosp das Clínicas Dr. Radames Nardini              2082349
+    141  Hosp Carol Figueiredo Mat Anita Costa - Ir Sta C M 2705222
+    142  Hosp Munic Antonio Giglio - Hosp Munic Cent Osasco 0008028
+    143  Hosp Reg Vale do Ribeira                           2077434
+    144  Hosp das Clín da Fac de Med de Rib Preto/FMRP-USP  2082187
+    145  Centro Hospar do Municipio de Sto André            0008923
+    146  Hosp Guilherme Álvaro                              2079720
+    147  Irmandade Sta Casa de Miserircórdia de São Carlos  2080931
+    148  Hosp de Base - Fund Fac Reg de Med São J R Preto   2077396
+    149  Hosp Munic Dr. José de Carvalho Florence           0009628
+    150  Conjunto Hospar do Mandaqui                        2077574
+    151  Hosp das Clínicas/FMUSP                            2078015
+    152  Hosp Inf Cândido Fontoura                          2088517
+    153  Hosp Munic de Tatuapé - Cármino Caricchio          2080346
+    154  Hosp Munic Inf Menino de Jesus                     2078325
+    155  Hosp Reg Sul                                       2091313
+    156  Hosp Sta Marcelina                                 2077477
+    157  Hosp São Paulo/UNIFESP                             2077485
+    158  Instituto de Infectologia Emílio Ribas             2028840
+    159  Irmandade da Sta Casa de Misericórdia de São Paulo 2688689
+    160  Conjunto Hospar de Sorocaba                        2081695
+    161  Hosp Estadual Sumaré                               2083981
+    162  Hosp Ger Pirajussara                               2079828
+    163  Hosp Escola da Univ de Taubaté                     2749319
+    164  Hosp Mat Angelina Caron                            0013633
+    165  Hosp Univ do Oeste do Paraná/UNIOESTE Cascavel     2738368
+    166  Hosp de Clínicas da UFPR                           2384299
+    167  Hosp do Trabalhador - Hosp Mauro Goulart           0015369
+    168  Hosp Inf Peq Príncipe-Assoc Hosp de Prot C Dr Raul 0015563
+    169  Hosp Univ do Cajuru - Soc Paranaense de Cult/HUC   0015407
+    170  Hosp Univ Evangelico de Curitiba                   0015245
+    171  Hosp Munic de Foz de Iguaçu                        5061989
+    172  Hosp Univ de Londrina - Hosp Univ Reg do Norte PR  2781859
+    173  Hosp Univ Reg de Maringá/HUM                       2587335
+    174  Assoc Benef de Canoas - Hosp N.Sra. das Graças     2232014
+    175  Pio Sodal das Damas Carid Manten Hosp N S Pompeia  2223546
+    176  Associação Hospar Beneficiente São Vicente de Paulo2246988
+    177  Sta Casa de Misericórdia de Pelotas                2253054
+    178  Hosp N.Sra. da Conceição                           2237571
+    179  Hosp São Lucas da PUCRS                            2262568
+    180  Assoc de Caridade Sta Casa de Miseric de Rio Grande2232995
+    181  Associação Pró-Ens Sta Cruz do Sul - Hosp Sta Cruz 2254964
+    182  Hosp Univ de Sta Maria - HUSM                      2244306
+    183  Associação Hospar de Car Sta Rosa/Hosp Vida Saude  2254611
+    184  Sta Cass Miseric de Uruguaiana - Hosp Ger Sta Casa 2248190
+    185  Hosp Sta Isabel                                    2558246
+    186  Hosp Reg Leonoir Vargas Ferreira- Hosp Reg do Oeste2537788
+    187  Hosp Inf Joana de Gusmão                           2691868
+    188  Hosp Nereu Ramos                                   2664879
+    189  Hosp  Reg Hans Ditter Schmidt                      2436450
+    190  Sociedade Divina Providencia - Hosp N.Sra.Conceicao2491710

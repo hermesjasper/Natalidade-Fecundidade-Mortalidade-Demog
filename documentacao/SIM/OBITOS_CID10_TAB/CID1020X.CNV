@@ -1,0 +1,543 @@
+    541  4 L                                                     
+      1  X60   Auto-int int analg antipir anti-reum n-opiac X60 ,
+  1   2  X60.0 Residencia                                   X600 
+  1   3  X60.1 Habitacao coletiva                           X601 
+  1   4  X60.2 Escolas outr instit areas admin publica      X602 
+  1   5  X60.3 Area p/a pratica de esportes e atletismo     X603 
+  1   6  X60.4 Rua e estrada                                X604 
+  1   7  X60.5 Areas de comercio e de servicos              X605 
+  1   8  X60.6 Areas industriais e em construcao            X606 
+  1   9  X60.7 Fazenda                                      X607 
+  1  10  X60.8 Outr locais espec                            X608 
+  1  11  X60.9 Local NE                                     X609 
+     12  X61   Auto-int int a-conv sed hip a-park psic NCOP X61 ,
+ 12  13  X61.0 Residencia                                   X610 
+ 12  14  X61.1 Habitacao coletiva                           X611 
+ 12  15  X61.2 Escolas outr instit areas admin publica      X612 
+ 12  16  X61.3 Area p/a pratica de esportes e atletismo     X613 
+ 12  17  X61.4 Rua e estrada                                X614 
+ 12  18  X61.5 Areas de comercio e de servicos              X615 
+ 12  19  X61.6 Areas industriais e em construcao            X616 
+ 12  20  X61.7 Fazenda                                      X617 
+ 12  21  X61.8 Outr locais espec                            X618 
+ 12  22  X61.9 Local NE                                     X619 
+     23  X62   Auto-intox intenc narcot psicodislept NCOP   X62 ,
+ 23  24  X62.0 Residencia                                   X620 
+ 23  25  X62.1 Habitacao coletiva                           X621 
+ 23  26  X62.2 Escolas outr instit areas admin publica      X622 
+ 23  27  X62.3 Area p/a pratica de esportes e atletismo     X623 
+ 23  28  X62.4 Rua e estrada                                X624 
+ 23  29  X62.5 Areas de comercio e de servicos              X625 
+ 23  30  X62.6 Areas industriais e em construcao            X626 
+ 23  31  X62.7 Fazenda                                      X627 
+ 23  32  X62.8 Outr locais espec                            X628 
+ 23  33  X62.9 Local NE                                     X629 
+     34  X63   Auto-int int outr subst farm sist nerv auton X63 ,
+ 34  35  X63.0 Residencia                                   X630 
+ 34  36  X63.1 Habitacao coletiva                           X631 
+ 34  37  X63.2 Escolas outr instit areas admin publica      X632 
+ 34  38  X63.3 Area p/a pratica de esportes e atletismo     X633 
+ 34  39  X63.4 Rua e estrada                                X634 
+ 34  40  X63.5 Areas de comercio e de servicos              X635 
+ 34  41  X63.6 Areas industriais e em construcao            X636 
+ 34  42  X63.7 Fazenda                                      X637 
+ 34  43  X63.8 Outr locais espec                            X638 
+ 34  44  X63.9 Local NE                                     X639 
+     45  X64   Auto-int intenc out drog med subst biolog NE X64 ,
+ 45  46  X64.0 Residencia                                   X640 
+ 45  47  X64.1 Habitacao coletiva                           X641 
+ 45  48  X64.2 Escolas outr instit areas admin publica      X642 
+ 45  49  X64.3 Area p/a pratica de esportes e atletismo     X643 
+ 45  50  X64.4 Rua e estrada                                X644 
+ 45  51  X64.5 Areas de comercio e de servicos              X645 
+ 45  52  X64.6 Areas industriais e em construcao            X646 
+ 45  53  X64.7 Fazenda                                      X647 
+ 45  54  X64.8 Outr locais espec                            X648 
+ 45  55  X64.9 Local NE                                     X649 
+     56  X65   Auto-intox voluntaria p/alcool               X65 ,
+ 56  57  X65.0 Residencia                                   X650 
+ 56  58  X65.1 Habitacao coletiva                           X651 
+ 56  59  X65.2 Escolas outr instit areas admin publica      X652 
+ 56  60  X65.3 Area p/a pratica de esportes e atletismo     X653 
+ 56  61  X65.4 Rua e estrada                                X654 
+ 56  62  X65.5 Areas de comercio e de servicos              X655 
+ 56  63  X65.6 Areas industriais e em construcao            X656 
+ 56  64  X65.7 Fazenda                                      X657 
+ 56  65  X65.8 Outr locais espec                            X658 
+ 56  66  X65.9 Local NE                                     X659 
+     67  X66   Auto-int int solv org hidrocarb halog vapor  X66 ,
+ 67  68  X66.0 Residencia                                   X660 
+ 67  69  X66.1 Habitacao coletiva                           X661 
+ 67  70  X66.2 Escolas outr instit areas admin publica      X662 
+ 67  71  X66.3 Area p/a pratica de esportes e atletismo     X663 
+ 67  72  X66.4 Rua e estrada                                X664 
+ 67  73  X66.5 Areas de comercio e de servicos              X665 
+ 67  74  X66.6 Areas industriais e em construcao            X666 
+ 67  75  X66.7 Fazenda                                      X667 
+ 67  76  X66.8 Outr locais espec                            X668 
+ 67  77  X66.9 Local NE                                     X669 
+     78  X67   Auto-intox intenc p/outr gases e vapores     X67 ,
+ 78  79  X67.0 Residencia                                   X670 
+ 78  80  X67.1 Habitacao coletiva                           X671 
+ 78  81  X67.2 Escolas outr instit areas admin publica      X672 
+ 78  82  X67.3 Area p/a pratica de esportes e atletismo     X673 
+ 78  83  X67.4 Rua e estrada                                X674 
+ 78  84  X67.5 Areas de comercio e de servicos              X675 
+ 78  85  X67.6 Areas industriais e em construcao            X676 
+ 78  86  X67.7 Fazenda                                      X677 
+ 78  87  X67.8 Outr locais espec                            X678 
+ 78  88  X67.9 Local NE                                     X679 
+     89  X68   Auto-intox intenc a pesticidas               X68 ,
+ 89  90  X68.0 Residencia                                   X680 
+ 89  91  X68.1 Habitacao coletiva                           X681 
+ 89  92  X68.2 Escolas outr instit areas admin publica      X682 
+ 89  93  X68.3 Area p/a pratica de esportes e atletismo     X683 
+ 89  94  X68.4 Rua e estrada                                X684 
+ 89  95  X68.5 Areas de comercio e de servicos              X685 
+ 89  96  X68.6 Areas industriais e em construcao            X686 
+ 89  97  X68.7 Fazenda                                      X687 
+ 89  98  X68.8 Outr locais espec                            X688 
+ 89  99  X68.9 Local NE                                     X689 
+    100  X69   Auto-int intenc outr prod quim subst noc NE  X69 ,
+100 101  X69.0 Residencia                                   X690 
+100 102  X69.1 Habitacao coletiva                           X691 
+100 103  X69.2 Escolas outr instit areas admin publica      X692 
+100 104  X69.3 Area p/a pratica de esportes e atletismo     X693 
+100 105  X69.4 Rua e estrada                                X694 
+100 106  X69.5 Areas de comercio e de servicos              X695 
+100 107  X69.6 Areas industriais e em construcao            X696 
+100 108  X69.7 Fazenda                                      X697 
+100 109  X69.8 Outr locais espec                            X698 
+100 110  X69.9 Local NE                                     X699 
+    111  X70   Lesao autoprov intenc enforc estrang sufoc   X70 ,
+111 112  X70.0 Residencia                                   X700 
+111 113  X70.1 Habitacao coletiva                           X701 
+111 114  X70.2 Escolas outr instit areas admin publica      X702 
+111 115  X70.3 Area p/a pratica de esportes e atletismo     X703 
+111 116  X70.4 Rua e estrada                                X704 
+111 117  X70.5 Areas de comercio e de servicos              X705 
+111 118  X70.6 Areas industriais e em construcao            X706 
+111 119  X70.7 Fazenda                                      X707 
+111 120  X70.8 Outr locais espec                            X708 
+111 121  X70.9 Local NE                                     X709 
+    122  X71   Lesao autoprov intenc p/afogamento submersao X71 ,
+122 123  X71.0 Residencia                                   X710 
+122 124  X71.1 Habitacao coletiva                           X711 
+122 125  X71.2 Escolas outr instit areas admin publica      X712 
+122 126  X71.3 Area p/a pratica de esportes e atletismo     X713 
+122 127  X71.4 Rua e estrada                                X714 
+122 128  X71.5 Areas de comercio e de servicos              X715 
+122 129  X71.6 Areas industriais e em construcao            X716 
+122 130  X71.7 Fazenda                                      X717 
+122 131  X71.8 Outr locais espec                            X718 
+122 132  X71.9 Local NE                                     X719 
+    133  X72   Lesao autoprov intenc disp arma fogo de mao  X72 ,
+133 134  X72.0 Residencia                                   X720 
+133 135  X72.1 Habitacao coletiva                           X721 
+133 136  X72.2 Escolas outr instit areas admin publica      X722 
+133 137  X72.3 Area p/a pratica de esportes e atletismo     X723 
+133 138  X72.4 Rua e estrada                                X724 
+133 139  X72.5 Areas de comercio e de servicos              X725 
+133 140  X72.6 Areas industriais e em construcao            X726 
+133 141  X72.7 Fazenda                                      X727 
+133 142  X72.8 Outr locais espec                            X728 
+133 143  X72.9 Local NE                                     X729 
+    144  X73   Les autoprov int disp arm fog maior calibre  X73 ,
+144 145  X73.0 Residencia                                   X730 
+144 146  X73.1 Habitacao coletiva                           X731 
+144 147  X73.2 Escolas outr instit areas admin publica      X732 
+144 148  X73.3 Area p/a pratica de esportes e atletismo     X733 
+144 149  X73.4 Rua e estrada                                X734 
+144 150  X73.5 Areas de comercio e de servicos              X735 
+144 151  X73.6 Areas industriais e em construcao            X736 
+144 152  X73.7 Fazenda                                      X737 
+144 153  X73.8 Outr locais espec                            X738 
+144 154  X73.9 Local NE                                     X739 
+    155  X74   Lesao autopr intenc disp outr arma fogo e NE X74 ,
+155 156  X74.0 Residencia                                   X740 
+155 157  X74.1 Habitacao coletiva                           X741 
+155 158  X74.2 Escolas outr instit areas admin publica      X742 
+155 159  X74.3 Area p/a pratica de esportes e atletismo     X743 
+155 160  X74.4 Rua e estrada                                X744 
+155 161  X74.5 Areas de comercio e de servicos              X745 
+155 162  X74.6 Areas industriais e em construcao            X746 
+155 163  X74.7 Fazenda                                      X747 
+155 164  X74.8 Outr locais espec                            X748 
+155 165  X74.9 Local NE                                     X749 
+    166  X75   Lesao autoprov intenc p/disp explosivos      X75 ,
+166 167  X75.0 Residencia                                   X750 
+166 168  X75.1 Habitacao coletiva                           X751 
+166 169  X75.2 Escolas outr instit areas admin publica      X752 
+166 170  X75.3 Area p/a pratica de esportes e atletismo     X753 
+166 171  X75.4 Rua e estrada                                X754 
+166 172  X75.5 Areas de comercio e de servicos              X755 
+166 173  X75.6 Areas industriais e em construcao            X756 
+166 174  X75.7 Fazenda                                      X757 
+166 175  X75.8 Outr locais espec                            X758 
+166 176  X75.9 Local NE                                     X759 
+    177  X76   Lesao autoprov intenc fumaca fogo e chamas   X76 ,
+177 178  X76.0 Residencia                                   X760 
+177 179  X76.1 Habitacao coletiva                           X761 
+177 180  X76.2 Escolas outr instit areas admin publica      X762 
+177 181  X76.3 Area p/a pratica de esportes e atletismo     X763 
+177 182  X76.4 Rua e estrada                                X764 
+177 183  X76.5 Areas de comercio e de servicos              X765 
+177 184  X76.6 Areas industriais e em construcao            X766 
+177 185  X76.7 Fazenda                                      X767 
+177 186  X76.8 Outr locais espec                            X768 
+177 187  X76.9 Local NE                                     X769 
+    188  X77   Lesao autopr int vapor agua gas  obj quent   X77 ,
+188 189  X77.0 Residencia                                   X770 
+188 190  X77.1 Habitacao coletiva                           X771 
+188 191  X77.2 Escolas outr instit areas admin publica      X772 
+188 192  X77.3 Area p/a pratica de esportes e atletismo     X773 
+188 193  X77.4 Rua e estrada                                X774 
+188 194  X77.5 Areas de comercio e de servicos              X775 
+188 195  X77.6 Areas industriais e em construcao            X776 
+188 196  X77.7 Fazenda                                      X777 
+188 197  X77.8 Outr locais espec                            X778 
+188 198  X77.9 Local NE                                     X779 
+    199  X78   Lesao autoprov intenc obj cortante  penetr   X78 ,
+199 200  X78.0 Residencia                                   X780 
+199 201  X78.1 Habitacao coletiva                           X781 
+199 202  X78.2 Escolas outr instit areas admin publica      X782 
+199 203  X78.3 Area p/a pratica de esportes e atletismo     X783 
+199 204  X78.4 Rua e estrada                                X784 
+199 205  X78.5 Areas de comercio e de servicos              X785 
+199 206  X78.6 Areas industriais e em construcao            X786 
+199 207  X78.7 Fazenda                                      X787 
+199 208  X78.8 Outr locais espec                            X788 
+199 209  X78.9 Local NE                                     X789 
+    210  X79   Lesao autoprov intenc p/objeto contundente   X79 ,
+210 211  X79.0 Residencia                                   X790 
+210 212  X79.1 Habitacao coletiva                           X791 
+210 213  X79.2 Escolas outr instit areas admin publica      X792 
+210 214  X79.3 Area p/a pratica de esportes e atletismo     X793 
+210 215  X79.4 Rua e estrada                                X794 
+210 216  X79.5 Areas de comercio e de servicos              X795 
+210 217  X79.6 Areas industriais e em construcao            X796 
+210 218  X79.7 Fazenda                                      X797 
+210 219  X79.8 Outr locais espec                            X798 
+210 220  X79.9 Local NE                                     X799 
+    221  X80   Lesao autoprov intenc precip lugar elevado   X80 ,
+221 222  X80.0 Residencia                                   X800 
+221 223  X80.1 Habitacao coletiva                           X801 
+221 224  X80.2 Escolas outr instit areas admin publica      X802 
+221 225  X80.3 Area p/a pratica de esportes e atletismo     X803 
+221 226  X80.4 Rua e estrada                                X804 
+221 227  X80.5 Areas de comercio e de servicos              X805 
+221 228  X80.6 Areas industriais e em construcao            X806 
+221 229  X80.7 Fazenda                                      X807 
+221 230  X80.8 Outr locais espec                            X808 
+221 231  X80.9 Local NE                                     X809 
+    232  X81   Lesao autoprov intenc precip perm obj movim  X81 ,
+232 233  X81.0 Residencia                                   X810 
+232 234  X81.1 Habitacao coletiva                           X811 
+232 235  X81.2 Escolas outr instit areas admin publica      X812 
+232 236  X81.3 Area p/a pratica de esportes e atletismo     X813 
+232 237  X81.4 Rua e estrada                                X814 
+232 238  X81.5 Areas de comercio e de servicos              X815 
+232 239  X81.6 Areas industriais e em construcao            X816 
+232 240  X81.7 Fazenda                                      X817 
+232 241  X81.8 Outr locais espec                            X818 
+232 242  X81.9 Local NE                                     X819 
+    243  X82   Lesao autoprov intenc impacto veic a motor   X82 ,
+243 244  X82.0 Residencia                                   X820 
+243 245  X82.1 Habitacao coletiva                           X821 
+243 246  X82.2 Escolas outr instit areas admin publica      X822 
+243 247  X82.3 Area p/a pratica de esportes e atletismo     X823 
+243 248  X82.4 Rua e estrada                                X824 
+243 249  X82.5 Areas de comercio e de servicos              X825 
+243 250  X82.6 Areas industriais e em construcao            X826 
+243 251  X82.7 Fazenda                                      X827 
+243 252  X82.8 Outr locais espec                            X828 
+243 253  X82.9 Local NE                                     X829 
+    254  X83   Lesao autoprov intenc p/outr meios espec     X83 ,
+254 255  X83.0 Residencia                                   X830 
+254 256  X83.1 Habitacao coletiva                           X831 
+254 257  X83.2 Escolas outr instit areas admin publica      X832 
+254 258  X83.3 Area p/a pratica de esportes e atletismo     X833 
+254 259  X83.4 Rua e estrada                                X834 
+254 260  X83.5 Areas de comercio e de servicos              X835 
+254 261  X83.6 Areas industriais e em construcao            X836 
+254 262  X83.7 Fazenda                                      X837 
+254 263  X83.8 Outr locais espec                            X838 
+254 264  X83.9 Local NE                                     X839 
+    265  X84   Lesao autoprov intenc p/meios NE             X84 ,
+265 266  X84.0 Residencia                                   X840 
+265 267  X84.1 Habitacao coletiva                           X841 
+265 268  X84.2 Escolas outr instit areas admin publica      X842 
+265 269  X84.3 Area p/a pratica de esportes e atletismo     X843 
+265 270  X84.4 Rua e estrada                                X844 
+265 271  X84.5 Areas de comercio e de servicos              X845 
+265 272  X84.6 Areas industriais e em construcao            X846 
+265 273  X84.7 Fazenda                                      X847 
+265 274  X84.8 Outr locais espec                            X848 
+265 275  X84.9 Local NE                                     X849 
+    276  X85   Agressao meio drog medic e subst biologicas  X85 ,
+276 277  X85.0 Residencia                                   X850 
+276 278  X85.1 Habitacao coletiva                           X851 
+276 279  X85.2 Escolas outr instit areas admin publica      X852 
+276 280  X85.3 Area p/a pratica de esportes e atletismo     X853 
+276 281  X85.4 Rua e estrada                                X854 
+276 282  X85.5 Areas de comercio e de servicos              X855 
+276 283  X85.6 Areas industriais e em construcao            X856 
+276 284  X85.7 Fazenda                                      X857 
+276 285  X85.8 Outr locais espec                            X858 
+276 286  X85.9 Local NE                                     X859 
+    287  X86   Agressao p/meio de subst corrosivas          X86 ,
+287 288  X86.0 Residencia                                   X860 
+287 289  X86.1 Habitacao coletiva                           X861 
+287 290  X86.2 Escolas outr instit areas admin publica      X862 
+287 291  X86.3 Area p/a pratica de esportes e atletismo     X863 
+287 292  X86.4 Rua e estrada                                X864 
+287 293  X86.5 Areas de comercio e de servicos              X865 
+287 294  X86.6 Areas industriais e em construcao            X866 
+287 295  X86.7 Fazenda                                      X867 
+287 296  X86.8 Outr locais espec                            X868 
+287 297  X86.9 Local NE                                     X869 
+    298  X87   Agressao p/pesticidas                        X87 ,
+298 299  X87.0 Residencia                                   X870 
+298 300  X87.1 Habitacao coletiva                           X871 
+298 301  X87.2 Escolas outr instit areas admin publica      X872 
+298 302  X87.3 Area p/a pratica de esportes e atletismo     X873 
+298 303  X87.4 Rua e estrada                                X874 
+298 304  X87.5 Areas de comercio e de servicos              X875 
+298 305  X87.6 Areas industriais e em construcao            X876 
+298 306  X87.7 Fazenda                                      X877 
+298 307  X87.8 Outr locais espec                            X878 
+298 308  X87.9 Local NE                                     X879 
+    309  X88   Agressao p/meio de gases e vapores           X88 ,
+309 310  X88.0 Residencia                                   X880 
+309 311  X88.1 Habitacao coletiva                           X881 
+309 312  X88.2 Escolas outr instit areas admin publica      X882 
+309 313  X88.3 Area p/a pratica de esportes e atletismo     X883 
+309 314  X88.4 Rua e estrada                                X884 
+309 315  X88.5 Areas de comercio e de servicos              X885 
+309 316  X88.6 Areas industriais e em construcao            X886 
+309 317  X88.7 Fazenda                                      X887 
+309 318  X88.8 Outr locais espec                            X888 
+309 319  X88.9 Local NE                                     X889 
+    320  X89   Agressao outr prod quim subst nocivas espec  X89 ,
+320 321  X89.0 Residencia                                   X890 
+320 322  X89.1 Habitacao coletiva                           X891 
+320 323  X89.2 Escolas outr instit areas admin publica      X892 
+320 324  X89.3 Area p/a pratica de esportes e atletismo     X893 
+320 325  X89.4 Rua e estrada                                X894 
+320 326  X89.5 Areas de comercio e de servicos              X895 
+320 327  X89.6 Areas industriais e em construcao            X896 
+320 328  X89.7 Fazenda                                      X897 
+320 329  X89.8 Outr locais espec                            X898 
+320 330  X89.9 Local NE                                     X899 
+    331  X90   Agressao prod quimicos e subst nocivas NE    X90 ,
+331 332  X90.0 Residencia                                   X900 
+331 333  X90.1 Habitacao coletiva                           X901 
+331 334  X90.2 Escolas outr instit areas admin publica      X902 
+331 335  X90.3 Area p/a pratica de esportes e atletismo     X903 
+331 336  X90.4 Rua e estrada                                X904 
+331 337  X90.5 Areas de comercio e de servicos              X905 
+331 338  X90.6 Areas industriais e em construcao            X906 
+331 339  X90.7 Fazenda                                      X907 
+331 340  X90.8 Outr locais espec                            X908 
+331 341  X90.9 Local NE                                     X909 
+    342  X91   Agressao enforc estrangulamento sufocacao    X91 ,
+342 343  X91.0 Residencia                                   X910 
+342 344  X91.1 Habitacao coletiva                           X911 
+342 345  X91.2 Escolas outr instit areas admin publica      X912 
+342 346  X91.3 Area p/a pratica de esportes e atletismo     X913 
+342 347  X91.4 Rua e estrada                                X914 
+342 348  X91.5 Areas de comercio e de servicos              X915 
+342 349  X91.6 Areas industriais e em construcao            X916 
+342 350  X91.7 Fazenda                                      X917 
+342 351  X91.8 Outr locais espec                            X918 
+342 352  X91.9 Local NE                                     X919 
+    353  X92   Agressao p/meio de afogamento e submersao    X92 ,
+353 354  X92.0 Residencia                                   X920 
+353 355  X92.1 Habitacao coletiva                           X921 
+353 356  X92.2 Escolas outr instit areas admin publica      X922 
+353 357  X92.3 Area p/a pratica de esportes e atletismo     X923 
+353 358  X92.4 Rua e estrada                                X924 
+353 359  X92.5 Areas de comercio e de servicos              X925 
+353 360  X92.6 Areas industriais e em construcao            X926 
+353 361  X92.7 Fazenda                                      X927 
+353 362  X92.8 Outr locais espec                            X928 
+353 363  X92.9 Local NE                                     X929 
+    364  X93   Agressao disparo de arma de fogo de mao      X93 ,
+364 365  X93.0 Residencia                                   X930 
+364 366  X93.1 Habitacao coletiva                           X931 
+364 367  X93.2 Escolas outr instit areas admin publica      X932 
+364 368  X93.3 Area p/a pratica de esportes e atletismo     X933 
+364 369  X93.4 Rua e estrada                                X934 
+364 370  X93.5 Areas de comercio e de servicos              X935 
+364 371  X93.6 Areas industriais e em construcao            X936 
+364 372  X93.7 Fazenda                                      X937 
+364 373  X93.8 Outr locais espec                            X938 
+364 374  X93.9 Local NE                                     X939 
+    375  X94   Agressao disparo arma fogo de maior calibre  X94 ,
+375 376  X94.0 Residencia                                   X940 
+375 377  X94.1 Habitacao coletiva                           X941 
+375 378  X94.2 Escolas outr instit areas admin publica      X942 
+375 379  X94.3 Area p/a pratica de esportes e atletismo     X943 
+375 380  X94.4 Rua e estrada                                X944 
+375 381  X94.5 Areas de comercio e de servicos              X945 
+375 382  X94.6 Areas industriais e em construcao            X946 
+375 383  X94.7 Fazenda                                      X947 
+375 384  X94.8 Outr locais espec                            X948 
+375 385  X94.9 Local NE                                     X949 
+    386  X95   Agressao disparo outr arma de fogo ou NE     X95 ,
+386 387  X95.0 Residencia                                   X950 
+386 388  X95.1 Habitacao coletiva                           X951 
+386 389  X95.2 Escolas outr instit areas admin publica      X952 
+386 390  X95.3 Area p/a pratica de esportes e atletismo     X953 
+386 391  X95.4 Rua e estrada                                X954 
+386 392  X95.5 Areas de comercio e de servicos              X955 
+386 393  X95.6 Areas industriais e em construcao            X956 
+386 394  X95.7 Fazenda                                      X957 
+386 395  X95.8 Outr locais espec                            X958 
+386 396  X95.9 Local NE                                     X959 
+    397  X96   Agressao p/meio de material explosivo        X96 ,
+397 398  X96.0 Residencia                                   X960 
+397 399  X96.1 Habitacao coletiva                           X961 
+397 400  X96.2 Escolas outr instit areas admin publica      X962 
+397 401  X96.3 Area p/a pratica de esportes e atletismo     X963 
+397 402  X96.4 Rua e estrada                                X964 
+397 403  X96.5 Areas de comercio e de servicos              X965 
+397 404  X96.6 Areas industriais e em construcao            X966 
+397 405  X96.7 Fazenda                                      X967 
+397 406  X96.8 Outr locais espec                            X968 
+397 407  X96.9 Local NE                                     X969 
+    408  X97   Agressao p/meio de fumaca fogo e chamas      X97 ,
+408 409  X97.0 Residencia                                   X970 
+408 410  X97.1 Habitacao coletiva                           X971 
+408 411  X97.2 Escolas outr instit areas admin publica      X972 
+408 412  X97.3 Area p/a pratica de esportes e atletismo     X973 
+408 413  X97.4 Rua e estrada                                X974 
+408 414  X97.5 Areas de comercio e de servicos              X975 
+408 415  X97.6 Areas industriais e em construcao            X976 
+408 416  X97.7 Fazenda                                      X977 
+408 417  X97.8 Outr locais espec                            X978 
+408 418  X97.9 Local NE                                     X979 
+    419  X98   Agressao vapor agua gases ou objetos quentes X98 ,
+419 420  X98.0 Residencia                                   X980 
+419 421  X98.1 Habitacao coletiva                           X981 
+419 422  X98.2 Escolas outr instit areas admin publica      X982 
+419 423  X98.3 Area p/a pratica de esportes e atletismo     X983 
+419 424  X98.4 Rua e estrada                                X984 
+419 425  X98.5 Areas de comercio e de servicos              X985 
+419 426  X98.6 Areas industriais e em construcao            X986 
+419 427  X98.7 Fazenda                                      X987 
+419 428  X98.8 Outr locais espec                            X988 
+419 429  X98.9 Local NE                                     X989 
+    430  X99   Agressao objeto cortante ou penetrante       X99 ,
+430 431  X99.0 Residencia                                   X990 
+430 432  X99.1 Habitacao coletiva                           X991 
+430 433  X99.2 Escolas outr instit areas admin publica      X992 
+430 434  X99.3 Area p/a pratica de esportes e atletismo     X993 
+430 435  X99.4 Rua e estrada                                X994 
+430 436  X99.5 Areas de comercio e de servicos              X995 
+430 437  X99.6 Areas industriais e em construcao            X996 
+430 438  X99.7 Fazenda                                      X997 
+430 439  X99.8 Outr locais espec                            X998 
+430 440  X99.9 Local NE                                     X999 
+    441  Y00   Agressao p/meio de um objeto contundente     Y00 ,
+441 442  Y00.0 Residencia                                   Y000 
+441 443  Y00.1 Habitacao coletiva                           Y001 
+441 444  Y00.2 Escolas outr instit areas admin publica      Y002 
+441 445  Y00.3 Area p/a pratica de esportes e atletismo     Y003 
+441 446  Y00.4 Rua e estrada                                Y004 
+441 447  Y00.5 Areas de comercio e de servicos              Y005 
+441 448  Y00.6 Areas industriais e em construcao            Y006 
+441 449  Y00.7 Fazenda                                      Y007 
+441 450  Y00.8 Outr locais espec                            Y008 
+441 451  Y00.9 Local NE                                     Y009 
+    452  Y01   Agressao p/meio projecao de um lugar elevado Y01 ,
+452 453  Y01.0 Residencia                                   Y010 
+452 454  Y01.1 Habitacao coletiva                           Y011 
+452 455  Y01.2 Escolas outr instit areas admin publica      Y012 
+452 456  Y01.3 Area p/a pratica de esportes e atletismo     Y013 
+452 457  Y01.4 Rua e estrada                                Y014 
+452 458  Y01.5 Areas de comercio e de servicos              Y015 
+452 459  Y01.6 Areas industriais e em construcao            Y016 
+452 460  Y01.7 Fazenda                                      Y017 
+452 461  Y01.8 Outr locais espec                            Y018 
+452 462  Y01.9 Local NE                                     Y019 
+    463  Y02   Agressao proj coloc vitima obj movimento     Y02 ,
+463 464  Y02.0 Residencia                                   Y020 
+463 465  Y02.1 Habitacao coletiva                           Y021 
+463 466  Y02.2 Escolas outr instit areas admin publica      Y022 
+463 467  Y02.3 Area p/a pratica de esportes e atletismo     Y023 
+463 468  Y02.4 Rua e estrada                                Y024 
+463 469  Y02.5 Areas de comercio e de servicos              Y025 
+463 470  Y02.6 Areas industriais e em construcao            Y026 
+463 471  Y02.7 Fazenda                                      Y027 
+463 472  Y02.8 Outr locais espec                            Y028 
+463 473  Y02.9 Local NE                                     Y029 
+    474  Y03   Agressao p/meio de impacto veic a motor      Y03 ,
+474 475  Y03.0 Residencia                                   Y030 
+474 476  Y03.1 Habitacao coletiva                           Y031 
+474 477  Y03.2 Escolas outr instit areas admin publica      Y032 
+474 478  Y03.3 Area p/a pratica de esportes e atletismo     Y033 
+474 479  Y03.4 Rua e estrada                                Y034 
+474 480  Y03.5 Areas de comercio e de servicos              Y035 
+474 481  Y03.6 Areas industriais e em construcao            Y036 
+474 482  Y03.7 Fazenda                                      Y037 
+474 483  Y03.8 Outr locais espec                            Y038 
+474 484  Y03.9 Local NE                                     Y039 
+    485  Y04   Agressao p/meio de forca corporal            Y04 ,
+485 486  Y04.0 Residencia                                   Y040 
+485 487  Y04.1 Habitacao coletiva                           Y041 
+485 488  Y04.2 Escolas outr instit areas admin publica      Y042 
+485 489  Y04.3 Area p/a pratica de esportes e atletismo     Y043 
+485 490  Y04.4 Rua e estrada                                Y044 
+485 491  Y04.5 Areas de comercio e de servicos              Y045 
+485 492  Y04.6 Areas industriais e em construcao            Y046 
+485 493  Y04.7 Fazenda                                      Y047 
+485 494  Y04.8 Outr locais espec                            Y048 
+485 495  Y04.9 Local NE                                     Y049 
+    496  Y05   Agressao sexual p/meio de forca fisica       Y05 ,
+496 497  Y05.0 Residencia                                   Y050 
+496 498  Y05.1 Habitacao coletiva                           Y051 
+496 499  Y05.2 Escolas outr instit areas admin publica      Y052 
+496 500  Y05.3 Area p/a pratica de esportes e atletismo     Y053 
+496 501  Y05.4 Rua e estrada                                Y054 
+496 502  Y05.5 Areas de comercio e de servicos              Y055 
+496 503  Y05.6 Areas industriais e em construcao            Y056 
+496 504  Y05.7 Fazenda                                      Y057 
+496 505  Y05.8 Outr locais espec                            Y058 
+496 506  Y05.9 Local NE                                     Y059 
+    507  Y06   Negligencia e abandono                       Y06 ,
+507 508  Y06.0 Negligencia e abandono p/esposo companheiro  Y060 
+507 509  Y06.1 Negligencia e abandono p/pais                Y061 
+507 510  Y06.2 Negligencia e abandono p/conhecido ou amigo  Y062 
+507 511  Y06.8 Negligencia e abandono p/outr pessoa espec   Y068 
+507 512  Y06.9 Negligencia e abandono p/pessoa NE           Y069 
+    513  Y07   Outr sindr de maus tratos                    Y07 ,
+513 514  Y07.0 Outr sindr maus tratos p/esposo companheiro  Y070 
+513 515  Y07.1 Outr sindr de maus tratos p/pais             Y071 
+513 516  Y07.2 Outr sindr de maus tratos p/conhecido amigo  Y072 
+513 517  Y07.3 Outr sindr de maus tratos p/autor oficiais   Y073 
+513 518  Y07.8 Outr sindr maus tratos p/outr pessoa espec   Y078 
+513 519  Y07.9 Outr sindr de maus tratos p/pessoa NE        Y079 
+    520  Y08   Agressao p/outr meios espec                  Y08 ,
+520 521  Y08.0 Residencia                                   Y080 
+520 522  Y08.1 Habitacao coletiva                           Y081 
+520 523  Y08.2 Escolas outr instit areas admin publica      Y082 
+520 524  Y08.3 Area p/a pratica de esportes e atletismo     Y083 
+520 525  Y08.4 Rua e estrada                                Y084 
+520 526  Y08.5 Areas de comercio e de servicos              Y085 
+520 527  Y08.6 Areas industriais e em construcao            Y086 
+520 528  Y08.7 Fazenda                                      Y087 
+520 529  Y08.8 Outr locais espec                            Y088 
+520 530  Y08.9 Local NE                                     Y089 
+    531  Y09   Agressao p/meios NE                          Y09 ,
+531 532  Y09.0 Residencia                                   Y090 
+531 533  Y09.1 Habitacao coletiva                           Y091 
+531 534  Y09.2 Escolas outr instit areas admin publica      Y092 
+531 535  Y09.3 Area p/a pratica de esportes e atletismo     Y093 
+531 536  Y09.4 Rua e estrada                                Y094 
+531 537  Y09.5 Areas de comercio e de servicos              Y095 
+531 538  Y09.6 Areas industriais e em construcao            Y096 
+531 539  Y09.7 Fazenda                                      Y097 
+531 540  Y09.8 Outr locais espec                            Y098 
+531 541  Y09.9 Local NE                                     Y099 
+

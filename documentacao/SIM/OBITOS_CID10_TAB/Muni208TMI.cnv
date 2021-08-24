@@ -1,0 +1,209 @@
+208  6                                                        
+      1  110002 Ariquemes                                   110002
+      2  110012 Ji-Paraná                                   110012
+      3  110020 Porto Velho                                 110020
+      4  120020 Cruzeiro do Sul                             120020
+      5  120040 Rio Branco                                  120040
+      6  130260 Manaus                                      130260
+      7  140010 Boa Vista                                   140010
+      8  150010 Abaetetuba                                  150010
+      9  150060 Altamira                                    150060
+     10  150080 Ananindeua                                  150080
+     11  150140 Belém                                       150140
+     12  150170 Bragança                                    150170
+     13  150180 Breves                                      150180
+     14  150210 Cametá                                      150210
+     15  150240 Castanhal                                   150240
+     16  150360 Itaituba                                    150360
+     17  150420 Marabá                                      150420
+     18  150550 Paragominas                                 150550
+     19  150553 Parauapebas                                 150553
+     20  150680 Santarém                                    150680
+     21  150810 Tucuruí                                     150810
+     22  160030 Macapá                                      160030
+     23  170210 Araguaína                                   170210
+     24  170220 Araguatins                                  170220
+     25  170255 Augustinópolis                              170255
+     26  170550 Colinas do Tocantins                        170550
+     27  170700 Dianópolis                                  170700
+     28  170740 Esperantina                                 170740
+     29  170820 Formoso do Araguaia                         170820
+     30  170950 Gurupi                                      170950
+     31  171320 Miracema do Tocantins                       171320
+     32  171610 Paraíso do Tocantins                        171610
+     33  171820 Porto Nacional                              171820
+     34  172100 Palmas                                      172100
+     35  172120 Tocantinópolis                              172120
+     36  210005 Açailândia                                  210005
+     37  210120 Bacabal                                     210120
+     38  210140 Balsas                                      210140
+     39  210160 Barra do Corda                              210160
+     40  210220 Buriti                                      210220
+     41  210300 Caxias                                      210300
+     42  210320 Chapadinha                                  210320
+     43  210330 Codó                                        210330
+     44  210340 Coelho Neto                                 210340
+     45  210360 Coroatá                                     210360
+     46  210530 Imperatriz                                  210530
+     47  210540 Itapecuru Mirim                             210540
+     48  210750 Paço do Lumiar                              210750
+     49  210910 Presidente Dutra                            210910
+     50  210990 Santa Inês                                  210990
+     51  211000 Santa Luzia                                 211000
+     52  211120 São José de Ribamar                         211120
+     53  211130 São Luís                                    211130
+     54  211220 Timon                                       211220
+     55  211270 Vargem Grande                               211270
+     56  220040 Altos                                       220040
+     57  220120 Barras                                      220120
+     58  220150 Batalha                                     220150
+     59  220190 Bom Jesus                                   220190
+     60  220260 Castelo do Piauí                            220260
+     61  220270 Cocal                                       220270
+     62  220370 Esperantina                                 220370
+     63  220390 Floriano                                    220390
+     64  220550 José de Freitas                             220550
+     65  220580 Luzilândia                                  220580
+     66  220620 Miguel Alves                                220620
+     67  220770 Parnaíba                                    220770
+     68  220790 Pedro II                                    220790
+     69  220800 Picos                                       220800
+     70  220830 Piracuruca                                  220830
+     71  220840 Piripiri                                    220840
+     72  221100 Teresina                                    221100
+     73  221110 União                                       221110
+     74  230190 Barbalha                                    230190
+     75  230260 Camocim                                     230260
+     76  230280 Canindé                                     230280
+     77  230370 Caucaia                                     230370
+     78  230410 Crateús                                     230410
+     79  230420 Crato                                       230420
+     80  230440 Fortaleza                                   230440
+     81  230470 Granja                                      230470
+     82  230540 Icó                                         230540
+     83  230550 Iguatu                                      230550
+     84  230640 Itapipoca                                   230640
+     85  230730 Juazeiro do Norte                           230730
+     86  230765 Maracanaú                                   230765
+     87  231130 Quixadá                                     231130
+     88  231230 São Benedito                                231230
+     89  231290 Sobral                                      231290
+     90  231340 Tianguá                                     231340
+     91  231410 Viçosa do Ceará                             231410
+     92  240200 Caicó                                       240200
+     93  240260 Ceará-Mirim                                 240260
+     94  240310 Currais Novos                               240310
+     95  240325 Parnamirim                                  240325
+     96  240710 Macaíba                                     240710
+     97  240800 Mossoró                                     240800
+     98  240810 Natal                                       240810
+     99  241200 São Gonçalo do Amarante                     241200
+    100  250030 Alagoa Grande                               250030
+    101  250060 Alhandra                                    250060
+    102  250110 Areia                                       250110
+    103  250180 Bayeux                                      250180
+    104  250320 Cabedelo                                    250320
+    105  250370 Cajazeiras                                  250370
+    106  250400 Campina Grande                              250400
+    107  250600 Esperança                                   250600
+    108  250630 Guarabira                                   250630
+    109  250690 Itabaiana                                   250690
+    110  250750 João Pessoa                                 250750
+    111  250770 Juazeirinho                                 250770
+    112  250890 Mamanguape                                  250890
+    113  250970 Monteiro                                    250970
+    114  251080 Patos                                       251080
+    115  251230 Princesa Isabel                             251230
+    116  251250 Queimadas                                   251250
+    117  251370 Santa Rita                                  251370
+    118  251530 Sapé                                        251530
+    119  251620 Sousa                                       251620
+    120  251650 Taperoá                                     251650
+    121  260110 Araripina                                   260110
+    122  260120 Arcoverde                                   260120
+    123  260170 Belo Jardim                                 260170
+    124  260210 Bom Conselho                                260210
+    125  260280 Buíque                                      260280
+    126  260290 Cabo de Santo Agostinho                     260290
+    127  260345 Camaragibe                                  260345
+    128  260410 Caruaru                                     260410
+    129  260520 Escada                                      260520
+    130  260600 Garanhuns                                   260600
+    131  260720 Ipojuca                                     260720
+    132  260790 Jaboatão dos Guararapes                     260790
+    133  260960 Olinda                                      260960
+    134  260990 Ouricuri                                    260990
+    135  261000 Palmares                                    261000
+    136  261070 Paulista                                    261070
+    137  261090 Pesqueira                                   261090
+    138  261110 Petrolina                                   261110
+    139  261160 Recife                                      261160
+    140  261220 Salgueiro                                   261220
+    141  261250 Santa Cruz do Capibaribe                    261250
+    142  261300 São Bento do Una                            261300
+    143  261370 São Lourenço da Mata                        261370
+    144  261390 Serra Talhada                               261390
+    145  261530 Timbaúba                                    261530
+    146  261640 Vitória de Santo Antão                      261640
+    147  270030 Arapiraca                                   270030
+    148  270040 Atalaia                                     270040
+    149  270230 Coruripe                                    270230
+    150  270240 Delmiro Gouveia                             270240
+    151  270380 Joaquim Gomes                               270380
+    152  270430 Maceió                                      270430
+    153  270470 Marechal Deodoro                            270470
+    154  270630 Palmeira dos Índios                         270630
+    155  270670 Penedo                                      270670
+    156  270770 Rio Largo                                   270770
+    157  270800 Santana do Ipanema                          270800
+    158  270850 São Luís do Quitunde                        270850
+    159  270915 Teotônio Vilela                             270915
+    160  270930 União dos Palmares                          270930
+    161  280030 Aracaju                                     280030
+    162  280130 Capela                                      280130
+    163  280210 Estância                                    280210
+    164  280290 Itabaiana                                   280290
+    165  280350 Lagarto                                     280350
+    166  280480 Nossa Senhora do Socorro                    280480
+    167  280670 São Cristóvão                               280670
+    168  290070 Alagoinhas                                  290070
+    169  290320 Barreiras                                   290320
+    170  290390 Bom Jesus da Lapa                           290390
+    171  290570 Camaçari                                    290570
+    172  290720 Casa Nova                                   290720
+    173  291005 Dias d'Ávila                                291005
+    174  291072 Eunápolis                                   291072
+    175  291080 Feira de Santana                            291080
+    176  291170 Guanambi                                    291170
+    177  291360 Ilhéus                                      291360
+    178  291470 Itaberaba                                   291470
+    179  291480 Itabuna                                     291480
+    180  291560 Itamaraju                                   291560
+    181  291640 Itapetinga                                  291640
+    182  291750 Jacobina                                    291750
+    183  291760 Jaguaquara                                  291760
+    184  291800 Jequié                                      291800
+    185  291840 Juazeiro                                    291840
+    186  291920 Lauro de Freitas                            291920
+    187  292400 Paulo Afonso                                292400
+    188  292530 Porto Seguro                                292530
+    189  292660 Ribeira do Pombal                           292660
+    190  292740 Salvador                                    292740
+    191  292860 Santo Amaro                                 292860
+    192  292870 Santo Antônio de Jesus                      292870
+    193  293010 Senhor do Bonfim                            293010
+    194  293070 Simões Filho                                293070
+    195  293135 Teixeira de Freitas                         293135
+    196  293290 Valença                                     293290
+    197  293330 Vitória da Conquista                        293330
+    198  510025 Alta Floresta                               510025
+    199  510180 Barra do Garças                             510180
+    200  510250 Cáceres                                     510250
+    201  510340 Cuiabá                                      510340
+    202  510515 Juína                                       510515
+    203  510650 Poconé                                      510650
+    204  510760 Rondonópolis                                510760
+    205  510790 Sinop                                       510790
+    206  510792 Sorriso                                     510792
+    207  510795 Tangará da Serra                            510795
+    208  510840 Várzea Grande                               510840

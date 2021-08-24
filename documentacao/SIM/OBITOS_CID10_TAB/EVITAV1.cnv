@@ -1,0 +1,88 @@
+87    4
+     87  .3. Demais causas de morte                         A000-Z999
+      1  .1.1.Reduzíveis pelas ações de imunizações         ----
+  1   2  ...Tuberculose                                     A150-A199
+  1   3  ...Tétano neo-natal                                A330-A339
+  1   4  ...Tetano (outros tipos)                           A350-A359
+  1   5  ...Difteria                                        A360-A369
+  1   6  ...Coqueluche                                      A370-A379
+  1   7  ...Poliomielite aguda                              A800-A809
+  1   8  ...Sarampo                                         B050-B059
+  1   9  ...Rubéola                                         B060-B069
+  1  10  ...Hepatite B                                      B160-B169
+  1  11  ...Caxumba                                         B260-B269
+  1  12  ...Meningite por Haemophilus                       G000
+  1  13  ...Síndrome da Rubeola Congênita                   P350
+  1  14  ...Hepatite viral congênita                        P353
+     15  .1.2.1.Reduz. pela adequada at à mulher  gestação  ----
+ 15  16  ...Sífilis congênita                               A500-A509
+ 15  17  ...Afec. Maternas afetam feto ou RN                P000-P009,P040-P049
+ 15  18  ...Complic. Mater. da gravi afetam feto ou RN      P010-P019
+ 15  19  ...Transt. Relac. gest. curt-duração e B.P  nascer P070-P073
+ 15  20  ...Crescimento fetal retardado e desnut fetal      P050-P059
+ 15  21  ...Isoimunização Rh e ABO do feto ou RN            P550,P551
+ 15  22  ...Doenças hemolít do feto ou RN devido isoimuniza P558-P579
+ 15  23  ...Doenças pelo vírus da imunodeficiência humana   B200-B249
+     24  .1.2.2.Reduz. pela adequada at à mulher  parto     ----
+ 24  25  ...Out. comp. do trab parto, parto q afet fet e RN P020-P021,P024-P026,P030-P039
+ 24  26  ...Transt. Relac gest prolongada e peso elev nasc  P080-P082
+ 24  27  ...Traumatismo de Parto                            P100-P159
+ 24  28  ...Hipoxia intra-uterina e asfixia ao nascer       P200-P219
+ 24  29  ...Aspiração neonatal                              P240-P249
+     30  .1.2.3.Reduz. pela adequada at recém-nascido       ----
+ 30  31  ...Transt resp e cardiovasc espec periodo neona    P230-P239,P250-P289
+ 30  32  ...Infecções específ periodo neonatal              P351-P352,P354-P399
+ 30  33  ...Hemorragia neonatal                             P500-P549
+ 30  34  ...Outras icterícias perinatais                    P580-P599
+ 30  35  ...Transt endócrinos e metabólicos trans esp RN    P700-P749
+ 30  36  ...Transt hematológicos e do RN                    P600-P619
+ 30  37  ...Transt do aparelho digestivo e do RN            P750-P789
+ 30  38  ...Afecç que comprom tegumento e reg. term do RN   P800-P839
+ 30  39  ...Desconforto respiratório do RN                  P220-P229
+ 30  40  ...Outros transt originados no período perina      P900-P969
+     41  .1.3. Reduz. por ações de diagnóstico e trat adeq  ----
+ 41  42  ...Meningite(doença do SNC, exceto G000)           G001-G039
+ 41  43  ...Infecções agudas das vias aereas superiores     J00X-J069
+ 41  44  ...Pneumonia                                       J120-J189
+ 41  45  ...Edema de laringe                                J384
+ 41  46  ...Doenças crônicas das vias aéreas inferiores     J400-J429,J450-J479
+ 41  47  ...Doenças pulmonares devido a agentes externos    J680-J699
+ 41  48  ...Doenças do sangue e dos orgãos hematopoéticos   D500-D539
+ 41  49  ...Outras doenças causadas por clamídeas           A700-A749
+ 41  50  ...Outras doenças bacterianas                      A300-A329,A380-A419,A46X,A490-A499
+ 41  51  ...Hipotireiodismo congênito                       E030-E031
+ 41  52  ...Diabetes melittus                               E100-E149
+ 41  53  ...Fenilcetonúria e Def cong Lactase               E700,E730
+ 41  54  ...Desidratacao                                    E86X
+ 41  55  ...Infec trato urinario                            N390
+ 41  56  ...Epilepsia                                       G400-G419
+ 41  57  ...Síndrome de Down                                Q900-Q909
+ 41  58  ...Febre reumática e Doença Cardíaca Reumática     I00X-I099
+ 41  59  ...Outras infeccoes agudas das vias aereas inf     J200-J229
+     60  .1.4.Reduz. ações promoção à saúde vinc. Aç. At    ----
+ 60  61  ...Doenças infecciosas intestinais                 A000-A09 ,
+ 60  62  ...Outras doenças infecciosas e as NE              B99 ,
+ 60  63  ...Algumas doenças bacterianas zoonóticas          A200-A289
+ 60  64  ...Febre por arbovírus e febre hemorragicas virais A900-A999
+ 60  65  ...Rickettsioses                                   A750-A799
+ 60  66  ...Raiva                                           A820-A829
+ 60  67  ...Doenças devidas a protozoários                  B500-B649
+ 60  68  ...Helmintíases                                    B650-B839
+ 60  69  ...Deficiencias nutricionais                       E400-E649
+ 60  70  ...Acidentes de transporte                         V010-V999
+ 60  71  ...Envenenamento acidental exposição a subs nociva X400-X449
+ 60  72  ...Intoxicação acidental por outras substancias    X450-X499
+ 60  73  ...Quedas acidentais                               W000-W199
+ 60  74  ...Exposição ao fumo, ao fogo e às chamas          X000-X099
+ 60  75  ...Exposição as forças da natureza                 X300-X399
+ 60  76  ...Afogamento e submersão acidentais               W650-W749
+ 60  77  ...Outros riscos acidentais à respiração           W750-W849
+ 60  78  ...Exposição a corr elet,radiação,temp e press amb W850-W999
+ 60  79  ...Agressões                                       X850-Y099
+ 60  80  ...Eventos cuja intenção é indeterminada           Y100-Y349
+ 60  81  ...Exposição a forças mecanicas inanimadas         W200-W499
+ 60  82  ...Acidentes ocorridos durante prest cuidados médi Y600-Y699
+ 60  83  ...Reação anorm pac ou comp tardia por proced médi Y830-Y849
+ 60  84  ...Efeitos adversos de drogas, medicamentos (RAM)  Y400-Y599
+     85  .2. causas de mortes mal definidas                 ----
+ 85  86  ...Sintomas, sinais e achados arnormais            R000-R949,R960-R999

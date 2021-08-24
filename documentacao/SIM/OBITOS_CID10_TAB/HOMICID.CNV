@@ -1,0 +1,27 @@
+25  3
+      1  X85   Agressao meio drog medic e subst biologicas  X85
+      2  X86   Agressao p/meio de subst corrosivas          X86  
+      3  X87   Agressao p/pesticidas                        X87  
+      4  X88   Agressao p/meio de gases e vapores           X88  
+      5  X89   Agressao outr prod quim subst nocivas espec  X89  
+      6  X90   Agressao prod quimicos e subst nocivas NE    X90  
+      7  X91   Agressao enforc estrangulamento sufocacao    X91  
+      8  X92   Agressao p/meio de afogamento e submersao    X92  
+      9  X93   Agressao disparo de arma de fogo de mao      X93  
+     10  X94   Agressao disparo arma fogo de maior calibre  X94  
+     11  X95   Agressao disparo outr arma de fogo ou NE     X95  
+     12  X96   Agressao p/meio de material explosivo        X96  
+     13  X97   Agressao p/meio de fumaca fogo e chamas      X97  
+     14  X98   Agressao vapor agua gases ou objetos quentes X98  
+     15  X99   Agressao objeto cortante ou penetrante       X99  
+     16  Y00   Agressao p/meio de um objeto contundente     Y00  
+     17  Y01   Agressao p/meio projecao de um lugar elevado Y01  
+     18  Y02   Agressao proj coloc vitima obj movimento     Y02  
+     19  Y03   Agressao p/meio de impacto veic a motor      Y03  
+     20  Y04   Agressao p/meio de forca corporal            Y04  
+     21  Y05   Agressao sexual p/meio de forca fisica       Y05  
+     22  Y06   Negligencia e abandono                       Y06  
+     23  Y07   Outr sindr de maus tratos                    Y07  
+     24  Y08   Agressao p/outr meios espec                  Y08  
+     25  Y09   Agressao p/meios NE                          Y09  
+     

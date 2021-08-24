@@ -1,0 +1,16 @@
+15  4
+      1  D56 TALASSEMIA                                     AAAA
+  1   2   D56.0 Talassemia Alfa                             D560
+  1   3   D56.1 Talassemia Beta                             D561
+  1   4   D56.2 Talassemia Delta-Beta                       D562
+  1   5   D56.3 Estigma talassemico                         D563
+  1   6   D56.4 Persistencia Hereditaria Hemoglobina fetal  D564
+  1   7   D56.8 Outras Talassemias                          D568
+  1   8   D56.9 Talassemia NEsp                             D569
+      9  D57 TRANSTORNOS FALCIFORME                         BBBB
+  9  10   D57.0 Anemia Falciforme com crise                 D570
+  9  11   D57.1 Anemia Falciforme sem crise                 D571
+  9  12   D57.2 Transt Falciforme heterozigoticos duplos    D572
+  9  13   D57.3 Estigma Falciforme                          D573
+  9  14   D57.8 Outros transt Falciformes                   D578
+     15  D58.2 Outras Hemoglobinopatias                     D582
