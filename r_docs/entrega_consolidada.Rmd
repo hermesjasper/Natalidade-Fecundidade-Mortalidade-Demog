@@ -1,0 +1,89 @@
+---
+title: "Natalidade/Fecundidade e Mortalidade da população do Acre entre os anos de 2000 e 2020"
+author: 
+  - Ana Luiza Almeida 
+  - Bruno Toledo 
+  - César A. Galvão 
+  - Hermes Winarski
+subtitle: "Demografia 2020.1 - Prof. Ana Maria Nogales"
+output:
+  html_document:
+    df_print: paged
+    highlight: textmate
+    includes:
+      in_header: "../imagens/banner.html"
+    number_sections: no
+    theme: flatly
+    toc: no
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+---
+
+<style>
+body {
+text-align: justify}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(fig.align = 'center')
+knitr::opts_chunk$set(fig.width=7, fig.height=5)
+
+# library(tidyverse)
+# library(magrittr)
+# library(tidymodels)
+# library(kableExtra)
+# library(ggfortify)
+# library(readxl)
+# library(prettydoc)
+# library(matlib)
+```
+
+```{r chunk-nomeado, echo = FALSE}
+
+
+```
+
+
+<br>
+
+Texto
+
+
+```{r chunk-nomeado-2, echo = FALSE}
+# obrigatorios(190011572) %>%
+#   kbl(align = "c", col.names = c('Seção', 'Página', 'Exercícios')) %>%
+#   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")
+```
+
+<br>
+
+# Exemplo de abas {.tabset}
+
+## Seção 1 
+
+### Item a
+
+asdf
+asdf
+asdf
+
+
+<br>
+
+### Item b
+
+asdf
+asdf
+asdef
+
+
+
+
+## Seção 2
+
+### Item a
+
