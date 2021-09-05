@@ -19,7 +19,7 @@ sim_lexis <- sim_consolidado %>%
          DTNASC=dmy(DTNASC))
 sim_lexis$IDADEA <- sapply(sim_consolidado$IDADE, idade)
 
-vis_miss(sim_lexis)
+# vis_miss(sim_lexis)
 
 dados <- sim_lexis %>%
   mutate(
@@ -33,21 +33,32 @@ dados <- sim_lexis %>%
   distinct(id_ob_anos_comp,SEXO,ano_nasc,ano_obito,.keep_all = TRUE)%>%
   arrange(ano_obito,desc(ano_nasc),id_ob_anos_comp,SEXO)
 
-dados
+#QUESTÃO 1) 
+# a)
+### Este diagrama ainda apresenta erros. (os números vêm empilhados em cada triângulo ???)
+### Esta questão pede para trabalhar com os dados do SINASC, mas o mesmo não vêm com dados de mortalidade,
+### portanto, optei por utilizar os dados do SIM.
 
-### Este diagrama ainda apresenta erros.
+dados1 <- dados %>%
+filter(ano_nasc >= "2000" & ano_nasc <= "2020")
 
-diagrama <- lexis_grid(year_start=2010,year_end=2016,age_start=0,age_end=5,delta=1)
+diagrama <- lexis_grid(year_start=2000,year_end=2020,age_start=0,age_end=5,delta=1)
 
 diagrama <- diagrama +
-  annotate(geom="text", x=as.Date(paste0(dados$ano_obito[dados$SEXO==2]
-                                         ,"-08-06"))
-           ,y=dados$id_ob_anos_comp[dados$SEXO==2]+0.3,
-           label=c(paste0(dados$quantidade[dados$SEXO==2])),
-           color="black") +
-  annotate(geom="text", x=as.Date(paste0(dados$ano_obito[dados$SEXO==2]
-                                         ,"-05-06"))
-           ,y=dados$id_ob_anos_comp[dados$SEXO==2]+0.75,
-           label=c(paste0(dados$quantidade[dados$SEXO==2])),
-           color="black")
+  annotate(geom="text", x=as.Date(paste0(dados1$ano_obito,"-08-06"))
+           ,y=dados1$id_ob_anos_comp+0.3,
+           label=c(paste0(dados1$quantidade)),
+           color="red") +
+  annotate(geom="text", x=as.Date(paste0(dados1$ano_obito,"-05-06"))
+           ,y=dados1$id_ob_anos_comp+0.75,
+           label=c(paste0(dados1$quantidade)),
+           color="blue")
 diagrama
+
+
+
+# b)
+
+# c)
+
+# d)
