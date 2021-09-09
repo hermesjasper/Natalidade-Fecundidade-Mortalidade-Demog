@@ -1,6 +1,6 @@
 pacman::p_load(read.dbc, dplyr, stringr,foreign,LexisPlotR,lubridate,visdat,ggplot2)
 
-sim_consolidado <- readRDS("../data/SIM/sim_consolidado.rds") # caminho ajustado para agir pelo Rproject
+sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds") # caminho ajustado para agir pelo Rproject
 
 ### Ajustando o banco SIM:
 idade <- function(x){
