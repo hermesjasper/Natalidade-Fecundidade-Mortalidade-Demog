@@ -1,23 +1,25 @@
 pacman::p_load(read.dbc, dplyr, stringr,foreign,LexisPlotR,lubridate,visdat,ggplot2)
 
-sim_consolidado <- readRDS("~/GitHub/Natalidade-Fecundidade-Mortalidade-Demog/data/sim/sim_consolidado.rds")
+sim_consolidado <- readRDS("../data/SIM/sim_consolidado.rds") # caminho ajustado para agir pelo Rproject
 
 ### Ajustando o banco SIM:
 idade <- function(x){
-  if(str_sub(x,1,1)<4){
-    x = 0}else if (str_sub(x,1,1)==4){
+  if(str_sub(x,1,1)<4){ #comentar esse caso
+    x = 0} else if (str_sub(x,1,1)==4){ #comentar esse caso
       x = 0+as.numeric(str_sub(x,2))}
-    else if (str_sub(x,1,1)==5){
+    else if (str_sub(x,1,1)==5){ #comentar esse caso
       x = 100+as.numeric(str_sub(x,2))}
-    else{
+    else{ #comentar esse caso
       x = NA}
     return (x)
 }
+
 sim_lexis <- sim_consolidado %>%
   select (DTOBITO,SEXO,DTNASC,CODMUNRES,IDADE) %>%
   mutate(DTOBITO=dmy(DTOBITO),
          DTNASC=dmy(DTNASC))
-sim_lexis$IDADEA <- sapply(sim_consolidado$IDADE, idade)
+
+sim_lexis$IDADEA <- sapply(sim_consolidado$IDADE, idade) #funcao idade não roda. Verificar e comentar os casos
 
 # vis_miss(sim_lexis)
 
