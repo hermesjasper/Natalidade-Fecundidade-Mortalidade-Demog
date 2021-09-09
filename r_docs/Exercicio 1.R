@@ -1,27 +1,17 @@
 pacman::p_load(read.dbc, dplyr, stringr,foreign,LexisPlotR,lubridate,visdat,ggplot2)
 
-sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds") # caminho ajustado para agir pelo Rproject
+sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds")
 
-### Ajustando o banco SIM:
-idade <- function(x){
-  if(str_sub(x,1,1)<4){ #comentar esse caso
-    x = 0} else if (str_sub(x,1,1)==4){ #comentar esse caso
-      x = 0+as.numeric(str_sub(x,2))}
-    else if (str_sub(x,1,1)==5){ #comentar esse caso
-      x = 100+as.numeric(str_sub(x,2))}
-    else{ #comentar esse caso
-      x = NA}
-    return (x)
-}
-
-sim_lexis <- sim_consolidado %>%
-  select (DTOBITO,SEXO,DTNASC,CODMUNRES,IDADE) %>%
+sim_lexis<-sim_consolidado %>% select(DTOBITO,SEXO,DTNASC,CODMUNRES,IDADE) %>%
   mutate(DTOBITO=dmy(DTOBITO),
          DTNASC=dmy(DTNASC))
+sim_consolidado$IDADE <- as.numeric(as.character(sim_consolidado$IDADE))
 
-sim_lexis$IDADEA <- sapply(sim_consolidado$IDADE, idade) #funcao idade não roda. Verificar e comentar os casos
+sim_lexis$IDADEA <- (sim_consolidado$IDADE - 400)
 
-# vis_miss(sim_lexis)
+sim_lexis$IDADEA[sim_lexis$IDADEA < 0] <- 0 
+sim_lexis$IDADEA[sim_lexis$IDADEA > 200] <- NA 
+summary(sim_lexis$IDADEA)
 
 dados <- sim_lexis %>%
   mutate(
@@ -32,7 +22,7 @@ dados <- sim_lexis %>%
   group_by(id_ob_anos_comp, ano_nasc, ano_obito, SEXO) %>%
   mutate(quantidade=n())%>%
   ungroup()%>%
-  distinct(id_ob_anos_comp,SEXO,ano_nasc,ano_obito,.keep_all = TRUE)%>%
+  distinct(id_ob_anos_comp,SEXO,ano_nasc,ano_obito,.keep_all = TRUE) %>%
   arrange(ano_obito,desc(ano_nasc),id_ob_anos_comp,SEXO)
 
 #QUESTÃO 1) 
@@ -56,11 +46,3 @@ diagrama <- diagrama +
            label=c(paste0(dados1$quantidade)),
            color="blue")
 diagrama
-
-
-
-# b)
-
-# c)
-
-# d)
