@@ -66,17 +66,24 @@ obit_sx_et <- dados_sim %>%
   group_by(faixa_et, SEXO) %>%
   summarise(obitos = n())
 
+obit_wide <- obit_sx_et %>% #transforma a ultima tabela em formato wide
+  pivot_wider(names_from = SEXO, values_from = obitos)%>%
+  rename("obit_masc" = Masc, "obit_fem" = Fem)
+
 
 #2. populacao por M e F e grupo quinquenal
 pop_quinq <- pop_ac_sx_etaria%>%
-  filter(!is.na(M_2019))%>%
+  filter(!is.na(M_2019))%>% #removendo a linha com faixa etária NA
   select(M_2019, F_2019)%>%
   mutate(faixa_et = faixas_quinq) %>%
-  pivot_longer(cols = c(M_2019, F_2019),names_to = "SEXO", values_to = "populacao")%>%
-  mutate(SEXO = if_else(SEXO == "M_2019", "Masc", "Fem"))
+  rename("pop_masc" = M_2019, "pop_fem" = F_2019)
 
 #3. calculo das colunas nMx
 
-nMx <- obit_sx_et %>%
-  inner_join(pop_quinq, by = c("faixa_et", "SEXO")) %>%
-  mutate(nmx = obitos/populacao) #abrir essa tabela em wider
+nMx <- obit_wide %>%
+  filter(!is.na(faixa_et))%>% #removendo a linha com faixa etária NA
+  bind_cols(pop_quinq, .name_repair = "universal") %>% #juntando as colunas das 2 tabelas
+  select(-c(I, faixa_et...7))%>% #removendo 2 variaveis indesejadas
+  rename('faixa_et' = faixa_et...1)%>% #dando nome adequado a faixa etaria
+  mutate(nMx_masc = (obit_masc/pop_masc)*1000,
+         nMx_fem = (obit_fem/pop_fem)*1000)
