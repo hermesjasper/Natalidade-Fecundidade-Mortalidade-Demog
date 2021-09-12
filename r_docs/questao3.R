@@ -1,6 +1,7 @@
 # QUESTA0 3 ----
 
 library(tidyverse)
+library(viridis)
 
 
 dados_sim <- readRDS("./data/SIM/sim_consolidado.rds")
@@ -87,3 +88,25 @@ nMx <- obit_wide %>%
   rename('faixa_et' = faixa_et...1)%>% #dando nome adequado a faixa etaria
   mutate(nMx_masc = (obit_masc/pop_masc)*1000,
          nMx_fem = (obit_fem/pop_fem)*1000)
+
+
+# grafico nMx ----
+
+#exportar em 1100x420
+nMx %>%
+  select(faixa_et, nMx_masc, nMx_fem)%>%
+  pivot_longer(cols = -faixa_et, names_to = "Sexo", values_to = "nMx")%>%
+  mutate(Sexo = if_else(Sexo == "nMx_masc", "Masculino", "Feminino"))%>%
+  ggplot(aes(x = faixa_et, y = nMx, group = Sexo, colour = Sexo))+
+  geom_line(size = 1)+
+  scale_color_manual(values = c("skyblue", "orange"))+
+  scale_y_log10()+
+  xlab("Faixa etária")+
+  theme_bw()+
+  theme(axis.title.y = element_text(angle = 0, size = 12, face = "bold"),
+        axis.title.x = element_text(size = 12, face = "bold"),
+        axis.ticks = element_line(color = "gray"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
