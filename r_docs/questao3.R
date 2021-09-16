@@ -2,13 +2,45 @@
 
 library(tidyverse)
 library(viridis)
+library(readxl)
 
+
+
+### Leitura dos dados ---
 
 dados_sim <- readRDS("./data/SIM/sim_consolidado.rds")
 
 dados_nasc <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 
 pop_ac_sx_etaria <- read.csv("./data/pop_AC_sexo_etaria.csv")
+
+#populacao por sexo e faixa etária do AC centrada em 2019
+
+faixas_et <- read_xls("./data/projecoes_2018_populacao_2010_2060_20200406.xls", sheet = "AC",
+                          range = "AC!A5:A25") %>%
+  pull()
+
+M_2019 <- read_xls("./data/projecoes_2018_populacao_2010_2060_20200406.xls", sheet = "AC",
+                            range = "AC!J5:L25")%>%
+  rowSums()/3
+  
+F_2019 <- read_xls("./data/projecoes_2018_populacao_2010_2060_20200406.xls", sheet = "AC",
+                     range = "AC!J28:L48")%>%
+  rowSums()/3
+
+pop_ac_sx_etaria <- tibble(faixas_et, M_2019, F_2019)[-1,]
+
+
+# Populacao centrada em 2019 pelo IBGE
+pop_2019_m <- read_xls("./data/projecoes_2018_populacao_2010_2060_20200406.xls", sheet = "AC",
+                   range = "AC!J5:L6") %>%
+  rowSums()/3
+
+pop_2019_f <- read_xls("./data/projecoes_2018_populacao_2010_2060_20200406.xls", sheet = "AC",
+                      range = "AC!J28:L29") %>%
+  rowSums()/3
+  
+pop_2019 <- pop_2019_m + pop_2019_f
 
 
 
@@ -21,8 +53,7 @@ pop_ac_sx_etaria <- read.csv("./data/pop_AC_sexo_etaria.csv")
 # • Usualmente expressa por mil habitantes
 
 
-# Populacao de 2019 pelo IBGE
-pop_2019 <- 881935
+
 
 #obitos_2019 <- 4178
 obitos_2019 <- dados_sim %>%
@@ -43,10 +74,10 @@ TBM <- (obitos_2019/pop_2019)*1000
 #1. tabela pelo SIM de óbitos M e F por grupo etário quinquenal
 
 #labels do cut
-faixas_quinq <- pop_ac_sx_etaria %>%
-  select(Total)%>%
-  filter(!is.na(Total) & Total!= " ")%>%
-  pull()
+# faixas_quinq <- pop_ac_sx_etaria %>%
+#   select(Total)%>%
+#   filter(!is.na(Total) & Total!= " ")%>%
+#   pull()
 
 obit_sx_et <- dados_sim %>%
   select(SEXO, IDADE)%>% #puxa apenas essas 2 variaveis
