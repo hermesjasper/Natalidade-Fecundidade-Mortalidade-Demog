@@ -1,0 +1,47 @@
+---
+title: "Questão 3"
+author: "Hermes"
+date: "08/09/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+options(scipen = 999)
+knitr::opts_chunk$set(echo = FALSE)
+pacman::p_load(dplyr, stringr, scales)
+
+sim_consolidado <- readRDS("../data/sim/sim_consolidado.rds")
+
+sim_consolidado$ANO_OBITO <- sim_consolidado$DTOBITO %>% str_extract('(?<=[0-9]{4})[0-9]{4}')
+sim_3 <- sim_consolidado %>% filter(ANO_OBITO >= 2018 & ANO_OBITO <= 2020)
+
+```
+
+## Questão 3: Mortalidade
+
+### *a)* Com base nos dados sobre óbitos do SIM para 2018 a 2020 e a população por sexo e idade estimada (projetada) em 2019 para a UF, obtenha os seguintes indicadores:
+  
+- Taxa Bruta de Mortalidade
+```{r}
+pop_2019 <- 881935
+mortes_2018_20 <- length(sim_3$CONTADOR)
+taxa_bruta <- label_percent(accuracy = 0.01)(mortes_2018_20/pop_2019)
+```
+De acordo com os dados análisados, a taxa bruta de mortalidade no estado do Acre (AC) no período de 2018 à 2020 é de `r taxa_bruta`, em que a população média é a projetada pelo IBGE para 2019, 881.935 habitantes.
+Esse número causa desconfiança quando comparado com a taxa bruta calculada pelo Ministério da Saúde para o ano de 2011 do estado, que é de 4,6%. Já que essa variânvia é muito grande quando comparada com a ano à ano de 2000 a 2011.
+Um dos fatores para isso pode ser o tratamento extra realizado no banco do SIM, que pode vir com vários erros de digitação, ou até mesmo pelo uso de bases auxiliares pelo Ministério da Saúde na realização dessa pesquisa.
+
+pesquis = http://tabnet.datasus.gov.br/cgi/idb2012/a10b.html
+
+
+- Taxas específicas de mortalidade por sexo e idade - nMx (grafique)
+
+```{r}
+
+
+```
+
+
+
+### b) Calcule a TMI, utilizando o número médio de óbitos ocorridos entre 2018 e 2020 e o número de nascimentos de 2019. Calcule os indicadores: taxa de mortalidade neonatal, neonatal precoce, neonatal tardia, posneonatal. Agregando a informação sobre óbitos fetais para os mesmos anos, calcule a taxa de mortalidade perinatal.
+
