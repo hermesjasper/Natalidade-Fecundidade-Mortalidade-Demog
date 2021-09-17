@@ -68,10 +68,12 @@ for (i in c(2:length(sim))){
 rm(temp)
 
 sim_consolidado <- full_join(sim_consolidado, readRDS("./data/sim/SIM_2020_ACRE.rds"))
+#sim_consolidado <- readRDS("./data/sim/sim_consolidado.rds")
 sim_consolidado$ac <- sim_consolidado$CODMUNRES %>% str_extract('[0-9]{2}')
 sim_consolidado <- sim_consolidado %>% filter(ac == '12')
 
 sinasc_consolidado <- full_join(sinasc_consolidado, readRDS("./data/sinasc/sinasc_2020_ACRE.rds"))
+#sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 sinasc_consolidado$ac <- sinasc_consolidado$CODMUNRES %>% str_extract('[0-9]{2}')
 sinasc_consolidado <- sinasc_consolidado %>% filter(ac == '12')
 
