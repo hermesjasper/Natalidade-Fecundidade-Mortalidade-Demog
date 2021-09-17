@@ -161,26 +161,3 @@ TLR19<-sum((f19_3$TEFfem19/1000)*f19_3$TDVfem19)
 #Taxa L?quida de Reprodu??o - 2020
 f20_3 <- f20_2 %>% mutate(TDVfem20 = (Tabua_de_vida_2020_mulhers$nLx/100000))
 TLR20<-sum((f20_3$TEFfem20/1000)*f20_3$TDVfem20)
-
-
-
-#Associa??o entre idade e escolaridade da m?e
-
-as.numeric(sinasc20$IDADEMAE)
-
-cor(sinasc20$IDADEMAE,sinasc20$ESCMAE,method = "spearman")
-
-E#Associa??o entre tipo de parto e escolaridade da m?e
-library(vcd)
-tab=ftable(as.factor(sinasc20$PARTO),
-           as.factor(sinasc20$ESCMAE),
-           dnn=c("Tipo de parto", "Escol. da m?e"))
-tab
-tabs <- xtabs(~ PARTO + ESCMAE, data = sinasc20)
-tabs
-summary(assocstats(tabs))
-
-fisher.test(sinasc20$PARTO, sinasc20$ESCMAE)
-### Escolaridade, Anos de estudo conclu?dos (1: Nenhuma; 2: 1 a 3 anos; 
-### 3:4 a 7 anos; 4: 8 a 11 anos; 5: 12 e mais; 9: Ignorado )
-### Tipo de parto (9: Ignorado; 1: Vaginal; 2: Ces?reo)
