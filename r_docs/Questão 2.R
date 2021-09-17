@@ -161,3 +161,40 @@ TLR19<-sum((f19_3$TEFfem19/1000)*f19_3$TDVfem19)
 #Taxa L?quida de Reprodu??o - 2020
 f20_3 <- f20_2 %>% mutate(TDVfem20 = (Tabua_de_vida_2020_mulhers$nLx/100000))
 TLR20<-sum((f20_3$TEFfem20/1000)*f20_3$TDVfem20)
+
+## COMPARANDO COM O RIPSA E O GBD
+## Todas as taxas estão significantemente menores que as do RIPSA de 2010.
+
+#Taxa de fecundidade Total
+a05_1_ <- read_excel("./data/a05-_1_.xlsx")
+TFT2010<-a05_1_[c(1,40)]
+TFT18
+TFT19
+TFT20
+
+#Taxa de fecundidade especificas
+a06_10_1_ <- read_excel("./data/a06_10-_1_.xlsx")
+d18_10 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)/1000)
+d18_10
+d19_10 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)/1000)
+d19_10
+d20_10 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)/1000)
+d20_10
+
+#Taxa bruta de natalidade
+a07_1_ <- read_excel("data/a07-_1_.xlsx")
+TBN2010<-a07_1_[c(1,49)]
+TBN2010
+tbn18
+tbn19
+tbn20
+
+#Indicador de reprodução
+TFT2010
+TBR2010<-(2.81/2.05)
+TBR2010
+#TBR= TFT/(1 + RS0)
+#onde: RS0 é a razão o de sexo ao
+#nascimento. Na ausência de RS0 ,
+#pode-se utilizar no denominador
+#o valor de 2,05.
