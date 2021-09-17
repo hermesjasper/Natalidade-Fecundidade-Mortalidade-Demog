@@ -119,12 +119,19 @@ maes %>%
 
 ### idade e escolaridade da mãe ----
 
-data_limpa %$%
-  cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
 
-data_limpa %>%
-  filter(escolaridade != '12 ou mais') %$%
-  cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
+#------------ desconsiderar---------------#
+# data_limpa %$%
+#   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
+# 
+# data_limpa %>%
+#   filter(escolaridade != '12 ou mais') %$%
+#   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
+#---------------------------------------#
+
+
+data_limpa %$%
+  kruskal.test(IDADEMAE ~ escolaridade) #chi quadrado pelo KW sugere associacao
 
 
 #grafico de distribuicao das idades, com linhas de medianas
@@ -153,3 +160,20 @@ data_limpa %>%
 
 ### tipo de parto e escolaridade da mãe ----
   #sob consulta
+
+data_limpa %$%
+  chisq.test(PARTO, ESCMAE) # Qui quadrado altíssimo, sugete associacao
+
+prop_partos <- data_limpa %>%
+  group_by(escolaridade)%>%
+  mutate(total = n(),
+         PARTO = if_else(PARTO == '1', 'vaginal', 'cesario'))%>%
+  group_by(escolaridade,PARTO)%>%
+  mutate(prop_parto = n()/total) %>%
+  select(escolaridade, PARTO, prop_parto)%>%
+  unique()%>%
+  arrange(escolaridade)
+
+prop_partos %>%
+  ggplot(aes(x = escolaridade, y = prop_parto, group = PARTO, color = PARTO))+
+  geom_line()
