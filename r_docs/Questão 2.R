@@ -166,14 +166,26 @@ TLR20<-sum((f20_3$TEFfem20/1000)*f20_3$TDVfem20)
 ## Todas as taxas estão significantemente menores que as do RIPSA de 2010.
 
 #Taxa de fecundidade Total
+#Ripsa
 a05_1_ <- read_excel("./data/a05-_1_.xlsx")
 TFT2010<-a05_1_[c(1,40)]
+#GBD
+TFT_ACRE_BRASIL <- read_excel("./data/TFT ACRE BRASIL.xlsx")
+TFT_ACRE_BRASIL[c(1,2),c(7,12,13,14)]
+#SINASC
 TFT18
 TFT19
 TFT20
 
 #Taxa de fecundidade especificas
+#Ripsa
 a06_10_1_ <- read_excel("./data/a06_10-_1_.xlsx")
+#GBD
+TEF_2018 <- read_excel("./data/TEF-2018.xlsx")
+TEF_2018
+TEF_2019 <- read_excel("./data/TEF-2019.xlsx")
+TEF_2019
+#SINASC
 d18_10 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)/1000)
 d18_10
 d19_10 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)/1000)
@@ -182,9 +194,11 @@ d20_10 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)/1000)
 d20_10
 
 #Taxa bruta de natalidade
+#Ripsa
 a07_1_ <- read_excel("data/a07-_1_.xlsx")
 TBN2010<-a07_1_[c(1,49)]
 TBN2010
+#SINASC
 tbn18
 tbn19
 tbn20
@@ -198,3 +212,4 @@ TBR2010
 #nascimento. Na ausência de RS0 ,
 #pode-se utilizar no denominador
 #o valor de 2,05.
+
