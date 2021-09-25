@@ -29,13 +29,7 @@
 
 
 ### CID COVID 19 ----
-# Pneumonia devido a COVID-19	                                                J12.82
-# Síndrome inflamatória multissistêmica (MIS) com COVID-19	                  M35.81
-# Outro envolvimento sistêmico especificado do tecido conjuntivo com COVID-19	M35.89
-# Sequelas de COVID-19	                                                      B94.8
-# História pessoal do COVID-19	                                              Z86.16
-# Contato com e (suspeita) exposição a COVID-19 ou SARS-CoV-2	                Z20.822
-# Infecção por coronavírus de localização não especificada                    B34.2
+# B34.2, U04.9
 
 
 ### Pacotes ----
