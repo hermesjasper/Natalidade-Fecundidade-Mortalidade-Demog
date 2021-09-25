@@ -106,21 +106,25 @@ dados2 <- dados2 %>%
                         ))
 
 
-diagrama <- lexis_grid(year_start=2000,year_end=2020,age_start=0,age_end=5,delta=1)
-
-diagrama <- diagrama +
-  annotate(geom="text", x=as.Date(paste0((dados2$ano_obito)[dados2$TRI==0]
-                                         ,"-09-06"))
-           ,y=dados2$id_ob_anos_comp[dados2$TRI==0]+0.3,
-           label=c(paste0(dados2$quantidade[dados2$TRI==0])),
-           color=(dados2$cor)[dados2$TRI==0])+
-  annotate(geom="text", x=as.Date(paste0((dados2$ano_obito + 1)[dados2$TRI==1]
-                                         ,"-05-06"))
-           ,y=dados2$id_ob_anos_comp[dados2$TRI==1]+0.75,
-           label=c(paste0(dados2$quantidade[dados2$TRI==1])),
-           color=(dados2$cor)[dados2$TRI==1])
-
-diagrama
+  diagrama <- lexis_grid(year_start=2000,year_end=2020,age_start=0,age_end=5,delta=1)
+  
+  
+  diagrama <- diagrama +
+    annotate(geom="text", x=as.Date(paste0((dados2$ano_obito)[dados2$TRI==0]
+                                           ,"-09-06"))
+             ,y=dados2$id_ob_anos_comp[dados2$TRI==0]+0.3,
+             label=c(paste0(dados2$quantidade[dados2$TRI==0])),
+             color=(dados2$cor)[dados2$TRI==0])+
+    annotate(geom="text", x=as.Date(paste0((dados2$ano_obito + 1)[dados2$TRI==1]
+                                           ,"-05-06"))
+             ,y=dados2$id_ob_anos_comp[dados2$TRI==1]+0.75,
+             label=c(paste0(dados2$quantidade[dados2$TRI==1])),
+             color=(dados2$cor)[dados2$TRI==1])
+  
+  diagrama <- diagrama + ggtitle("Diagrama de Lexis") +
+    xlab("Coortes") + ylab("Anos Completos")
+  
+  diagrama
 
 #################################################################################################################################################
 #################################################################################################################################################
@@ -139,11 +143,12 @@ sinasc_lexis$ANONASC <- year(sinasc_lexis$DTNASC)
 b <- sinasc_lexis %>%
   filter (ANONASC < 2016)
 
+#265743 obs.
 
 b2 <- dados2 %>%
   filter (ano_obito < 2016)
 
-sum(b2$quantidade)
+sum(b2$quantidade) #6260
 
 # b2 tem 6260 indivíduos nascidos em 2000-2015 e falecidos neste intervalo, enquanto b tem 265743 indivíduos nascidos no mesmo
 # intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.9764434
@@ -168,6 +173,7 @@ c2 <- sinasc_lexis %>%
   filter (ANONASC < 2020)
 
 # 330697 nascimentos entre 2000 e 2019
+
 # Logo, a probabilidade de sobreviver ao primeiro ano é 1-(5190/330697) = 0.9843059 
 
 #
