@@ -1,0 +1,197 @@
+---
+author: 
+  - Ana Luiza Almeida 
+  - Bruno Gondim Toledo 
+  - César A. Galvão 
+  - Hermes Winarski
+title: "Estudo de Caso: Indicadores de natalidade, fecundidade e mortalidade do Acre (2000-2020)"
+subtitle: "Demografia 2020.1 - Prof. Ana Maria Nogales"
+date: "Brasília, Setembro, 2021"
+output:
+  html_document:
+    df_print: paged
+    highlight: textmate
+    includes:
+      in_header: "C:/Users/herme/OneDrive/Documentos/UnBanda/5º Semestre/Demografia/Natalidade-Fecundidade-Mortalidade-Demog/imagens/banner.html"
+    number_sections: no
+    theme: flatly
+    toc: no
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
+---
+
+
+
+<style type="text/css">
+h1.title {
+  font-size: 37px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+h3.subtitle {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+h4.author { /* Header 4 - and the author and data headers use this too  */
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+h4.date { /* Header 4 - and the author and data headers use this too  */
+  font-size: 18px;
+  color: DarkBlue;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+</style>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(message = FALSE)
+knitr::opts_chunk$set(warning = FALSE)
+knitr::opts_chunk$set(fig.align = 'center')
+knitr::opts_chunk$set(fig.width=7*0.8, fig.height=5*0.8)
+
+pacman::p_load(dplyr,knitr,kableExtra)
+source('aux-source.R', encoding = 'UTF-8')
+# library(tidyverse)
+# library(magrittr)
+# library(tidymodels)
+# library(kableExtra)
+# library(ggfortify)
+# library(readxl)
+# library(prettydoc)
+# library(matlib)
+```
+
+```{r chunk-nomeado, echo = FALSE}
+
+
+```
+
+
+<br>
+
+# Introdução
+
+
+```{r chunk-nomeado-2, echo = FALSE}
+# obrigatorios(190011572) %>%
+#   kbl(align = "c", col.names = c('Seção', 'Página', 'Exercícios')) %>%
+#   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")
+```
+
+<br>
+
+# Resultados Obtidos {.tabset}
+
+## Questão 1 
+
+### Item a
+
+```{r }
+diagrama
+```
+
+
+<br>
+
+### Item b
+
+Foram observados 6.260 indivíduos nascidos vivos no intervalo de 2000 à 2015, e posteriormente falecidos dentro deste mesmo intervalo, enquanto registra-se 265.743 indivíduos nascidos no mesmo intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.9764434
+
+<br>
+
+### Item c
+
+Foram observados 5.190 obitos em menores de 1 ano no intervalo de 2000 à 2019, enquanto registra-se 330.697 nascimentos no mesmo intervalo, logo, a probabilidade de sobreviver ao primeiro foi de 1 - (5190/330697) = 0.9843059 
+
+<br>
+
+### Item d
+
+Dentro dos valores utilizados para a elaboração das questões, a maior parte das informações estava contida, não sendo comum encontrar valores em branco.
+Porém, não temos como ter certeza se os dados trabalhados refletem a totalidade dos casos de nascimentos e mortes ocorridos, visto que pode haver fuga de registro.
+Foram observados alguns valores impossíveis (ex: nascido em 2000 com 70 anos de idade), porém foram poucos e são de se esperar em grandes bancos de dados.
+
+<br>
+
+## Questão 2
+
+### Item a
+
+## Questão 3
+
+### Item **b**
+
+- Taxas de mortalidade infantil, neonatal, neonatal precoce, neonatal tardio, pós neonatal, neonatal perinatal e óbitos fetais.
+
+```{r}
+tabela3b %>%
+  kbl(align = "c", caption = "Tabela 1: Tabela de frequências para classes de notas de matemática", digits = 2) %>%
+  kable_paper(full_width = T) %>%
+  footnote(general_title = "Fonte:", general = "INEP - SAEB",
+           footnote_as_chunk = T)
+```
+
+
+<br/><br/>
+
+### Item **c**
+
+- Comparação das taxas de mortalidade obtidas com os dados do RIPSA e GBD
+
+#### {.tabset}
+
+##### Tabela
+
+```{r}
+tabela3c %>%
+  kbl(align = "c", caption = "Tabela 1: Tabela de frequências para classes de notas de matemática", digits = 2) %>%
+  kable_paper(full_width = T) %>%
+  footnote(general_title = "Fonte:", general = "INEP - SAEB",
+           footnote_as_chunk = T)
+```
+
+##### Infantil
+
+```{r}
+plot3c_a
+
+```
+
+##### Neonatal
+
+```{r }
+plot3c_b
+```
+
+##### Neonatal Precoce
+
+```{r }
+plot3c_c
+```
+
+##### Neonatal Tardia
+
+```{r }
+plot3c_d
+```
+
+##### Pós Neonatal
+
+```{r }
+plot3c_e
+```
+
+#### <br/><br/>
+
+#### Comentários
+
+As taxas calculadas pelas pesquisa relacionada à mortalidade de menores de 1 ano do RIPSA, apresentam uma certa queda conforme o ano da pesquisa aumenta.
+
+Apesar dessa tendencia em melhora, as taxas obtidas à partir dos dados do SIM e SINAS são **consideravelmente** menores que as da últimas pesquisa do RIPSA (Norte 2004). O que pode ser exlicado pelo grande salto na linha do tempo entre as taxas obtidas no item **b** e a última taxa calculada pelo RIPSA, dando tempo pra essa taxa diminuir bastante.
+
+#### <br/><br/>

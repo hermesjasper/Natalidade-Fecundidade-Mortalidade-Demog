@@ -120,14 +120,15 @@ maes %>%
 ### idade e escolaridade da mãe ----
 
 
-#------------ desconsiderar---------------#
-# data_limpa %$%
-#   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
-# 
-# data_limpa %>%
-#   filter(escolaridade != '12 ou mais') %$%
-#   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
-#---------------------------------------#
+
+data_limpa %$%
+  cor(IDADEMAE, as.numeric(escolaridade), method = "spearman") #não sugere cor linear
+#obviamente, já que a distribuicao parece um sino com assimetria à direita
+
+data_limpa %>%
+  filter(escolaridade != '12 ou mais') %$%
+  cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
+
 
 
 data_limpa %$%
