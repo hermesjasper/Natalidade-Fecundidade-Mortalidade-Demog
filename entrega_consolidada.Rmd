@@ -1,7 +1,7 @@
 ---
 author: 
   - Ana Luiza Almeida 
-  - Bruno Toledo 
+  - Bruno Gondim Toledo 
   - César A. Galvão 
   - Hermes Winarski
 title: "Estudo de Caso: Indicadores de natalidade, fecundidade e mortalidade do Acre (2000-2020)"
@@ -91,18 +91,30 @@ source('aux-source.R', encoding = 'UTF-8')
 
 ### Item a
 
-asdf
-asdf
-asdf
+```{r }
+diagrama
+```
 
 
 <br>
 
 ### Item b
 
-asdf
-asdf
-asdef
+Foram observados 6.260 indivíduos nascidos vivos no intervalo de 2000 à 2015, e posteriormente falecidos dentro deste mesmo intervalo, enquanto registra-se 265.743 indivíduos nascidos no mesmo intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.9764434
+
+<br>
+
+### Item c
+
+Foram observados 5.190 obitos em menores de 1 ano no intervalo de 2000 à 2019, enquanto registra-se 330.697 nascimentos no mesmo intervalo, logo, a probabilidade de sobreviver ao primeiro foi de 1 - (5190/330697) = 0.9843059 
+
+<br>
+
+### Item d
+
+Dentro dos valores utilizados para a elaboração das questões, a maior parte das informações estava contida, não sendo comum encontrar valores em branco.
+Porém, não temos como ter certeza se os dados trabalhados refletem a totalidade dos casos de nascimentos e mortes ocorridos, visto que pode haver fuga de registro.
+Foram observados alguns valores impossíveis (ex: nascido em 2000 com 70 anos de idade), porém foram poucos e são de se esperar em grandes bancos de dados.
 
 <br>
 
