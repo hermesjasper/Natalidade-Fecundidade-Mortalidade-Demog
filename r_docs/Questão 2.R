@@ -65,20 +65,19 @@ tgf20<-((nrow(sinasc20))/sum(Popidadesexo_mulheres[5:11,4]))*1000
 #Taxa de Fecundidade Espec?ficas - 2018
 d18_2 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)*1000)
 d18_2
-ggplot(d18_2, mapping = aes(GRUPO.ETARIO,TEF18))+
-  geom_point()
-
+tef18<-ggplot(d18_2, mapping = aes(GRUPO.ETARIO,TEF18,group=1))+
+  geom_line()
 #Taxa de Fecundidade Espec?ficas - 2019
 d19_2 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)*1000)
 d19_2
-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19))+
-  geom_point()
+tef19<-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19,group=1))+
+  geom_line()
 
 #Taxa de Fecundidade Espec?ficas - 2020
 d20_2 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)*1000)
 d20_2
-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20))+
-  geom_point()
+tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
+  geom_line()
 
 #Taxa de Fecundidade Total - 2018
 TFT18 <- 5*sum(d18_2$TEF18/1000)
@@ -162,6 +161,46 @@ TLR19<-sum((f19_3$TEFfem19/1000)*f19_3$TDVfem19)
 f20_3 <- f20_2 %>% mutate(TDVfem20 = (Tabua_de_vida_2020_mulhers$nLx/100000))
 TLR20<-sum((f20_3$TEFfem20/1000)*f20_3$TDVfem20)
 
+
+#letra A
+#Taxa Bruta de Natalidade
+tbn18
+tbn19
+tbn20
+
+#Taxa de Fecundidade Geral
+tgf18
+tgf19
+tgf20
+
+#Taxas específicas de fecundidade - nfx (Grafique esses valores)
+d18_2
+tef18
+
+d19_2
+tef19
+
+d20_2
+tef20
+
+#Taxa de Fecundidade Total
+TFT18
+TFT19
+TFT20
+#Taxas específicas de fecundidade feminina 
+f18_2
+f19_2
+f20_2
+#Taxa Bruta de Reprodução
+TBR18
+TBR19
+TBR20
+#Taxa Líquida de Reprodução 
+TLR18
+TLR19
+TLR20
+
+#letra B
 ## COMPARANDO COM O RIPSA E O GBD
 ## Todas as taxas estão significantemente menores que as do RIPSA de 2010.
 
@@ -212,4 +251,3 @@ TBR2010
 #nascimento. Na ausência de RS0 ,
 #pode-se utilizar no denominador
 #o valor de 2,05.
-
