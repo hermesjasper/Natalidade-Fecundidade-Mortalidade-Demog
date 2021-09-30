@@ -12,8 +12,8 @@ library(RColorBrewer)
 #################################################################################################################################################
 #################################################################################################################################################
 
-# sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds")
-# sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
+ sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds")
+ sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 
 # Preparação do banco: Idade de código para número, remoção de variáveis que não vão ser utilizadas,
 # introdução de um ifelse comparativo para definir se a pessoa nasceu antes ou depois da metade exata do ano
@@ -68,6 +68,19 @@ dados2 <- dados2 %>%
   arrange(ano_obito, desc(ano_nasc))
 
 dados2$id_ob_anos_comp <- (dados2$ano_obito - dados2$ano_nasc)
+
+# Agora, o sinasc...
+
+dados<-sinasc_consolidado %>% select(DTNASC) %>%
+  mutate(DTNASC=dmy(DTNASC),
+         ano_nasc=year(DTNASC)) %>%
+  group_by(ano_nasc) %>%
+  mutate(quantidade=n(), controle='0')%>%
+  ungroup() %>%
+  distinct(ano_nasc, .keep_all = T) %>%
+  select(ano_nasc, quantidade,controle)
+
+dados$controle <- as.numeric(dados$controle)
 
 ## Lexis Plot 
 
@@ -125,7 +138,19 @@ dados2 <- dados2 %>%
     xlab("Coortes") + ylab("Anos Completos")
   
   diagrama
+  
+# Adicionando os nascimentos por ano, verificar a estética...
+  
+  diagrama <- diagrama +
+    annotate(geom="text", x=as.Date(paste0((dados$ano_nasc)
+                                           ,"-06-30"))
+             ,y=dados$controle+.1,
+             label=c(paste0(dados$quantidade)),
+             color='black',
+             size = 2)
 
+  diagrama
+  
 #################################################################################################################################################
 #################################################################################################################################################
 
@@ -151,7 +176,7 @@ b2 <- dados2 %>%
 sum(b2$quantidade) #6260
 
 # b2 tem 6260 indivíduos nascidos em 2000-2015 e falecidos neste intervalo, enquanto b tem 265743 indivíduos nascidos no mesmo
-# intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.9764434
+# intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.97
 
 #################################################################################################################################################
 #################################################################################################################################################
@@ -174,7 +199,7 @@ c2 <- sinasc_lexis %>%
 
 # 330697 nascimentos entre 2000 e 2019
 
-# Logo, a probabilidade de sobreviver ao primeiro ano é 1-(5190/330697) = 0.9843059 
+# Logo, a probabilidade de sobreviver ao primeiro ano é 1-(5190/330697) = 0.98
 
 #
 # d) Comente sobre os valores encontrados. Não esquecer a qualidade da informação trabalhada.
@@ -188,18 +213,19 @@ c2 <- sinasc_lexis %>%
 #
 
 
-# rm(sim_consolidado)
-# rm(sinasc_consolidado)
+rm(sim_consolidado)
+rm(sinasc_consolidado)
 rm(sim_lexis)
 rm(sinasc_lexis)
 rm(paleta)
 rm(paleta2)
 rm(paleta3)
-#rm(b)
-#rm(b2)
-#rm(c)
-#rm(c2)
-#rm(dados2)
+rm(b)
+rm(b2)
+rm(c)
+rm(c2)
+rm(dados)
+rm(dados2)
 
 #################################################################################################################################################
 #################################################################################################################################################
