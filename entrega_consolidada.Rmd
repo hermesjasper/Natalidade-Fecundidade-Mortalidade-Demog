@@ -12,7 +12,7 @@ output:
     df_print: paged
     highlight: textmate
     includes:
-      in_header: "C:/Users/herme/OneDrive/Documentos/UnBanda/5º Semestre/Demografia/Natalidade-Fecundidade-Mortalidade-Demog/imagens/banner.html"
+      in_header: "./imagens/banner.html"
     number_sections: no
     theme: flatly
     toc: no

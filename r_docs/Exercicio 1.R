@@ -12,8 +12,8 @@ library(RColorBrewer)
 #################################################################################################################################################
 #################################################################################################################################################
 
-sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds")
-sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
+# sim_consolidado <- readRDS("./data/SIM/sim_consolidado.rds")
+# sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 
 # Preparação do banco: Idade de código para número, remoção de variáveis que não vão ser utilizadas,
 # introdução de um ifelse comparativo para definir se a pessoa nasceu antes ou depois da metade exata do ano
@@ -188,8 +188,8 @@ c2 <- sinasc_lexis %>%
 #
 
 
-rm(sim_consolidado)
-rm(sinasc_consolidado)
+# rm(sim_consolidado)
+# rm(sinasc_consolidado)
 rm(sim_lexis)
 rm(sinasc_lexis)
 rm(paleta)
