@@ -162,47 +162,9 @@ f20_3 <- f20_2 %>% mutate(TDVfem20 = (Tabua_de_vida_2020_mulhers$nLx/100000))
 TLR20<-sum((f20_3$TEFfem20/1000)*f20_3$TDVfem20)
 
 
-#letra A
-#Taxa Bruta de Natalidade
-tbn18
-tbn19
-tbn20
-
-#Taxa de Fecundidade Geral
-tgf18
-tgf19
-tgf20
-
-#Taxas específicas de fecundidade - nfx (Grafique esses valores)
-d18_2
-tef18
-
-d19_2
-tef19
-
-d20_2
-tef20
-
-#Taxa de Fecundidade Total
-TFT18
-TFT19
-TFT20
-#Taxas específicas de fecundidade feminina 
-f18_2
-f19_2
-f20_2
-#Taxa Bruta de Reprodução
-TBR18
-TBR19
-TBR20
-#Taxa Líquida de Reprodução 
-TLR18
-TLR19
-TLR20
 
 #letra B
-## COMPARANDO COM O RIPSA E O GBD
-## Todas as taxas estão significantemente menores que as do RIPSA de 2010.
+
 
 #Taxa de fecundidade Total
 #Ripsa
@@ -251,3 +213,54 @@ TBR2010
 #nascimento. Na ausência de RS0 ,
 #pode-se utilizar no denominador
 #o valor de 2,05.
+
+#taxas18<-c(tbn18[1,1],tgf18,TFT18,TBR18,TLR18)
+#taxas19<-c(tbn19[1,1],tgf19,TFT19,TBR19,TLR19)
+#taxas20<-c(tbn20[1,1],tgf20,TFT20,TBR20,TLR20)
+
+
+
+letra_a <- data.frame("2018" = taxas18,
+                           "2019" = taxas19,
+                           "2020" = taxas20,
+                           stringsAsFactors = FALSE)
+#rownames(letra_a)[1] = 'Taxa Bruta de Natalidade'
+#rownames(letra_a)[2] = 'Taxa Geral de Fecundidade'
+#rownames(letra_a)[3] = 'Taxa de Fecundidade Total'
+#rownames(letra_a)[4] = 'Taxa Bruta de Reprodução'
+#rownames(letra_a)[5] = 'Taxa Líquida de Reprodução'
+
+letra_a
+
+d18_2
+tef18
+
+d19_2
+tef19
+
+d20_2
+tef20
+
+f18_2
+f19_2
+f20_2
+
+letra_b<-(data.frame("Sinasc2018" = c(TFT18, 
+                                      tbn18),
+                     'GBD2018'= c(TFT_ACRE_BRASIL[1,12],
+                                  '-'),
+                     "Sinasc2019" = c(TFT19,
+                                      tbn19),
+                     'GBD2019'= c(TFT_ACRE_BRASIL[2,12],
+                                  '-'),
+                     "Sinasc2020" = c(TFT20,
+                                      tbn20),
+                     "RIPSA" = c(TFT2010[2,2],
+                                 TBN2010[2,2]),
+                     stringsAsFactors = FALSE))
+
+colnames(letra_b)[6] =  "RIPSA"
+colnames(letra_b)[2] =  "GBD2018"
+colnames(letra_b)[4] =  "GBD2019"
+rownames(letra_b)[1] = 'Taxa de Fecundidade Total'
+rownames(letra_b)[2] = 'Taxa Bruta de Natalidade'
