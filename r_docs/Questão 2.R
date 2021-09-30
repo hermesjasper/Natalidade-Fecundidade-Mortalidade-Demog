@@ -214,9 +214,9 @@ TBR2010
 #pode-se utilizar no denominador
 #o valor de 2,05.
 
-#taxas18<-c(tbn18[1,1],tgf18,TFT18,TBR18,TLR18)
-#taxas19<-c(tbn19[1,1],tgf19,TFT19,TBR19,TLR19)
-#taxas20<-c(tbn20[1,1],tgf20,TFT20,TBR20,TLR20)
+taxas18<-c(tbn18[1,1],tgf18,TFT18,TBR18,TLR18)
+taxas19<-c(tbn19[1,1],tgf19,TFT19,TBR19,TLR19)
+taxas20<-c(tbn20[1,1],tgf20,TFT20,TBR20,TLR20)
 
 
 
