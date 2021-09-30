@@ -224,11 +224,11 @@ letra_a <- data.frame("2018" = taxas18,
                            "2019" = taxas19,
                            "2020" = taxas20,
                            stringsAsFactors = FALSE)
-#rownames(letra_a)[1] = 'Taxa Bruta de Natalidade'
-#rownames(letra_a)[2] = 'Taxa Geral de Fecundidade'
-#rownames(letra_a)[3] = 'Taxa de Fecundidade Total'
-#rownames(letra_a)[4] = 'Taxa Bruta de Reprodução'
-#rownames(letra_a)[5] = 'Taxa Líquida de Reprodução'
+rownames(letra_a)[1] = 'Taxa Bruta de Natalidade'
+rownames(letra_a)[2] = 'Taxa Geral de Fecundidade'
+rownames(letra_a)[3] = 'Taxa de Fecundidade Total'
+rownames(letra_a)[4] = 'Taxa Bruta de Reprodução'
+rownames(letra_a)[5] = 'Taxa Líquida de Reprodução'
 
 letra_a
 
