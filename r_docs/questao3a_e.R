@@ -166,7 +166,7 @@ nMx <- obit_wide %>%
 ## grafico nMx ----
 
 #exportar em 1100x420
-nMx %>%
+graf_nmx <- nMx %>%
   select(faixa_et, nMx_masc, nMx_fem)%>%
   pivot_longer(cols = -faixa_et, names_to = "Sexo", values_to = "nMx")%>%
   mutate(Sexo = if_else(Sexo == "nMx_masc", "Masculino", "Feminino"))%>%
@@ -183,6 +183,9 @@ nMx %>%
         panel.grid.major.x = element_blank(),
         panel.border = element_blank(),
         axis.line = element_line(color = "gray"))
+
+
+rm()
 
 
 # QUESTA0 3 e ----
@@ -329,3 +332,6 @@ tabua_fem <- bind_cols(tabua_fem, "Tx" = Tx)
 tabua_fem <- tabua_fem %>%
   mutate(ex = Tx/lx)
 
+rm(dados_nasc, dados_sim, F_2019, faixas_et, faixas_quinq, i, locais_traco, lx, M_2019,
+   ndx, nkx, nkx_01, nkx_long, nkx_primario, nkx_wide, obit_sx_et, obit_wide, obitos_2019,
+   pop_2019, pop_2019_f, pop_2019_m, pop_ac_sx_etaria, pop_quinq, Tx, zero_1_2019)

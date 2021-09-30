@@ -148,7 +148,7 @@ caps_masc <- ggplot(subset(morte_caps, SEXO == "Masculino" & causa != 'COVID-19'
   xlab("")+
   geom_line(size = 1, color = "#a6bddb")+
   geom_point(data = subset(morte_caps, SEXO == "Masculino" & causa == 'COVID-19'),
-             color = "#d1495b", size = 2)+
+             color = "#d1495b", size = 2.5)+
   labs(title = "Masculino")+
   geom_point(color = "#2b8cbe")+
   theme(legend.position = "bottom",
@@ -172,7 +172,7 @@ caps_fem <- ggplot(subset(morte_caps, SEXO == "Feminino" & n > 45),
   geom_line(size = 1, color = "#a6bddb")+
   geom_point(color = "#2b8cbe")+
   geom_point(data = subset(morte_caps, SEXO == "Feminino" & causa == 'COVID-19'),
-               color = "#d1495b", size = 2)+
+               color = "#d1495b", size = 2.5)+
   labs(title = "Feminino")+
   theme(legend.position = "bottom",
         panel.grid = element_blank(),
