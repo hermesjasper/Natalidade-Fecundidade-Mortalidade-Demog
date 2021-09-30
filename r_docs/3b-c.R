@@ -1,8 +1,8 @@
 options(scipen = 999)
 pacman::p_load(dplyr, stringr, scales, ggplot2, reshape2,Rcpp, forcats,RColorBrewer, gridExtra, here)
 
-#sim_consolidado <- readRDS("../data/sim/sim_consolidado.rds")
-#sinasc_consolidado <- readRDS("../data/sinasc/sinasc_consolidado.rds")
+sim_consolidado <- readRDS("./data/sim/sim_consolidado.rds")
+sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 
 sim_consolidado$ANO_OBITO <- sim_consolidado$DTOBITO %>% str_extract('(?<=[0-9]{4})[0-9]{4}')
 sinasc_consolidado$ANO_NASC <- sinasc_consolidado$DTNASC %>% str_extract('(?<=[0-9]{4})[0-9]{4}')
