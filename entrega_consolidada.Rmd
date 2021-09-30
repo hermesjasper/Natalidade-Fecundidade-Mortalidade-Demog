@@ -134,13 +134,62 @@ Foram observados alguns valores impossíveis (ex: nascido em 2000 com 70 anos de
 
 ### Item a
 ```{r}
-#letra_a
+letra_a
 ```
 
-###
+#### Taxas específicas de fecundidade
+```{r}
+d18_2
+tef18
+
+d19_2
+tef19
+
+d20_2
+tef20
+```
+
+#### Taxas específicas de fecundidade feminina
+```{r}
+f18_2
+f19_2
+f20_2
+```
+
 
 ### Item b
 Todas as taxas estão significantemente menores que as do RIPSA de 2010 e as que foram encontradas no GBD. 
+```{r}
+letra_b
+```
+
+#### Taxas de fecundidade específicas
+##### RIPSA
+```{r}
+a06_10_1_
+```
+<br>
+##### GBD
+```{r}
+TEF_2018
+TEF_2019
+```
+<br>
+##### SINASC
+```{r}
+d18_10
+d19_10
+d20_10
+```
+
+#### Indicador de reprodução
+Tendo em vista a falta de razão de sexo ao nascimento, utilizou-se o denominador 2,05
+
+```{r}
+TFT2010
+TBR2010<-(2.81/2.05)
+TBR2010
+```
 
 <br>
 

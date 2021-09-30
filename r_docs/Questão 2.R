@@ -245,16 +245,20 @@ f18_2
 f19_2
 f20_2
 
+TFT_ACRE_BRASIL<-as.data.frame(TFT_ACRE_BRASIL)
+TFT2010<-as.data.frame(TFT2010)
+TBN2010<-as.data.frame(TBN2010)
+
 letra_b<-(data.frame("Sinasc2018" = c(TFT18, 
-                                      tbn18),
+                                      tbn18[1,1]),
                      'GBD2018'= c(TFT_ACRE_BRASIL[1,12],
                                   '-'),
                      "Sinasc2019" = c(TFT19,
-                                      tbn19),
+                                      tbn19[1,1]),
                      'GBD2019'= c(TFT_ACRE_BRASIL[2,12],
                                   '-'),
                      "Sinasc2020" = c(TFT20,
-                                      tbn20),
+                                      tbn20[1,1]),
                      "RIPSA" = c(TFT2010[2,2],
                                  TBN2010[2,2]),
                      stringsAsFactors = FALSE))
@@ -264,3 +268,4 @@ colnames(letra_b)[2] =  "GBD2018"
 colnames(letra_b)[4] =  "GBD2019"
 rownames(letra_b)[1] = 'Taxa de Fecundidade Total'
 rownames(letra_b)[2] = 'Taxa Bruta de Natalidade'
+
