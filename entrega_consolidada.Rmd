@@ -65,15 +65,7 @@ source('aux-source.R', encoding = 'UTF-8')
 
 
 
-<br>
 
-
-
-```{r chunk-nomeado-2, echo = FALSE}
-# obrigatorios(190011572) %>%
-#   kbl(align = "c", col.names = c('Seção', 'Página', 'Exercícios')) %>%
-#   kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")
-```
 
 <br>
 
@@ -83,7 +75,7 @@ source('aux-source.R', encoding = 'UTF-8')
 
 ### Item a
 
-```{r }
+```{r, fig.align='center'}
 diagrama
 ```
 
@@ -197,7 +189,7 @@ tabela3c %>%
 
 <br> 
 
-```{r}
+```{r, fig.align='center'}
 plot3c_a
 
 ```
@@ -206,7 +198,7 @@ plot3c_a
 
 <br> 
 
-```{r }
+```{r, fig.align='center'}
 plot3c_b
 ```
 
@@ -214,7 +206,7 @@ plot3c_b
 
 <br> 
 
-```{r }
+```{r, fig.align='center'}
 plot3c_c
 ```
 
@@ -222,7 +214,7 @@ plot3c_c
 
 <br> 
 
-```{r }
+```{r, fig.align='center'}
 plot3c_d
 ```
 
@@ -230,7 +222,7 @@ plot3c_d
 
 ##### Pós Neonatal
 
-```{r }
+```{r, fig.align='center'}
 plot3c_e
 ```
 
@@ -252,9 +244,9 @@ Apesar dessa tendencia em melhora, as taxas obtidas à partir dos dados do SIM e
 
 A estrutura de mortalidade por causas segundo sexo, de 2015 e 2020, é exposta abaixo em formato de gráfico na primeira aba -- expondo simplesmente as tendências -- e em formato de tabela dinâmica na segunda aba -- possibilitando uma investigação mais detalhada. O agrupamento feito abaixo é realizado de acordo com os capítulos da CID-10, sendo exibidos os mais frequentes. 
 
-Inicialmente, é possível notar muitas comunalidades, tanto de tendência quanto de ordem, como é o caso de Sintomas e Achados Anormais, Doenças Infecciosas e Parasitárias, Doenças do Aparelho Respiratório e Doenças do Aparelho Circulatório. Em contraste, as principais divergências ocorrem quanto a Causas Externas, predominante na população masculina, e Complicações do Período Perinatal, que ocorre estritamente na população feminina.
+Inicialmente é possível notar muitas comunalidades, tanto de tendência quanto de ordem, como é o caso de Sintomas e Achados Anormais, Doenças Infecciosas e Parasitárias, Doenças do Aparelho Respiratório e Doenças do Aparelho Circulatório. Em contraste, as principais divergências ocorrem quanto a Causas Externas, predominante na população masculina, e Complicações do Período Perinatal, que ocorre estritamente na população feminina.
 
-No entanto, cabe notar que em 2020 começam a ser diagnosticados os casos de COVID-19, registrados em vermelho no ano de 2020. É possível que o aumento do registro de causas de morte cujos sintomas são semelhantes à doença tenha ocorrido por falta de consenso do código a ser utilizado e do diagnóstico. Cabe ressaltar ainda o cenário social e político que caracterizou o país durante os anos de 2019 a 2021, podendo ser também um contexto que favorece a ação de outras variáveis intervenientes quanto à quantidade de registros de causa mortis por COVID-19.
+No entanto, cabe notar que em 2020 começam a ser diagnosticados os casos de COVID-19, registrados em vermelho no ano de 2020. É possível que o aumento do registro de causas de morte cujos sintomas são semelhantes à doença tenha ocorrido por falta de consenso do código a ser utilizado e do diagnóstico. Cabe ressaltar ainda o cenário social e político que caracterizou o país durante os anos de 2019 a 2021, podendo ser também um contexto que favorece a ação de outras variáveis intervenientes quanto à quantidade de registros de *causa mortis* COVID-19.
 
 Cabe ainda ressaltar que em todas as causas de morte listadas que poderiam ocorrer para ambos os sexos, ocorre sempre uma maior mortalidade na população masculina. Em especial no ano de 2020, enquanto na população feminina do Acre sequer constam nas maiores causas, mortes por lesões, envenenamentos ou outras causas externas são a quarta maior causa de morte na população masculina.
 
@@ -268,7 +260,7 @@ Por fim, visando investigar as causas de morte desagregadas em termos de CID, a 
 
 <br>
 
-```{r grafs_causas_morte, figures-side, fig.show = "hold", out.width = "50%"}
+```{r grafs_causas_morte, figures-side, fig.show = "hold", out.width = "50%", fig.cap = "Fonte: Ministério da Saúde - SIM"}
 caps_masc
 caps_fem
 ```
