@@ -75,11 +75,15 @@ source('aux-source.R', encoding = 'UTF-8')
 
 ### Item a
 
+Construir o Diagrama de Lexis para os dados de nascidos vivos de 2000 a 2020 da UF escolhida (SINASC) e de óbitos menores de 5 anos (idades simples) para o mesmo período segundo ano de nascimento.
+
+<br>
+
 ```{r, fig.align='center'}
 diagrama
 ```
 
-#### Taxa de Fecundidade Específicas
+#### Taxas de Fecundidade Específicas
 ```{r}
 # d18_2
 # tef18
@@ -96,17 +100,29 @@ diagrama
 
 ### Item b
 
-Foram observados 6.260 indivíduos nascidos vivos no intervalo de 2000 à 2015, e posteriormente falecidos dentro deste mesmo intervalo, enquanto registra-se 265.743 indivíduos nascidos no mesmo intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.9764434
+Supondo população fechada (inexistência de migração), calcule a probabilidade de um recém-nascido na UF ou território de escolha sobreviver à idade exata 5 para as coortes de 2000 a 2015.
+
+<br>
+
+Foram observados 6.260 indivíduos nascidos vivos no intervalo de 2000 à 2015, e posteriormente falecidos dentro deste mesmo intervalo, enquanto registra-se 265.743 indivíduos nascidos no mesmo intervalo, logo a probabilidade de sobrevivência é  1 - (6260/265743) = 0.97
 
 <br>
 
 ### Item c
 
-Foram observados 5.190 obitos em menores de 1 ano no intervalo de 2000 à 2019, enquanto registra-se 330.697 nascimentos no mesmo intervalo, logo, a probabilidade de sobreviver ao primeiro foi de 1 - (5190/330697) = 0.9843059 
+Considerando o mesmo pressuposto, calcule a probabilidade de sobreviver ao primeiro aniversário dos recém-nascidos no período de 2000 a 2019.
+
+<br>
+
+Foram observados 5.190 obitos em menores de 1 ano no intervalo de 2000 à 2019, enquanto registra-se 330.697 nascimentos no mesmo intervalo, logo, a probabilidade de sobreviver ao primeiro foi de 1 - (5190/330697) = 0.98
 
 <br>
 
 ### Item d
+
+Comente sobre os valores encontrados. Não esquecer a qualidade da informação trabalhada.
+
+<br>
 
 Dentro dos valores utilizados para a elaboração das questões, a maior parte das informações estava contida, não sendo comum encontrar valores em branco.
 Porém, não temos como ter certeza se os dados trabalhados refletem a totalidade dos casos de nascimentos e mortes ocorridos, visto que pode haver fuga de registro.
