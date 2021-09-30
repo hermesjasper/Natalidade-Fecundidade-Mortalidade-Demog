@@ -5,8 +5,8 @@ author:
   - César A. Galvão 
   - Hermes Winarski
 title: "Estudo de Caso: Indicadores de natalidade, fecundidade e mortalidade do Acre (2000-2020)"
-subtitle: "Demografia 2020.1 - Prof. Ana Maria Nogales"
-date: "Brasília, Setembro, 2021"
+subtitle: "Demografia - Profa. Ana Maria Nogales"
+date: "Brasília, Setembro/2021"
 output:
   html_document:
     df_print: paged
@@ -21,28 +21,25 @@ output:
       smooth_scroll: yes
 ---
 
-
+<!-- font-family: "Times New Roman", Times, serif; -->
 
 <style type="text/css">
 h1.title {
   font-size: 37px;
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
+
 h3.subtitle {
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 
 h4.author { /* Header 4 - and the author and data headers use this too  */
   font-size: 18px;
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 h4.date { /* Header 4 - and the author and data headers use this too  */
   font-size: 18px;
   color: DarkBlue;
-  font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
 </style>
@@ -51,10 +48,10 @@ h4.date { /* Header 4 - and the author and data headers use this too  */
 knitr::opts_chunk$set(echo = FALSE)
 knitr::opts_chunk$set(message = FALSE)
 knitr::opts_chunk$set(warning = FALSE)
-knitr::opts_chunk$set(fig.align = 'center')
-knitr::opts_chunk$set(fig.width=7*0.8, fig.height=5*0.8)
+#knitr::opts_chunk$set(fig.align = 'center')
+#knitr::opts_chunk$set(fig.width=7*0.8, fig.height=5*0.8)
 
-pacman::p_load(dplyr,knitr,kableExtra)
+pacman::p_load(dplyr,knitr,kableExtra,DT, plotly)
 source('aux-source.R', encoding = 'UTF-8')
 # library(tidyverse)
 # library(magrittr)
@@ -66,15 +63,10 @@ source('aux-source.R', encoding = 'UTF-8')
 # library(matlib)
 ```
 
-```{r chunk-nomeado, echo = FALSE}
-
-
-```
 
 
 <br>
 
-# Introdução
 
 
 ```{r chunk-nomeado-2, echo = FALSE}
@@ -85,7 +77,7 @@ source('aux-source.R', encoding = 'UTF-8')
 
 <br>
 
-# Resultados Obtidos {.tabset}
+# {.tabset}
 
 ## Questão 1 
 
@@ -97,14 +89,14 @@ diagrama
 
 #### Taxa de Fecundidade Específicas
 ```{r}
-d18_2
-tef18
-
-d19_2
-tef19
-
-d20_2
-tef20
+# d18_2
+# tef18
+# 
+# d19_2
+# tef19
+# 
+# d20_2
+# tef20
 ```
 
 
@@ -134,7 +126,7 @@ Foram observados alguns valores impossíveis (ex: nascido em 2000 com 70 anos de
 
 ### Item a
 ```{r}
-letra_a
+#letra_a
 ```
 
 ###
@@ -150,7 +142,7 @@ Todas as taxas estão significantemente menores que as do RIPSA de 2010 e as que
 
 A primeira coisa a ser comentada é o fato de que ano a ano as taxas de natalidade e fecundidade vão diminuindo. Segundo o artigo "Transição demográfica: a experiência brasileira", a queda dessas taxas indica que o Acre está passando pelo processo de transição demográfica, tendo em vista que esse processo não foi se desenvolvendo homogeneamente pelo território brasileiro. Existem muitos fatores que podem ter influenciado essa queda brusca dos indicadores de natalidade e fecundidade - como é visto no artigo "A demografia brasileira e o declínio da fecundidade no Brasil: contribuições, equívocos e silêncios"  mas um fato bem pontuado em praticamente todos os estudiosos do assunto é o de que o perfil das pessoas de baixa renda mudou. Alguns atribuem essa mudança a altas cargas de trabalho, outros a uma exaustão e cansaço, e outros a um nível maior de educação sexual e de educação no geral, mas todo giram em torno da mudança da rotina dessa "classe trabalhadora". 
 	
-Outra coisa que seria de interesse pontuar seriam as taxas específicas de fecundudade. Ao passo que uma transição demográfica mostraria que a idade prevalente das pessoas que estão engravidando e dando À luz, vemos que as taxas calculadas mostram que há uma maior quantidade de mães no acre de 15 a 19 anos. Essa gravidez precoce pode estar relacionado com o fato de que o Acre é uma unidade federativa com uma dos menores IDH's(20º de 26), isso mostraria que a população não tem um bom acesso a uma educação de qualidade e muito menos a uma educação sexual de qualidade, isso é mais discutido no artigo "Gravidez na adolescência, iniciação sexual e gênero: perspectivas em disputa".
+Outra coisa que seria de interesse pontuar seriam as taxas específicas de fecundudade. Ao passo que uma transição demográfica mostraria que a idade prevalente das pessoas que estão engravidando e dando à luz, vemos que as taxas calculadas mostram que há uma maior quantidade de mães no Acre de 15 a 19 anos. Essa gravidez precoce pode estar relacionado com o fato de que o Acre é uma unidade federativa com uma dos menores IDH's(20º de 26), isso mostraria que a população não tem um bom acesso a uma educação de qualidade e muito menos a uma educação sexual de qualidade, isso é mais discutido no artigo "Gravidez na adolescência, iniciação sexual e gênero: perspectivas em disputa".
 	
 As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser devidas ao fato de que esses dois fizeram estimativas para os indicadores estudados. Contudo, existe uma transição demográfica e da fecundidade ocorrendo no local de forma extremamente rápida e constante, o que pode não ter sido avaliado pelos dois estudos. 
 
@@ -158,38 +150,52 @@ As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser
 
 ## Questão 3
 
-### Item **b**
+### Item b
 
-- Taxas de mortalidade infantil, neonatal, neonatal precoce, neonatal tardio, pós neonatal, neonatal perinatal e óbitos fetais.
+Taxas de mortalidade infantil, neonatal, neonatal precoce, neonatal tardio, pós neonatal, neonatal perinatal e óbitos fetais.
+
+<br>
 
 ```{r}
 tabela3b %>%
-  kbl(align = "c", caption = "Tabela 1: Tabela de frequências para classes de notas de matemática", digits = 2) %>%
+  kbl(align = "c", digits = 2) %>%
   kable_paper(full_width = T) %>%
-  footnote(general_title = "Fonte:", general = "INEP - SAEB",
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
            footnote_as_chunk = T)
 ```
 
 
-<br/><br/>
+<br>
 
-### Item **c**
+<br>
 
-- Comparação das taxas de mortalidade obtidas com os dados do RIPSA e GBD
+### Item c
+
+Comparação das taxas de mortalidade obtidas com os dados do RIPSA e GBD
+
+<br>
 
 #### {.tabset}
 
 ##### Tabela
 
+<br>
+
 ```{r}
 tabela3c %>%
-  kbl(align = "c", caption = "Tabela 1: Tabela de frequências para classes de notas de matemática", digits = 2) %>%
-  kable_paper(full_width = T) %>%
-  footnote(general_title = "Fonte:", general = "INEP - SAEB",
+  kbl(align = "c", digits = 2) %>%
+  kable_paper(full_width = T)  %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
            footnote_as_chunk = T)
 ```
 
+<br> 
+
 ##### Infantil
+
+<br> 
 
 ```{r}
 plot3c_a
@@ -198,11 +204,15 @@ plot3c_a
 
 ##### Neonatal
 
+<br> 
+
 ```{r }
 plot3c_b
 ```
 
 ##### Neonatal Precoce
+
+<br> 
 
 ```{r }
 plot3c_c
@@ -210,9 +220,13 @@ plot3c_c
 
 ##### Neonatal Tardia
 
+<br> 
+
 ```{r }
 plot3c_d
 ```
+
+<br> 
 
 ##### Pós Neonatal
 
@@ -220,12 +234,86 @@ plot3c_d
 plot3c_e
 ```
 
-#### <br/><br/>
-
+  
+<br>  
+  
+  
 #### Comentários
 
 As taxas calculadas pelas pesquisa relacionada à mortalidade de menores de 1 ano do RIPSA, apresentam uma certa queda conforme o ano da pesquisa aumenta.
 
 Apesar dessa tendencia em melhora, as taxas obtidas à partir dos dados do SIM e SINAS são **consideravelmente** menores que as da últimas pesquisa do RIPSA (Norte 2004). O que pode ser exlicado pelo grande salto na linha do tempo entre as taxas obtidas no item **b** e a última taxa calculada pelo RIPSA, dando tempo pra essa taxa diminuir bastante.
 
-#### <br/><br/>
+<br>
+
+<br>
+
+### Item d
+
+A estrutura de mortalidade por causas segundo sexo, de 2015 e 2020, é exposta abaixo em formato de gráfico na primeira aba -- expondo simplesmente as tendências -- e em formato de tabela dinâmica na segunda aba -- possibilitando uma investigação mais detalhada. O agrupamento feito abaixo é realizado de acordo com os capítulos da CID-10, sendo exibidos os mais frequentes. 
+
+Inicialmente, é possível notar muitas comunalidades, tanto de tendência quanto de ordem, como é o caso de Sintomas e Achados Anormais, Doenças Infecciosas e Parasitárias, Doenças do Aparelho Respiratório e Doenças do Aparelho Circulatório. Em contraste, as principais divergências ocorrem quanto a Causas Externas, predominante na população masculina, e Complicações do Período Perinatal, que ocorre estritamente na população feminina.
+
+No entanto, cabe notar que em 2020 começam a ser diagnosticados os casos de COVID-19, registrados em vermelho no ano de 2020. É possível que o aumento do registro de causas de morte cujos sintomas são semelhantes à doença tenha ocorrido por falta de consenso do código a ser utilizado e do diagnóstico. Cabe ressaltar ainda o cenário social e político que caracterizou o país durante os anos de 2019 a 2021, podendo ser também um contexto que favorece a ação de outras variáveis intervenientes quanto à quantidade de registros de causa mortis por COVID-19.
+
+Cabe ainda ressaltar que em todas as causas de morte listadas que poderiam ocorrer para ambos os sexos, ocorre sempre uma maior mortalidade na população masculina. Em especial no ano de 2020, enquanto na população feminina do Acre sequer constam nas maiores causas, mortes por lesões, envenenamentos ou outras causas externas são a quarta maior causa de morte na população masculina.
+
+Por fim, visando investigar as causas de morte desagregadas em termos de CID, a tabela constante na terceira aba à direita foi produzida, também separando a população por sexo e os anos de comparação propostos. Apenas na população masculina aparece Coronavirus como uma das principais causas de morte em 2020. No entando, como já elaborado, outros registros de causa de morte podem ter sido atribuídos, por diversas causas, de maneira enviesada, visto que há CID com características semelhantes à COVID-19.
+
+<br>
+
+#### {.tabset}
+
+##### Gráficos causas de morte
+
+<br>
+
+```{r grafs_causas_morte, figures-side, fig.show = "hold", out.width = "50%"}
+caps_masc
+caps_fem
+```
+
+
+
+##### Tabela causas de morte
+
+```{r 3d-tabela-causas-morte}
+
+sketch = htmltools::withTags(table(
+  class = 'display',
+  thead(
+    tr(
+      th(rowspan = 2, 'Causa de morte'),
+      th(colspan = 2, 'Feminino'),
+      th(colspan = 2, 'Masculino')
+    ),
+    tr(
+      lapply(c('2015', '2020', '2015', '2020'), th)
+    )
+  )
+))
+
+
+tabela_morte_caps %>%
+  select(causa, Feminino_2015, Feminino_2020, Masculino_2015, Masculino_2020)%>%
+  datatable(container = sketch, rownames = FALSE,
+          caption = htmltools::tags$caption(
+    style = 'caption-side: bottom; text-align: left;',
+    'Fonte: ', htmltools::em('Ministério da Saude - SIM')),
+    options = list(pageLength = 8, dom = 'tip'))
+
+```
+
+##### Tabela causas de morte por CID
+
+```{r}
+morte_cid %>%
+  select(nome_causa, Feminino_2015, Feminino_2020, Masculino_2015, Masculino_2020)%>%
+  datatable(container = sketch, rownames = FALSE,
+          caption = htmltools::tags$caption(
+    style = 'caption-side: bottom; text-align: left;',
+    'Fonte: ', htmltools::em('Ministério da Saude - SIM')),
+    options = list(pageLength = 9, dom = 'tip'))
+```
+
+

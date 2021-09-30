@@ -148,7 +148,7 @@ caps_masc <- ggplot(subset(morte_caps, SEXO == "Masculino" & causa != 'COVID-19'
   xlab("")+
   geom_line(size = 1, color = "#a6bddb")+
   geom_point(data = subset(morte_caps, SEXO == "Masculino" & causa == 'COVID-19'),
-             color = "#d1495b")+
+             color = "#d1495b", size = 2)+
   labs(title = "Masculino")+
   geom_point(color = "#2b8cbe")+
   theme(legend.position = "bottom",
@@ -162,9 +162,9 @@ caps_masc <- ggplot(subset(morte_caps, SEXO == "Masculino" & causa != 'COVID-19'
   annotate("text", x = 2.3, y = 575, label = "Infecciosas e parasitárias")+
   annotate("text", x = 2.25, y = 510, label = "Aparelho respiratório")+
   annotate("text", x = 2.21, y = 375, label = "Causas externas")+
-  annotate("text", x = 2.25, y = 238, label = "Aparelho circulatório")+
+  annotate("text", x = 2.237, y = 238, label = "Aparelho circulatório")+
   annotate("text", x = 2.15, y = 85, label = "Neoplasias")+
-  annotate("text", x = 2.15, y = 150, label = "COVID-19")
+  annotate("text", x = 2.142, y = 150, label = "COVID-19")
 
 caps_fem <- ggplot(subset(morte_caps, SEXO == "Feminino" & n > 45),
                     aes(x = ano, y = n, group = causa))+
@@ -172,7 +172,7 @@ caps_fem <- ggplot(subset(morte_caps, SEXO == "Feminino" & n > 45),
   geom_line(size = 1, color = "#a6bddb")+
   geom_point(color = "#2b8cbe")+
   geom_point(data = subset(morte_caps, SEXO == "Feminino" & causa == 'COVID-19'),
-               color = "#d1495b")+
+               color = "#d1495b", size = 2)+
   labs(title = "Feminino")+
   theme(legend.position = "bottom",
         panel.grid = element_blank(),
@@ -182,12 +182,12 @@ caps_fem <- ggplot(subset(morte_caps, SEXO == "Feminino" & n > 45),
         axis.text.y = element_blank(),
         plot.title = element_text(hjust = .5))+
   annotate("text", x = 2.25, y = 590, label = "Sintomas e achados \nanormais")+
-  annotate("text", x = 2.3, y = 393, label = "Infecciosas e parasitárias")+
+  annotate("text", x = 2.295, y = 393, label = "Infecciosas e parasitárias")+
   annotate("text", x = 2.25, y = 350, label = "Aparelho respiratório")+
-  annotate("text", x = 2.245, y = 167, label = "Aparelho circulatório")+
-  annotate("text", x = 2.15, y = 95, label = "Neoplasias")+
+  annotate("text", x = 2.24, y = 167, label = "Aparelho circulatório")+
+  annotate("text", x = 2.154, y = 100, label = "Neoplasias")+
   annotate("text", x = 2.21, y = 45, label = "Período perinatal")+
-  annotate("text", x = 2.145, y = 69, label = "COVID-19")
+  annotate("text", x = 2.145, y = 70, label = "COVID-19")
 
 
 # ```{r, figures-side, fig.show = "hold", out.width = "50%"}
