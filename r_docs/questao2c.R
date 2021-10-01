@@ -6,6 +6,7 @@ library(viridis)
 library(readxl)
 library(tidymodels)
 library(magrittr)
+library(RColorBrewer)
 
 
 
@@ -49,9 +50,20 @@ desc_idade <- data_limpa%>%
 
 
 #grafico
-data_limpa%>%
-ggplot(aes(faixa_et))+
-  geom_histogram(stat = "count")
+hist_idademae <- desc_idade%>%
+ggplot(aes(x = faixa_et, y = n, label = n))+
+  labs(title = "Distribuição da população de mães por faixa etária",
+       x = "Faixa etária")+
+  geom_bar(stat = "identity", fill = "#a6bddb")+
+  coord_cartesian(ylim = c(0, 100000))+
+  geom_text(size = 3.5, vjust = -.5)+
+  theme(panel.border = element_blank(),
+        axis.line.x = element_line(),
+        axis.title.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0))
 
 
 
@@ -69,7 +81,19 @@ desc_esc <- data_limpa %>%
   group_by(escolaridade)%>%
   summarise(n = n())
 
-ggplot(data_limpa, aes(escolaridade))+geom_histogram(stat = "count")
+hist_escomae <- desc_esc%>%
+  ggplot(aes(x = escolaridade, y = n, label = n))+
+  labs(title = "Distribuição da população de mães por escolaridade")+
+  coord_cartesian(ylim = c(0, 120000))+
+  geom_bar(stat = "identity", fill = "#a6bddb")+
+  geom_text(size = 3.5, vjust = -.5)+
+  theme(panel.border = element_blank(),
+        axis.line.x = element_line(),
+        axis.title = element_blank(),
+        axis.ticks.y = element_blank(),
+        axis.text.y = element_blank(),
+        panel.background = element_blank(),
+        plot.title = element_text(hjust = 0))
 
 
 
@@ -78,9 +102,12 @@ ggplot(data_limpa, aes(escolaridade))+geom_histogram(stat = "count")
 # 1: Vaginal
 # 2: Cesáreo
 
-desc_parto <- data_limpa%>%
+data_limpa%>%
   group_by(PARTO)%>%
-  summarise(n = n())
+  summarise(n = n())%>%
+  ungroup()%>%
+  mutate(total = sum(n),
+         prop = n/total)
 
 
 
@@ -121,18 +148,18 @@ maes %>%
 
 
 
-data_limpa %$%
+data_limpa %$% #0.04
   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman") #não sugere cor linear
 #obviamente, já que a distribuicao parece um sino com assimetria à direita
 
-data_limpa %>%
+data_limpa %>% #-0.08
   filter(escolaridade != '12 ou mais') %$%
   cor(IDADEMAE, as.numeric(escolaridade), method = "spearman")
 
 
-
-data_limpa %$%
-  kruskal.test(IDADEMAE ~ escolaridade) #chi quadrado pelo KW sugere associacao
+data_limpa %$% #pvalor < 0.001
+  kruskal.test(IDADEMAE ~ escolaridade) %>%
+  tidy()#chi quadrado pelo KW sugere associacao
 
 
 #grafico de distribuicao das idades, com linhas de medianas
@@ -142,19 +169,38 @@ vline_df <- data.frame(escolaridade = levels(data_limpa$escolaridade),
                        medianas = tapply(X = data_limpa$IDADEMAE, INDEX = data_limpa$escolaridade,
                                        FUN = median))
 
-data_limpa %>%
+graf_dist_idade_esc <- data_limpa %>%
   ggplot(aes(IDADEMAE))+
-  geom_histogram(stat = "count")+
+  geom_histogram(stat = "count", fill = "#a6bddb")+
   facet_grid(rows = vars(escolaridade))+
+  labs(title = "Distribuição da idade das mães por grupo de escolaridade", x = "Idade da mãe")+
   geom_vline(data = vline_df, aes(xintercept = medianas), linetype = "dashed",
-             colour = "red4")
+             colour = "red4")+
+  scale_x_continuous(breaks = c(10, 20, 30, 40, 50, 60), limits = c(10, 60))+
+  theme_bw()+
+  theme(axis.line.x = element_line(),
+        axis.ticks.y = element_blank(),
+        axis.title.y = element_blank(),
+        panel.background = element_blank(),
+        panel.grid.major = element_blank(),
+        strip.background = element_rect(fill = "white", color = "black"),
+        plot.title = element_text(hjust = 0))
 
-
-data_limpa %>%
+graf_esc_faixaet <- data_limpa %>%
   group_by(faixa_et, escolaridade)%>%
   summarise(n = n())%>%
   ggplot(aes(faixa_et,n, group = escolaridade, color = escolaridade))+
-    geom_line()
+  labs(title = "Distribuição da idade das mães por grupo de escolaridade", 
+       x = "Faixa etária da mãe",
+       color = "Escolaridade")+  
+  geom_line(size = 1)+
+  scale_color_manual(values = c('#4f5659', '#89a4b0', '#79bddb', '#2898c9', '#006591'))+
+  theme_bw()+
+  theme(panel.border = element_blank(),
+        panel.grid.major = element_line(),
+        axis.line = element_line(),
+        axis.title.y = element_blank(),
+        plot.title = element_text(hjust = 0))
 
 #a maioria das maes com mais anos de educação formal têm menos de 30 anos
 
@@ -162,8 +208,8 @@ data_limpa %>%
 ### tipo de parto e escolaridade da mãe ----
   #sob consulta
 
-data_limpa %$%
-  chisq.test(PARTO, ESCMAE) # Qui quadrado altíssimo, sugete associacao
+data_limpa %$% # pvalor < 0.001
+  chisq.test(PARTO, ESCMAE) %>% tidy() # Qui quadrado altíssimo, sugete associacao
 
 prop_partos <- data_limpa %>%
   group_by(escolaridade)%>%
@@ -175,6 +221,21 @@ prop_partos <- data_limpa %>%
   unique()%>%
   arrange(escolaridade)
 
-prop_partos %>%
+prop_partos_wide <- prop_partos %>%
+  pivot_wider(values_from = "prop_parto", names_from = "escolaridade")
+
+graf_prop_partos <-  prop_partos %>%
   ggplot(aes(x = escolaridade, y = prop_parto, group = PARTO, color = PARTO))+
-  geom_line()
+  geom_line(size = 1)+
+  labs(title = "Proporção de tipo de parto por escolaridade da mãe",
+       color = "Parto",
+       x = "Escolaridade da mãe")+
+  scale_colour_manual(values = c("#2b8cbe", "#d1495b"), labels = c("Cesário", "Vaginal"))+
+  theme_bw()+
+  theme(panel.border = element_blank(),
+        panel.grid.major = element_line(),
+        axis.line = element_line(),
+        axis.title.y = element_blank(),
+        plot.title = element_text(hjust = 0))
+
+rm(dados_nasc, maes, data_limpa, desc_idade, desc_esc, vline_df, prop_partos)
