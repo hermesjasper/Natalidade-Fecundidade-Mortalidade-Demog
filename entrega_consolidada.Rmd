@@ -182,7 +182,7 @@ tef20
 
 <br>
 
-#### 
+
 
 Além disso, as **taxas específicas de fecundidade feminina**, mostradas a seguir, relaciona o número de nascidos vivos femininos de mães de uma determinada idade ou grupo etário. Isso faz com que o número seja mais real e mais aproximado, tendo em vista que reduz o número considerado para apenas aqueles que realmente serão um grupo de risco e que podem gerar vida. A forma de calcular é muito parecida com a de calcular a taxa específica sem ser feminina, contudo a mudança ocorre no número de nascidos, sendo considerados apenas os nascimentos femininos.
 
@@ -206,7 +206,6 @@ f19_2
 f20_2
 ```
 
-#### 
 
 <br>
 
@@ -267,7 +266,7 @@ Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano d
 ```{r}
 d20_10
 ```
-#### 
+
 <br>
 
 #### Indicador de reprodução
