@@ -132,46 +132,89 @@ letra_a
 
 <br>
 
-As **taxas específicas de fecundidade** para os diferentes grupos etários foram calculadas **(EXPLICAR METODO DE CÁLCULO)** e são expostas na tabela a seguir:
+#### {.tabset}
+
+
+As **taxas específicas de fecundidade** para os diferentes grupos etários foram calculadas somando-se o número de nascidos vivos de mães entre certas idades por meio dos dados do SINASC de cada ano. Após isso dividimos esse número pela estimativa do IBGE da população feminina entre certas idades. As taxas encontradas são expostas nas tabelas a seguir:
 
 <br>
 
+#### {.tabset}
+
+##### TEF 2018
+A tabela a seguir diz respeito às taxas específicas de fecundidade calculadas para o ano de 2018. Já na tabela é nítido que o maior número será entre as idades de 15 e 19 anos. O gráfico na próxima aba deixa essa observação mais evidente ainda.
 ```{r}
-#separar e descrever cada uma dessas tabelas e gráficos separadamente.Se for necessário, realizar comparações entre eles.
-
-# Gráficos devem ter seu alinhamento ajustado nas configuraçoes fig.align dentro do bloco que for processado
-
 d18_2
+```
+
+##### Gráfico TEF18
+
+Aqui temos as taxas cacluladas de 2018 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+```{r}
 tef18
+```
 
+##### TEF 2019
+Já essa tabela a seguir diz respeito às taxas específicas de fecundidade calculadas para o ano de 2019. Aqui também temos a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico na próxima aba pode exemplificar de forma mais visual.
+```{r}
 d19_2
-tef19
+```
 
+##### Gráfico TEF19
+Aqui temos as taxas cacluladas de 2019 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+```{r}
+tef19
+```
+
+##### TEF 2020
+E nessa tabela a seguir estão as taxas específicas de fecundidade calculadas para o ano de 2020. Mais uma vez se apresenta a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico correspondente a essa tabela está na próxima aba. Esse fato do ápice se encontrar em faixas etárias tão precoces será uma discussão mais tarde. Além disso algo a ser comentado é o fato de que a taxa está em queda, todo ano apresenta uma pequena queda com relação ao ano anterior, fato que também será discutido maia a frente.
+```{r}
 d20_2
+```
+
+##### Gráfico TEF20
+Aqui temos as taxas cacluladas de 2020 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+```{r}
 tef20
 ```
 
 <br>
 
-Além disso, as **taxas específicas de fecundidade feminina** (EXPLICAR O QUE É E COMO FOI CALCULADO, COM QUE PROPÓSITO E O QUE SE PODE OBSERVAR NAS TABELAS. COMPARAR SE FOR NECESSARIO)
+#### {-}
+
+Além disso, as **taxas específicas de fecundidade feminina**, mostradas a seguir, relaciona o número de nascidos vivos femininos de mães de uma determinada idade ou grupo etário. Isso faz com que o número seja mais real e mais aproximado, tendo em vista que reduz o número considerado para apenas aqueles que realmente serão um grupo de risco e que podem gerar vida. A forma de calcular é muito parecida com a de calcular a taxa específica sem ser feminina, contudo a mudança ocorre no número de nascidos, sendo considerados apenas os nascimentos femininos.
+
+
 
 <br>
+#### {.tabset}
 
+##### TEF feminina 2018
 ```{r}
 f18_2
+```
+
+##### TEF feminina 2019
+```{r}
 f19_2
+```
+
+##### TEF feminina 2020
+```{r}
 f20_2
 ```
+
+#### {-}
 
 <br>
 
 ### Item b
 
-A seguir são expostas as taxas de **fecundidade total** e **bruta de natalidade** para os anos de (SUBSTITUIR PELO ANO) obtidas para (BRASIL? ACRE?) pelo RIPSA (inserir uma nota de rodapé dizendo o que é: o que significa a sigla) e pelo GBD(o mesmo em relação à sigla).
+A seguir são expostas as taxas de **fecundidade total** e **bruta de natalidade** para os anos de 2018 e 2019 obtidas para o Acre,  pelo RIPSA (Rede Interagencial de Informações Para a Saúde) e pelo GBD (Global Burden of Disease). Os dados comparados foram os que puderam ser encontrados.
 
-Comparando-se as taxas calculadas pelo SINASC, é possível observar que todas as taxas estão significantemente menores que as do RIPSA de 2010 e as que foram encontradas no GBD. (MELHORAR ESTA ORACAO, A REFERENCIA DELA VAI E VOLTA) 
-
-EXPLICAR O QUE É CADA TABELA, REFLETIR PQ VALE A PENA MANTER TODAS ELAS, SE VALE A PENA MANTER TODAS AS VARIÁVEIS, SE É POSSÍVEL COLAPSAR VARIAS EM UMA, ETC
+Assim como será vista ao longo do trabalho, as taxas que foram calculadas se mostraram bem menores que as estimadas pelos dois outros estudos.
 
 <br>
 
@@ -180,41 +223,61 @@ letra_b
 ```
 
 <br>
+A seguir temos uma comparação entre as taxas de fecundidade específicas calculadas para este trabalho e as do RIPSA e do GBD. 
 
-#### Taxas de fecundidade específicas
+EXPLICAR O QUE É CADA TABELA, REFLETIR PQ VALE A PENA MANTER TODAS ELAS, SE VALE A PENA MANTER TODAS AS VARIÁVEIS, SE É POSSÍVEL COLAPSAR VARIAS EM UMA, ETC
+#### {.tabset}
+
 ##### RIPSA
+Tabela encontrada das taxas de fecundidade específicas para o Acre do RIPSA 2010.
 ```{r}
 a06_10_1_
 ```
 
 <br>
 
-##### GBD
-```{r}
+##### GBD 2018
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower)
+```{r}.
 TEF_2018
+```
+
+##### GBD 2019
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo GBD.
+```{r}
 TEF_2019
 ```
 
 <br>
 
-##### SINASC
+##### SINASC 2018
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo cálculo com o SINASC.
 ```{r}
 d18_10
-d19_10
-d20_10
 ```
 
+##### SINASC 2019
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo cálculo com o SINASC.
+```{r}
+d19_10
+```
+
+##### SINASC 2020
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2020 pelo cálculo com o SINASC.
+```{r}
+d20_10
+```
+#### {-}
 <br>
 
 #### Indicador de reprodução
 
-Tendo em vista a falta de razão de sexo ao nascimento (ONDE? POR QUE?), utilizou-se o denominador 2,05 (ONDE? INDICAR O CALCULO NECESSÁRIO, SUGIRO FAZER COM A SINTAXE DE LATEX, TEM EXEMPLO NA QUESTAO 1)
+Tendo em vista a falta de razão de sexo ao nascimento no RIPSA, utilizou-se o denominador $2,05$, derivado da soma $1+1,05$, onde assume-se que nascem mais homens que mulheres para a razao de sexo ao nascimento.
 
-```{r}
-TFT2010
-TBR2010<-(2.81/2.05)
-TBR2010 #AVALIAR SE ESSE VALOR TEM QUE APARECER NO MARKDOWN - SE NAO VER COMO TIRAR
-```
+Seguindo o cálculo da TBR através da TFT:
+
+$$TBR = \frac{TFT}{\text{1 + Razão de sexo ao nascimento}} = \frac{2.81}{2.05} = 1,37$$
+chegamos no número de $1,37$.
 
 <br>
 
@@ -329,9 +392,9 @@ Enquanto o mesmo se aplica a uma estatística $\chi^2$ calculada para se verific
 
 A primeira coisa a ser comentada é o fato de que ano a ano as taxas de natalidade e fecundidade vão diminuindo. Segundo o artigo "Transição demográfica: a experiência brasileira", a queda dessas taxas indica que o Acre está passando pelo processo de transição demográfica, tendo em vista que esse processo não foi se desenvolvendo homogeneamente pelo território brasileiro. Existem muitos fatores que podem ter influenciado essa queda brusca dos indicadores de natalidade e fecundidade - como é visto no artigo "A demografia brasileira e o declínio da fecundidade no Brasil: contribuições, equívocos e silêncios", mas um fato bem pontuado em praticamente todos os estudiosos do assunto é o de que o perfil das pessoas de baixa renda mudou. Alguns atribuem essa mudança a altas cargas de trabalho, outros a uma exaustão e cansaço, e outros a um nível maior de educação sexual e de educação no geral, mas todo giram em torno da mudança da rotina dessa "classe trabalhadora". 
 	
-Outra coisa que seria de interesse pontuar seriam as taxas específicas de fecundudade. Ao passo que uma transição demográfica mostraria que a idade prevalente das pessoas que estão engravidando e dando à luz, vemos que as taxas calculadas mostram que há uma maior quantidade de mães no Acre de 15 a 19 anos. Essa gravidez precoce pode estar relacionado com o fato de que o Acre é uma unidade federativa com uma dos menores IDH's(20º de 26), isso mostraria que a população não tem um bom acesso a uma educação de qualidade e muito menos a uma educação sexual de qualidade, isso é mais discutido no artigo "Gravidez na adolescência, iniciação sexual e gênero: perspectivas em disputa".
+Outra coisa que seria de interesse pontuar seriam as taxas específicas de fecundidade. Ao passo que uma transição demográfica mostraria que a idade prevalente das pessoas que estão engravidando e dando à luz, vemos que as taxas calculadas mostram que há uma maior quantidade de mães no Acre de 15 a 19 anos. Essa gravidez precoce pode estar relacionado com o fato de que o Acre é uma unidade federativa com uma dos menores IDH's(20º de 26), isso mostraria que a população não tem um bom acesso a uma educação de qualidade e muito menos a uma educação sexual de qualidade, isso é mais discutido no artigo "Gravidez na adolescência, iniciação sexual e gênero: perspectivas em disputa".
 	
-As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser devidas ao fato de que esses dois fizeram estimativas para os indicadores estudados. Contudo, existe uma transição demográfica e da fecundidade ocorrendo no local de forma extremamente rápida e constante, o que pode não ter sido avaliado pelos dois estudos. 
+As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser devidas ao fato de que primeiro o GBD era uma estimativa para os indicadores estudados, contudo, existe uma transição demográfica e da fecundidade ocorrendo no local de forma extremamente rápida e constante, o que pode não ter sido avaliado pelo estudos. Já o RIPSA foi calculado pela última vez em 2010, ano com uma realidade muito diferente da que vivemos agora. A comparação com o RIPSA nos trás à tona o fato de que realmente essas taxas todas estão diminuindo cada vez mais.
 
 <br>
 <br>

@@ -46,12 +46,15 @@ d20<-d20 %>% inner_join(Popidadesexo_mulheres[c(1,4)], by = c('GRUPO.ETARIO' = '
 
 #Taxa Bruta de Natalidade - 2018
 tbn18<-((nrow(sinasc18))/Popidadesexo_total[1,2])*1000
+tbn18<-round(tbn18,digits = 2)
 
 #Taxa Bruta de Natalidade - 2019
 tbn19<-((nrow(sinasc19))/Popidadesexo_total[1,3])*1000
+tbn19<-round(tbn19,digits = 2)
 
 #Taxa Bruta de Natalidade - 2020
 tbn20<-((nrow(sinasc20))/Popidadesexo_total[1,4])*1000
+tbn20<-round(tbn20,digits = 2)
 
 #Taxa de Fecundidade Geral - 2018
 tgf18<-((nrow(sinasc18))/sum(Popidadesexo_mulheres[5:11,2]))*1000
@@ -64,18 +67,22 @@ tgf20<-((nrow(sinasc20))/sum(Popidadesexo_mulheres[5:11,4]))*1000
 
 #Taxa de Fecundidade Espec?ficas - 2018
 d18_2 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)*1000)
-d18_2
+d18_2$TEF18<-round(d18_2$TEF18 , digits = 2)
+
 tef18<-ggplot(d18_2, mapping = aes(GRUPO.ETARIO,TEF18,group=1))+
   geom_line()
+
 #Taxa de Fecundidade Espec?ficas - 2019
 d19_2 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)*1000)
-d19_2
+d19_2$TEF19<-round(d19_2$TEF19 , digits = 2)
+
 tef19<-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19,group=1))+
   geom_line()
 
 #Taxa de Fecundidade Espec?ficas - 2020
 d20_2 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)*1000)
-d20_2
+d20_2$TEF20<-round(d20_2$TEF20 , digits = 2)
+
 tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
   geom_line()
 
@@ -127,15 +134,15 @@ Tabua_de_vida_2020_mulhers <- Tabua_de_vida_2020_mulhers[6:12,2]
 
 #Taxas espec?ficas de fecundidade feminina - 2018
 f18_2 <- f18 %>% mutate(TEFfem18 = (f18$freqnascfem18/f18$`2018`)*1000)
-f18_2
+f18_2$TEFfem18<-round(d20_2$TEF20 , digits = 2)
 
 #Taxas espec?ficas de fecundidade feminina - 2019
 f19_2 <- f19 %>% mutate(TEFfem19 = (f19$freqnascfem19/f19$`2019`)*1000)
-f19_2
+f19_2$TEFfem19 <-round(f19_2$TEFfem19 , digits = 2)
 
 #Taxas espec?ficas de fecundidade feminina - 2020
 f20_2 <- f20 %>% mutate(TEFfem20 = (f20$freqnascfem20/f20$`2020`)*1000)
-f20_2
+f20_2$TEFfem20 <-round(f20_2$TEFfem20 , digits = 2)
 
 #Taxa Bruta de Reprodu??o - 2018
 TBR18 <- 5*sum(f18_2$TEFfem18/1000)
@@ -215,8 +222,12 @@ TBR2010
 #o valor de 2,05.
 
 taxas18<-c(tbn18[1,1],tgf18,TFT18,TBR18,TLR18)
+taxas18<-round(taxas18 , digits = 2)
 taxas19<-c(tbn19[1,1],tgf19,TFT19,TBR19,TLR19)
+taxas19<-round(taxas19 , digits = 2)
 taxas20<-c(tbn20[1,1],tgf20,TFT20,TBR20,TLR20)
+taxas20<-round(taxas20 , digits = 2)
+
 
 
 
@@ -246,6 +257,8 @@ f19_2
 f20_2
 
 TFT_ACRE_BRASIL<-as.data.frame(TFT_ACRE_BRASIL)
+TFT_ACRE_BRASIL[1,12]<-round(TFT_ACRE_BRASIL[1,12] , digits = 2)
+TFT_ACRE_BRASIL[2,12]<-round(TFT_ACRE_BRASIL[2,12] , digits = 2)
 TFT2010<-as.data.frame(TFT2010)
 TBN2010<-as.data.frame(TBN2010)
 
