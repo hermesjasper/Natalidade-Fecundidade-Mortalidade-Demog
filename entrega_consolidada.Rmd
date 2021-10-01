@@ -118,6 +118,7 @@ Porém, não há como se ter certeza se os dados trabalhados refletem a totalida
 <br>
 <br>
 
+
 ## Questão 2: Natalidade/Fecundidade
 
 ### Item a
@@ -133,8 +134,6 @@ letra_a
 <br>
 
 
-
-
 As **taxas específicas de fecundidade** para os diferentes grupos etários foram calculadas somando-se o número de nascidos vivos de mães entre certas idades por meio dos dados do SINASC de cada ano. Após isso dividimos esse número pela estimativa do IBGE da população feminina entre certas idades. As taxas encontradas são expostas nas tabelas a seguir:
 
 <br>
@@ -142,39 +141,74 @@ As **taxas específicas de fecundidade** para os diferentes grupos etários fora
 #### {.tabset}
 
 ##### TEF 2018
+
+<br>
+
 A tabela a seguir diz respeito às taxas específicas de fecundidade calculadas para o ano de 2018. Já na tabela é nítido que o maior número será entre as idades de 15 e 19 anos. O gráfico na próxima aba deixa essa observação mais evidente ainda.
+
+<br>
+
 ```{r}
 d18_2
 ```
 
 ##### Gráfico TEF18
 
+<br>
+
 Aqui temos as taxas cacluladas de 2018 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+<br>
+
 
 ```{r}
 tef18
 ```
 
 ##### TEF 2019
+
+<br>
+
 Já essa tabela a seguir diz respeito às taxas específicas de fecundidade calculadas para o ano de 2019. Aqui também temos a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico na próxima aba pode exemplificar de forma mais visual.
+
+<br>
+
 ```{r}
 d19_2
 ```
 
 ##### Gráfico TEF19
+
+<br>
+
 Aqui temos as taxas cacluladas de 2019 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+<br>
+
 ```{r}
 tef19
 ```
 
 ##### TEF 2020
-E nessa tabela a seguir estão as taxas específicas de fecundidade calculadas para o ano de 2020. Mais uma vez se apresenta a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico correspondente a essa tabela está na próxima aba. Esse fato do ápice se encontrar em faixas etárias tão precoces será uma discussão mais tarde. Além disso algo a ser comentado é o fato de que a taxa está em queda, todo ano apresenta uma pequena queda com relação ao ano anterior, fato que também será discutido maia a frente.
+
+<br>
+
+E nessa tabela a seguir estão as taxas específicas de fecundidade calculadas para o ano de 2020. Mais uma vez se apresenta a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico correspondente a essa tabela está na próxima aba. Esse fato do ápice se encontrar em faixas etárias tão precoces será uma discussão mais tarde. Além disso algo a ser comentado é o fato de que a taxa está em queda, todo ano apresenta uma pequena queda com relação ao ano anterior, fato que também será discutido mais à frente.
+
+<br>
+
 ```{r}
 d20_2
 ```
 
 ##### Gráfico TEF20
-Aqui temos as taxas cacluladas de 2020 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+<br>
+
+Aqui temos as taxas calculadas de 2020 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+
+<br>
+
 
 ```{r}
 tef20
@@ -187,25 +221,38 @@ tef20
 Além disso, as **taxas específicas de fecundidade feminina**, mostradas a seguir, relaciona o número de nascidos vivos femininos de mães de uma determinada idade ou grupo etário. Isso faz com que o número seja mais real e mais aproximado, tendo em vista que reduz o número considerado para apenas aqueles que realmente serão um grupo de risco e que podem gerar vida. A forma de calcular é muito parecida com a de calcular a taxa específica sem ser feminina, contudo a mudança ocorre no número de nascidos, sendo considerados apenas os nascimentos femininos.
 
 
-
 <br>
-#### {.tabset}
+
 
 ##### TEF feminina 2018
+
+<br>
+
 ```{r}
 f18_2
 ```
 
+<br>
+
 ##### TEF feminina 2019
+
+<br>
+
 ```{r}
 f19_2
 ```
 
+<br>
+
 ##### TEF feminina 2020
+
+<br>
+
 ```{r}
 f20_2
 ```
 
+####
 
 <br>
 
@@ -222,12 +269,21 @@ letra_b
 ```
 
 <br>
+
 A seguir temos uma comparação entre as taxas de fecundidade específicas calculadas para este trabalho e as do RIPSA e do GBD. 
+
+<br>
 
 #### {.tabset}
 
 ##### RIPSA
+
+<br>
+
 Tabela encontrada das taxas de fecundidade específicas para o Acre do RIPSA 2010.
+
+<br>
+
 ```{r}
 a06_10_1_
 ```
@@ -235,13 +291,27 @@ a06_10_1_
 <br>
 
 ##### GBD 2018
+
+<br>
+
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower).
+
+<br>
+
 ```{r}
 TEF_2018
 ```
 
+<br>
+
 ##### GBD 2019
+
+<br>
+
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo GBD.
+
+<br>
+
 ```{r}
 TEF_2019
 ```
@@ -249,19 +319,41 @@ TEF_2019
 <br>
 
 ##### SINASC 2018
+
+<br>
+
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo cálculo com o SINASC.
+
+<br>
+
 ```{r}
 d18_10
 ```
 
+<br>
+
 ##### SINASC 2019
+
+<br>
+
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo cálculo com o SINASC.
+
+<br>
+
 ```{r}
 d19_10
 ```
 
+<br>
+
 ##### SINASC 2020
+
+<br>
+
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2020 pelo cálculo com o SINASC.
+
+<br>
+
 ```{r}
 d20_10
 ```
@@ -321,7 +413,7 @@ hist_escomae
 
 ##### Faixas etárias por escolaridades
 
-Aqui é possível visualizar, **de forma agregada, a distribuição das idades das mães, categorizadas por escolaridade**. Enquanto os extremos de escolaridade demonstram uma distribuição mais achatada, os grupos centrais de escolaridade apresentam assimetria à direita, se concentrando em faixas etárias mais jovens.
+Aqui é possível visualizar, **de forma agregada, a distribuição das idades das mães categorizadas por escolaridade**. Enquanto os extremos de escolaridade demonstram uma distribuição mais achatada, os grupos centrais de escolaridade apresentam assimetria à direita, se concentrando em faixas etárias mais jovens.
 
 Este gráfico é interativo, então é possível selecionar, pela legenda, as faixas etárias que se deseja visualizar. Além disso é exposto o valor do ponto no gráfico ao se passar o cursor.
 
@@ -329,6 +421,7 @@ Este gráfico é interativo, então é possível selecionar, pela legenda, as fa
 
 <div class = 'center'>
 ```{r graf-escolaridade-por-faixas-et, fig.align='right', out.width="70%"}
+
 ggplotly(graf_esc_faixaet, tooltip = "n")
 ```
 </div>
@@ -408,6 +501,48 @@ As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser
 ### Item a
 
 Com base nos dados sobre os óbitos do SIM^[Sistema de Informações sobre Mortalidade, do Ministério da Saúde] para 2018 a 2020 e a população por sexo e idade estimada pelo IBGE - Instituto Brasileiro de Geografia e Estatística, são calculados a Taxa Bruta de Mortalidade (TBM) e Taxas específicas de mortalidade por sexo e idade ($_nM_x$).
+
+A TBM é a relação entre o número de óbitos ocorridos em um ano (numerador) e a população total média do período (denominador). Aqui, a média está centrada em 2019 e está expressa por mil habitantes. O valor calculado para o estado do Acre é portanto de $TBM = 4,6468$.
+
+Em seguida foram calculadas as taxas específicas de mortalidade que, em faixas quinquenais, a menos do primeiro ano de vida, estão expostos na tabela a seguir. Um gráfico também é fornecido na aba subsequente para permitir a visualização da evolução da $_nM_x$. Neste, a escala das coordenadas foi transformada em $\log_{10}$ para permitir melhor visualização.
+
+O gráfico a seguir é interativo e permite visualização de pontos específicos.
+
+<br>
+
+#### {.tabset}
+
+##### Tabela nMx
+<br>
+
+```{r tabela_nmx}
+nMx %>%
+  select(faixa_et, nMx_masc, nMx_fem, everything())%>%
+  mutate(pop_masc = as.integer(pop_masc),
+         pop_fem = as.integer(pop_fem))%>%
+  kbl(align = "c", col.names = c('Faixa', 'nMx Masc', 'nMx Fem', 'óbitos masc','óbitos fem', 'pop. masc', 'pop.fem')) %>%
+  kable_paper(full_width = T)  %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
+           footnote_as_chunk = T)
+
+```
+
+<br>
+
+##### Gráfico nMx
+
+<br>
+
+```{r graf-nmx, fig.align='center', fig.dim=c(10,5)}
+
+ggplotly(graf_nmx, tooltip = c("Sexo", "nMx"))
+
+```
+
+<br>
+
+####
 
 <br>
 
@@ -574,6 +709,156 @@ morte_cid %>%
     options = list(pageLength = 9, dom = 'tip'))
 ```
 
+####
+
+<br>
+
+<br>
+
+### Item e
+
+Finalmente, foram construídas as Tábuas de Vida para cada sexo, considerando o ano e unidade da federação em questão. Todas as funções da tábua foram calculadas a partir dos dados do SIM, exceto a sua raíz $l_0$ que foi fixada neste momento como 100.000. 
+
+<br>
+
+#### {.tabset}
+
+##### Tábua de vida Masculina
+
+<br>
+```{r TV-masc}
+tabua_masc %>%
+  rename("Faixa et." = classe) %>%
+  kbl(align = "c") %>%
+  kable_paper(full_width = T)  %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
+           footnote_as_chunk = T)
+```
+
+<br>
+
+##### Tábua de vida Feminina
+
+<br>
+```{r TV-fem}
+tabua_fem %>%
+  rename("Faixa et." = classe) %>%
+  kbl(align = "cccl") %>%
+  kable_paper(full_width = T)  %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
+           footnote_as_chunk = T)
+```
+
+<br>
+
+####
+
+A expectativa de vida é uma das funções calculadas na tábua de vida e indica, para uma determinada idade, quantos anos é esperado que uma pessoa viva a partir daquele momento. Por exemplo, a expectativa de vida ao nascer indica quantos anos se espera que uma pessoa viva, se considerado apenas o momento de seu nascimento. A expectativa de vida aos 60 anos indica quantos anos se espera que uma pessoa viva dado que ela completou seus 60 anos de vida.
+
+Neste sentido, a tabela a seguir compara, para cada sexo, as expectativas de vida ao nascer e aos 60 anos calculadas nas tábuas de vida masculina e feminina, aquelas dadas pelo RIPSA para 2012 e a expectativa ao nascer dada pelo GBD para 2017. É evidente que que as expectativas de vida calculadas a partir do SIM são superiores. No entando, é possível que outras variáveis tenham sido levadas em consideração para se obter os números do RIPSA e do GBD.
+
+<br>
+
+```{r tabela-exp-ripsa-gbd}
+
+tibble(Sexo = c("Masculino", "Feminino"),
+       Nasc = c(75.3, 82),
+       id60 = c(23.6, 26.7),
+       Nasc2 = c(69.3, 76.2),
+       id602 = c(19.2, 22.4),
+       nasc3 = c(63.8,71.6)) %>%
+  kbl(align = "lc", col.names = c("Sexo", "Nasc.", "id. 60", "Nasc.", "id. 60", "Nasc")) %>%
+  kable_paper(full_width = T)%>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = T, position = "center")%>%
+  add_header_above(c(" " = 1, "Tábuas de vida" = 2, "RIPSA" = 2, "GBD" = 1))%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
+           footnote_as_chunk = T)
+
+
+```
+
+<br>
+
+<br>
+
+Gráficos das funções $l_x$ e $_nq_x$ são apresentados nas abas a seguir. COMENTAR OS RESULTADOS
+
+<br>
+
+#### {.tabset}
+
+##### Função lx
+
+<br>
+
+```{r graf-lx}
+
+fem <- tabua_fem %>% select(classe, lx, nqx) %>%mutate(sexo = "Feminino")%>%
+  pivot_longer(cols = c(lx, nqx), values_to = "valor")
+
+ambos <- tabua_masc %>% select(classe, lx, nqx) %>%mutate(sexo = "Masculino")%>%
+  pivot_longer(cols = c(lx, nqx), values_to = "valor")%>%
+  bind_rows(fem)
+
+#ajustar largura
+#plotly
+#ajustar legend
+graf_lx <- ambos %>%
+  filter(name == "lx") %>%
+  ggplot(aes(classe, valor, group = sexo, color = sexo))+
+  geom_line(size = 1)+
+  scale_color_manual(values = c("skyblue", "orange"), name = "Sexo", labels = c("Feminino", "Masculino"))+
+  labs(x = "Faixa etária", title = "Função lx")+
+  theme_bw()+
+  scale_x_discrete(breaks = c("0-1", "5-9", "15-19","25-29", "35-39", "45-49", "55-59", "65-69", "75-79", "85-89"))+
+  theme(axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
+
+ggplotly(graf_lx, tooltip = c("classe", "valor"))
+
+```
+<br>
+
+##### Função nqx
+
+<br>
+
+```{r graf-nqx}
+
+
+graf_nqx <- ambos %>%
+  filter(name == "nqx") %>%
+  ggplot(aes(classe, valor, group = sexo, color = sexo))+
+  geom_line(size = 1)+
+  scale_color_manual(values = c("skyblue", "orange"), name = "Sexo", labels = c("Feminino", "Masculino"))+
+  labs(x = "Faixa etária", title = "Função nqx")+
+  theme_bw()+
+  scale_x_discrete(breaks = c("0-1", "5-9", "15-19","25-29", "35-39", "45-49", "55-59", "65-69", "75-79", "85-89"))+
+  theme(axis.title.y = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
+
+ggplotly(graf_nqx, tooltip = c("classe", "valor"))
+  
+rm(fem, ambos)
+
+```
+
+<br>
+
+
+Se lo=1, qual o significado da função lx? Interprete, neste caso, l20 e l60.
+
+Comente os resultados à luz de artigos recém publicados
 
 <br>
 <br>
