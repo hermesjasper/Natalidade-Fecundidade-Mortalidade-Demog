@@ -132,7 +132,7 @@ letra_a
 
 <br>
 
-#### {.tabset}
+
 
 
 As **taxas específicas de fecundidade** para os diferentes grupos etários foram calculadas somando-se o número de nascidos vivos de mães entre certas idades por meio dos dados do SINASC de cada ano. Após isso dividimos esse número pela estimativa do IBGE da população feminina entre certas idades. As taxas encontradas são expostas nas tabelas a seguir:
@@ -182,7 +182,7 @@ tef20
 
 <br>
 
-#### {-}
+#### 
 
 Além disso, as **taxas específicas de fecundidade feminina**, mostradas a seguir, relaciona o número de nascidos vivos femininos de mães de uma determinada idade ou grupo etário. Isso faz com que o número seja mais real e mais aproximado, tendo em vista que reduz o número considerado para apenas aqueles que realmente serão um grupo de risco e que podem gerar vida. A forma de calcular é muito parecida com a de calcular a taxa específica sem ser feminina, contudo a mudança ocorre no número de nascidos, sendo considerados apenas os nascimentos femininos.
 
@@ -206,7 +206,7 @@ f19_2
 f20_2
 ```
 
-#### {-}
+#### 
 
 <br>
 
@@ -238,7 +238,7 @@ a06_10_1_
 
 ##### GBD 2018
 Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower)
-```{r}.
+```{r}
 TEF_2018
 ```
 
@@ -267,7 +267,7 @@ Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano d
 ```{r}
 d20_10
 ```
-#### {-}
+#### 
 <br>
 
 #### Indicador de reprodução
