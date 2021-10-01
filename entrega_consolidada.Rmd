@@ -123,24 +123,28 @@ Porém, não há como se ter certeza se os dados trabalhados refletem a totalida
 
 ### Item a
 
-Com base nos dados do SINASC, para os anos de 2018 a 2020 e na população por sexo e idade estimada - ou seja, projetando o ano de 2019 - foram construídos os seguintes indicadores para o estado do Acre.
+Com base nos dados do SINASC, para os anos de 2018 a 2020, e na população por sexo e idade estimada - ou seja, projetando o ano de 2019 - foram construídos os seguintes indicadores para o estado do Acre:
 
-<br>
 
 ```{r}
-letra_a
+letra_a%>%
+  kbl(align = "c", digits = 2, col.names = c('2018', '2019', '2020')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
+
 ```
 
 <br>
 
-
-As **taxas específicas de fecundidade** para os diferentes grupos etários foram calculadas somando-se o número de nascidos vivos de mães entre certas idades por meio dos dados do SINASC de cada ano. Após isso dividimos esse número pela estimativa do IBGE da população feminina entre certas idades. As taxas encontradas são expostas nas tabelas a seguir:
+As **taxas específicas de fecundidade - TEF** para os diferentes grupos etários foram calculadas somando-se o número de nascidos vivos de mães entre certas idades por meio dos dados do SINASC de cada ano. Após isso dividimos esse número pela estimativa do IBGE da população feminina entre certas idades. As taxas encontradas são expostas nas tabelas a seguir:
 
 <br>
 
 #### {.tabset}
 
-##### TEF 2018
+##### Tabela TEF 2018
 
 <br>
 
@@ -149,23 +153,17 @@ A tabela a seguir diz respeito às taxas específicas de fecundidade calculadas 
 <br>
 
 ```{r}
-d18_2
+d18_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos', 'População de mães', 'TEF 2018')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
-
-##### Gráfico TEF18
 
 <br>
 
-Aqui temos as taxas cacluladas de 2018 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
-
-<br>
-
-
-```{r}
-tef18
-```
-
-##### TEF 2019
+##### Tabela TEF 2019
 
 <br>
 
@@ -174,48 +172,55 @@ Já essa tabela a seguir diz respeito às taxas específicas de fecundidade calc
 <br>
 
 ```{r}
-d19_2
+d19_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos', 'População de mães', 'TEF 2019')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
-
-##### Gráfico TEF19
 
 <br>
 
-Aqui temos as taxas cacluladas de 2019 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+##### Tabela TEF 2020
+
+<br>
+
+Na tabela a seguir estão as taxas específicas de fecundidade calculadas para o ano de 2020. Mais uma vez se apresenta a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico correspondente a essa tabela está na próxima aba. Esse fato do ápice se encontrar em faixas etárias tão precoces será uma discussão mais tarde. Além disso algo a ser comentado é o fato de que a taxa está em queda, todo ano apresenta uma pequena queda com relação ao ano anterior, fato que também será discutido mais à frente.
 
 <br>
 
 ```{r}
-tef19
+d20_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos', 'População de mães', 'TEF 2020')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
 
-##### TEF 2020
+<br>
+
+##### Gráfico TEF
 
 <br>
 
-E nessa tabela a seguir estão as taxas específicas de fecundidade calculadas para o ano de 2020. Mais uma vez se apresenta a mesma situação na qual o maior número será entre as idades de 15 e 19 anos. O gráfico correspondente a essa tabela está na próxima aba. Esse fato do ápice se encontrar em faixas etárias tão precoces será uma discussão mais tarde. Além disso algo a ser comentado é o fato de que a taxa está em queda, todo ano apresenta uma pequena queda com relação ao ano anterior, fato que também será discutido mais à frente.
+Aqui temos as taxas calculadas para os anos de 2018 a 2020 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
 
-<br>
-
-```{r}
-d20_2
-```
-
-##### Gráfico TEF20
-
-<br>
-
-Aqui temos as taxas calculadas de 2020 de uma perspectiva gráfica. No eixo x estão as taxas calculadas para cada faixa etária e no eixo y estão as faixas etárias.
+O gráfico a seguir é interativo, então é possível selecionar os anos expostos clicando na legenda.
 
 <br>
 
 
 ```{r}
-tef20
+graf_tef
 ```
 
 <br>
 
+####
+
+<br>
 
 
 Além disso, as **taxas específicas de fecundidade feminina**, mostradas a seguir, relaciona o número de nascidos vivos femininos de mães de uma determinada idade ou grupo etário. Isso faz com que o número seja mais real e mais aproximado, tendo em vista que reduz o número considerado para apenas aqueles que realmente serão um grupo de risco e que podem gerar vida. A forma de calcular é muito parecida com a de calcular a taxa específica sem ser feminina, contudo a mudança ocorre no número de nascidos, sendo considerados apenas os nascimentos femininos.
@@ -223,13 +228,20 @@ Além disso, as **taxas específicas de fecundidade feminina**, mostradas a segu
 
 <br>
 
+#### {.tabset}
+
 
 ##### TEF feminina 2018
 
 <br>
 
 ```{r}
-f18_2
+f18_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos femininos', 'População de mães', 'TEF fem. 2018')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
 
 <br>
@@ -239,7 +251,12 @@ f18_2
 <br>
 
 ```{r}
-f19_2
+f19_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos femininos', 'População de mães', 'TEF fem. 2019')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
 
 <br>
@@ -249,7 +266,12 @@ f19_2
 <br>
 
 ```{r}
-f20_2
+f20_2%>%
+  kbl(align = "c", digits = 2, col.names = c('Grupo etário', 'Nascimentos femininos', 'População de mães', 'TEF fem. 2020')) %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
 
 ####
@@ -265,7 +287,10 @@ Assim como será vista ao longo do trabalho, as taxas que foram calculadas se mo
 <br>
 
 ```{r}
-letra_b
+letra_b%>%
+  kbl(align = "c") %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")
 ```
 
 <br>
@@ -285,7 +310,12 @@ Tabela encontrada das taxas de fecundidade específicas para o Acre do RIPSA 201
 <br>
 
 ```{r}
-a06_10_1_
+a06_10_1_%>%
+  kbl(align = "c") %>%
+  kable_paper(full_width = T) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
+           footnote_as_chunk = T)
 ```
 
 <br>

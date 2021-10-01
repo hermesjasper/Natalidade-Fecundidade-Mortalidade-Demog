@@ -69,40 +69,68 @@ tgf20<-((nrow(sinasc20))/sum(Popidadesexo_mulheres[5:11,4]))*1000
 d18_2 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)*1000)
 d18_2$TEF18<-round(d18_2$TEF18 , digits = 2)
 
-tef18<-ggplot(d18_2, aes(GRUPO.ETARIO,TEF18,group=1))+
-  geom_line(size = 1, color = "skyblue")+
-  labs(title = "TEF para 2018", x = "Faixa etária", y = "Taxa de fecundidade")+
-  theme_bw()+
-  theme(axis.title.x = element_text(size = 12, face = "bold"),
-        axis.ticks = element_line(color = "gray"),
-        panel.grid.minor = element_blank(),
-        panel.grid.major.x = element_blank(),
-        panel.border = element_blank(),
-        axis.line = element_line(color = "gray"))
+# tef18<-ggplot(d18_2, aes(GRUPO.ETARIO,TEF18,group=1))+
+#   geom_line(size = 1, color = "skyblue")+
+#   labs(title = "TEF para 2018", x = "Faixa etária", y = "Taxa de fecundidade")+
+#   theme_bw()+
+#   theme(axis.title.x = element_text(size = 12, face = "bold"),
+#         axis.ticks = element_line(color = "gray"),
+#         panel.grid.minor = element_blank(),
+#         panel.grid.major.x = element_blank(),
+#         panel.border = element_blank(),
+#         axis.line = element_line(color = "gray"))
 
 
 #Taxa de Fecundidade Espec?ficas - 2019
 d19_2 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)*1000)
 d19_2$TEF19<-round(d19_2$TEF19 , digits = 2)
 
-tef19<-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19,group=1))+
-  geom_line(size = 1, color = "skyblue")+
-  labs(title = "TEF para 2019", x = "Faixa etária", y = "Taxa de fecundidade")+
-  theme_bw()+
-  theme(axis.title.x = element_text(size = 12, face = "bold"),
-        axis.ticks = element_line(color = "gray"),
-        panel.grid.minor = element_blank(),
-        panel.grid.major.x = element_blank(),
-        panel.border = element_blank(),
-        axis.line = element_line(color = "gray"))
+# tef19<-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19,group=1))+
+#   geom_line(size = 1, color = "skyblue")+
+#   labs(title = "TEF para 2019", x = "Faixa etária", y = "Taxa de fecundidade")+
+#   theme_bw()+
+#   theme(axis.title.x = element_text(size = 12, face = "bold"),
+#         axis.ticks = element_line(color = "gray"),
+#         panel.grid.minor = element_blank(),
+#         panel.grid.major.x = element_blank(),
+#         panel.border = element_blank(),
+#         axis.line = element_line(color = "gray"))
 
 #Taxa de Fecundidade Espec?ficas - 2020
 d20_2 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)*1000)
 d20_2$TEF20<-round(d20_2$TEF20 , digits = 2)
 
-tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
-  geom_line(size = 1, color = "skyblue")+
-  labs(title = "TEF para 2020", x = "Faixa etária", y = "Taxa de fecundidade")+
+# tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
+#   geom_line(size = 1, color = "skyblue")+
+#   labs(title = "TEF para 2020", x = "Faixa etária", y = "Taxa de fecundidade")+
+#   theme_bw()+
+#   theme(axis.title.x = element_text(size = 12, face = "bold"),
+#         axis.ticks = element_line(color = "gray"),
+#         panel.grid.minor = element_blank(),
+#         panel.grid.major.x = element_blank(),
+#         panel.border = element_blank(),
+#         axis.line = element_line(color = "gray"))
+
+d18_3 <- d18_2 %>%
+  rename("pop" = `2018`, "nasc" = freqnasc18, "TEF" = TEF18)%>%
+  mutate(ano = 2018)
+d19_3 <- d19_2 %>%
+  rename("pop" = `2019`, "nasc" = freqnasc19, "TEF" = TEF19)%>%
+  mutate(ano = 2019)
+d20_3 <- d20_2 %>%
+  rename("pop" = `2020`, "nasc" = freqnasc20, "TEF" = TEF20)%>%
+  mutate(ano = 2020)
+
+tabela_tef <- bind_rows(d18_3, d19_3, d20_3)
+
+graf_tef <- ggplotly(
+tabela_tef %>%
+  mutate(ano = as.character(ano))%>%
+  ggplot(aes(GRUPO.ETARIO,TEF,group=ano, color = ano))+
+  geom_line(size = 1)+
+  scale_color_manual(values = c('#4f5659',  '#79bddb', '#2898c9'))+
+  labs(title = "TEF para 2018 a 2020", x = "Faixa etária", y = "Taxa de fecundidade",
+       color = "Ano")+
   theme_bw()+
   theme(axis.title.x = element_text(size = 12, face = "bold"),
         axis.ticks = element_line(color = "gray"),
@@ -110,6 +138,8 @@ tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
         panel.grid.major.x = element_blank(),
         panel.border = element_blank(),
         axis.line = element_line(color = "gray"))
+  )
+
 
 #Taxa de Fecundidade Total - 2018
 TFT18 <- 5*sum(d18_2$TEF18/1000)
@@ -268,18 +298,18 @@ rownames(letra_a)[5] = 'Taxa Líquida de Reprodução'
 
 letra_a
 
-d18_2
-tef18
-
-d19_2
-tef19
-
-d20_2
-tef20
-
-f18_2
-f19_2
-f20_2
+# d18_2
+# tef18
+# 
+# d19_2
+# tef19
+# 
+# d20_2
+# tef20
+# 
+# f18_2
+# f19_2
+# f20_2
 
 TFT_ACRE_BRASIL<-as.data.frame(TFT_ACRE_BRASIL)
 TFT_ACRE_BRASIL[1,12]<-round(TFT_ACRE_BRASIL[1,12] , digits = 2)
@@ -306,4 +336,14 @@ colnames(letra_b)[2] =  "GBD2018"
 colnames(letra_b)[4] =  "GBD2019"
 rownames(letra_b)[1] = 'Taxa de Fecundidade Total'
 rownames(letra_b)[2] = 'Taxa Bruta de Natalidade'
+
+### tabelao TEF ----
+
+a06_10_1_
+TEF_2018
+TEF_2019
+
+
+
+#rm(d18_3, d19_3, d20_3, d18_2, d19_2, d20_2)
 
