@@ -224,7 +224,6 @@ letra_b
 <br>
 A seguir temos uma comparação entre as taxas de fecundidade específicas calculadas para este trabalho e as do RIPSA e do GBD. 
 
-EXPLICAR O QUE É CADA TABELA, REFLETIR PQ VALE A PENA MANTER TODAS ELAS, SE VALE A PENA MANTER TODAS AS VARIÁVEIS, SE É POSSÍVEL COLAPSAR VARIAS EM UMA, ETC
 #### {.tabset}
 
 ##### RIPSA
