@@ -185,7 +185,6 @@ graf_nmx <- nMx %>%
         axis.line = element_line(color = "gray"))
 
 
-rm()
 
 
 # QUESTA0 3 e ----

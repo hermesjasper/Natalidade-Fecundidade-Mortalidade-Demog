@@ -69,22 +69,47 @@ tgf20<-((nrow(sinasc20))/sum(Popidadesexo_mulheres[5:11,4]))*1000
 d18_2 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)*1000)
 d18_2$TEF18<-round(d18_2$TEF18 , digits = 2)
 
-tef18<-ggplot(d18_2, mapping = aes(GRUPO.ETARIO,TEF18,group=1))+
-  geom_line()
+tef18<-ggplot(d18_2, aes(GRUPO.ETARIO,TEF18,group=1))+
+  geom_line(size = 1, color = "skyblue")+
+  labs(title = "TEF para 2018", x = "Faixa etária", y = "Taxa de fecundidade")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        axis.ticks = element_line(color = "gray"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
+
 
 #Taxa de Fecundidade Espec?ficas - 2019
 d19_2 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)*1000)
 d19_2$TEF19<-round(d19_2$TEF19 , digits = 2)
 
 tef19<-ggplot(d19_2, mapping = aes(GRUPO.ETARIO,TEF19,group=1))+
-  geom_line()
+  geom_line(size = 1, color = "skyblue")+
+  labs(title = "TEF para 2019", x = "Faixa etária", y = "Taxa de fecundidade")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        axis.ticks = element_line(color = "gray"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
 
 #Taxa de Fecundidade Espec?ficas - 2020
 d20_2 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)*1000)
 d20_2$TEF20<-round(d20_2$TEF20 , digits = 2)
 
 tef20<-ggplot(d20_2, mapping = aes(GRUPO.ETARIO,TEF20,group=1))+
-  geom_line()
+  geom_line(size = 1, color = "skyblue")+
+  labs(title = "TEF para 2020", x = "Faixa etária", y = "Taxa de fecundidade")+
+  theme_bw()+
+  theme(axis.title.x = element_text(size = 12, face = "bold"),
+        axis.ticks = element_line(color = "gray"),
+        panel.grid.minor = element_blank(),
+        panel.grid.major.x = element_blank(),
+        panel.border = element_blank(),
+        axis.line = element_line(color = "gray"))
 
 #Taxa de Fecundidade Total - 2018
 TFT18 <- 5*sum(d18_2$TEF18/1000)
