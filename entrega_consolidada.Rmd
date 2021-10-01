@@ -278,6 +278,8 @@ ggplotly(graf_esc_faixaet, tooltip = "n")
 
 Por último, pode-se observar o mesmo que a aba anterior, mas de forma desagregada. Neste caso, a linha pontilhada vermelha representa a mediana da distribuição. É notório e consoante com a mesma tendência observada em outras populações que a idade em que as pessoas com alto grau de escolaridade se tornam mães tende a ser mais avançada.
 
+<br>
+
 ```{r graf-dist-idades-maes, fig.align='center', out.width="70%"}
 graf_dist_idade_esc
 
@@ -285,7 +287,7 @@ graf_dist_idade_esc
 
 <br>
 
-###
+####
 
 É possível supor, portanto, que há alguma relação entre a idade e a escolaridade da mãe. No entanto, a análise descritiva já indique que não deve se tratar de uma relação linear. Uma tentativa de se computar um coeficiente de correlação utilizando método Spearman para dados não paramétricos corrobora essa hipótese, resultando em um valor próximo a -0.8. 
 
@@ -342,7 +344,11 @@ As discrepâncias que ocorreram entre os indicadores do RIPSA e do GBD podem ser
 
 ## Questão 3: Mortalidade
 
-### Itam a
+### Item a
+
+Com base nos dados sobre os óbitos do SIM^[Sistema de Informações sobre Mortalidade, do Ministério da Saúde] para 2018 a 2020 e a população por sexo e idade estimada pelo IBGE - Instituto Brasileiro de Geografia e Estatística, são calculados a Taxa Bruta de Mortalidade (TBM) e Taxas específicas de mortalidade por sexo e idade ($_nM_x$).
+
+<br>
 
 ### Item b
 
