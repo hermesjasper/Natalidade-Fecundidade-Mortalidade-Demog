@@ -339,9 +339,35 @@ rownames(letra_b)[2] = 'Taxa Bruta de Natalidade'
 
 ### tabelao TEF ----
 
-a06_10_1_
-TEF_2018
-TEF_2019
+ripsa <- a06_10_1_ %>% 
+  pivot_longer(cols = -UF, names_to = "faixa_et", values_to = "RIPSA") %>%
+  select(-UF)
+ripsa$faixa_et <- d18_10$GRUPO.ETARIO
+
+gbd2018 <- TEF_2018[-c(1,9),] %>%
+  select(-upper, -lower) %>%
+  rename("GBD 2018" = val, "faixa_et" = `2018`)
+gbd2018$faixa_et <- d18_10$GRUPO.ETARIO
+
+gbd2019 <- TEF_2019[-c(1,9),] %>%
+  select(-upper, -lower) %>%
+  rename("GBD 2019" = val, "faixa_et" = `2019`)
+gbd2019$faixa_et <- d18_10$GRUPO.ETARIO
+
+d18_11 <- d18_10 %>% select(GRUPO.ETARIO, TEF18) %>% 
+  rename("faixa_et" = GRUPO.ETARIO, "SINASC 2018" = TEF18)
+d19_11 <- d19_10 %>% select(GRUPO.ETARIO, TEF19) %>% 
+  rename("faixa_et" = GRUPO.ETARIO, "SINASC 2019" = TEF19)
+d20_11 <- d20_10 %>% select(GRUPO.ETARIO, TEF20) %>% 
+  rename("faixa_et" = GRUPO.ETARIO, "SINASC 2020" = TEF20)
+
+tabela_tef <- ripsa %>%
+  inner_join(gbd2018, by = "faixa_et") %>%
+  inner_join(gbd2019, by = "faixa_et") %>%
+  inner_join(d18_11, by = "faixa_et") %>%
+  inner_join(d19_11, by = "faixa_et") %>%
+  inner_join(d20_11, by = "faixa_et") %>%
+  rename("Faixa etária" = faixa_et)
 
 
 

@@ -1,9 +1,5 @@
 ---
-author: 
-  - Ana Luiza Almeida 
-  - Bruno Gondim Toledo 
-  - César A. Galvão 
-  - Hermes Winarski
+author: "Ana Luiza Almeida, Bruno Gondim Toledo, César A. Galvão, Hermes Winarski"
 title: "Estudo de Caso: Indicadores de natalidade, fecundidade e mortalidade do Acre (2000-2020)"
 subtitle: "Demografia - Profa. Ana Maria Nogales"
 date: "Brasília, Setembro/2021"
@@ -299,94 +295,15 @@ A seguir temos uma comparação entre as taxas de fecundidade específicas calcu
 
 <br>
 
-#### {.tabset}
 
-##### RIPSA
-
-<br>
-
-Tabela encontrada das taxas de fecundidade específicas para o Acre do RIPSA 2010.
-
-<br>
 
 ```{r}
-a06_10_1_%>%
+tabela_tef%>%
   kbl(align = "c") %>%
   kable_paper(full_width = T) %>%
-  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")%>%
-  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SINASC",
-           footnote_as_chunk = T)
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), position = "center")
 ```
 
-<br>
-
-##### GBD 2018
-
-<br>
-
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower).
-
-<br>
-
-```{r}
-TEF_2018
-```
-
-<br>
-
-##### GBD 2019
-
-<br>
-
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo GBD.
-
-<br>
-
-```{r}
-TEF_2019
-```
-
-<br>
-
-##### SINASC 2018
-
-<br>
-
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo cálculo com o SINASC.
-
-<br>
-
-```{r}
-d18_10
-```
-
-<br>
-
-##### SINASC 2019
-
-<br>
-
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2019 pelo cálculo com o SINASC.
-
-<br>
-
-```{r}
-d19_10
-```
-
-<br>
-
-##### SINASC 2020
-
-<br>
-
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2020 pelo cálculo com o SINASC.
-
-<br>
-
-```{r}
-d20_10
-```
 
 <br>
 
