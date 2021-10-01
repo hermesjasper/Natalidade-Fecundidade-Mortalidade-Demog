@@ -730,7 +730,8 @@ tibble(Sexo = c("Masculino", "Feminino"),
 
 <br>
 
-Gráficos das funções $l_x$ e $_nq_x$ são apresentados nas abas a seguir. COMENTAR OS RESULTADOS
+Gráficos das funções $l_x$ e $_nq_x$ são apresentados nas abas a seguir. Primeiro vamos entender as funções analisadas. A $l_x$ seria o número de pessoas que alcançam com vida a idade exata x de uma uma geração inicial de $l_0$ nascimentos (sendo $l_0$ a raiz da tábua), em suma ele seria a função de sobrevivência. Já a $_nq_x$ probabilidade que uma pessoa, tendo alcançado a idade exata x, tem de morrer entre as idades x e x + n, ou seja, probabilidade de morrer entre as idades comentadas. Portanto, é natural que as tábuas sejam o oposto uma da outra. Ou seja, a probabilidade de se morrer em idades iniciais é menor do que a probabilidade de se morrer em idades mais avançadas. Dessa forma, podemos dizer que é natural então que a sobrevivência nas pessoas mais novas é maior que nas pessa=oas mais velhas. Mas esse retrato da mortalidade deriva de uma transição demográfica pela qual passamos, já que um dia essa tábua tinha um perfil contrário, com a alta taxa de mortalidade infantil.Assim, graças a transição demográfica o perfil de mortalidade chegou nesse. 
+Outra coisa para ser comentado seria o fato de que as mulheres tem menos probabilidade de morrer e maior probabilidade de sobrevivência e vice-versa. A análise dessa observação entra em algumas questões sociais que podem explicar tal comportamento. Mulheres tendem a se cuidar mais e a ter menos objeções quando o assunto é ir ao médico e buscar ajuda, do que os homens, isso seria um reflexo do sexismo pungente na nossa sociedade, na qual se cuidar é visto como um ato de fragilidade e fraqueza, as quais são "desprezadas pelos homens". Além do mais a saúde brasileira está mais preparada para cuidar da mulher, com programas de saúde da mulher, do que do homem, o que pode levar a um afastamento desse gênero na hora de ir atrás de ajuda.
 
 <br>
 
@@ -803,10 +804,7 @@ rm(fem, ambos)
 <br>
 
 
-Se lo=1, qual o significado da função lx? Interprete, neste caso, l20 e l60.
-
-Comente os resultados à luz de artigos recém publicados
-
+Tendo em vista o conceito de $l_x$ logo a cima, temos que $l_0$ = 1 então é a probabilidade esperada de uma pessoa atingir aquela idade exata, ou seja, se a raiz da tábua tem o referencial de apenas uma pessoal, a função lx dá a probabilidade de que uma pessoa atinja aquela idade exata. Assim, $l_{20}$ seria o número de número de pessoas que alcançam com vida a idade exata 20 da geração $l_0$. Da mesma forma temos que $l_{60}$ seria o número de número de pessoas que alcançam com vida a idade exata 20 da geração $l_0$. Essas informações foram esclarecidas pelo "The Methods and Materials of Demography" de Henry S. Shryock e Jacob S. Siegel; e do "Regional Model Life Tables and Stable Populations" de Ansley J. Coale, Paul Demeny and Barbara Vaughan.
 <br>
 <br>
 
