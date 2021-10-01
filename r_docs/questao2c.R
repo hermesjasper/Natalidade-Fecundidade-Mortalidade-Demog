@@ -10,6 +10,7 @@ library(RColorBrewer)
 
 
 
+
 ## Leitura dos dados ---
 
 dados_nasc <- readRDS("./data/sinasc/sinasc_consolidado.rds")%>%
@@ -211,6 +212,7 @@ graf_esc_faixaet <- data_limpa %>%
 data_limpa %$% # pvalor < 0.001
   chisq.test(PARTO, ESCMAE) %>% tidy() # Qui quadrado altíssimo, sugete associacao
 
+
 prop_partos <- data_limpa %>%
   group_by(escolaridade)%>%
   mutate(total = n(),
@@ -220,6 +222,18 @@ prop_partos <- data_limpa %>%
   select(escolaridade, PARTO, prop_parto)%>%
   unique()%>%
   arrange(escolaridade)
+
+prop_partos %>%
+  mutate(esc_num = case_when(
+    escolaridade == "Nenhuma" ~0, 
+    escolaridade == "1 a 3 anos" ~1, 
+    escolaridade == "4 a 7 anos" ~2, 
+    escolaridade == "8 a 11 anos" ~3, 
+    escolaridade == "12 ou mais" ~4, 
+  ))%>%
+  filter(PARTO == "vaginal")%$%
+  cor(esc_num, prop_parto, method = "pearson")
+
 
 prop_partos_wide <- prop_partos %>%
   pivot_wider(values_from = "prop_parto", names_from = "escolaridade")

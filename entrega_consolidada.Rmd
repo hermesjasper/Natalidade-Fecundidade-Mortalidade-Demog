@@ -237,19 +237,89 @@ Descrições são fornecidas em cada aba.
 
 Na aba **Faixas etárias** consta a distribuição dessas mulheres de acordo com suas faixas etárias. Para tratamento dos dados, idades extremas como 8 e 60 ou mais anos foram removidos do banco. Ainda assim, é possível observar mais de 5000 crianças que foram mães no estado, entre 10 e 14 anos. O número de mães aumenta entre as adolescentes, 15 a 19 anos de idade, há em torno de 85 mil registros, culminando em torno de 98 mil registros para as jovens adultas. Para as faixas etárias a seguir a quantidade de mães decrescer, chegando a 703 registros para mulheres com mais de 703 anos.
 
+<br>
+
+```{r graf-escolaridades, fig.align='center', out.width="70%"}
+hist_idademae
+```
+
+<br>
+
 ##### Escolaridades
 
 A distribuição da **escolaridade das mães** tem início nada modesto com em torno de 31 mil registros sob **nenhum** grau de escolaridade. A maior parte dessas mulheres tem entre 4 a 11 anos de escolaridade e uma minoria, quase equivalente àquelas que não possuem histórico de educação formal, possue 12 ou mais anos de educação
 
+<br>
+
+```{r histograma-escolaridade-maes, fig.align='center', out.width="70%"}
+hist_escomae
+```
+
+
+<br>
+
 ##### Faixas etárias por escolaridades
 
-Aqui é possível visualizar, de forma agregada, a distribuição das idades das mães, categorizadas por escolaridade. Enquanto os extremos de escolaridade 
+Aqui é possível visualizar, **de forma agregada, a distribuição das idades das mães, categorizadas por escolaridade**. Enquanto os extremos de escolaridade demonstram uma distribuição mais achatada, os grupos centrais de escolaridade apresentam assimetria à direita, se concentrando em faixas etárias mais jovens.
+
+Este gráfico é interativo, então é possível selecionar, pela legenda, as faixas etárias que se deseja visualizar. Além disso é exposto o valor do ponto no gráfico ao se passar o cursor.
+
+<br>
+
+<div class = 'center'>
+```{r graf-escolaridade-por-faixas-et, fig.align='right', out.width="70%"}
+ggplotly(graf_esc_faixaet, tooltip = "n")
+```
+</div>
+
+<br>
 
 ##### Idades por escolaridade
 
-ANALISAR GRÁFICOS E TABELAS
+Por último, pode-se observar o mesmo que a aba anterior, mas de forma desagregada. Neste caso, a linha pontilhada vermelha representa a mediana da distribuição. É notório e consoante com a mesma tendência observada em outras populações que a idade em que as pessoas com alto grau de escolaridade se tornam mães tende a ser mais avançada.
 
-POR ÚLTIMO DAR MEDIDAS DE ASSOCIACAO (OLHAR NO SCRIPT)
+```{r graf-dist-idades-maes, fig.align='center', out.width="70%"}
+graf_dist_idade_esc
+
+```
+
+<br>
+
+###
+
+É possível supor, portanto, que há alguma relação entre a idade e a escolaridade da mãe. No entanto, a análise descritiva já indique que não deve se tratar de uma relação linear. Uma tentativa de se computar um coeficiente de correlação utilizando método Spearman para dados não paramétricos corrobora essa hipótese, resultando em um valor próximo a -0.8. 
+
+Complementarmente realiza-se teste de Kruskal-Wallis, obtendo-se estatística $\chi^2$ muito elevada e p-valor próximo a zero, mesmo agregando-se as categorias extremas com pouca frequencia. Cabe notar a suscetibilidade de um teste de hipóteses e suas estatísticas de teste para amostras, neste caso população, de tamanho grande.
+
+Quanto aos partos, avaliamos as proporções de tipos de parto que ocorrem em cada grupo de escolaridade:
+
+<br>
+
+```{r tabela-parto-escolaridade}
+
+prop_partos_wide$PARTO <- c("Vaginal", "Cesáreo")
+
+prop_partos_wide %>%
+  kbl(align = "c", digits = 2, col.names = c('Parto', 'Nenhuma', '1 a 3 anos', '4 a 7 anos',' 8 a 11 anos', '12 ou mais')) %>%
+  kable_paper(full_width = T)  %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"), full_width = F, position = "center")%>%
+  footnote(general_title = "Fonte:", general = "Ministério da Saúde - SIM",
+           footnote_as_chunk = T)
+```
+
+<br>
+
+Para visualizar melhor esses dados, o gráfico abaixo contém as mesmas proporções para cada categoria de parto, com os graus de escolaridade ordenados. Com base nessas proporções é possível supor que, de acordo com o que se afirma sobre o Brasil, no Acre também aumenta a proporção de partos cesários na medida em que se observa mulheres com mais anos de educação.
+
+<br>
+
+```{r graf-proporcao-partos, fig.align='center', out.width="70%"}
+graf_prop_partos
+```
+
+<br>
+
+Enquanto o mesmo se aplica a uma estatística $\chi^2$ calculada para se verificar uma possível associação -- isto é, alta estatística e susceptibilidade a altas frequências -- é possível discretizar a variável nível de escolaridade. Neste caso, é possível calcular um coeficiente de correlação entre a proporção de cada tipo de parto covariando com a escolaridade da mãe. Neste caso, o cálculo foi feito para apenas uma das categorias visto a outra refletiria o coeficiente oposto e a escolaridade foi transformada para variar de 0 a 4. O coeficiente de correlação obtido pelo método Pearson foi de $\rho = 0.97$ e $\rho = 1$ para o método Spearman, no caso dos partos cesáreos, o que indica alta correlação.
 
 <br>
 
