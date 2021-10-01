@@ -122,7 +122,7 @@ Porém, não há como se ter certeza se os dados trabalhados refletem a totalida
 
 ### Item a
 
-Com base nos dados do SINASC, para os anos de 2018 a 2020 e na população por sexo e idade estimada - ou seja, projetando o ano de 2019 - foram construídos os seguintes indicadores para o estado do Acre
+Com base nos dados do SINASC, para os anos de 2018 a 2020 e na população por sexo e idade estimada - ou seja, projetando o ano de 2019 - foram construídos os seguintes indicadores para o estado do Acre.
 
 <br>
 
@@ -235,7 +235,7 @@ a06_10_1_
 <br>
 
 ##### GBD 2018
-Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower)
+Tabela com as estimativas das taxas de fecundidade específicas do Acre no ano de 2018 pelo GBD. E as tabelas do GBD (essa e a próxima), como são estimativas, apresentam um intervalo superior (upper) e um inferior (lower).
 ```{r}
 TEF_2018
 ```
