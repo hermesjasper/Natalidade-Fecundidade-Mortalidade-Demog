@@ -1,16 +1,14 @@
 # QUESTA0 2 c  ----
-
-
+library(dplyr)
 library(tidyverse)
 library(viridis)
 library(readxl)
 library(tidymodels)
 library(magrittr)
 library(RColorBrewer)
+library(tidyr)
 
-
-
-
+#pacman::p_load(dplyr,tidyverse,viridis,readxl,tidymodels,magrittr,RColorBrewer,tidyr)
 ## Leitura dos dados ---
 
 dados_nasc <- readRDS("./data/sinasc/sinasc_consolidado.rds")%>%
