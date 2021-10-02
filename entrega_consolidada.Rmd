@@ -515,19 +515,19 @@ tabela3b %>%
 
 Comparação das taxas de mortalidade obtidas com os dados do RIPSA e GBD
 
-Expostas na tabela a seguir (NOME DO TAB), As taxas calculadas pelas pesquisa relacionada à mortalidade de menores de 1 ano do RIPSA apresentam uma certa queda conforme o ano da pesquisa aumenta.
+Ao se comparar o método utilizado para taxa de mortalidade infantil com a probabilidade de sobrevivencia até o primeiro aniversário, vemos que o segundo indicador trabalha com os valores absolutos encontrados no banco de dados, enquanto o primeiro usa uma média móvel de nascimentos, tentando diminuir o impacto de um possivel ano com comportamento anormal (seja na qualidade dos dados ou em números absolutos por acontecimentos naturais).
 
-Apesar dessa tendencia, as taxas obtidas A partir dos dados do SIM e DO SINASC são **consideravelmente** menores que as da últimas pesquisa do RIPSA (Norte 2004) **ONDE ESTÁ ISSO?**. Isto poderia ser exlicado pelo grande salto na linha do tempo entre as taxas obtidas no item **b** e a última taxa calculada pelo RIPSA, dando tempo pra essa taxa diminuir bastante. **ONDE ESTÁ ISSO?**
+Expostas na tabela a seguir (Tabela de taxas), As taxas calculadas pelas pesquisa relacionada à mortalidade de menores de 1 ano do RIPSA apresentam uma certa queda conforme o ano da pesquisa aumenta.
 
-DAR NOMES MELHORES AOS TITULOS DO TABSET, PARA FACILITAR A REFERENCIA PELO TEXTO
+Apesar dessa tendencia, as taxas obtidas a partir dos dados do SIM e do SINASC são **consideravelmente** menores que as da últimas pesquisa do RIPSA (Norte 2004), que podem ser observadas em cada um dos graficos à baixo. Isto poderia ser explicado pelo grande salto na linha do tempo entre as taxas obtidas no item **b** (2018-2020) e a última taxa calculada pelo RIPSA (2004), dando tempo pra essa taxa diminuir bastante nesse intervalo de 14 anos.
 
-MUITOS RECURSOS FORAM GERADOS E COLOCADOS NO TABSET, MAS NAO HÁ QUALQUER REFERENCIA NO TEXTO SOBRE A QUE SE REFEREM, COMO USAR. ESTÁ DISSOCIADO DO TEXTO. INCLUIR UMA DESCRIÇÃO PARA QUE SEJAM FERRAMENTAS QUE PERTENCEM AO ASSUNTO DO TRABALHO.
+Logo à baixo, pode ser observada a tabela comparativa dos dados do RIPSA com os alcançados nessa projeto, além de um gráfico para cada taxa calculada comparando as pesquisas.
 
 <br>
 
 #### {.tabset}
 
-##### Tabela
+##### Tabela de taxas
 
 <br>
 
@@ -542,7 +542,7 @@ tabela3c %>%
 
 <br> 
 
-##### Infantil
+##### Taxa Infantil
 
 <br> 
 
@@ -551,7 +551,7 @@ plot3c_a
 
 ```
 
-##### Neonatal
+##### Taxa Neonatal
 
 <br> 
 
@@ -559,7 +559,7 @@ plot3c_a
 plot3c_b
 ```
 
-##### Neonatal Precoce
+##### Taxa Neonatal Precoce
 
 <br> 
 
@@ -567,7 +567,7 @@ plot3c_b
 plot3c_c
 ```
 
-##### Neonatal Tardia
+##### Taxa Neonatal Tardia
 
 <br> 
 
@@ -577,13 +577,11 @@ plot3c_d
 
 <br> 
 
-##### Pós Neonatal
+##### Taxa Pós Neonatal
 
 ```{r, fig.align='center'}
 plot3c_e
 ```
-
-
 
 <br>
 

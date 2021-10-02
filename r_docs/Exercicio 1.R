@@ -90,7 +90,7 @@ diagrama <- diagrama  %>%
   lexis_cohort(cohort = 2020, alpha = 0.5, fill = temp[2])+
   annotate(geom = 'text', x=as.Date(dados4$data),y = dados4$ano,
                       label= dados4$Quantidade,
-                      color='#bd203a', size = 4) +
+                      color='#bd203a', size = 3) +
   annotate(geom = 'text', x=dados3$data ,y=dados3$ano,
                       label=dados3$Quantidade,
                       color='#1b429e', size = 2.5)+

@@ -82,7 +82,7 @@ plot3c_a <- ggplot(tabela3c, aes(x=fct_reorder(Dados,temp),y = Infantil, fill = 
   geom_line(aes(group = 0), size = 1.2, alpha = 0.7, color = paleta[6])+
   geom_text(aes(label = round(Infantil,2), y = Infantil),
             size = 3.1, position = position_stack(vjust = 1.05))+
-  labs(title = "Gráfico x: Taxa de mortalidade infantil, por 1000 nascidos vivos",
+  labs(title = "Taxa de mortalidade infantil, por 1000 nascidos vivos",
        x = "", y = "")+
   ylim(0,50)+
   scale_fill_brewer()+
@@ -97,7 +97,7 @@ plot3c_b <- ggplot(tabela3c, aes(x=fct_reorder(Dados,temp),y = Neonatal, fill = 
   geom_line(aes(group = 0), size = 1.2, alpha = 0.7, color = paleta[6])+
   geom_text(aes(label = round(Neonatal,2), y = Neonatal),
             size = 3.1, position = position_stack(vjust = 1.05))+
-  labs(title = "Gráfico x: Taxa de mortalidade neonatal, por 1000 nascidos vivos",
+  labs(title = "Taxa de mortalidade neonatal, por 1000 nascidos vivos",
        x = "", y = "")+
   ylim(0,30)+
   scale_fill_brewer()+
@@ -112,7 +112,7 @@ plot3c_c <- ggplot(tabela3c, aes(x=fct_reorder(Dados,temp),y =`Neonatal Precoce`
   geom_line(aes(group = 0), size = 1.2, alpha = 0.7, color = paleta[6])+
   geom_text(aes(label = round(`Neonatal Precoce`,2), y = `Neonatal Precoce`),
             size = 3.1, position = position_stack(vjust = 1.05))+
-  labs(title = "Gráfico x: Taxa de mortalidade neonatal precoce, por 1000 nascidos vivos",
+  labs(title = "Taxa de mortalidade neonatal precoce, por 1000 nascidos vivos",
        x = "", y = "")+
   ylim(0,25)+
   scale_fill_brewer()+
@@ -127,7 +127,7 @@ plot3c_d <- ggplot(tabela3c, aes(x=fct_reorder(Dados,temp),y =`Neonatal Tardia`,
   geom_line(aes(group = 0), size = 1.2, alpha = 0.7, color = paleta[6])+
   geom_text(aes(label = round(`Neonatal Tardia`,2), y = `Neonatal Tardia`),
             size = 3.1, position = position_stack(vjust = 1.05))+
-  labs(title = "Gráfico x: Taxa de mortalidade neonatal tardia, por 1000 nascidos vivos",
+  labs(title = "Taxa de mortalidade neonatal tardia, por 1000 nascidos vivos",
        x = "", y = "")+
   ylim(0,8)+
   scale_fill_brewer()+
@@ -142,7 +142,7 @@ plot3c_e <- ggplot(tabela3c, aes(x=fct_reorder(Dados,temp),y =`Pós Neonatal`, f
   geom_line(aes(group = 0), size = 1.2, alpha = 0.7, color = paleta[6])+
   geom_text(aes(label = round(`Pós Neonatal`,2), y = `Pós Neonatal`), 
             size = 3.1, position = position_stack(vjust = 1.05))+
-  labs(title = "Gráfico x: Taxa de mortalidade pós neonatal, por 1000 nascidos vivos",
+  labs(title = "Taxa de mortalidade pós neonatal, por 1000 nascidos vivos",
        x = "", y = "")+
   ylim(0,25)+
   scale_fill_brewer()+
