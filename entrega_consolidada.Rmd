@@ -800,6 +800,7 @@ rm(fem, ambos)
 
 <br>
 
+####
 
 Tendo em vista o conceito de $l_x$ logo a cima, temos que $l_0$ = 1 então é a probabilidade esperada de uma pessoa atingir aquela idade exata, ou seja, se a raiz da tábua tem o referencial de apenas uma pessoal, a função lx dá a probabilidade de que uma pessoa atinja aquela idade exata. Assim, $l_{20}$ seria o número de número de pessoas que alcançam com vida a idade exata 20 da geração $l_0$. Da mesma forma temos que $l_{60}$ seria o número de número de pessoas que alcançam com vida a idade exata 20 da geração $l_0$. Essas informações foram esclarecidas pelo "The Methods and Materials of Demography" de Henry S. Shryock e Jacob S. Siegel; e do "Regional Model Life Tables and Stable Populations" de Ansley J. Coale, Paul Demeny and Barbara Vaughan.
 <br>
