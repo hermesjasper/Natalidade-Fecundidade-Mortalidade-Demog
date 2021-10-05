@@ -249,11 +249,11 @@ TEF_2018
 TEF_2019 <- read_excel("./data/TEF-2019.xlsx")
 TEF_2019
 #SINASC
-d18_10 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`)/1000)
+d18_10 <- d18 %>% mutate(TEF18 = (d18$freqnasc18/d18$`2018`))
 d18_10
-d19_10 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`)/1000)
+d19_10 <- d19 %>% mutate(TEF19 = (d19$freqnasc19/d19$`2019`))
 d19_10
-d20_10 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`)/1000)
+d20_10 <- d20 %>% mutate(TEF20 = (d20$freqnasc20/d20$`2020`))
 d20_10
 
 #Taxa bruta de natalidade
