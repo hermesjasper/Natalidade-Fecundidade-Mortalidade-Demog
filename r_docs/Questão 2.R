@@ -1,8 +1,11 @@
-sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
-
+#sinasc_consolidado <- readRDS("./data/sinasc/sinasc_consolidado.rds")
 library(stringr)
 library(dplyr)
 library(ggplot2)
+library(readxl)
+library(fdth)
+
+#pacman::p_load(stringr,dplyr,ggplot2,readxl,fdth)
 
 sinasc_consolidado$ANO_NASC <- sinasc_consolidado$DTNASC %>%str_extract('(?<=[0-9]{4})[0-9]{4}')
 sinasc<-sinasc_consolidado
@@ -11,12 +14,10 @@ sinasc18<- sinasc[sinasc$ANO_NASC==2018, ]
 sinasc19<-sinasc[sinasc$ANO_NASC==2019, ]
 sinasc20<-sinasc[sinasc$ANO_NASC==2020, ]
 
-library(readxl)
 Popidadesexo_total <- read_excel("./data/Popidadesexo - total.xlsx")
 Popidadesexo_mulheres <- read_excel("./data/Popidadesexo - mulheres.xlsx")
 
 ##nascidos vivos de m?es em certas idades 2018
-library(fdth)
 idademae18<-as.numeric(sinasc18$IDADEMAE)
 d1 <- fdt (idademae18, start = 15, end = 50, h =5)
 print(d1,columns = 1:2)

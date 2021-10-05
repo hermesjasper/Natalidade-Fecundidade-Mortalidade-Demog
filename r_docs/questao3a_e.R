@@ -1,11 +1,10 @@
 # QUESTA0 3 a ----
 
-library(tidyverse)
-library(viridis)
-library(readxl)
 library(zoo)
-
-
+library(readxl)
+library(viridis)
+library(tidyverse)
+#pacman::p_load(viridis,zoo)
 ### AJUSTAR TRATAMENTO DE 0-1 E 1-4 ###
 
 
